@@ -1,0 +1,47 @@
+name: Recolección semanal
+
+# Corre los lunes a las 11:00 UTC (07:00 u 08:00 en Chile segun horario de verano)
+# y tambien a mano desde la pestaña Actions del repositorio.
+on:
+  schedule:
+    - cron: '0 11 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Recolectar literatura academica
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python scripts/recolectar.py
+
+      - name: Recolectar medios
+        run: python scripts/medios.py
+        continue-on-error: true
+
+      - name: Generar resumen de la bandeja
+        run: python scripts/resumen.py
+
+      - name: Guardar la bandeja en el repositorio
+        run: |
+          git config user.name "Recolector del Observatorio"
+          git config user.email "actions@github.com"
+          git add fuentes/bandeja
+          if git diff --staged --quiet; then
+            echo "Sin novedades esta semana."
+          else
+            git commit -m "Bandeja del $(date +%Y-%m-%d)"
+            git push
+          fi
