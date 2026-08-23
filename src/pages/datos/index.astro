@@ -1,0 +1,94 @@
+---
+import fs from 'node:fs';
+import { load as cargarYaml } from 'js-yaml';
+import Base from '../../layouts/Base.astro';
+
+const { indicadores = [], hallazgos = null } = cargarYaml(fs.readFileSync('./datos/indicadores.yml', 'utf-8')) ?? {};
+
+const temas = [
+  {
+    slug: 'ia',
+    titulo: 'Inteligencia artificial',
+    pregunta: 'Cuánto se adopta, cuánto se invierte y quién tiene las capacidades.',
+    pendiente: 'Incorporando el AI Index de Stanford y el observatorio de políticas de la OCDE.',
+  },
+  {
+    slug: 'innovacion',
+    titulo: 'Innovación',
+    pregunta: 'Cuánto se investiga, cuánto innovan las empresas y con qué resultados.',
+    pendiente: 'Incorporando los indicadores de la OCDE y las encuestas nacionales de Brasil, Argentina y Chile.',
+  },
+].map((t) => ({
+  ...t,
+  cifras: indicadores.filter((i) => i.tema === t.slug),
+  lectura: hallazgos?.[t.slug] ?? null,
+}));
+
+const actualizado = hallazgos?.actualizado
+  ? new Date(hallazgos.actualizado + 'T12:00:00').toLocaleDateString('es-CL', {
+      day: 'numeric', month: 'long', year: 'numeric',
+    })
+  : null;
+---
+
+<Base
+  titulo="Datos"
+  descripcion="Indicadores de inteligencia artificial e innovación en Chile, Brasil, Argentina y América Latina, con fuente y fecha de verificación."
+>
+  <div class="marco">
+    <h1>Indicadores de IA e innovación</h1>
+    <p class="bajada">
+      Cifras de referencia sobre la región. Cada una indica su fuente, su año y
+      cuándo fue verificada.
+    </p>
+
+    <div class="paneles">
+      {temas.map((t) => (
+        <section class="panel">
+          <h2>{t.titulo}</h2>
+          <p class="pregunta">{t.pregunta}</p>
+
+          {t.lectura && <p class="lectura">{t.lectura}</p>}
+
+          {t.cifras.length > 0 ? (
+            <>
+              <ul class="destacadas">
+                {t.cifras.slice(0, 2).map((c) => (
+                  <li>
+                    <span class="cifra">{c.titulo}</span>
+                    <span class="detalle">{c.detalle}</span>
+                  </li>
+                ))}
+              </ul>
+              <a class="mas" href={`/datos/${t.slug}/`}>
+                Ver los {t.cifras.length} indicadores
+              </a>
+            </>
+          ) : (
+            <p class="vacio">{t.pendiente}</p>
+          )}
+        </section>
+      ))}
+    </div>
+
+    {actualizado && (
+      <p class="firma">Lectura del Observatorio · {actualizado}</p>
+    )}
+  </div>
+</Base>
+
+<style>
+  .bajada { max-width: 56ch; color: var(--gris); margin: 0.9rem 0 2rem; font-size: 0.98rem; }
+  .lectura { border-left: 3px solid var(--senal); padding-left: 1rem; margin: 0 0 1.4rem; font-size: 0.96rem; line-height: 1.55; max-width: 44ch; }
+  .firma { font-family: var(--dato); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 2.2rem 0 0; }
+  .paneles { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+  .panel { border-top: 3px solid var(--senal); padding-top: 1rem; }
+  .panel h2 { font-size: 1.15rem; }
+  .pregunta { color: var(--gris); margin: 0.4rem 0 1rem; max-width: 40ch; font-size: 0.92rem; }
+  .destacadas { list-style: none; padding: 0; margin: 0; }
+  .destacadas li { padding: 0.7rem 0; border-bottom: 1px solid var(--niebla); }
+  .cifra { display: block; font-family: var(--display); font-weight: 600; font-size: 1.35rem; line-height: 1; }
+  .detalle { display: block; font-size: 0.88rem; color: var(--gris); margin-top: 0.3rem; max-width: 40ch; }
+  .mas { display: inline-block; margin-top: 1rem; font-family: var(--dato); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .vacio { color: var(--gris); font-size: 0.9rem; max-width: 40ch; margin: 0; }
+</style>

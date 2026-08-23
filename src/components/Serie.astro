@@ -1,0 +1,58 @@
+---
+// Grafico de barras agrupadas en SVG, sin librerias: son pocos datos y
+// una dependencia de graficos seria mas peso que valor.
+const { serie } = Astro.props;
+
+const paises = Object.keys(serie.paises ?? {});
+const anios = [...new Set(paises.flatMap((p) => Object.keys(serie.paises[p])))].sort();
+const valores = paises.flatMap((p) => Object.values(serie.paises[p]));
+const maximo = Math.max(...valores, 1);
+
+const colores = ['#14508c', '#4a7fb5', '#8fb0d1'];
+const alto = 190;
+const anchoGrupo = 100 / Math.max(anios.length, 1);
+---
+
+<figure class="serie">
+  <figcaption>
+    <strong>{serie.titulo}</strong>
+    {serie.unidad && <span class="unidad">({serie.unidad})</span>}
+  </figcaption>
+
+  <svg viewBox={`0 0 100 ${alto / 3}`} preserveAspectRatio="none" role="img"
+       aria-label={`${serie.titulo}: comparación entre ${paises.join(', ')}`}>
+    {anios.map((anio, i) =>
+      paises.map((pais, j) => {
+        const v = serie.paises[pais][anio] ?? 0;
+        const h = (v / maximo) * (alto / 3 - 6);
+        const ancho = (anchoGrupo * 0.7) / paises.length;
+        const x = i * anchoGrupo + anchoGrupo * 0.15 + j * ancho;
+        return <rect x={x} y={alto / 3 - h} width={ancho * 0.86} height={h} fill={colores[j % 3]} />;
+      })
+    )}
+  </svg>
+
+  <div class="ejes">{anios.map((a) => <span>{a}</span>)}</div>
+
+  <ul class="leyenda">
+    {paises.map((p, j) => (
+      <li><i style={`background:${colores[j % 3]}`}></i>{p}</li>
+    ))}
+  </ul>
+
+  {serie.nota && <p class="nota">{serie.nota}</p>}
+  <p class="origen"><a href={serie.enlace} rel="noopener">{serie.fuente}</a></p>
+</figure>
+
+<style>
+  .serie { margin: 0 0 2.5rem; max-width: 520px; }
+  figcaption { font-size: 1rem; margin-bottom: 0.9rem; }
+  .unidad { font-family: var(--dato); font-size: 0.75rem; color: var(--gris); }
+  svg { width: 100%; height: 150px; display: block; border-bottom: 1px solid var(--niebla); }
+  .ejes { display: flex; justify-content: space-around; font-family: var(--dato); font-size: 0.7rem; color: var(--gris); margin-top: 0.4rem; }
+  .leyenda { display: flex; gap: 1.1rem; list-style: none; padding: 0; margin: 0.9rem 0 0; font-family: var(--dato); font-size: 0.72rem; color: var(--gris); }
+  .leyenda li { display: flex; align-items: center; gap: 0.35rem; }
+  .leyenda i { width: 10px; height: 10px; display: inline-block; }
+  .nota { font-size: 0.85rem; color: var(--gris); margin: 0.8rem 0 0; }
+  .origen { font-family: var(--dato); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; margin: 0.5rem 0 0; }
+</style>

@@ -1,0 +1,135 @@
+# Declaracion institucional del Observatorio.
+#
+# Estructura: la mision es una sola frase. Las tres funciones son las funciones
+# universitarias (investigacion, docencia, vinculacion con el medio) y de ellas
+# cuelgan las lineas de trabajo concretas. La vision declara adonde queremos
+# llegar en el mediano plazo. Las metas son pivotes: se revisan cada ano.
+#
+# El triptico Rigor / Formacion / Impacto es redaccion de David Diaz, director
+# del Observatorio. No se edita sin acuerdo.
+
+subtitulo: "Por qué existe el Observatorio y a quién sirve."
+
+mision_general: >
+  Reunir, curar y poner a disposición información relevante sobre inteligencia
+  artificial e innovación, y conectarla con quienes deciden en las empresas y
+  los ecosistemas de la región.
+
+mision:
+  - tema: "Innovación"
+    texto: >
+      Innovar es crear conocimiento y convertirlo en valor. Seguimos cómo
+      ocurre ese proceso en los ecosistemas de la región y qué lo hace
+      sostenible: la innovación de triple impacto, que genera valor económico,
+      social y ambiental a la vez.
+  - tema: "Inteligencia artificial"
+    texto: >
+      La inteligencia artificial acelera cada etapa de ese proceso y exige algo
+      a cambio. Su uso responsable y ético no es un requisito que se cumple
+      después: es condición para que el valor que promete sea sostenible.
+
+funciones:
+  - titulo: "Rigor"
+    funcion: "Investigación"
+    detalle: >
+      Analizamos la evidencia y los datos antes de opinar, con fuentes
+      trazables y verificables.
+    lineas:
+      - "Reunir y curar publicaciones académicas, datos, notas y noticias de interés sobre ambos temas."
+      - "Impulsar investigaciones y proyectos nacionales e internacionales."
+      - "Promover el desarrollo de nuevos modelos de investigación que conecten la generación de conocimiento con el desarrollo productivo de empresas de todo tamaño."
+
+  - titulo: "Formación"
+    funcion: "Docencia"
+    detalle: >
+      Convertimos el conocimiento técnico en recursos didácticos accesibles
+      para todo nivel.
+    lineas:
+      - "Formación ejecutiva sobre uso ético y responsable de la inteligencia artificial en pymes."
+      - "Gobernanza de IA en directorios: anticipar sus desafíos para fortalecer las decisiones de los gobiernos corporativos."
+      - "Gestión de la innovación de triple impacto: apoyar a startups, hubs y actores del ecosistema a administrar sus procesos de innovación y a fortalecer su conexión con centros de conocimiento y fuentes de financiamiento."
+      - "Programas de formación ejecutiva en conjunto con universidades asociadas de Europa y la región."
+
+  - titulo: "Impacto"
+    funcion: "Vinculación con el medio"
+    detalle: >
+      Conectamos la investigación con decisiones reales en la universidad, la
+      empresa y la política pública.
+    lineas:
+      - "Sostener un espacio abierto donde encontrar información relevante y verificada sobre ambos temas."
+      - "Promover la innovación de triple impacto y los procesos que la hacen posible."
+      - "Fomentar y participar de la cooperación internacional con centros de referencia en América Latina y el mundo."
+
+vision:
+  - tema: "Innovación"
+    texto: >
+      Producir un panorama y una hoja de ruta de referencia para potenciar los
+      ecosistemas de innovación de triple impacto de la región, elaborado en
+      cooperación con centros académicos de los países clave.
+  - tema: "Inteligencia artificial"
+    texto: >
+      Producir un informe de referencia sobre adopción de inteligencia
+      artificial en las empresas de la región, con foco en las pequeñas y
+      medianas: qué las ayuda a adoptarla, qué las frena y qué condiciones
+      hacen que esa adopción genere valor.
+
+# Instituciones con las que se busca construir la red de trabajo.
+# Estado: en construccion. No declarar como acuerdos vigentes los que no lo son.
+red:
+  - institucion: "FGV Analytics — FGV EAESP, São Paulo"
+    pais: "Brasil"
+    url: "https://eaesp.fgv.br/"          # completar con el enlace exacto del centro
+  - institucion: "Lab-GEOPI — Laboratório de Estudos sobre Organização da Pesquisa e da Inovação, Unicamp"
+    pais: "Brasil"
+    url: "https://www.ige.unicamp.br/geopi/"
+  - institucion: "Universitat Pompeu Fabra"
+    pais: "España"
+    url: "https://www.upf.edu/"
+  - institucion: "Manchester Institute of Innovation Research — Alliance Manchester Business School"
+    pais: "Reino Unido"
+    url: "https://www.mioir.manchester.ac.uk/"
+
+# METAS: pivotes de la etapa actual. Se revisan al cabo de un ano.
+# Hoy la etapa es de montaje: construir el hub y sostenerlo. Los estudios de
+# referencia son la etapa siguiente y estan declarados en la vision.
+metas_nota: >
+  Estamos en la etapa de montaje. Estas metas corresponden al primer año y se
+  revisan al cumplirse: son pivotes, no compromisos permanentes.
+
+metas:
+  - tema: "Innovación"
+    titulo: "Poner en marcha el hub"
+    detalle: >
+      Tener operando un espacio que reúna publicaciones, datos, notas y
+      noticias de interés, con criterio de selección explícito y fuentes
+      declaradas.
+  - tema: "Innovación"
+    titulo: "Formalizar la red"
+    detalle: >
+      Establecer trabajo conjunto con al menos dos centros académicos de
+      referencia de la región, como paso hacia los estudios de referencia.
+  - tema: "Inteligencia artificial"
+    titulo: "Sostener la curaduría"
+    detalle: >
+      Mantener la revisión periódica de la literatura y la discusión pública,
+      con la bandeja de recolección abierta para que el criterio sea auditable.
+  - tema: "Inteligencia artificial"
+    titulo: "Descubrir casos aplicables en la región"
+    detalle: >
+      Buscar en los países de la región experiencias concretas de adopción que
+      otras empresas puedan replicar, y abrir a partir de ellas espacios de
+      colaboración con quienes las llevaron adelante.
+
+objetivos:
+  - >
+    Vigilar de forma sistemática la investigación y la discusión pública en
+    ambos temas, con un criterio de selección explícito y auditable.
+  - >
+    Evaluar qué hallazgos se trasladan a la práctica y cuáles no, distinguiendo
+    lo que la evidencia respalda de lo que solo circula.
+  - >
+    Traducir cada hallazgo en implicancias concretas para empresas,
+    directorios y emprendedores de la región.
+  - >
+    Mantener pública la fuente de cada cifra y el registro de lo que revisamos
+    cada semana, de modo que cualquiera pueda auditar el criterio.

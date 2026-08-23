@@ -1,0 +1,257 @@
+---
+import fs from 'node:fs';
+import { load as cargarYaml } from 'js-yaml';
+import Base from '../layouts/Base.astro';
+
+const inst = cargarYaml(fs.readFileSync('./datos/institucional.yml', 'utf-8')) ?? {};
+const { equipo = [] } = cargarYaml(fs.readFileSync('./datos/equipo.yml', 'utf-8')) ?? {};
+const correo = 'jeosepulve@fen.uchile.cl';
+
+const indice = [
+  { id: 'declaracion', texto: 'Misión' },
+  { id: 'funciones', texto: 'Funciones' },
+  { id: 'vision', texto: 'Visión' },
+  { id: 'red', texto: 'Red de trabajo' },
+  { id: 'metas', texto: 'Metas' },
+  { id: 'objetivos', texto: 'Objetivos' },
+  { id: 'trabajo', texto: 'Cómo trabajamos' },
+  { id: 'equipo', texto: 'Equipo' },
+  { id: 'colaborar', texto: 'Colaborar' },
+];
+---
+
+<Base titulo="El Observatorio" descripcion="Misión, visión, metas y equipo del Observatorio de IA e Innovación en los Negocios.">
+  <div class="marco obs">
+    <div class="columnas">
+      <div class="cuerpo">
+        <h1>El Observatorio</h1>
+
+    <section class="declaracion" id="declaracion">
+      <h2>Misión</h2>
+      <p class="subtitulo">{inst.subtitulo}</p>
+      <p class="mision">{inst.mision_general}</p>
+
+      <div class="dos-temas">
+        {inst.mision?.map((m) => (
+          <article class="tema">
+            <h3>{m.tema}</h3>
+            <p>{m.texto}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="funciones" id="funciones">
+      <h2>Funciones</h2>
+      <p class="intro">
+        El trabajo del Observatorio se ordena según las tres funciones
+        universitarias.
+      </p>
+      <div class="tres">
+        {inst.funciones?.map((f) => (
+          <article class="funcion">
+            <p class="etiqueta">{f.funcion}</p>
+            <h3>{f.titulo}</h3>
+            <p>{f.detalle}</p>
+            {f.lineas?.length > 0 && (
+              <ul class="lineas">
+                {f.lineas.map((l) => <li>{l}</li>)}
+              </ul>
+            )}
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="vision" id="vision">
+      <h2>Visión</h2>
+      <div class="dos-temas">
+        {inst.vision?.map((v) => (
+          <article class="tema">
+            <h3>{v.tema}</h3>
+            <p>{v.texto}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="red" id="red">
+      <h2>Red de trabajo</h2>
+      <p class="intro">
+        Centros de referencia con los que buscamos construir trabajo conjunto.
+        La red está en construcción: aquí figuran las instituciones con las que
+        se está avanzando, no acuerdos ya firmados.
+      </p>
+      <ul class="instituciones">
+        {inst.red?.map((r) => (
+          <li>
+            <a href={r.url} rel="noopener">{r.institucion}</a>
+            <span class="pais">{r.pais}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="metas" id="metas">
+      <h2>Metas</h2>
+      {inst.metas_nota && <p class="intro">{inst.metas_nota}</p>}
+      <div class="cuadricula">
+        {inst.metas?.map((m) => (
+          <article class="meta">
+            <p class="etiqueta">{m.tema}</p>
+            <h3>{m.titulo}</h3>
+            <p class="detalle">{m.detalle}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="objetivos" id="objetivos">
+      <h2>Objetivos</h2>
+      <p class="intro">Las líneas de trabajo permanentes con las que se alcanzan esas metas.</p>
+      <ul>
+        {inst.objetivos?.map((o) => <li>{o}</li>)}
+      </ul>
+    </section>
+
+    <section class="trabajo" id="trabajo">
+      <h2>Cómo trabajamos</h2>
+      <p>
+        Cada semana revisamos de forma sistemática la investigación que se
+        publica en nuestras áreas. La mayor parte no llega al sitio. Lo que
+        entra lleva declarada su procedencia y el estatus de revisión de su
+        fuente, para que quien lo lea sepa cuánto peso darle.
+      </p>
+      <a class="enlace" href="/metodo/">El método en detalle</a>
+    </section>
+
+    <section class="equipo" id="equipo">
+      <h2>Equipo</h2>
+      <div class="personas">
+        {equipo.map((p) => (
+          <article class="persona">
+            <h3>{p.nombre}</h3>
+            <p class="rol">{p.rol}</p>
+            <p class="descripcion">{p.descripcion}</p>
+            {p.enlaces?.length > 0 && (
+              <p class="enlaces">{p.enlaces.map((e) => <a href={e.url} rel="noopener">{e.texto}</a>)}</p>
+            )}
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <aside class="colaborar" id="colaborar">
+      <h2>¿Quieres colaborar?</h2>
+      <p>
+        Trabajamos con docentes, investigadores y estudiantes que quieran sumarse
+        a alguna de las líneas, y con instituciones de la región interesadas en
+        investigación conjunta.
+      </p>
+      <a class="boton" href={`mailto:${correo}?subject=Colaboración con el Observatorio`}>
+        Escribir al Observatorio
+      </a>
+    </aside>
+      </div>
+
+      <nav class="indice" aria-label="Contenido de esta página">
+        <p class="rotulo">En esta página</p>
+        <ul>
+          {indice.map((i) => <li><a href={`#${i.id}`}>{i.texto}</a></li>)}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .obs { max-width: var(--ancho); }
+  .columnas { display: grid; grid-template-columns: minmax(0, 1fr) 210px; gap: 4rem; align-items: start; }
+  .cuerpo { max-width: 780px; min-width: 0; }
+
+  .indice { position: sticky; top: 2rem; border-left: 1px solid var(--niebla); padding-left: 1.2rem; }
+  .rotulo { font-family: var(--dato); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris); margin: 0 0 0.9rem; }
+  .indice ul { list-style: none; padding: 0; margin: 0; }
+  .indice li { margin-bottom: 0.6rem; }
+  .indice a { font-family: var(--dato); font-size: 0.76rem; color: var(--gris); text-decoration: none; }
+  .indice a:hover { color: var(--senal); text-decoration: underline; }
+
+  @media (max-width: 900px) {
+    .columnas { grid-template-columns: 1fr; gap: 0; }
+    .indice { display: none; }
+  }
+  .declaracion h2, .vision h2, .metas h2, .trabajo h2, .equipo h2 { font-size: 1.2rem; }
+  .declaracion { margin-top: 2.4rem; }
+  .subtitulo { font-size: 1rem; color: var(--gris); margin: 0.6rem 0 1.4rem; }
+
+  .mision { font-size: 1.1rem; max-width: 62ch; margin: 0; line-height: 1.6; }
+
+  .dos-temas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2.2rem; }
+  .tema { border-top: 3px solid var(--senal); padding-top: 1rem; min-width: 0; }
+  .tema h3 { font-size: 1.05rem; }
+  .tema p { margin: 0.6rem 0 0; color: var(--gris); font-size: 0.96rem; max-width: 42ch; }
+
+  .funciones { margin-top: 3.5rem; }
+  .funciones .intro { color: var(--gris); font-size: 0.96rem; margin: 0.7rem 0 1.6rem; max-width: 50ch; }
+  .tres { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1.8rem; }
+  .funcion { border-top: 1px solid var(--niebla); padding-top: 1rem; min-width: 0; }
+  .funcion h3 { font-size: 1.02rem; }
+  .funcion p { margin: 0.5rem 0 0; color: var(--gris); font-size: 0.93rem; }
+  .lineas { list-style: none; padding: 0; margin: 0.9rem 0 0; }
+  .lineas li { position: relative; padding: 0.45rem 0 0.45rem 0.9rem; font-size: 0.9rem; border-top: 1px solid var(--niebla); }
+  .lineas li::before { content: '·'; position: absolute; left: 0; color: var(--senal); }
+
+  .red { margin-top: 3.5rem; }
+  .red .intro { color: var(--gris); font-size: 0.96rem; margin: 0.7rem 0 1.4rem; max-width: 56ch; }
+  .instituciones { list-style: none; padding: 0; margin: 0; }
+  .instituciones li { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; justify-content: space-between; align-items: baseline; padding: 0.9rem 0; border-top: 1px solid var(--niebla); }
+  .instituciones a { font-size: 0.98rem; }
+  .pais { font-family: var(--dato); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); }
+
+  .metas .intro { color: var(--gris); font-size: 0.96rem; margin: 0.7rem 0 0; max-width: 56ch; }
+  .etiqueta {
+    font-family: var(--dato); font-size: 0.66rem; letter-spacing: 0.07em;
+    text-transform: uppercase; color: var(--senal);
+    margin: 0 0 0.4rem !important; line-height: 1.35;
+  }
+  /* Reserva dos lineas para que los titulos queden alineados aunque la
+     etiqueta sea larga, como "Vinculacion con el medio". */
+  .funcion .etiqueta, .meta .etiqueta { min-height: 2.7em; }
+  @media (max-width: 640px) { .funcion .etiqueta, .meta .etiqueta { min-height: 0; } }
+
+  .vision { margin-top: 3.5rem; }
+  .vision p { margin: 0.8rem 0 0; max-width: 60ch; font-size: 1.05rem; }
+
+  .metas { margin-top: 3.5rem; }
+  .cuadricula { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.8rem; margin-top: 1.5rem; }
+  .meta { border-top: 3px solid var(--senal); padding-top: 1rem; min-width: 0; }
+  .meta h3 { font-size: 1.02rem; }
+  .meta .detalle { margin: 0.5rem 0 0; color: var(--gris); font-size: 0.94rem; }
+  @media (max-width: 640px) { .cuadricula { grid-template-columns: 1fr; } }
+
+  .objetivos { margin-top: 3.5rem; }
+  .objetivos .intro { color: var(--gris); font-size: 0.96rem; margin: 0.7rem 0 1.3rem; max-width: 52ch; }
+  .objetivos ul { list-style: none; padding: 0; margin: 0; }
+  .objetivos li { padding: 0.85rem 0 0.85rem 1.3rem; border-top: 1px solid var(--niebla); max-width: 62ch; font-size: 0.98rem; position: relative; }
+  .objetivos li::before { content: '·'; position: absolute; left: 0; color: var(--senal); font-weight: 500; }
+
+  .trabajo { margin-top: 3.5rem; }
+  .trabajo p { max-width: 58ch; margin: 1rem 0 0; }
+  .enlace { display: inline-block; margin-top: 1.2rem; font-family: var(--dato); font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.08em; }
+
+  .equipo { margin-top: 3.5rem; }
+  .personas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 1.5rem; }
+  .persona { border-top: 3px solid var(--senal); padding-top: 1.1rem; }
+  .persona h3 { font-size: 1.1rem; }
+  .rol { font-family: var(--dato); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0.45rem 0 0.9rem; }
+  .descripcion { margin: 0; font-size: 0.96rem; max-width: 42ch; }
+  .enlaces { margin: 1rem 0 0; display: flex; gap: 1.2rem; font-family: var(--dato); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+  .colaborar { background: var(--azul-claro); border-left: 4px solid var(--senal); padding: 1.7rem; margin: 4rem 0 0; max-width: 620px; }
+  .colaborar h2 { font-size: 1.15rem; }
+  section[id], aside[id] { scroll-margin-top: 2rem; }
+  @media (prefers-reduced-motion: no-preference) { :global(html) { scroll-behavior: smooth; } }
+  .colaborar p { margin: 0.8rem 0 1.3rem; max-width: 50ch; font-size: 0.98rem; }
+  .boton { display: inline-block; background: var(--senal); color: #fff; text-decoration: none; font-family: var(--dato); font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.7rem 1.3rem; }
+  .boton:hover { background: var(--tinta); }
+</style>

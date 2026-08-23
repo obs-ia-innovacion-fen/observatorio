@@ -1,5 +1,30 @@
 ---
+import fs from 'node:fs';
+import path from 'node:path';
+import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+
+const publicaciones = await getCollection('publicaciones');
+
+const dirBandeja = path.resolve('./fuentes/bandeja');
+let ultima = null;
+let registros = 0;
+
+if (fs.existsSync(dirBandeja)) {
+  const archivos = fs.readdirSync(dirBandeja).filter((f) => f.endsWith('.json'));
+  const fechas = archivos.map((f) => f.slice(0, 10)).filter((f) => /^\d{4}-\d{2}-\d{2}$/.test(f));
+  ultima = fechas.sort().at(-1) ?? null;
+  for (const archivo of archivos.filter((f) => f.startsWith(ultima ?? ''))) {
+    try {
+      const datos = JSON.parse(fs.readFileSync(path.join(dirBandeja, archivo), 'utf-8'));
+      if (Array.isArray(datos)) registros += datos.length;
+    } catch { /* archivo ilegible */ }
+  }
+}
+
+const fechaLegible = ultima
+  ? new Date(ultima + 'T12:00:00').toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })
+  : null;
 ---
 
 <Base
@@ -28,6 +53,17 @@ import Base from '../layouts/Base.astro';
       El resultado de esa recolección es público: vive en el mismo repositorio
       que este sitio, con fecha, y puede auditarse.
     </p>
+
+    <div class="instrumento">
+      <p class="instrumento-titulo">
+        En la revisión del {fechaLegible ?? 'periodo en curso'} examinamos
+        <strong>{registros || '—'}</strong> trabajos y publicamos
+        <strong>{publicaciones.length}</strong>.
+      </p>
+      <p class="instrumento-nota">
+        La distancia entre ambas cifras es el trabajo del Observatorio.
+      </p>
+    </div>
 
     <h2>Qué publicamos</h2>
     <p>
@@ -94,4 +130,8 @@ import Base from '../layouts/Base.astro';
   .niveles > div { padding: 1.1rem 0; border-top: 1px solid var(--niebla); }
   .niveles dt { margin-bottom: 0.6rem; }
   .niveles dd { margin: 0; color: var(--gris); max-width: 56ch; }
+  .instrumento { border-left: 4px solid var(--senal); padding: 0.4rem 0 0.4rem 1.5rem; margin: 2.6rem 0; }
+  .instrumento-titulo { font-family: var(--display); font-size: 1.22rem; line-height: 1.4; margin: 0; max-width: 44ch; }
+  .instrumento-titulo strong { color: var(--senal); font-weight: 600; }
+  .instrumento-nota { font-size: 0.95rem; color: var(--gris); margin: 0.7rem 0 0; }
 </style>

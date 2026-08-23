@@ -1,0 +1,23 @@
+# Equipo del Observatorio. Editar aqui, no en el codigo del sitio.
+# "rol" debe coincidir con el nombramiento formal de cada persona.
+
+equipo:
+  - nombre: "David Díaz Solís"
+    rol: "Director del Observatorio"
+    descripcion: >
+      Profesor universitario en machine learning, inteligencia artificial,
+      business intelligence y analytics. Desarrolla recursos educativos
+      interactivos para acercar la IA a estudiantes y profesionales.
+    enlaces:
+      - texto: "Portal de aprendizaje"
+        url: "https://observatorio-ia-innovacion.vercel.app/"
+
+  - nombre: "Juan-Ernesto Sepúlveda Alonso"
+    rol: "Investigador Asociado"
+    descripcion: >
+      Trabaja en la línea de innovación e inteligencia artificial aplicada a
+      empresas y ecosistemas, con foco en las de menor tamaño y en la
+      cooperación con centros de investigación de la región.
+    enlaces:
+      - texto: "ORCID"
+        url: "https://orcid.org/0000-0001-7208-9778"

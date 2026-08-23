@@ -4,11 +4,33 @@
 # publica. "verificado" es la fecha en que alguien confirmo el dato en la
 # fuente: el sitio marca en amarillo lo que lleva mas de un anio sin verificar.
 #
+# "tema" agrupa la cifra: 'ia' o 'innovacion'. Define en que panel aparece.
+#
+# Si la cifra sale de un informe largo, el campo "pagina" es obligatorio: es lo
+# que permite comprobarla en treinta segundos en vez de releer el documento.
+# Una cifra extraida automaticamente entra con verificado en blanco hasta que
+# una persona la confirme.
+#
 # Cifras heredadas del sitio anterior del Observatorio (dirigido por David
 # Diaz), atribuidas al ILIA. Reverificar contra el informe antes de publicar.
 
+# Lectura de la edicion: que muestran los indicadores este anio, en palabras
+# propias. Tres o cuatro lineas, no un resumen de las cifras: la interpretacion
+# es lo que aporta el Observatorio y lo que un panel de numeros no da solo.
+# Se reescribe cuando entra una edicion nueva de las fuentes.
+
+hallazgos:
+  actualizado: 2026-08-23
+  ia: >
+    La region adopta rapido y construye despacio: es la tercera del mundo en
+    descargas de IA generativa y recibe poco mas del uno por ciento de la
+    inversion global del sector. Se adopta mas rapido de lo que se desarrolla
+    capacidad para decidir sobre lo que se adopta.
+  innovacion: 
+
 indicadores:
   - clave: adopcion-generativa
+    tema: ia
     titulo: "15–20%"
     detalle: "del mercado global de descargas de IA generativa corresponde a America Latina, tercera region del mundo en adopcion"
     ambito: "America Latina"
@@ -18,6 +40,7 @@ indicadores:
     verificado: 2026-08-23
 
   - clave: inversion-global
+    tema: ia
     titulo: "1,28%"
     detalle: "de la inversion global en IA llega a la region: brecha estructural de financiamiento"
     ambito: "America Latina"
@@ -27,6 +50,7 @@ indicadores:
     verificado: 2026-08-23
 
   - clave: curriculo-escolar
+    tema: ia
     titulo: "13 de 19"
     detalle: "paises sin IA integrada al curriculo escolar temprano"
     ambito: "America Latina"
@@ -36,6 +60,7 @@ indicadores:
     verificado: 2026-08-23
 
   - clave: doctorados
+    tema: ia
     titulo: "11 de 19"
     detalle: "paises sin programas doctorales en IA: el talento especializado sigue concentrado"
     ambito: "America Latina"
@@ -45,6 +70,7 @@ indicadores:
     verificado: 2026-08-23
 
   - clave: concentracion-investigacion
+    tema: ia
     titulo: "68%"
     detalle: "de los investigadores activos en IA de la region estan en Brasil y Mexico; el top-5 concentra el 87%"
     ambito: "America Latina"
@@ -54,6 +80,7 @@ indicadores:
     verificado: 2026-08-23
 
   - clave: estrategias-nacionales
+    tema: ia
     titulo: "9 de 19"
     detalle: "paises con estrategia nacional de IA: la gobernanza avanza mas lento que la adopcion"
     ambito: "America Latina"
@@ -62,11 +89,42 @@ indicadores:
     enlace: "https://indicelatam.cl/"
     verificado: 2026-08-23
 
+# --- SERIES COMPARADAS ---
+# Para datos dinamicos: una serie por indicador, con un valor por pais y anio.
+# El sitio dibuja el grafico solo, sin librerias externas.
+#
+# De donde salen: el AI Index publica sus datos para reutilizacion en
+# https://drive.google.com/drive/folders/1zJTOg0iR0j5SijCwFutwWvDt143lW277
+# Se descarga el archivo del capitulo que interese, se filtran las filas de
+# Chile, Brasil y Argentina, y se copian aqui. No se reproducen los graficos
+# del informe: son obra suya. Los datos se usan citando la fuente.
+#
+# Herramienta interactiva de comparacion entre paises:
+# https://hai.stanford.edu/ai-index/global-vibrancy-tool
+
+series: []
+#  - clave: vibrancy
+#    titulo: "Posicion en el indice global de vitalidad en IA"
+#    unidad: "puntaje"
+#    fuente: "AI Index 2026 — Stanford HAI"
+#    enlace: "https://hai.stanford.edu/ai-index/global-vibrancy-tool"
+#    verificado: 2026-08-23
+#    nota: "Puntaje compuesto; no es comparable entre ediciones sin leer la nota metodologica."
+#    paises:
+#      Chile:     { 2024: 0, 2025: 0, 2026: 0 }
+#      Brasil:    { 2024: 0, 2025: 0, 2026: 0 }
+#      Argentina: { 2024: 0, 2025: 0, 2026: 0 }
+
 # --- PENDIENTES ---
 # Completar con cifra, anio y enlace exacto antes de publicarlas.
 #
-# Stanford AI Index (HAI): inversion privada, patentes, modelos publicados,
-#   posicion de Brasil y Chile en los rankings. https://hai.stanford.edu/ai-index
+# Stanford AI Index 2026 (HAI) — informe y datos publicos:
+#   Informe: https://hai.stanford.edu/ai-index/2026-ai-index-report
+#   PDF:     https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf
+#   Datos:   https://drive.google.com/drive/folders/1zJTOg0iR0j5SijCwFutwWvDt143lW277
+#   Capitulos utiles para el Observatorio: Economy (cap. 4) y Policy and
+#   Governance (cap. 8). Extraer inversion privada, adopcion empresarial y
+#   marcos regulatorios para los tres paises.
 #
 # Encuestas nacionales de innovacion — la capa que nadie compara:
 #   Brasil  PINTEC (IBGE)         proporcion de empresas innovadoras
@@ -74,5 +132,26 @@ indicadores:
 #   Chile   Encuesta Nacional de Innovacion (MinEcon)
 #   Comparar exige nota metodologica: los instrumentos no son identicos.
 #
+# OCDE — la unica de las fuentes con datos consultables por API, asi que es la
+#   que puede alimentar graficos de forma automatica.
+#   MSTI (Main Science and Technology Indicators): gasto en I+D sobre PIB,
+#     investigadores por cada mil ocupados, financiamiento publico y privado.
+#   OECD.AI Policy Observatory: politicas de IA, inversion, talento.
+#   SME and Entrepreneurship Outlook: adopcion tecnologica en empresas de
+#     menor tamano, que es justo el foco del Observatorio.
+#   Portal: https://data-explorer.oecd.org  ·  https://oecd.ai
+#
+#   ADVERTENCIA DE COBERTURA: Chile es miembro de la OCDE, Brasil esta en
+#   proceso de adhesion y Argentina no es miembro. La disponibilidad de datos
+#   difiere entre los tres. Cuando un pais no tenga dato, decirlo
+#   explicitamente en la nota de la serie: un vacio sin explicar se lee como
+#   un cero y falsea la comparacion.
+#
+# Data Chile (datachile.io) y datos.gob.cl: informacion de Corfo y de programas
+#   publicos chilenos de fomento. Primera fuente propiamente nacional de la
+#   seccion; verificar que el portal siga activo antes de citarlo.
+#
 # Global Innovation Index (WIPO): posicion de los tres paises.
-# RICYT: indicadores de ciencia y tecnologia iberoamericanos.
+# RICYT: indicadores de ciencia y tecnologia iberoamericanos. Cubre a los tres
+#   con el mismo instrumento, lo que lo hace mejor para comparar entre ellos
+#   aunque tenga menos visibilidad internacional.

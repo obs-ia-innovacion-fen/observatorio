@@ -1,0 +1,134 @@
+---
+import fs from 'node:fs';
+import { load as cargarYaml } from 'js-yaml';
+import Base from '../../layouts/Base.astro';
+import Serie from '../../components/Serie.astro';
+
+export function getStaticPaths() {
+  return [
+    {
+      params: { tema: 'ia' },
+      props: {
+        titulo: 'Inteligencia artificial',
+        enCamino: [
+          { nombre: 'AI Index 2026 — Stanford HAI', url: 'https://hai.stanford.edu/ai-index/2026-ai-index-report', que: 'Inversión privada, adopción empresarial y marcos regulatorios, de los capítulos de economía y gobernanza.' },
+          { nombre: 'OECD.AI Policy Observatory', url: 'https://oecd.ai', que: 'Políticas nacionales de IA y talento especializado.' },
+        ],
+      },
+    },
+    {
+      params: { tema: 'innovacion' },
+      props: {
+        titulo: 'Innovación',
+        enCamino: [
+          { nombre: 'OCDE — Main Science and Technology Indicators', url: 'https://data-explorer.oecd.org', que: 'Gasto en investigación y desarrollo sobre PIB, e investigadores por cada mil ocupados. Es la única fuente consultable por API, así que será la primera en dar gráficos comparados.' },
+          { nombre: 'RICYT', url: 'https://www.ricyt.org', que: 'Indicadores iberoamericanos de ciencia y tecnología. Cubre a los tres países con el mismo instrumento, lo que lo hace mejor para compararlos entre sí.' },
+          { nombre: 'Encuestas nacionales de innovación', url: 'https://www.ricyt.org', que: 'PINTEC en Brasil, ENDEI en Argentina y la Encuesta Nacional de Innovación en Chile. Compararlas exige una nota metodológica que todavía no está escrita.' },
+        ],
+      },
+    },
+  ];
+}
+
+const { tema } = Astro.params;
+const { titulo, enCamino = [] } = Astro.props;
+
+const { indicadores = [], series = [] } = cargarYaml(fs.readFileSync('./datos/indicadores.yml', 'utf-8')) ?? {};
+const hoy = new Date();
+const unAnio = 365 * 24 * 60 * 60 * 1000;
+
+const cifras = indicadores
+  .filter((i) => i.tema === tema)
+  .map((i) => {
+    const v = i.verificado ? new Date(i.verificado) : null;
+    return { ...i, vencido: v ? hoy - v > unAnio : true };
+  });
+
+const seriesTema = series.filter((s) => s.tema === tema);
+const fuentes = [...new Set(cifras.map((c) => c.fuente))];
+---
+
+<Base titulo={`Datos · ${titulo}`} descripcion={`Indicadores de ${titulo.toLowerCase()} en Chile, Brasil, Argentina y América Latina.`}>
+  <div class="marco">
+    <p class="antetitulo"><a href="/datos/">Datos</a> · {titulo}</p>
+    <h1>{titulo}</h1>
+
+    {cifras.length === 0 ? (
+      <section class="en-camino">
+        <p class="explicacion">
+          Todavía no publicamos indicadores de este tema. No es un descuido:
+          preferimos no mostrar cifras que no hayamos verificado en su fuente.
+          Estas son las fuentes que estamos incorporando y qué esperamos de
+          cada una.
+        </p>
+        <ul class="fuentes-camino">
+          {enCamino.map((f) => (
+            <li>
+              <a href={f.url} rel="noopener">{f.nombre}</a>
+              <p>{f.que}</p>
+            </li>
+          ))}
+        </ul>
+        <p class="mientras">
+          Mientras tanto, los indicadores de
+          <a href="/datos/ia/"> inteligencia artificial</a> sí están disponibles.
+        </p>
+      </section>
+    ) : (
+      <div class="rejilla">
+        {cifras.map((i) => (
+          <article class="dato">
+            <p class="cifra">{i.titulo}</p>
+            <p class="detalle">{i.detalle}</p>
+            <p class="origen">
+              <a href={i.enlace} rel="noopener">{i.fuente}</a> · {i.anio}
+              {i.pagina && <span> · p. {i.pagina}</span>}
+              {i.vencido && <span class="vencido">verificar</span>}
+            </p>
+          </article>
+        ))}
+      </div>
+    )}
+
+    {seriesTema.length > 0 && (
+      <section class="comparadas">
+        <h2>Comparación entre países</h2>
+        {seriesTema.map((s) => <Serie serie={s} />)}
+      </section>
+    )}
+
+    {fuentes.length > 0 && (
+      <section class="fuentes">
+        <h2>Fuentes</h2>
+        <ul>{fuentes.map((f) => <li>{f}</li>)}</ul>
+        <p class="nota">
+          Usamos datos que las fuentes publican para reutilización, no
+          reproducciones de sus gráficos. La cobertura de la OCDE no es igual
+          para los tres países: Chile es miembro, Brasil está en proceso de
+          adhesión y Argentina no lo es, así que cuando falte un dato lo
+          decimos en vez de dejar el espacio vacío.
+        </p>
+      </section>
+    )}
+  </div>
+</Base>
+
+<style>
+  .antetitulo { font-family: var(--dato); font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gris); margin: 0 0 1rem; }
+  .rejilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+  .dato { border-top: 3px solid var(--senal); padding: 1.1rem 0 0; }
+  .cifra { font-family: var(--display); font-weight: 600; font-size: 2.1rem; line-height: 1; margin: 0; }
+  .detalle { font-size: 0.98rem; margin: 0.8rem 0 1rem; max-width: 34ch; }
+  .origen { font-family: var(--dato); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gris); margin: 0; }
+  .vencido { background: #f6e6c8; color: var(--alerta); padding: 0.1rem 0.4rem; margin-left: 0.5rem; }
+  .comparadas, .fuentes { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--niebla); }
+  .fuentes ul { font-family: var(--dato); font-size: 0.85rem; color: var(--gris); padding-left: 1.1rem; }
+  .nota { max-width: 60ch; color: var(--gris); font-size: 0.95rem; }
+  .en-camino { margin-top: 2.5rem; }
+  .explicacion { max-width: 60ch; font-size: 1.02rem; }
+  .fuentes-camino { list-style: none; padding: 0; margin: 2rem 0 0; }
+  .fuentes-camino li { padding: 1.2rem 0; border-top: 1px solid var(--niebla); }
+  .fuentes-camino a { font-family: var(--dato); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; }
+  .fuentes-camino p { margin: 0.6rem 0 0; color: var(--gris); max-width: 58ch; font-size: 0.96rem; }
+  .mientras { margin-top: 2rem; font-size: 0.98rem; }
+</style>
