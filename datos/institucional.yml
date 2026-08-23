@@ -89,20 +89,20 @@ red:
     pais: "Reino Unido"
     url: "https://www.mioir.manchester.ac.uk/"
 
-# METAS: pivotes de la etapa actual. Se revisan al cabo de un ano.
-# Hoy la etapa es de montaje: construir el hub y sostenerlo. Los estudios de
-# referencia son la etapa siguiente y estan declarados en la vision.
-metas_nota: >
-  Estamos en la etapa de montaje. Estas metas corresponden al primer año y se
-  revisan al cumplirse: son pivotes, no compromisos permanentes.
-
+# METAS — nota interna, no se publica:
+# Son pivotes de la etapa actual y se revisan al cabo de un ano. Hoy la etapa
+# es de montaje. Redactarlas como aspiracion a alcanzar, no como posicion ya
+# lograda: no somos todavia un lugar de referencia, queremos llegar a serlo.
+# Los estudios propios son la etapa siguiente y van en la vision.
 metas:
   - tema: "Innovación"
-    titulo: "Poner en marcha el hub"
+    titulo: "Generar una nueva perspectiva integradora"
     detalle: >
-      Tener operando un espacio que reúna publicaciones, datos, notas y
-      noticias de interés, con criterio de selección explícito y fuentes
-      declaradas.
+      Llegar a ser un lugar donde se encuentre, en un mismo sitio,
+      publicaciones, datos, notas y noticias sobre innovación e inteligencia
+      artificial, con criterio de selección explícito y fuentes declaradas.
+      Leerlos juntos —y no cada fuente por separado, como se hace hoy— es lo
+      que produce esa perspectiva.
   - tema: "Innovación"
     titulo: "Formalizar la red"
     detalle: >
