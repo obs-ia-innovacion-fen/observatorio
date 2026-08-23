@@ -26,7 +26,8 @@ CONTACTOS = [
 ]
 CORREO = CONTACTOS[0]  # OpenAlex acepta un solo mailto
 AGENTE = f"Observatorio FEN ({'; '.join(CONTACTOS)})"
-MAX_POR_FUENTE = 12
+MAX_POR_FUENTE = 12      # cuantos se conservan por fuente, ya filtrados
+PEDIR_POR_FUENTE = 50    # cuantos se le piden a la API antes de filtrar
 
 
 def leer_consultas(ruta):
@@ -146,7 +147,7 @@ def desde_openalex(consulta, desde_dias, paises="", requiere="", tipos="article"
     parametros = {
         "filter": ",".join(filtros),
         "sort": "publication_date:desc",
-        "per_page": MAX_POR_FUENTE,
+        "per_page": PEDIR_POR_FUENTE,
         "mailto": CORREO,
     }
     if CLAVE_OPENALEX:
@@ -176,6 +177,8 @@ def desde_openalex(consulta, desde_dias, paises="", requiere="", tipos="article"
             "autores": [a["author"]["display_name"] for a in t.get("authorships", [])[:6]],
             "citas": t.get("cited_by_count", 0),
         })
+        if len(resultados) >= MAX_POR_FUENTE:
+            break
     return resultados
 
 

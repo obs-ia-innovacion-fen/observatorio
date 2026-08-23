@@ -49,15 +49,15 @@ areas:
   - slug: gobernanza-y-regulacion
     tipos: 'article|preprint'
     openalex: '"artificial intelligence" AND ("corporate governance" OR "board of directors" OR "fiduciary")'
-    requiere: 'artificial intelligence|algorithmic ; corporate governance|fiduciary duties|board oversight|corporate boards'
-    excluye: 'patients|clinical|pharmacy|nursing|petroleum|president column'
+    requiere: 'artificial intelligence|algorithmic ; corporate governance|fiduciary|board of directors|boardroom|corporate boards'
+    excluye: 'patients|clinical|pharmacy|nursing|petroleum|joint address|president column'
     arxiv: 'cat:cs.CY AND abs:"AI governance"'
     desde_dias: 45
 
   - slug: gobernanza-cono-sur
     openalex: '("artificial intelligence" OR algorithmic) AND (regulation OR governance OR policy)'
-    requiere: 'artificial intelligence|inteligencia artificial|inteligência artificial|algorithmic ; ai governance|ai regulation|ai policy|algorithmic accountability|data protection|regulatory framework|public policy|governanca|regulacao'
-    excluye: 'proteomics|biomarker|patients|clinical|species|agroforestry|microgrid|photovoltaic|gene|soil'
+    requiere: 'artificial intelligence|inteligencia artificial|inteligência artificial|ai|algorithmic ; governance|regulation|regulatory|policy|governanca|governança|regulacao|regulação'
+    excluye: 'proteomics|biomarker|patients|clinical|diagnosis|species|agroforestry|biodiversity|microgrid|photovoltaic|gene|soil|crop|k-12|classroom|pedagogical'
     paises: 'cl|br|ar'
     arxiv: ""
     desde_dias: 180

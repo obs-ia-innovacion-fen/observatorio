@@ -183,5 +183,22 @@
       "Jackeline Valencia"
     ],
     "citas": 1
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Communication and information resources and product innovation in SMEs: the sequential role of co-creation and process innovation",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/mrjiam-07-2025-1765",
+    "revista": "Management Research The Journal of the Iberoamerican Academy of Management",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Victor Muñoz-Cisterna",
+      "Ronald Mora",
+      "Nicolás Álvarez",
+      "Juan Carlos Beckles-Araya"
+    ],
+    "citas": 0
   }
 ]

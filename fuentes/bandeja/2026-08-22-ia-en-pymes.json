@@ -139,6 +139,51 @@
     "citas": 0
   },
   {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Manager-AI Agency Dyads in Skilled Crafts: Evolution of Agency Levels",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7164616507",
+    "revista": "Journal of the Association for Information Systems",
+    "editorial": "Association for Information Systems",
+    "autores": [
+      "Maximilian Schatz",
+      "Maximilian J. Blaschke"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Beyond Access: The AI Divide and Sustained Value Creation in SMEs",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7166285341",
+    "revista": "Journal of the Association for Information Systems",
+    "editorial": "Association for Information Systems",
+    "autores": [
+      "Michael Flores",
+      "Murad Moqbel",
+      "Laurie Giddens"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Artificial Intelligence Adoption and Export Performance of Export-oriented SMEs in Coimbatore",
+    "anio": 2026,
+    "doi": "https://doi.org/10.9734/arjass/2026/v24i8931",
+    "revista": "Asian Research Journal of Arts & Social Sciences",
+    "editorial": "Sciencedomain International",
+    "autores": [
+      "B. Rohini"
+    ],
+    "citas": 0
+  },
+  {
     "fuente": "arxiv",
     "titulo": "Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches",
     "anio": "2026",

@@ -124,6 +124,66 @@
     "citas": 0
   },
   {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "From Anxiety to Action: How AI-FoMO Shapes Workers’ Digital Commerce Entrepreneurial Intention",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3390/jtaer21080262",
+    "revista": "Journal of theoretical and applied electronic commerce research",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
+    "autores": [
+      "Eunji Choi",
+      "Qinglin Li"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Generative AI as a Low-Cost Enabler of Campus Cultural Entrepreneurship: An Action Research Study on AI-Supported Entrepreneurial Learning among Vocational College Students",
+    "anio": 2026,
+    "doi": "https://doi.org/10.9734/ajess/2026/v52i83241",
+    "revista": "Asian Journal of Education and Social Studies",
+    "editorial": "",
+    "autores": [
+      "Wan Runyan"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Implementasi Generative AI untik Digital Marketing & Konten Sosial Media",
+    "anio": 2026,
+    "doi": "https://doi.org/10.25124/jaess.v4i1.11157",
+    "revista": "Journal of Applied Engineering and Social Science (JAESS)",
+    "editorial": "",
+    "autores": [
+      "Iffah Nabila",
+      "Sri Widaningsih"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Study on the double-edged sword effect of gen AI on college student entrepreneurial performance: evidence from the CICSIC",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1909353",
+    "revista": "Frontiers in Psychology",
+    "editorial": "Frontiers Media",
+    "autores": [
+      "Shujun Yu",
+      "Yongkang Xu",
+      "Xu Han"
+    ],
+    "citas": 0
+  },
+  {
     "fuente": "arxiv",
     "titulo": "Evaluating Beyond the Screen: Collective Assessment of AI-Generated Business Plans with Resource-Constrained Entrepreneurs",
     "anio": "2026",
