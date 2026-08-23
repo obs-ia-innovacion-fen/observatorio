@@ -1,26 +1,63 @@
-# Las consultas de OpenAlex admiten AND, OR y frases entre comillas.
-# No usar comas: separan filtros en la API y romperian la consulta.
-# Nota editorial: en pymes e innovacion la fuente fuerte es OpenAlex;
-# en gobernanza y regulacion es arXiv, porque el campo va mas rapido
-# que el ciclo de las revistas.
+# OpenAlex: la busqueda rankea, no filtra estrictamente. Por eso cada area
+# lleva "requiere": terminos que deben aparecer de verdad en el titulo o el
+# resumen. Grupos separados por ';' (todos obligatorios), alternativas
+# dentro de cada grupo por '|' (basta una).
+#
+# "excluye" descalifica un registro si aparece cualquiera de esos terminos.
+# Sirve contra palabras polisemicas: "regulation" en biologia es regulacion
+# genica, y un "board of directors" existe en cualquier organizacion.
+#
+# "paises" filtra por afiliacion institucional de los autores (ISO, con '|').
+# No usar comas en ningun campo: separan filtros en la API.
+#
+# "tipos" habilita tipos de obra de OpenAlex. Por defecto solo 'article'.
+# Con 'article|preprint' entran tambien documentos de trabajo de SSRN, RePEc
+# y NBER, que en gestion y finanzas se adelantan uno o dos anos a la revista.
+# Quedan marcados con revisado_por_pares: false.
+#
+# Alcance regional del Observatorio: Chile, Brasil y Argentina.
 
 areas:
   - slug: ia-en-pymes
+    tipos: 'article|preprint'
     openalex: '("artificial intelligence" OR "generative AI") AND ("SME" OR "small and medium-sized enterprises" OR "small firms")'
+    requiere: 'artificial intelligence|generative ai|machine learning ; sme|smes|small and medium|small firms'
     arxiv: 'abs:"artificial intelligence" AND abs:"SMEs"'
     desde_dias: 45
 
+  - slug: ia-en-pymes-cono-sur
+    openalex: '("artificial intelligence" OR "digital transformation") AND ("SME" OR "small firms" OR "small and medium-sized enterprises")'
+    requiere: 'sme|smes|small and medium|small firms|pyme|pymes|pequenas empresas'
+    paises: 'cl|br|ar'
+    arxiv: ""
+    desde_dias: 180
+
   - slug: ia-para-emprendedores
+    tipos: 'article|preprint'
     openalex: '("generative artificial intelligence" OR "generative AI") AND (entrepreneurship OR startup OR "new venture")'
+    requiere: 'artificial intelligence|generative ai|genai ; entrepreneur|entrepreneurship|entrepreneurial|startup|startups|new venture'
     arxiv: 'abs:"generative AI" AND abs:"entrepreneurship"'
     desde_dias: 45
 
   - slug: innovacion
-    openalex: '"innovation ecosystem" AND ("Latin America" OR Chile OR Brazil OR "emerging economies")'
+    openalex: '"innovation ecosystem" AND (firms OR enterprises OR "regional development")'
+    requiere: 'innovation ecosystem|innovation ecosystems|ecossistema de inovacao|ecosistema de innovacion'
+    paises: 'cl|br|ar'
     arxiv: ""
-    desde_dias: 60
+    desde_dias: 180
 
   - slug: gobernanza-y-regulacion
+    tipos: 'article|preprint'
     openalex: '"artificial intelligence" AND ("corporate governance" OR "board of directors" OR "fiduciary")'
+    requiere: 'artificial intelligence|algorithmic ; corporate governance|fiduciary duties|board oversight|corporate boards'
+    excluye: 'patients|clinical|pharmacy|nursing|petroleum|president column'
     arxiv: 'cat:cs.CY AND abs:"AI governance"'
     desde_dias: 45
+
+  - slug: gobernanza-cono-sur
+    openalex: '("artificial intelligence" OR algorithmic) AND (regulation OR governance OR policy)'
+    requiere: 'artificial intelligence|inteligencia artificial|inteligência artificial|algorithmic ; ai governance|ai regulation|ai policy|algorithmic accountability|data protection|regulatory framework|public policy|governanca|regulacao'
+    excluye: 'proteomics|biomarker|patients|clinical|species|agroforestry|microgrid|photovoltaic|gene|soil'
+    paises: 'cl|br|ar'
+    arxiv: ""
+    desde_dias: 180

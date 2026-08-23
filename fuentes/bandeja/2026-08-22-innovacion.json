@@ -1,76 +1,8 @@
 [
   {
     "fuente": "openalex",
-    "titulo": "Female participation in the Indian innovation ecosystem: Stylized facts from patent data",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1016/j.wpi.2026.102486",
-    "revista": "World Patent Information",
-    "editorial": "Elsevier BV",
-    "autores": [
-      "Neha Raghuwanshi",
-      "Madan Dhanora"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Emerging Technologies and Innovation Learning Ecosystems",
-    "anio": 2026,
-    "doi": "",
-    "revista": "Journal of the Association for Information Systems",
-    "editorial": "Association for Information Systems",
-    "autores": [
-      "FABIO NAGAHAMA",
-      "Vanessa Martins dos Santos",
-      "Adrian Kemmer Cernev"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Artificial Intelligence Governance and Industrial Development: Transnational Spillovers, Technology Transfer, and Sustainable Territorial Implications in Brazil",
-    "anio": 2026,
-    "doi": "https://doi.org/10.59072/rper.vi75.910",
-    "revista": "RPER",
-    "editorial": "",
-    "autores": [
-      "Klemens Katterbauer",
-      "Rui Alexandre Castanho",
-      "Sema Yılmaz"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Cultural dynamics in entrepreneurial education: Barriers, perceptions, and transformation pathways",
-    "anio": 2026,
-    "doi": "https://doi.org/10.12688/f1000research.178134.3",
-    "revista": "F1000Research",
-    "editorial": "Faculty of 1000",
-    "autores": [
-      "Alejandro Valencia-Arias",
-      "Ada Gallegos",
-      "Jackeline Valencia",
-      "Ledy Gómez-Bayona",
-      "Rutsmy Angel Manuel Gallegos Pacheco"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Maker culture, Project-Based Learning (PjBL), and prototyping: Innovation ecosystems and the development of student entrepreneurship",
-    "anio": 2026,
-    "doi": "https://doi.org/10.33448/rsd-v15i7.51468",
-    "revista": "Research Society and Development",
-    "editorial": "Grupo de Pesquisa Metodologias em Ensino e Aprendizagem em Ciências",
-    "autores": [
-      "Emanuelly de Cássia Silva Miranda",
-      "Yara Pereira Silva Menezes de Sá"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "Understanding the Collaboration Paradox in Emerging Innovation Ecosystems: Evidence from a Brazilian Agroindustrial Region",
     "anio": 2026,
     "doi": "https://doi.org/10.3390/admsci16080354",
@@ -88,59 +20,138 @@
   },
   {
     "fuente": "openalex",
-    "titulo": "Steering networked ambidexterity under institutional voids: evidence from Iranian biotechnology SMEs",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Triple Helix and Quintuple Helix Interactions in Innovation Ecosystems",
     "anio": 2026,
-    "doi": "https://doi.org/10.1108/ejim-02-2026-0219",
-    "revista": "European Journal of Innovation Management",
-    "editorial": "Emerald Publishing Limited",
-    "autores": [
-      "Mahdi Emrani",
-      "Morteza Akbari",
-      "Seyed Reza Hejazi"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Determinants of smart factory adoption in emerging economies: empirical evidence from the automotive industry in Morocco and Nigeria",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1108/inmr-01-2024-0010",
-    "revista": "Innovation & Management Review",
-    "editorial": "Emerald Publishing Limited",
-    "autores": [
-      "Olugbenga Ayo Ojubanire",
-      "Hicham Sebti",
-      "Sabrina Berbain",
-      "Mohamed Amine Marhraoui",
-      "Oluwatosin Ifedayo Oke"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Unveiling the Knowledge Structure of Digital Leadership and AI-Driven Transformation: Global Patterns and Future Directions",
-    "anio": 2026,
-    "doi": "https://doi.org/10.32725/acta.2026.005",
-    "revista": "Acta Universitatis Bohemiae Meridionalis",
-    "editorial": "University of South Bohemia in České Budějovice",
-    "autores": [
-      "Shivani Bakshi Koshy",
-      "Manpreet Kaur",
-      "Vani Aggarwal"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "AI-DRIVEN INNOVATION AND HUMAN RESOURCE MANAGEMENT PERFORMANCE: A COMPARATIVE QUANTITATIVE STUDY BETWEEN MOROCCO AND MALAYSIA",
-    "anio": 2026,
-    "doi": "https://doi.org/10.11113/ijibs.v21.196",
-    "revista": "International Journal of Innovation and Business Strategy (IJIBS)",
+    "doi": "https://doi.org/10.38124/ijisrt/26jun157",
+    "revista": "International Journal of Innovative Science and Research Technology (IJISRT)",
     "editorial": "",
     "autores": [
-      "Samah Fifani",
-      "Dounia Rabhi",
-      "Abdelhakim Qachar"
+      "Martin Paulus Melo de Sousa",
+      "Adriana Coutinho Da Cunha Cavalcante",
+      "Amandda de Faria Peixoto",
+      "Ana Victoria Lima Passos da Silva",
+      "Jackson Weslley Do Nascimento",
+      "Maria da Guia dos Santos Andrade"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Strategic sourcing in R&D&I PMOs: a conceptual framework for complex technological environments from an ethnographic perspective",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/jgoss-07-2025-0067",
+    "revista": "Journal of Global Operations and Strategic Sourcing",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Antonio Carvalho",
+      "João Varajão",
+      "António Amaral",
+      "Moacyr Machado Cardoso"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "How innovation intermediaries work: functions, mechanisms, and outcomes in developing countries",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1016/j.ssaho.2026.102771",
+    "revista": "Social Sciences & Humanities Open",
+    "editorial": "Elsevier BV",
+    "autores": [
+      "Michael Anderson Rodrigues Soares",
+      "Helano Diógenes Pinheiro",
+      "Elizabeth Ritter"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "O papel das instituições de ensino superior nos ecossistemas de inovação e desenvolvimento regional",
+    "anio": 2026,
+    "doi": "https://doi.org/10.26767/colquio.23.4197",
+    "revista": "COLÓQUIO - Revista do Desenvolvimento Regional",
+    "editorial": "FACCAT - Faculdades Integradas de Taquara/RS",
+    "autores": [
+      "Paola Andressa Scortegagna",
+      "Daniel Teixeira dos Santos Braz",
+      "Michel Jorge Samaha",
+      "Aldo Nelson Bona"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Bioindustrialization by Native People: A systemic Management Approach to Foster Coevolution",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1007/s11213-026-09761-6",
+    "revista": "Systemic Practice and Action Research",
+    "editorial": "Springer Science+Business Media",
+    "autores": [
+      "Raizza Miranda",
+      "Markus Schwaninger",
+      "Mischel Carmen N. Belderrain",
+      "André Baniwa",
+      "Carlos Nobre",
+      "Tereza Cristina Melo de Brito Carvalho"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Technological interdependence management capability (TIMC) in innovation ecosystems",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/ijis-04-2025-0169",
+    "revista": "International Journal of Innovation Science",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Fábio Emanuel Farago",
+      "Felipe Mendes Borini",
+      "Leonardo Augusto de Vasconcelos Gomes",
+      "Ana Lucia de Figueiredo Facin",
+      "Lucas Emmanuel Nascimento Silva"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Business location: city image and trust",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/md-05-2025-1466",
+    "revista": "Management Decision",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Enrique Marinao-Artigas",
+      "Karla Barajas-Portas",
+      "Julieta Mercado-González"
+    ],
+    "citas": 1
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Innovative Efficiency, Energy Use and Territorial Disparities: A Municipal DEA Assessment for Paraná",
+    "anio": 2026,
+    "doi": "https://doi.org/10.18639/merj.2026.9900118",
+    "revista": "Management and Economics Research Journal",
+    "editorial": "HATASO",
+    "autores": [
+      "Victor HB Araujo",
+      "Aline de QAA Pancera"
     ],
     "citas": 0
   }

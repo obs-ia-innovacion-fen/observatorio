@@ -1,6 +1,8 @@
 [
   {
     "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "Recursive self-regulation in genAI-assisted experiential learning: A task-contingent model",
     "anio": 2026,
     "doi": "https://doi.org/10.1016/j.ijme.2026.101516",
@@ -17,6 +19,8 @@
   },
   {
     "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "Finance 5.0: Transforming Financial Decision-Making Through Artificial Intelligence and Intelligent Analytics",
     "anio": 2026,
     "doi": "https://doi.org/10.63544/jbii.v5i8.168",
@@ -31,6 +35,8 @@
   },
   {
     "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "Gamifying entrepreneurship education: An AI-assisted innovation for neurodivergent and neurotypical students in Brazilian private universities",
     "anio": 2026,
     "doi": "https://doi.org/10.1080/14703297.2026.2720556",
@@ -48,6 +54,8 @@
   },
   {
     "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "Artificial intelligence and business model: a bibliometric analysis of strategic and entrepreneurial trends",
     "anio": 2026,
     "doi": "https://doi.org/10.1007/s11365-026-01244-3",
@@ -60,6 +68,8 @@
   },
   {
     "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "The Impact of Generative Artificial Intelligence on Entrepreneurship and Innovation in AI-Driven Economies: A Study on Support for AI-Based Startups, Technology Transfer and Innovation Ecosystems",
     "anio": 2026,
     "doi": "https://doi.org/10.56201/wjimt.v10.no6.2026.pg85.100",
@@ -72,6 +82,8 @@
   },
   {
     "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "The Hybrid Artisan: Integrating AI-Powered Design Tools with Traditional Craftsmanship for Sustainable Creative Entrepreneurship",
     "anio": 2026,
     "doi": "https://doi.org/10.3390/su18168456",
@@ -84,6 +96,8 @@
   },
   {
     "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "The Emergence of One-Person Companies as Human–AI Socio-Technical Systems: Evidence from AI Ecosystem Density in Chinese Cities",
     "anio": 2026,
     "doi": "https://doi.org/10.3390/systems14080994",
@@ -97,6 +111,8 @@
   },
   {
     "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
     "titulo": "Exploring the Role of Artificial Intelligence in Entrepreneurial Education",
     "anio": 2026,
     "doi": "https://doi.org/10.70917/ijcisim-2026-4658",
@@ -104,170 +120,6 @@
     "editorial": "",
     "autores": [
       "Vivaan Mehta"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "From Anxiety to Action: How AI-FoMO Shapes Workers’ Digital Commerce Entrepreneurial Intention",
-    "anio": 2026,
-    "doi": "https://doi.org/10.3390/jtaer21080262",
-    "revista": "Journal of theoretical and applied electronic commerce research",
-    "editorial": "Multidisciplinary Digital Publishing Institute",
-    "autores": [
-      "Eunji Choi",
-      "Qinglin Li"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Generative AI as a Low-Cost Enabler of Campus Cultural Entrepreneurship: An Action Research Study on AI-Supported Entrepreneurial Learning among Vocational College Students",
-    "anio": 2026,
-    "doi": "https://doi.org/10.9734/ajess/2026/v52i83241",
-    "revista": "Asian Journal of Education and Social Studies",
-    "editorial": "",
-    "autores": [
-      "Wan Runyan"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Implementasi Generative AI untik Digital Marketing & Konten Sosial Media",
-    "anio": 2026,
-    "doi": "https://doi.org/10.25124/jaess.v4i1.11157",
-    "revista": "Journal of Applied Engineering and Social Science (JAESS)",
-    "editorial": "",
-    "autores": [
-      "Iffah Nabila",
-      "Sri Widaningsih"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Study on the double-edged sword effect of gen AI on college student entrepreneurial performance: evidence from the CICSIC",
-    "anio": 2026,
-    "doi": "https://doi.org/10.3389/fpsyg.2026.1909353",
-    "revista": "Frontiers in Psychology",
-    "editorial": "Frontiers Media",
-    "autores": [
-      "Shujun Yu",
-      "Yongkang Xu",
-      "Xu Han"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Digital Entrepreneurship as a Driver Of Economic Transformation: Opportunities, Challenges, Capabilities, and Ecosystem Development in the Platform Era",
-    "anio": 2026,
-    "doi": "https://doi.org/10.59890/ijaeam.v4i4.207",
-    "revista": "International Journal of Applied Economics Accounting and Management (IJAEAM)",
-    "editorial": "",
-    "autores": [
-      "Loso Judijanto"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "When Everyone Has the Same AI: Rethinking Startup Competitive Advantage in the Age of Generative AI",
-    "anio": 2026,
-    "doi": "https://doi.org/10.70715/jitcai.2026.v3.i4.085",
-    "revista": "Journal of Information Technology Cybersecurity and Artificial Intelligence",
-    "editorial": "",
-    "autores": [
-      "Mwita Wanyancha"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Economic aspects of implementing generative technologies in visual content creation",
-    "anio": 2026,
-    "doi": "https://doi.org/10.33693/2541-8025-2026-22-3-167-178",
-    "revista": "Economic problems and legal practice",
-    "editorial": "",
-    "autores": [
-      "Mikhail V. Romanov",
-      "Vladimir A. Lopatin",
-      "Valeriy E. Krivtsov"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Generative AI-enhanced interactive learning environments in entrepreneurship education: personalization, ethical engagement, and entrepreneurial action tendency",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1080/10494820.2026.2689104",
-    "revista": "Interactive Learning Environments",
-    "editorial": "Taylor & Francis",
-    "autores": [
-      "Fei Sun",
-      "Muyan Li"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Digital entrepreneurship intention among Chinese and Vietnamese students: an EEM-imprinting-informed SEM-ANN model",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1038/s41598-026-63645-2",
-    "revista": "Scientific Reports",
-    "editorial": "Nature Portfolio",
-    "autores": [
-      "Wang Kang",
-      "Nam-Trung Tran",
-      "Yu-Yuan Qu",
-      "Lei Feng",
-      "Zhi-Qi Li"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "GenAI, Leadership, and Entrepreneurial Orientation: The Mediating Role of Knowledge Management Capability",
-    "anio": 2026,
-    "doi": "https://doi.org/10.34190/ejkm.24.1.4845",
-    "revista": "Electronic Journal of Knowledge Management",
-    "editorial": "Academic Conferences and Publishing International",
-    "autores": [
-      "Akerkin Eraliyeva",
-      "Baglan Murzabekova",
-      "Roza Kuralbayeva",
-      "Gulnar Lukhmanova",
-      "R. Amantaeva"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
-    "anio": 2026,
-    "doi": "https://doi.org/10.63383/evvq9585",
-    "revista": "MIT Sloan Management Review",
-    "editorial": "Massachusetts Institute of Technology",
-    "autores": [
-      "Nataliya Wright"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Agentic Workflows are Serverless Applications, so deploy them that way!",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1145/3830422.3830426",
-    "revista": "ACM SIGOPS Operating Systems Review",
-    "editorial": "Association for Computing Machinery",
-    "autores": [
-      "Ian Dougherty",
-      "Natalie Lambert",
-      "Yi-Xiang Wang",
-      "Ethan Xu",
-      "Reto Achermann",
-      "Alexandra Fedorova"
     ],
     "citas": 0
   },

@@ -26,7 +26,7 @@ CONTACTOS = [
 ]
 CORREO = CONTACTOS[0]  # OpenAlex acepta un solo mailto
 AGENTE = f"Observatorio FEN ({'; '.join(CONTACTOS)})"
-MAX_POR_FUENTE = 25
+MAX_POR_FUENTE = 12
 
 
 def leer_consultas(ruta):
@@ -59,8 +59,15 @@ CLAVE_OPENALEX = os.environ.get("OPENALEX_API_KEY", "")
 # calidad editorial documentado.
 FUENTES_EXCLUIDAS = (
     "zenodo", "ssrn", "researchgate", "preprints.org", "figshare",
-    "open science framework", "research square", "social science research network",
-    "authorea", "proceedings", "iconic research",
+    "open science framework", "research square",
+    "zenodo.", "osf.io",
+    "authorea", "proceedings", "iconic research", "arxiv",
+)
+
+# Repositorios de preprints aceptados: solo entran si el area habilita el tipo
+# "preprint" en consultas.yml, y quedan marcados como tales en la salida.
+PREPRINTS_ACEPTADOS = (
+    "ssrn", "social science research network", "repec", "nber",
 )
 
 # Allowlist opcional por editorial. Con EXIGIR_EDITORIAL = True solo pasan las
@@ -75,9 +82,45 @@ EDITORIALES_PERMITIDAS = (
 )
 
 
+def reconstruir_resumen(indice):
+    """OpenAlex entrega el resumen como indice invertido; se rearma aqui."""
+    if not indice:
+        return ""
+    palabras = [(pos, palabra) for palabra, pos_lista in indice.items() for pos in pos_lista]
+    return " ".join(palabra for _, palabra in sorted(palabras))
+
+
+def esta_excluido(texto, excluye):
+    """Cualquier termino de la lista descalifica el registro."""
+    if not excluye:
+        return False
+    texto = texto.lower()
+    return any(re.search(rf"\b{re.escape(t.strip().lower())}\b", texto)
+               for t in excluye.split("|") if t.strip())
+
+
+def cumple_requisitos(texto, requiere):
+    """requiere: grupos separados por ';', alternativas dentro de cada grupo por '|'.
+    Todos los grupos deben aparecer; dentro de un grupo basta una alternativa."""
+    if not requiere:
+        return True
+    texto = texto.lower()
+    for grupo in requiere.split(";"):
+        alternativas = [a.strip().lower() for a in grupo.split("|") if a.strip()]
+        if not any(re.search(rf"\b{re.escape(a)}\b", texto) for a in alternativas):
+            return False
+    return True
+
+
+def es_preprint_aceptado(revista):
+    return any(x in (revista or "").lower() for x in PREPRINTS_ACEPTADOS)
+
+
 def es_publicable(revista, editorial=""):
     if not revista:
         return False
+    if es_preprint_aceptado(revista):
+        return True
     if any(x in revista.lower() for x in FUENTES_EXCLUIDAS):
         return False
     if EXIGIR_EDITORIAL:
@@ -85,7 +128,7 @@ def es_publicable(revista, editorial=""):
     return True
 
 
-def desde_openalex(consulta, desde_dias):
+def desde_openalex(consulta, desde_dias, paises="", requiere="", tipos="article", excluye=""):
     if not consulta:
         return []
     corte = (date.today() - timedelta(days=desde_dias)).isoformat()
@@ -94,8 +137,12 @@ def desde_openalex(consulta, desde_dias):
     filtros = [
         f"title_and_abstract.search:{consulta}",
         f"from_publication_date:{corte}",
-        "type:article",
+        f"type:{tipos or 'article'}",
     ]
+    if paises:
+        # Filtro duro por afiliacion institucional de los autores. Buscar el
+        # nombre del pais en el texto no sirve: la busqueda rankea, no filtra.
+        filtros.append(f"authorships.institutions.country_code:{paises}")
     parametros = {
         "filter": ",".join(filtros),
         "sort": "publication_date:desc",
@@ -111,13 +158,19 @@ def desde_openalex(consulta, desde_dias):
         origen = ((t.get("primary_location") or {}).get("source") or {})
         revista = origen.get("display_name", "")
         editorial = origen.get("host_organization_name", "") or ""
-        if not es_publicable(revista, editorial):
+        enlace = t.get("doi") or origen.get("landing_page_url") or t.get("id") or ""
+        if not es_publicable(revista, editorial) or not es_publicable(enlace):
+            continue
+        texto = f"{t.get('title') or ''} {reconstruir_resumen(t.get('abstract_inverted_index'))}"
+        if not cumple_requisitos(texto, requiere) or esta_excluido(texto, excluye):
             continue
         resultados.append({
             "fuente": "openalex",
+            "tipo": t.get("type", ""),
+            "revisado_por_pares": not es_preprint_aceptado(revista),
             "titulo": t.get("title") or "",
             "anio": t.get("publication_year"),
-            "doi": t.get("doi") or "",
+            "doi": enlace,
             "revista": revista,
             "editorial": editorial,
             "autores": [a["author"]["display_name"] for a in t.get("authorships", [])[:6]],
@@ -165,7 +218,7 @@ def main():
         slug = area["slug"]
         hallazgos = []
         for obtener in (
-            lambda: desde_openalex(area.get("openalex", ""), area.get("desde_dias", 30)),
+            lambda: desde_openalex(area.get("openalex", ""), area.get("desde_dias", 30), area.get("paises", ""), area.get("requiere", ""), area.get("tipos", "article"), area.get("excluye", "")),
             lambda: desde_arxiv(area.get("arxiv", "")),
         ):
             try:
