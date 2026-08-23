@@ -1,0 +1,954 @@
+[
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "What Separates AI Agents That Ship to Production from Those That Don’t",
+    "enlace": "/sponsored/2026/08/what-separates-ai-agents-that-ship-to-production-from-those-that-dont",
+    "fecha": "2026-08-21T13:24:20Z",
+    "extracto": "Sponsor content from AWS and Arize."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "The Missing Piece of Your Transformation Strategy",
+    "enlace": "/2026/08/the-missing-piece-of-your-transformation-strategy",
+    "fecha": "2026-08-21T12:15:54Z",
+    "extracto": "Companies are increasingly dependent on a complex network of suppliers and other partners, but they aren&#8217;t significantly engaging them in their strategy work."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "The Science of Developing Creative Talent",
+    "enlace": "/2026/08/the-science-of-developing-creative-talent",
+    "fecha": "2026-08-21T12:05:04Z",
+    "extracto": "An analysis of 15 years of data on more than 4,200 musicians and hundreds of labels points to three factors that help creative careers thrive."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "How Fiserv Turned Payment Data into a Growth Engine",
+    "enlace": "/sponsored/2026/08/how-fiserv-turned-payment-data-into-a-growth-engine",
+    "fecha": "2026-08-20T12:00:02Z",
+    "extracto": "Sponsor content from EY &#8209; Parthenon."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "4 Steps to Transform the “Middle Office” with AI",
+    "enlace": "/2026/08/4-steps-to-transform-the-middle-office-with-ai",
+    "fecha": "2026-08-20T12:15:36Z",
+    "extracto": "Most companies overlook the opportunities for AI to improve exception-heavy tasks such as contract reviews, risk management, and compliance."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Is Your Organizational Culture Too Nice?",
+    "enlace": "/2026/08/is-your-organizational-culture-too-nice",
+    "fecha": "2026-08-19T12:15:08Z",
+    "extracto": "When leaders prioritize harmony over candor, they risk undermining performance."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "AI Is Undermining Leaders’ Judgment. Here’s What to Do About It.",
+    "enlace": "/2026/08/ai-is-undermining-leaders-judgment-heres-what-to-do-about-it",
+    "fecha": "2026-08-19T12:05:09Z",
+    "extracto": "The tools designed to augment your decision-making could end up making it weaker."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Strategy Making Gets an AI Boost",
+    "enlace": "/2026/08/strategy-making-gets-an-ai-boost",
+    "fecha": "2026-08-18T12:25:27Z",
+    "extracto": "In the August 17 edition of The Insider newsletter, managing editor Gretchen Gavett writes on how AI is changing strategy-making, the end of the traditional career arc, and more."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Research: What Physical Retail Stores Deliver in a Digital Economy",
+    "enlace": "/2026/08/research-what-physical-retail-stores-deliver-in-a-digital-economy",
+    "fecha": "2026-08-18T12:15:38Z",
+    "extracto": "The most successful retailers organize investments around enterprise-wide value, not the performance of individual channels."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Can an AI-Powered Scribe Curb Physician Burnout?",
+    "enlace": "/podcast/2026/08/can-an-ai-powered-scribe-curb-physician-burnout",
+    "fecha": "2026-08-18T12:09:35Z",
+    "extracto": "The use of automated note-taking tools during patient visits holds promise in reducing physicans&#8217; administrative load&#8211;but the tradeoffs are complicated."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Living and Working in the Age of Longevity",
+    "enlace": "/podcast/2026/08/living-and-working-in-the-age-of-longevity",
+    "fecha": "2026-08-18T10:04:15Z",
+    "extracto": "A conversation with London Business School professor Lynda Gratton on the new rules for long-term career planning."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "How to Respond to the Coming AI Cost Shock",
+    "enlace": "/2026/08/how-to-respond-to-the-coming-ai-cost-shock",
+    "fecha": "2026-08-17T12:15:10Z",
+    "extracto": "Leaders must design new approaches to budgeting, workforce planning, and risk management."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "How the Best Leaders Shape Conversations",
+    "enlace": "/2026/08/how-the-best-leaders-shape-conversations",
+    "fecha": "2026-08-17T12:05:33Z",
+    "extracto": "Every strategy, decision, and transformation begins as a conversation."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "How to Develop a Game-Changing Worldview",
+    "enlace": "/2026/08/how-to-develop-a-game-changing-worldview",
+    "fecha": "2026-08-14T12:15:30Z",
+    "extracto": "It will help you start thinking seriously about your company&#8217;s long-term strategy, says former Best Buy CEO Hubert Joly."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Research: The Innovation Problems AI Can’t Solve",
+    "enlace": "/2026/08/research-the-innovation-problems-ai-cant-solve",
+    "fecha": "2026-08-14T12:05:50Z",
+    "extracto": "Generative AI speeds innovation, but it can also narrow thinking, reinforce bias, and distance teams from customers."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Why Agentic AI Could Transform Procurement",
+    "enlace": "/2026/08/why-agentic-ai-could-transform-procurement",
+    "fecha": "2026-08-13T12:15:56Z",
+    "extracto": "The combination of economic visibility, process structure, and persistent friction make it a huge opportunity."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "AI Makes Building Easy. Choosing What to Build Is Harder.",
+    "enlace": "/2026/08/ai-makes-building-easy-choosing-what-to-build-is-harder",
+    "fecha": "2026-08-12T12:15:11Z",
+    "extracto": "If everyone has access to similar AI tools, your team&#8217;s advantage isn&#8217;t technical capability&#8212;it&#8217;s understanding the problem."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Before Rolling Out a New Strategy, Assess Your Team’s Readiness",
+    "enlace": "/2026/08/before-rolling-out-a-new-strategy-assess-your-teams-readiness",
+    "fecha": "2026-08-12T12:05:03Z",
+    "extracto": "Three conditions will determine whether you can execute the plan."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Driving Change When You Lack Authority",
+    "enlace": "/2026/08/driving-change-when-you-lack-authority",
+    "fecha": "2026-08-11T12:25:37Z",
+    "extracto": "In the August 10 edition of&#160;The Insider newsletter, managing editor Gretchen Gavett writes on influencing others when you lack formal authority, board relationships, and the hidden labor of &#822"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "titulo": "Why Family Businesses Lose Control",
+    "enlace": "/2026/08/why-family-businesses-lose-control",
+    "fecha": "2026-08-11T12:15:54Z",
+    "extracto": "The problem usually isn&#8217;t poor leadership. It&#8217;s unprepared ownership."
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Checks and Balance newsletter: Donald Trump’s losing bet on oil",
+    "enlace": "https://www.economist.com/united-states/2026/08/23/checks-and-balance-newsletter-donald-trumps-losing-bet-on-oil",
+    "fecha": "Sun, 23 Aug 2026 03:09:52 +0000",
+    "extracto": "Charlotte Howard, our US editor, on why the president’s energy strategy has backfired"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Grave friends",
+    "enlace": "https://www.economist.com/podcasts/2026/08/22/grave-friends",
+    "fecha": "Sat, 22 Aug 2026 11:54:16 +0000",
+    "extracto": "How to make the end of life a little less lonely"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Cover Story newsletter: Could AIs become conscious?",
+    "enlace": "https://www.economist.com/the-world-this-week/2026/08/21/cover-story-newsletter-could-ais-become-conscious",
+    "fecha": "Fri, 21 Aug 2026 18:43:45 +0000",
+    "extracto": "An exclusive look at how we designed our cover"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Tracking the cost of Donald Trump’s tariffs",
+    "enlace": "https://www.economist.com/interactive/trump-tariff-costs-tracker",
+    "fecha": "Fri, 21 Aug 2026 17:00:33 +0000",
+    "extracto": "America’s global effective tariff stands at 10.0%"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "It now seems possible to vaccinate against cancer",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/21/it-now-seems-possible-to-vaccinate-against-cancer",
+    "fecha": "Fri, 21 Aug 2026 15:57:40 +0000",
+    "extracto": "The latest results are promising, but not yet definitive"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Rubbish football, fun food: a lower-league recipe for success",
+    "enlace": "https://www.economist.com/britain/2026/08/21/rubbish-football-fun-food-a-lower-league-recipe-for-success",
+    "fecha": "Fri, 21 Aug 2026 15:47:37 +0000",
+    "extracto": "British clubs are drawing fans with gourmet offerings"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "What to watch this week",
+    "enlace": "https://www.economist.com/culture/2026/08/21/what-to-watch-this-week",
+    "fecha": "Fri, 21 Aug 2026 15:31:03 +0000",
+    "extracto": "Our list offers lions, losers and lust"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "The other Democrat insurgency",
+    "enlace": "https://www.economist.com/podcasts/2026/08/21/the-other-democrat-insurgency",
+    "fecha": "Fri, 21 Aug 2026 15:07:07 +0000",
+    "extracto": "Our weekly podcast on America. This week, how to be moderate and anti-establishment at the same time"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "What to read to master the art of conversation",
+    "enlace": "https://www.economist.com/culture/2026/08/21/what-to-read-to-master-the-art-of-conversation",
+    "fecha": "Fri, 21 Aug 2026 14:47:01 +0000",
+    "extracto": "These titles will help you become an impressive talker"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Simply Science newsletter: The case for modifying the clouds",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/21/simply-science-newsletter-the-case-for-modifying-the-clouds",
+    "fecha": "Fri, 21 Aug 2026 11:43:04 +0000",
+    "extracto": "Oliver Morton, a senior editor, examines how contrails affect the climate"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Daron Acemoglu responds to our criticism of his work",
+    "enlace": "https://www.economist.com/letters/2026/08/21/daron-acemoglu-responds-to-our-criticism-of-his-work",
+    "fecha": "Fri, 21 Aug 2026 10:00:01 +0000",
+    "extracto": "The Nobel prize-winning economist robustly defends his research and core ideas"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "I, robot? AI and consciousness",
+    "enlace": "https://www.economist.com/podcasts/2026/08/21/i-robot-ai-and-consciousness",
+    "fecha": "Fri, 21 Aug 2026 09:02:05 +0000",
+    "extracto": "Also on the daily podcast: Europe’s rising number of STIs and a tribute to Mary de Rachewiltz"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "The Kremlin’s crypto king",
+    "enlace": "https://www.economist.com/1843/2026/08/21/the-kremlins-crypto-king",
+    "fecha": "Fri, 21 Aug 2026 07:28:23 +0000",
+    "extracto": "How a convicted fraudster lit the way for Russia’s sanction-busting operations"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Yuval Noah Harari on the economic and political perils of AI",
+    "enlace": "https://www.economist.com/business/2026/08/20/yuval-noah-harari-on-the-economic-and-political-perils-of-ai",
+    "fecha": "Thu, 20 Aug 2026 20:00:42 +0000",
+    "extracto": "Humanity must not entrust its lot to clever machines, the bestselling historian warns"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Who’s to blame for rising food prices?",
+    "enlace": "https://www.economist.com/podcasts/2026/08/20/whos-to-blame-for-rising-food-prices",
+    "fecha": "Thu, 20 Aug 2026 16:43:41 +0000",
+    "extracto": "Our podcast on markets, the economy and business. This week, how your weekly shop got so expensive"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Economic data, commodities and markets",
+    "enlace": "https://www.economist.com/economic-and-financial-indicators/2026/08/20/economic-data-commodities-and-markets",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": ""
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Mary de Rachewiltz devoted her life to defending Ezra Pound",
+    "enlace": "https://www.economist.com/obituary/2026/08/20/mary-de-rachewiltz-devoted-her-life-to-defending-ezra-pound",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "The poet and translator of “The Cantos” died on July 24th, aged 101"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Two vital figures of the American revolution forgotten by history",
+    "enlace": "https://www.economist.com/culture/2026/08/20/two-vital-figures-of-the-american-revolution-forgotten-by-history",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "Charles Lennox and James Wilson, a pair of Britons, played important roles in the struggle for independence"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Punctuation matters more than you think",
+    "enlace": "https://www.economist.com/culture/2026/08/20/punctuation-matters-more-than-you-think",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "A new book offers a dashing history of writers’ marks"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "titulo": "Money, sex and bigotry: what one painting reveals about France",
+    "enlace": "https://www.economist.com/culture/2026/08/20/money-sex-and-bigotry-what-one-painting-reveals-about-france",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "“The Renoir Girls” uses a bright canvas to sketch a sombre history"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Yuval Noah Harari on the economic and political perils of AI",
+    "enlace": "https://www.economist.com/business/2026/08/20/yuval-noah-harari-on-the-economic-and-political-perils-of-ai",
+    "fecha": "Thu, 20 Aug 2026 20:00:42 +0000",
+    "extracto": "Humanity must not entrust its lot to clever machines, the bestselling historian warns"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Canada’s oil industry is booming. Can it last?",
+    "enlace": "https://www.economist.com/business/2026/08/20/canadas-oil-industry-is-booming-can-it-last",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "Looser regulations will help with pipelines—but may not boost production"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Can Reddit survive in the AI era?",
+    "enlace": "https://www.economist.com/business/2026/08/20/can-reddit-survive-in-the-ai-era",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "It wants more cash for its data—and more of people’s time"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "How to measure returns on AI",
+    "enlace": "https://www.economist.com/business/2026/08/20/how-to-measure-returns-on-ai",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "From tokenmaxxing to something more normal"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "The war on data centres is a bit fake",
+    "enlace": "https://www.economist.com/business/2026/08/19/the-war-on-data-centres-is-a-bit-fake",
+    "fecha": "Wed, 19 Aug 2026 21:10:33 +0000",
+    "extracto": "Developers are exaggerating their plans, just as politicians are overstating their opposition"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Chinese firms are wrapping their supply chains around the globe",
+    "enlace": "https://www.economist.com/interactive/business/2026/08/19/chinese-firms-are-wrapping-their-supply-chains-around-the-globe",
+    "fecha": "Wed, 19 Aug 2026 15:56:09 +0000",
+    "extracto": "A rewiring of global manufacturing is under way"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Meta’s blockbuster trial draws parallels to big tobacco",
+    "enlace": "https://www.economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco",
+    "fecha": "Tue, 18 Aug 2026 20:30:35 +0000",
+    "extracto": "But investors aren’t panicking yet"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "America Inc has a tight grip on allied governments",
+    "enlace": "https://www.economist.com/business/2026/08/16/america-inc-has-a-tight-grip-on-allied-governments",
+    "fecha": "Sun, 16 Aug 2026 16:32:30 +0000",
+    "extracto": "Companies from Palantir to Lockheed account for a small share of spending, but are hard to shake"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Is the LA Lakers’ sale a sign of sports investment gone mad?",
+    "enlace": "https://www.economist.com/business/2026/08/13/is-the-la-lakers-sale-a-sign-of-sports-investment-gone-mad",
+    "fecha": "Thu, 13 Aug 2026 13:12:35 +0000",
+    "extracto": "$12.5bn price tag is highest ever for an American sports team"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "The world’s biggest fast-food chain is moving into pubs",
+    "enlace": "https://www.economist.com/business/2026/08/13/the-worlds-biggest-fast-food-chain-is-moving-into-pubs",
+    "fecha": "Thu, 13 Aug 2026 13:12:35 +0000",
+    "extracto": "Why China’s Mixue Bingcheng is serving up beer"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "The six stages of holiday-making",
+    "enlace": "https://www.economist.com/business/2026/08/13/the-six-stages-of-holiday-making",
+    "fecha": "Thu, 13 Aug 2026 13:12:35 +0000",
+    "extracto": "Two weeks off, but how many days of relaxation?"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Japan’s downbeat startups need a lift",
+    "enlace": "https://www.economist.com/business/2026/08/13/japans-downbeat-startups-need-a-lift",
+    "fecha": "Thu, 13 Aug 2026 13:12:35 +0000",
+    "extracto": "Can past success ever be rekindled?"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "AI agents lie, cheat and steal. That is putting off users",
+    "enlace": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
+    "fecha": "Wed, 12 Aug 2026 21:01:17 +0000",
+    "extracto": "It is time to impose law and order on the frontier"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Nvidia’s great silicon showdown",
+    "enlace": "https://www.economist.com/business/2026/08/11/nvidias-great-silicon-showdown",
+    "fecha": "Tue, 11 Aug 2026 19:12:35 +0000",
+    "extracto": "The chipmaker’s biggest customers want a piece of its business. It is fighting back with a $500bn deal"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "How much would you pay for a smarter baby?",
+    "enlace": "https://www.economist.com/business/2026/08/10/how-much-would-you-pay-for-a-smarter-baby",
+    "fecha": "Mon, 10 Aug 2026 19:17:41 +0000",
+    "extracto": "Startups claim they can screen embryos for everything from genetic diseases to IQ. Not everyone is convinced"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Americans are losing their appetite for fast food",
+    "enlace": "https://www.economist.com/business/2026/08/06/americans-are-losing-their-appetite-for-fast-food",
+    "fecha": "Thu, 06 Aug 2026 13:00:25 +0000",
+    "extracto": "McDonald’s and other chains are turning to gimmicks to lure customers back"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "The return of Max Flannel, our workplace agony uncle",
+    "enlace": "https://www.economist.com/business/2026/08/06/the-return-of-max-flannel-our-workplace-agony-uncle",
+    "fecha": "Thu, 06 Aug 2026 13:00:25 +0000",
+    "extracto": "He has advice for Gianni in Switzerland, Kevin in Washington and Claude in San Francisco"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "America’s lack of shipbuilding prowess is a problem for its navy",
+    "enlace": "https://www.economist.com/business/2026/08/06/americas-lack-of-shipbuilding-prowess-is-a-problem-for-its-navy",
+    "fecha": "Thu, 06 Aug 2026 13:00:25 +0000",
+    "extracto": "China’s commercial shipyards provide it with a big advantage"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "Investors have fresh doubts about Elon Musk’s grandiose ambitions",
+    "enlace": "https://www.economist.com/business/2026/08/05/investors-have-fresh-doubts-about-elon-musks-grandiose-ambitions",
+    "fecha": "Wed, 05 Aug 2026 19:50:23 +0000",
+    "extracto": "SpaceX is spending gobs of money to refashion itself as an AI company"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "titulo": "A global pipeline-investment boom is under way",
+    "enlace": "https://www.economist.com/business/2026/08/05/a-global-pipeline-investment-boom-is-under-way",
+    "fecha": "Wed, 05 Aug 2026 19:11:15 +0000",
+    "extracto": "New conduits for oil will improve energy security, but come at a cost"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "It now seems possible to vaccinate against cancer",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/21/it-now-seems-possible-to-vaccinate-against-cancer",
+    "fecha": "Fri, 21 Aug 2026 15:57:40 +0000",
+    "extracto": "The latest results are promising, but not yet definitive"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Simply Science newsletter: The case for modifying the clouds",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/21/simply-science-newsletter-the-case-for-modifying-the-clouds",
+    "fecha": "Fri, 21 Aug 2026 11:43:04 +0000",
+    "extracto": "Oliver Morton, a senior editor, examines how contrails affect the climate"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Rock-solid evidence for the origins of birds",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/19/rock-solid-evidence-for-the-origins-of-birds",
+    "fecha": "Wed, 19 Aug 2026 18:36:17 +0000",
+    "extracto": "Stones in dinosaur stomachs may help understanding of avian evolution"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "How to study Antarctic ice without blowing it up",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/19/how-to-study-antarctic-ice-without-blowing-it-up",
+    "fecha": "Wed, 19 Aug 2026 18:28:30 +0000",
+    "extracto": "The sound of giant tractors may replace dynamite"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Physicists nab the elusive glueball",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/19/physicists-nab-the-elusive-glueball",
+    "fecha": "Wed, 19 Aug 2026 18:26:01 +0000",
+    "extracto": "Make it stick"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Contrail-free flying could help the climate",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/19/contrail-free-flying-could-help-the-climate",
+    "fecha": "Wed, 19 Aug 2026 18:14:03 +0000",
+    "extracto": "A trial over the Atlantic aims to show how"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "The Climate Issue newsletter: The surprising effects of Europe’s heatwaves",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/14/the-climate-issue-newsletter-the-surprising-effects-of-europes-heatwaves",
+    "fecha": "Fri, 14 Aug 2026 20:28:43 +0000",
+    "extracto": "Oliver Morton, our planetary affairs editor, on how an unusually hot, dry summer is testing the continent’s infrastructure"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Why standing at your desk may be little better than sitting",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/14/why-standing-at-your-desk-may-be-little-better-than-sitting",
+    "fecha": "Fri, 14 Aug 2026 15:58:14 +0000",
+    "extracto": "Apologies to those who have invested in a modish workstation"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Maybe scientific progress isn’t slowing, after all",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/12/maybe-scientific-progress-isnt-slowing-after-all",
+    "fecha": "Wed, 12 Aug 2026 17:09:38 +0000",
+    "extracto": "A new paper takes aim at the claim that science has become less disruptive"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "The brain may be about to have its Ozempic moment",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment",
+    "fecha": "Tue, 11 Aug 2026 17:22:39 +0000",
+    "extracto": "Pharma’s newest obsession involves mimicking the system that keeps people awake"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "NASA takes aim at fire storms",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/09/nasa-takes-aim-at-fire-storms",
+    "fecha": "Sun, 09 Aug 2026 15:32:44 +0000",
+    "extracto": "These products of wildfires worsen their creators"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Can you hack your gut microbiome?",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/07/can-you-hack-your-gut-microbiome",
+    "fecha": "Fri, 07 Aug 2026 11:08:50 +0000",
+    "extracto": "Yes. But perhaps best not to overthink it"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Should AI labs be treated like the owners of dangerous animals?",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+    "fecha": "Thu, 06 Aug 2026 08:20:36 +0000",
+    "extracto": "Autonomous hacking is here. Governments are not ready"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "How a bipartisan coalition is taking aim at animal research",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/05/how-a-bipartisan-coalition-is-taking-aim-at-animal-research",
+    "fecha": "Wed, 05 Aug 2026 16:31:04 +0000",
+    "extracto": "America’s animal-rights activists have more sway than ever"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "An old SpaceX rocket is about to crash into the Moon",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/04/an-old-spacex-rocket-is-about-to-crash-into-the-moon",
+    "fecha": "Tue, 04 Aug 2026 18:15:27 +0000",
+    "extracto": "The smashup could provide useful data for future lunar inhabitants"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "How poor countries are dealing with America’s AIDS cuts",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/03/how-poor-countries-are-dealing-with-americas-aids-cuts",
+    "fecha": "Mon, 03 Aug 2026 19:26:48 +0000",
+    "extracto": "They will have less money and more responsibilities, even as scientists chase a cure"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "The Climate Issue newsletter: The deadly cost of wildfires",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/01/the-climate-issue-newsletter-the-deadly-cost-of-wildfires",
+    "fecha": "Sat, 01 Aug 2026 13:56:34 +0000",
+    "extracto": "Oliver Morton, our planetary affairs editor, on how the fires are making air quality more lethal"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "How to stop procrastinating",
+    "enlace": "https://www.economist.com/science-and-technology/2026/07/31/how-to-stop-procrastinating",
+    "fecha": "Fri, 31 Jul 2026 20:00:19 +0000",
+    "extracto": "Thwarting the thief of time"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "AI and quantum computers will be frenemies",
+    "enlace": "https://www.economist.com/science-and-technology/2026/07/29/ai-and-quantum-computers-will-be-frenemies",
+    "fecha": "Wed, 29 Jul 2026 21:42:48 +0000",
+    "extracto": "The two technologies look more complementary than rivalrous"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "titulo": "Quantum computers promise mathematical superpowers",
+    "enlace": "https://www.economist.com/science-and-technology/2026/07/29/quantum-computers-promise-mathematical-superpowers",
+    "fecha": "Wed, 29 Jul 2026 19:30:20 +0000",
+    "extracto": "But like all superpowers, they will have their limits"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "Algorithms Trap Us in the Familiar. Can They Also Spark Breakthroughs?",
+    "enlace": "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs/",
+    "fecha": "Thu, 20 Aug 2026 11:00:25 +0000",
+    "extracto": "Gary Waters/Ikon Images Algorithmic tools promise to democratize access to knowledge and thus spark creativity and innovation, but research we conducted revealed a hidden risk: Those tools may be sile"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "The Five Inclusive Behaviors Board Chairs Overlook",
+    "enlace": "https://sloanreview.mit.edu/article/the-five-inclusive-behaviors-board-chairs-overlook/",
+    "fecha": "Wed, 19 Aug 2026 11:00:59 +0000",
+    "extracto": "Curt Merlo/theispot.com Many companies around the world have made significant progress in adding a higher proportion of board directors from traditionally underrepresented groups, such as women and pe"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "What Gets Your Best Employees to Stay",
+    "enlace": "https://sloanreview.mit.edu/article/what-gets-your-best-employees-to-stay/",
+    "fecha": "Tue, 18 Aug 2026 11:00:26 +0000",
+    "extracto": "Chris Gash/theispot.com A recent battle for AI talent illustrates how difficult it is for companies to retain key employees. In 2025, OpenAI’s stock-based compensation averaged roughly $1.5 million pe"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "The Power of Opportunity Mindset in Hiring",
+    "enlace": "https://sloanreview.mit.edu/article/the-power-of-opportunity-mindset-in-hiring/",
+    "fecha": "Mon, 17 Aug 2026 11:00:28 +0000",
+    "extracto": "Patrick George/Ikon Images Every organization, and every hiring manager, wants to know how to hire the best people. And every company wants to feel like it has an edge over its competitors. But let me"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "Why Water Management Is a Strategic Concern",
+    "enlace": "https://sloanreview.mit.edu/article/why-water-management-is-a-strategic-concern/",
+    "fecha": "Thu, 13 Aug 2026 11:00:28 +0000",
+    "extracto": "Dante Terzigni/theispot.com We live on a blue planet where water appears to be plentiful. But there are strong warning signs indicating that our reliance on the fresh water we perceive to be abundant "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "How to End Things Well",
+    "enlace": "https://sloanreview.mit.edu/article/how-to-end-things-well/",
+    "fecha": "Tue, 11 Aug 2026 11:00:17 +0000",
+    "extracto": "Aad Goudappel/theispot.com Most leadership advice is written for beginnings — how to launch initiatives, build momentum, scale ideas, and manage new projects. Far less attention is given to the work o"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "How to Avoid Innovation One-Hit Wonders",
+    "enlace": "https://sloanreview.mit.edu/article/how-to-avoid-innovation-one-hit-wonders/",
+    "fecha": "Mon, 10 Aug 2026 11:00:41 +0000",
+    "extracto": "Andy Carter/Ikon Images Innovation leaders often know how to manage success well. A fairly good idea is recognized, a strong contributor is rewarded, and the lessons from the win are carried into the "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "Stop Prompting AI. Start Directing It",
+    "enlace": "https://sloanreview.mit.edu/article/stop-prompting-ai-start-directing-it/",
+    "fecha": "Wed, 05 Aug 2026 11:00:54 +0000",
+    "extracto": "James Yang/theispot.com The Research The authors drew on two streams of research for this article. The first was a qualitative study of AI-assisted discovery that identified four pathways by which AI "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "The Elusiveness of Merit-Based Hiring",
+    "enlace": "https://sloanreview.mit.edu/article/the-elusiveness-of-merit-based-hiring/",
+    "fecha": "Tue, 04 Aug 2026 11:00:00 +0000",
+    "extracto": "Patrick George/Ikon Images Since early 2025, organizations seeking to curry favor with the current U.S. administration have disavowed earlier commitments to workforce diversity, equity, and inclusion "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "The Marketing Capability Paradox: Seven Forces Eroding Your Marketing Team’s Effectiveness",
+    "enlace": "https://sloanreview.mit.edu/article/the-marketing-capability-paradox-seven-forces-eroding-your-marketing-teams-effectiveness/",
+    "fecha": "Mon, 03 Aug 2026 11:00:54 +0000",
+    "extracto": "Alice Mollon/Ikon Images Marketing capabilities — the complex bundles of skills, processes, and organizational know-how that enable companies to implement customer-related activities and adapt to mark"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "How ﻿a Healthy ﻿Work Culture﻿ Help﻿s﻿ ﻿Trauma Survivors",
+    "enlace": "https://sloanreview.mit.edu/article/how-a-healthy-work-culture-helps-trauma-survivors/",
+    "fecha": "Thu, 30 Jul 2026 11:00:24 +0000",
+    "extracto": "Donna Grethen/Ikon Images Over the past few decades, there has been burgeoning interest in how leaders and organizations can support employees in the aftermath of traumatic events.1 But there is anoth"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "﻿The Link Between Explicit AI-Generated Images and Offline Crime",
+    "enlace": "https://sloanreview.mit.edu/article/the-link-between-explicit-ai-generated-images-and-offline-crime/",
+    "fecha": "Wed, 29 Jul 2026 11:00:40 +0000",
+    "extracto": "Dung Hoang/theispot.com The online revolution enabled frictionless access to virtually every type of content — including adult content. Generative AI has added a whole new, and potentially more danger"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "Robots Are Coming — but Not Everywhere",
+    "enlace": "https://sloanreview.mit.edu/article/robots-are-coming-but-not-everywhere/",
+    "fecha": "Thu, 23 Jul 2026 11:00:55 +0000",
+    "extracto": "Getty Images “The ChatGPT moment for robotics is coming,” declared Nvidia CEO Jensen Huang at the Consumer Electronics Show in January 2025. It’s a widespread expectation: that humanoid robots will fo"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "﻿A New Way to ﻿Address Troubled Team Dynamics",
+    "enlace": "https://sloanreview.mit.edu/article/a-new-way-to-address-troubled-team-dynamics/",
+    "fecha": "Wed, 22 Jul 2026 11:00:22 +0000",
+    "extracto": "Gillian Blease/Ikon Images The Research The authors adapted the Big Five personality test into a tool for illustrating personality preferences among team members. They and their colleagues tested the "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "Creating Shared Prosperity With AI: Stanford Digital Economy Lab’s Erik Brynjolfsson",
+    "enlace": "https://sloanreview.mit.edu/audio/creating-shared-prosperity-with-ai-stanford-digital-economy-labs-erik-brynjolfsson/",
+    "fecha": "Tue, 21 Jul 2026 11:00:41 +0000",
+    "extracto": "Erik Brynjolfsson has a challenge for anyone worried about artificial intelligence: Stop asking what AI will do to us, and start asking what we will do with AI. In this episode of Me, Myself, and AI, "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "How Leaders Unlock Innovation on the Front Lines",
+    "enlace": "https://sloanreview.mit.edu/article/how-leaders-unlock-innovation-on-the-front-lines/",
+    "fecha": "Mon, 20 Jul 2026 11:00:53 +0000",
+    "extracto": "PPaint/Ikon Images Balancing the daily grind of operations with the spark of innovation is one of the most persistent challenges managers face.1 Regulatory compliance, performance metrics, and the nev"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "What CEOs Need to Know About Sovereign AI",
+    "enlace": "https://sloanreview.mit.edu/article/what-ceos-need-to-know-about-sovereign-ai/",
+    "fecha": "Thu, 16 Jul 2026 13:52:48 +0000",
+    "extracto": "Carolyn Geason-Beissel/MIT SMR &#124; Getty Images As multinational companies implement artificial intelligence workflows and look to adopt AI across their global operations, they are increasingly run"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "﻿The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
+    "enlace": "https://sloanreview.mit.edu/article/the-global-scaling-gap-why-strategic-clarity-is-crucial-in-the-age-of-ai/",
+    "fecha": "Tue, 14 Jul 2026 11:00:57 +0000",
+    "extracto": "Michael Glenwood Gibbs/theispot.com Digital platforms and generative AI have lowered the barriers to accessing global talent, capital, and knowledge for companies everywhere while making it possible t"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "How GenAI Can and Can’t Help Manage Customer Insights",
+    "enlace": "https://sloanreview.mit.edu/article/how-genai-can-and-cant-help-manage-customer-insights/",
+    "fecha": "Mon, 13 Jul 2026 11:00:56 +0000",
+    "extracto": "Carolyn Geason-Beissel/MIT SMR &#124; Getty Images To understand their customers and markets, a growing number of customer-oriented companies are using generative AI tools, alongside the language and "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review [?]",
+    "titulo": "The Hidden Cost of AI-Assisted Creativity",
+    "enlace": "https://sloanreview.mit.edu/article/the-hidden-cost-of-ai-assisted-creativity/",
+    "fecha": "Thu, 09 Jul 2026 11:00:06 +0000",
+    "extracto": "Chris Gash/theispot.com The Research The authors synthesized findings from four studies spanning short-story writing, circular-economy solutions, humor caption contests, and collaborative storytelling"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "The Download: threats from space mirrors and credit for AI drugs",
+    "enlace": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+    "fecha": "Fri, 21 Aug 2026 12:10:00 +0000",
+    "extracto": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This company’s plans to deploy space mirrors could"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "Mother tongue",
+    "enlace": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
+    "fecha": "Fri, 21 Aug 2026 09:00:00 +0000",
+    "extracto": "“Daddy?” Theo curled against my side in bed. “Where do words go when they die?” I’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one,"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "When AI designs a drug, who gets the credit?",
+    "enlace": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+    "fecha": "Fri, 21 Aug 2026 09:00:00 +0000",
+    "extracto": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “disco"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
+    "enlace": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+    "fecha": "Fri, 21 Aug 2026 09:00:00 +0000",
+    "extracto": "A company that plans to beam sunlight from space to Earth on demand might unintentionally brighten the night sky for many more people than intended, according to a new study. Later this year, the US c"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "Debates over AI consciousness are a trap",
+    "enlace": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+    "fecha": "Thu, 20 Aug 2026 15:42:39 +0000",
+    "extracto": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "The Download: polycrisis support networks and a hydrogen gold rush",
+    "enlace": "https://www.technologyreview.com/2026/08/20/1142579/the-download-polycrisis-support-networks-underground-hydrogen-gold-rush/",
+    "fecha": "Thu, 20 Aug 2026 12:10:00 +0000",
+    "extracto": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Support networks aim to help kids through the poly"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "The next big thing in hydrogen could be underground",
+    "enlace": "https://www.technologyreview.com/2026/08/20/1142512/geologic-hydrogen-hunt/",
+    "fecha": "Thu, 20 Aug 2026 10:00:00 +0000",
+    "extracto": "There’s a hunt for new sources of hydrogen, and the gas (or at least the right conditions to make it) could be hiding beneath our feet. Hydrogen can be used as a fuel in everything from large trucks t"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "Unlocking hidden revenue streams with market models",
+    "enlace": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+    "fecha": "Thu, 20 Aug 2026 09:47:22 +0000",
+    "extracto": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The a"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "Support networks aim to help kids through the polycrisis",
+    "enlace": "https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/",
+    "fecha": "Thu, 20 Aug 2026 09:00:00 +0000",
+    "extracto": "Sometime in the late 2000s, Pim Sullivan-Tailyour was sitting in the back of a car, headed toward her great-grandmother’s tiny town in the south of Thailand. She watched big mountains pass by out the "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review [?]",
+    "titulo": "The Download: AI’s self-improvement problem, and what’s driving the heat",
+    "enlace": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
+    "fecha": "Wed, 19 Aug 2026 12:10:00 +0000",
+    "extracto": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI’s recursive self-improvement might not come so "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Mark Carney says Canada is now ‘at war’ with US over trade",
+    "enlace": "https://www.ft.com/content/e3b5c236-bd5f-45c2-8ddf-5279a7375d3f?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 17:22:54 GMT",
+    "extracto": "Prime Minister says Donald Trump miscalculated by escalating his tariffs attack on the country"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Who counts in Trump’s America?",
+    "enlace": "https://www.ft.com/content/7c9cd212-58c6-44e1-b515-022271e4390d?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 04:00:29 GMT",
+    "extracto": "Gillian Tett on the president’s bid to reform the 10-year census, and the explosive politics behind who gets included and who gets to decide"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Europe’s fatal beauty",
+    "enlace": "https://www.ft.com/content/ff65daca-59bb-48f2-a6d1-e177a6409459?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 04:00:38 GMT",
+    "extracto": "A less seductive continent would not attract so many enemies"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Trump’s challenge: $40tn debt, 6.7% mortgages and $5 diesel",
+    "enlace": "https://www.ft.com/content/6cb399fa-9fba-4806-98a3-9572fe319622?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 04:00:38 GMT",
+    "extracto": "The president’s agenda is under strain as the Iran war pushes up prices and America’s finances worsen"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Bossing the bond market around never works",
+    "enlace": "https://www.ft.com/content/b9e7a620-1018-4004-a3b0-3c85d494d21d?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 04:00:38 GMT",
+    "extracto": "Despite Scott Bessent’s efforts, investors worry something is up"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Israel’s Syria strike may have been bid to provoke Turkey conflict, US envoy says",
+    "enlace": "https://www.ft.com/content/d770cdbf-46b1-4928-9ec7-e1155db679d2",
+    "fecha": "Sat, 22 Aug 2026 18:17:56 GMT",
+    "extracto": "Washington’s ambassador to Ankara says attack on air base could have been ‘aggressive . . . pre-election concept’ ahead of October polls"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Russian ‘double-tap’ attack on Ukrainian shopping mall kills at least 16",
+    "enlace": "https://www.ft.com/content/a7837e1c-6865-42bd-9902-3d4c4b7f37ef?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 19:29:26 GMT",
+    "extracto": "Volodymyr Zelenskyy calls on allies to pile ‘real pressure’ on Moscow to end the war"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Germany becomes Europe’s largest regulated cannabis market",
+    "enlace": "https://www.ft.com/content/6541cb37-1bc7-4f52-a8ef-f503d13be4ce",
+    "fecha": "Sat, 22 Aug 2026 04:00:09 GMT",
+    "extracto": "Critics are calling for legislation to be tightened two years after the drug was partially liberalised"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "How Germany’s doctors, lawyers and dentists got burnt by private markets bets",
+    "enlace": "https://www.ft.com/content/00342102-98ee-47a7-b2cf-7878b9131afd?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 04:00:09 GMT",
+    "extracto": "Questions mount over management of mandatory pension schemes for professionals worth €300bn"
+  }
+]
