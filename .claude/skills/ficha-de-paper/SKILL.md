@@ -5,6 +5,22 @@ description: Convierte un artículo académico en una ficha publicable del Obser
 
 # Ficha de paper
 
+## Regla de verificacion: la mas importante
+
+La bandeja solo trae titulo, autores, revista y DOI. NO trae el resumen.
+Por lo tanto, ninguna cifra, metodo, muestra, pais o resultado puede escribirse
+si no proviene de una fuente que se leyo de verdad.
+
+Antes de escribir hay que abrir el articulo o al menos su resumen. En el
+frontmatter se declara que se consulto, con el campo `fuente_ficha`:
+`texto completo`, `resumen` o `solo metadatos`.
+
+Si solo hay metadatos, la ficha no se escribe. Se deja el registro como
+sugerencia de lectura de una linea y se pasa al siguiente.
+
+Nunca inventar ni estimar una muestra, un pais o un porcentaje. Un dato preciso
+y falso hace mas dano que no publicar nada.
+
 ## Antes de escribir
 
 Verifica que el artículo pertenece a un área declarada en `contenido/areas/`. Si no calza
@@ -28,12 +44,18 @@ cuando la formulación exacta cambia el sentido. Siempre enlazar al DOI original
 Archivo en `contenido/publicaciones/` con el frontmatter completo del esquema y estas
 secciones, en este orden:
 
-1. **En una frase** — qué se estudió y qué se encontró. Tres o cuatro líneas, sin jerga.
+1. **En una frase** — qué se estudió y qué se encontró. Maximo 40 palabras, en dos
+   oraciones si hace falta. Sin siglas, sin nombres de marcos teoricos, sin palabras
+   como "mediadora" o "constructo". Es la linea que lee alguien que no es academico:
+   si no se entiende en voz alta, esta mal escrita. El marco teorico va en la
+   seccion siguiente, no aqui.
 2. **Cómo se hizo** — datos, método, período, tamaño de muestra. Suficiente para que el
    lector calibre cuánto peso darle al resultado.
 3. **Qué implica** — sección obligatoria. El marco de referencia del Observatorio es el
    Cono Sur: Chile, Brasil y Argentina. Qué significa el hallazgo para una empresa, un
-   directorio o un emprendedor de esos tres países, considerando sus diferencias de
+   directorio o un emprendedor de esos tres paises. Los tres se nombran
+   explicitamente y no se sustituyen por "America Latina" ni se reemplazan por
+   otros paises de la region. Considerar sus diferencias de
    tamaño de mercado, madurez digital y marco regulatorio. Cuando el estudio viene de
    otro contexto —y la mayoría vendrá de Asia, Europa o Norteamérica— la pregunta es si
    el resultado se traslada o no, y por qué. Esa evaluación de transferibilidad es el
@@ -47,6 +69,10 @@ Registro técnico y sobrio. Sin superlativos, sin "revolucionario", sin "cambia 
 Cuando la evidencia es débil o el estudio tiene limitaciones relevantes, se dice.
 Nunca afirmar que un hallazgo aplica al Cono Sur si el estudio no lo midió ahí: se
 plantea como hipótesis a verificar, no como conclusión.
+
+Tampoco afirmar que un resultado "es consistente con la evidencia comparada" o
+"coincide con la literatura" sin citar al menos un trabajo concreto. Sin cita,
+esa frase se elimina.
 La credibilidad del Observatorio depende más de lo que se matiza que de lo que se afirma.
 
 ## Qué nunca hacer

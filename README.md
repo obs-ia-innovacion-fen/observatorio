@@ -48,7 +48,9 @@ En `publicaciones/`, el campo `tipo` define el tratamiento visual:
 |----------------|--------------------------------------------|-------------------------------------|
 | `propio`       | autoría del Observatorio                   | tarjeta destacada, cita exportable  |
 | `colaboracion` | con instituciones socias (FGV, Cambridge)  | tarjeta destacada con institución   |
+| `comentada`    | paper ajeno con ficha completa             | tarjeta normal con análisis         |
 | `sugerencia`   | lectura recomendada de terceros            | línea simple con enlace al DOI      |
+
 
 ## Continuidad
 
