@@ -98,9 +98,9 @@ const logos = [
       main { padding: 3.5rem 0 5rem; }
       main.portada { padding: 0; }
 
-      .identidad { display: flex; align-items: center; gap: 1.4rem; }
-      .logos { display: flex; align-items: center; gap: 0.9rem; padding-right: 1.4rem; border-right: 1px solid var(--niebla); }
-      .logos img { display: block; width: auto; height: 72px; }
+      .identidad { display: flex; align-items: center; gap: 1.1rem; }
+      .logos { display: flex; align-items: center; gap: 0.9rem; padding-right: 1.1rem; border-right: 1px solid var(--niebla); }
+      .logos img { display: block; width: auto; }
 
       .sitio-pie { border-top: 1px solid var(--niebla); padding: 1.4rem 0; font-size: 0.88rem; color: var(--gris); }
       .areas-pie { display: flex; flex-wrap: wrap; gap: 0.5rem 1.4rem; padding-bottom: 1.1rem; margin-bottom: 1.1rem; border-bottom: 1px solid var(--niebla); font-family: var(--dato); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; }
@@ -121,7 +121,7 @@ const logos = [
         <div class="identidad">
           {logos.length > 0 && (
             <span class="logos">
-              {logos.map((l) => <img src={`/logos/${l.archivo}`} alt={l.alt} height="72" />)}
+              {logos.map((l) => <img src={`/logos/${l.archivo}`} alt={l.alt} height="34" />)}
             </span>
           )}
           <a class="marca" href="/">
@@ -133,6 +133,7 @@ const logos = [
           <a href="/observatorio/">Observatorio</a>
           <a href="/datos/">Datos</a>
           <a href="/publicaciones/">Publicaciones</a>
+          <a href="/novedades/">Novedades</a>
           <a href="/webinars/">Webinars</a>
         </nav>
       </div>

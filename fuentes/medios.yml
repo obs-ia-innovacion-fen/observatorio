@@ -1,4 +1,13 @@
-# Formato:  - Nombre del medio: URL del feed
+# Formato:  - Nombre del medio [nivel]: URL del feed
+#
+# NIVEL de la fuente, entre corchetes en el nombre. Determina como se puede
+# usar lo que venga de ahi:
+#   [institucional]  organismos y centros de referencia. Citable como fuente.
+#   [prensa]         medios de negocios con edicion. Citable con atribucion.
+#   [practica]       publicaciones de practicantes, sin revision editorial
+#                    fuerte. NO se citan como evidencia: sirven como senal de
+#                    que algo se esta usando. Si amerita nota, hay que buscarle
+#                    respaldo en una fuente de otro nivel.
 #
 # Todos los feeds de esta lista estan verificados y respondiendo.
 # Al agregar uno nuevo, comprobarlo con: python scripts/medios.py
@@ -10,27 +19,34 @@
 medios:
 
   # --- Prensa y revistas de gestion (las que pediste) ---
-  - Harvard Business Review: https://feeds.hbr.org/harvardbusiness
-  - The Economist (portada): https://www.economist.com/latest/rss.xml
-  - The Economist (negocios): https://www.economist.com/business/rss.xml
-  - The Economist (ciencia y tecnologia): https://www.economist.com/science-and-technology/rss.xml
-  - MIT Sloan Management Review: https://sloanreview.mit.edu/feed/
-  - MIT Technology Review: https://www.technologyreview.com/feed/
-  - Financial Times: https://www.ft.com/?format=rss
+  - Harvard Business Review [prensa]: http://feeds.harvardbusiness.org/harvardbusiness?format=xml
+  - The Economist (portada) [prensa]: https://www.economist.com/latest/rss.xml
+  - The Economist (negocios) [prensa]: https://www.economist.com/business/rss.xml
+  - The Economist (ciencia y tecnologia) [prensa]: https://www.economist.com/science-and-technology/rss.xml
+  - MIT Sloan Management Review [prensa]: https://sloanreview.mit.edu/feed/
+  - MIT Technology Review [prensa]: https://www.technologyreview.com/feed/
+  - Financial Times [prensa]: https://www.ft.com/?format=rss
 
   # --- Fuentes abiertas de politica y gobernanza de IA ---
   # Sin muro de pago y sin problema de derechos: material distintivo.
   # PENDIENTES: las URLs que probe estaban mal, las fuentes si valen.
   # Resolverlas con:  python scripts/buscar_feeds.py https://oecd.ai https://hai.stanford.edu https://www.brookings.edu
-  - OECD.AI: https://wp.oecd.ai/feed/
+  - OECD.AI [institucional]: https://wp.oecd.ai/feed/
   # - Stanford HAI: ?
   # - Brookings: ?
+
+  # --- Practica: lo que hacen quienes usan estas herramientas ---
+  # Van dos anos por delante de las revistas en uso practico, y no tienen
+  # revision por pares. Se leen como senal, nunca como evidencia.
+  # Verificar la URL con buscar_feeds.py: Towards Data Science se independizo
+  # de Medium y su direccion cambio.
+  - Towards Data Science [practica]: https://towardsdatascience.com/feed/
 
   # --- Region: Chile, Brasil, Argentina ---
   # Aqui esta el valor diferencial. Nadie sistematiza esto.
   # Resolverlos con:  python scripts/buscar_feeds.py https://www.df.cl https://valor.globo.com https://www.cronista.com https://www.americaeconomia.com https://blogs.iadb.org https://www.cepal.org
   # - Diario Financiero (CL): ?
-  - Valor Economico (BR): https://valor.globo.com/rss/valor
+  - Valor Economico (BR) [prensa]: https://valor.globo.com/rss/valor
   # - El Cronista (AR): ?
   # - America Economia: ?
   # - SEBRAE Inteligencia (BR): ?

@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+let notas = [];
+try { notas = await getCollection('vigilancia'); } catch { notas = []; }
+notas.sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
+---
+
+<Base
+  titulo="Novedades"
+  descripcion="Señales recientes en inteligencia artificial e innovación, con su fuente declarada y la lectura del Observatorio."
+>
+  <div class="marco">
+    <h1>Novedades y tendencias</h1>
+    <p class="bajada">
+      Lo que aparece en la discusión pública sobre estos temas y nos parece que
+      importa. Cada señal indica de dónde viene: no es lo mismo un organismo
+      internacional, un medio de negocios o alguien contando lo que hizo en su
+      empresa. Lo tercero es valioso y llega antes que lo demás, pero no es
+      evidencia y lo decimos.
+    </p>
+
+    {notas.length === 0 ? (
+      <p class="vacio">Todavía no publicamos novedades. Van a aparecer acá.</p>
+    ) : (
+      notas.map((n) => (
+        <article class="nota">
+          <p class="fecha">
+            {new Date(n.data.fecha).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })}
+            {n.data.paises?.length > 0 && <span class="paises"> · {n.data.paises.join(' · ')}</span>}
+          </p>
+          <h2><a href={`/novedades/${n.id}/`}>{n.data.titulo}</a></h2>
+        </article>
+      ))
+    )}
+  </div>
+</Base>
+
+<style>
+  .bajada { max-width: 62ch; color: var(--gris); margin: 1.1rem 0 2.5rem; }
+  .nota { padding: 1.4rem 0; border-top: 1px solid var(--niebla); }
+  .fecha { font-family: var(--dato); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0 0 0.5rem; }
+  .nota h2 { font-size: 1.2rem; }
+  .nota h2 a { color: var(--tinta); text-decoration: none; }
+  .nota h2 a:hover { color: var(--senal); }
+  .vacio { color: var(--gris); font-style: italic; padding-top: 1.5rem; border-top: 1px solid var(--niebla); }
+</style>
