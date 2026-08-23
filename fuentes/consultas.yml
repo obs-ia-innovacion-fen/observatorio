@@ -1,12 +1,12 @@
 areas:
   - slug: ia-en-pymes
     openalex: "artificial intelligence adoption small medium enterprises"
-    arxiv: "cat:econ.GN AND abs:(\"artificial intelligence\" AND \"small firms\")"
+    arxiv: 'cat:econ.GN AND abs:"artificial intelligence" AND abs:"small firms"'
     desde_dias: 30
 
   - slug: ia-para-emprendedores
     openalex: "generative artificial intelligence entrepreneurship new ventures"
-    arxiv: "cat:cs.CY AND abs:(\"generative AI\" AND entrepreneurship)"
+    arxiv: 'cat:cs.CY AND abs:"generative AI" AND abs:"entrepreneurship"'
     desde_dias: 30
 
   - slug: innovacion
@@ -16,8 +16,5 @@ areas:
 
   - slug: gobernanza-y-regulacion
     openalex: "artificial intelligence governance regulation corporate boards"
-    arxiv: "cat:cs.CY AND abs:(\"AI governance\")"
+    arxiv: 'cat:cs.CY AND abs:"AI governance"'
     desde_dias: 30
-
-# Las áreas de arriba son una propuesta inicial, alineada a las líneas ya conversadas.
-# Renombrar o reemplazar antes de la primera corrida real.

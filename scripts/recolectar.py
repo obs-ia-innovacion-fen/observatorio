@@ -19,7 +19,12 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 CONSULTAS = RAIZ / "fuentes" / "consultas.yml"
 BANDEJA = RAIZ / "fuentes" / "bandeja"
-CORREO = "observatorio@example.cl"  # OpenAlex prioriza peticiones con contacto
+CONTACTOS = [
+    "daviddiazsolis@gmail.com",
+    "jeosepulve@fen.uchile.cl",
+]
+CORREO = CONTACTOS[0]  # OpenAlex acepta un solo mailto
+AGENTE = f"Observatorio FEN ({'; '.join(CONTACTOS)})"
 MAX_POR_FUENTE = 15
 
 
@@ -35,13 +40,13 @@ def leer_consultas(ruta):
             areas.append(actual)
         elif actual and ":" in limpia:
             clave, valor = limpia.split(":", 1)
-            valor = valor.strip().strip('"')
+            valor = valor.strip().strip('"').strip("'").replace('\\"', '"')
             actual[clave.strip()] = int(valor) if valor.isdigit() else valor
     return areas
 
 
 def pedir(url):
-    solicitud = urllib.request.Request(url, headers={"User-Agent": f"Observatorio ({CORREO})"})
+    solicitud = urllib.request.Request(url, headers={"User-Agent": AGENTE})
     with urllib.request.urlopen(solicitud, timeout=30) as respuesta:
         return respuesta.read()
 
@@ -70,13 +75,19 @@ def desde_openalex(consulta, desde_dias):
 def desde_arxiv(consulta):
     if not consulta:
         return []
-    parametros = urllib.parse.urlencode({
-        "search_query": consulta,
-        "sortBy": "submittedDate",
-        "sortOrder": "descending",
-        "max_results": MAX_POR_FUENTE,
-    })
-    arbol = ET.fromstring(pedir(f"http://export.arxiv.org/api/query?{parametros}"))
+    # arXiv rechaza los dos puntos de cat: y abs: cuando van codificados como %3A,
+    # asi que la URL se arma a mano en vez de con urlencode.
+    codificada = urllib.parse.quote(consulta, safe=':')
+    url = (
+        "https://export.arxiv.org/api/query"
+        f"?search_query={codificada}"
+        f"&sortBy=submittedDate&sortOrder=descending&max_results={MAX_POR_FUENTE}"
+    )
+    try:
+        datos = pedir(url)
+    except Exception as error:
+        raise RuntimeError(f"{error} | URL: {url}") from error
+    arbol = ET.fromstring(datos)
     espacio = {"a": "http://www.w3.org/2005/Atom"}
     resultados = []
     for entrada in arbol.findall("a:entry", espacio):
