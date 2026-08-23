@@ -1,0 +1,30 @@
+---
+const { tipo, revisado, fuente } = Astro.props;
+
+const etiquetas = {
+  propio: 'Investigación del Observatorio',
+  colaboracion: 'Colaboración',
+  comentada: 'Comentada',
+  sugerencia: 'Sugerencia de lectura',
+};
+
+const revision =
+  revisado === true ? 'revisado por pares'
+  : revisado === false ? 'sin revisión por pares'
+  : null;
+---
+
+<span class="procedencia" data-tipo={tipo}>{etiquetas[tipo] ?? tipo}</span>
+{revision && <span class="revision">{revision}</span>}
+{fuente && <span class="revision">leído: {fuente}</span>}
+
+<style>
+  .revision {
+    font-family: var(--dato);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--gris);
+    margin-left: 0.6rem;
+  }
+</style>

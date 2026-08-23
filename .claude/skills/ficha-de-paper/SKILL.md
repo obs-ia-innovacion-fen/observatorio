@@ -51,8 +51,16 @@ secciones, en este orden:
    seccion siguiente, no aqui.
 2. **Cómo se hizo** — datos, método, período, tamaño de muestra. Suficiente para que el
    lector calibre cuánto peso darle al resultado.
-3. **Qué implica** — sección obligatoria. El marco de referencia del Observatorio es el
-   Cono Sur: Chile, Brasil y Argentina. Qué significa el hallazgo para una empresa, un
+3. **Qué implica** — sección obligatoria. La cobertura del Observatorio es global; el
+   lente de lectura es regional. Para trabajos aplicados, el marco de referencia es el
+   Cono Sur: Chile, Brasil y Argentina.
+
+   Excepcion: en el area de frontera del conocimiento, donde el trabajo puede no tener
+   todavia lectura regional evidente, la seccion responde otra pregunta —que tendria que
+   ser cierto para que esto llegue a una empresa de menor tamano, y cuanto falta para
+   eso— y no se fuerza una mencion a los tres paises. Forzarla produce parrafos vacios.
+
+   Para todo lo demas: Qué significa el hallazgo para una empresa, un
    directorio o un emprendedor de esos tres paises. Los tres se nombran
    explicitamente y no se sustituyen por "America Latina" ni se reemplazan por
    otros paises de la region. Considerar sus diferencias de

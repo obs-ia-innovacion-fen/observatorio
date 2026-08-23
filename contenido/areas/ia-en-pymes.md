@@ -1,7 +1,7 @@
 ---
 titulo: "IA en pymes"
 slug: ia-en-pymes
-orden: 1
+orden: 5
 descripcion: "Adopción de inteligencia artificial en empresas de menor tamaño: barreras, casos y evidencia."
 alcance: >
   Qué entra: adopción y difusión tecnológica en pymes, productividad, capacidades

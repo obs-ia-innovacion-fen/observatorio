@@ -1,13 +1,14 @@
 ---
-titulo: "Innovación"
+titulo: "Innovación y ecosistemas"
 slug: innovacion
-orden: 3
-descripcion: "Ecosistemas de innovación en Chile, Brasil y Argentina: cómo funcionan cuando faltan las condiciones que la literatura da por supuestas, y qué papel juegan universidades e intermediarios."
+orden: 2
+descripcion: "Ecosistemas de innovación en escala local, nacional y regional: cómo funcionan cuando faltan las condiciones que la literatura da por supuestas, y qué exige que la innovación sea de triple impacto."
 alcance: >
-  Qué entra: ecosistemas de innovación regionales y sectoriales del Cono Sur,
-  vínculos entre universidad, empresa y Estado, intermediarios de innovación,
-  transferencia tecnológica, y desempeño innovador de las empresas de la
-  región. Interesa especialmente la evidencia de campo sobre casos concretos.
+  Qué entra: ecosistemas de innovación en sus tres escalas —local, nacional y
+  regional—, vínculos entre universidad, empresa y Estado, intermediarios de
+  innovación, transferencia tecnológica, innovación de triple impacto
+  (económico, social y ambiental) y su medición, y desempeño innovador de las
+  empresas. Interesa especialmente la evidencia de campo sobre casos concretos.
   Qué no entra: innovación como categoría genérica sin anclaje territorial o
   sectorial, política de ciencia y tecnología sin componente empresarial, y
   estudios bibliométricos que mapean literatura sin aportar evidencia nueva.
@@ -37,6 +38,13 @@ la colaboración: ecosistemas donde todos los actores declaran querer colaborar
 y sin embargo la colaboración efectiva es baja. Entender qué la bloquea —
 desconfianza, incentivos desalineados, ausencia de intermediarios— es una
 pregunta empírica, no retórica.
+
+El triple impacto es la segunda entrada de esta área, y no como etiqueta. Que
+una innovación genere valor económico, social y ambiental a la vez deja de ser
+declaración cuando alguien tiene que medirlo, y ahí empiezan los problemas
+interesantes: qué se mide, con qué instrumento, y quién verifica. La región
+tiene experiencia acumulada en esto —marcos de medición, empresas certificadas,
+programas públicos— y poca sistematización de qué funcionó.
 
 El papel de las universidades merece atención especial y exige honestidad de
 nuestra parte. El Observatorio pertenece a una facultad de negocios, y la

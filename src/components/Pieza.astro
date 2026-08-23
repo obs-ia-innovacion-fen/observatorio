@@ -1,0 +1,26 @@
+---
+import Procedencia from './Procedencia.astro';
+const { pieza } = Astro.props;
+const d = pieza.data;
+---
+
+<article class="pieza">
+  <div class="meta">
+    <Procedencia tipo={d.tipo} revisado={d.revisado_por_pares} fuente={d.fuente_ficha} />
+  </div>
+  <h3><a href={`/publicaciones/${pieza.id}/`}>{d.titulo}</a></h3>
+  <p class="fuente">
+    {d.autores.length > 0 && <span>{d.autores.join(', ')}</span>}
+    {d.publicado_en && <span> · {d.publicado_en}</span>}
+    {d.anio && <span> · {d.anio}</span>}
+  </p>
+</article>
+
+<style>
+  .pieza { padding: 1.6rem 0; border-top: 1px solid var(--niebla); }
+  .meta { margin-bottom: 0.7rem; }
+  .pieza h3 { font-size: 1.22rem; line-height: 1.25; }
+  .pieza h3 a { color: var(--tinta); text-decoration: none; }
+  .pieza h3 a:hover { color: var(--senal); text-decoration: underline; }
+  .fuente { font-family: var(--dato); font-size: 0.78rem; color: var(--gris); margin: 0.5rem 0 0; line-height: 1.5; }
+</style>

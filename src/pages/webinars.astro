@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Suscripcion from '../components/Suscripcion.astro';
+
+let webinars = [];
+try { webinars = await getCollection('webinars'); } catch { webinars = []; }
+webinars.sort((a, b) => new Date(b.data.fecha_evento) - new Date(a.data.fecha_evento));
+---
+
+<Base titulo="Webinars" descripcion="Los webinars del Observatorio, con su grabación y la nota de lo que se discutió.">
+  <div class="marco">
+    <p class="antetitulo">Encuentros</p>
+    <h1>Webinars</h1>
+    <p class="bajada">
+      Cada sesión queda documentada: la grabación, los materiales y una nota con
+      lo sustantivo de la discusión, incluidos los puntos donde los panelistas
+      no estuvieron de acuerdo.
+    </p>
+
+    {webinars.length === 0 ? (
+      <p class="vacio">Las notas de los webinars realizados se publicarán acá.</p>
+    ) : (
+      webinars.map((w) => (
+        <article class="webinar">
+          <p class="fecha">{new Date(w.data.fecha_evento).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+          <h2><a href={`/webinars/${w.id}/`}>{w.data.titulo}</a></h2>
+          {w.data.panelistas?.length > 0 && <p class="panel">{w.data.panelistas.join(' · ')}</p>}
+        </article>
+      ))
+    )}
+
+    <Suscripcion />
+  </div>
+</Base>
+
+<style>
+  .antetitulo { font-family: var(--dato); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gris); margin: 0 0 1rem; }
+  .bajada { max-width: 58ch; color: var(--gris); margin: 1.2rem 0 2.5rem; }
+  .webinar { padding: 1.6rem 0; border-top: 1px solid var(--niebla); }
+  .fecha { font-family: var(--dato); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gris); margin: 0 0 0.5rem; }
+  .webinar h2 a { color: var(--tinta); text-decoration: none; }
+  .webinar h2 a:hover { color: var(--senal); }
+  .panel { font-family: var(--dato); font-size: 0.8rem; color: var(--gris); margin: 0.5rem 0 0; }
+  .vacio { color: var(--gris); font-style: italic; padding: 1.5rem 0; border-top: 1px solid var(--niebla); }
+</style>

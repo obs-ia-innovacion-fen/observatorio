@@ -1,7 +1,7 @@
 ---
 titulo: "IA para emprendedores"
 slug: ia-para-emprendedores
-orden: 2
+orden: 4
 descripcion: "Qué cambia la IA generativa en la creación de empresas: costo de partir, tamaño de los equipos, y qué sigue siendo una ventaja competitiva cuando la herramienta está disponible para todos."
 alcance: >
   Qué entra: uso de IA generativa por parte de emprendedores y equipos

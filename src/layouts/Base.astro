@@ -1,0 +1,133 @@
+---
+const { titulo, descripcion } = Astro.props;
+const anio = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titulo} · Observatorio de IA e Innovación en los Negocios</title>
+    <meta name="description" content={descripcion} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style is:global>
+      :root {
+        --tinta: #10262e;
+        --papel: #f6f7f5;
+        --niebla: #e3e7e5;
+        --gris: #5d6b6c;
+        --senal: #14508c;
+        --azul-claro: #eaf0f7;
+        --alerta: #8a4b1f;
+
+        --display: 'Archivo', system-ui, sans-serif;
+        --cuerpo: 'Source Serif 4', Georgia, serif;
+        --dato: 'IBM Plex Mono', ui-monospace, monospace;
+
+        --medida: 68ch;
+        --ancho: 1180px;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: var(--papel);
+        color: var(--tinta);
+        font-family: var(--cuerpo);
+        font-size: 1.0625rem;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .marco { max-width: var(--ancho); margin: 0 auto; padding: 0 1.5rem; }
+
+      h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.16; letter-spacing: -0.008em; margin: 0; }
+      h1 { font-size: clamp(1.95rem, 4.4vw, 3rem); }
+      h2 { font-size: clamp(1.4rem, 2.6vw, 1.9rem); }
+      h3 { font-size: 1.15rem; }
+
+      a { color: var(--senal); text-underline-offset: 0.18em; }
+      a:focus-visible, button:focus-visible { outline: 2px solid var(--senal); outline-offset: 3px; }
+
+      /* Procedencia: el sistema que distingue a este sitio */
+      .procedencia {
+        font-family: var(--dato);
+        font-size: 0.7rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.22rem 0.5rem;
+        border: 1px solid currentColor;
+      }
+      .procedencia[data-tipo='propio'] { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+      .procedencia[data-tipo='colaboracion'] { color: var(--tinta); border-width: 2px; }
+      .procedencia[data-tipo='comentada'] { color: var(--senal); background: var(--azul-claro); border-color: var(--senal); }
+      .procedencia[data-tipo='sugerencia'] { color: var(--gris); border-style: dashed; }
+
+      .sitio-cabecera {
+        border-top: 4px solid var(--senal);
+        border-bottom: 1px solid var(--niebla);
+        padding: 1.15rem 0;
+        background: var(--papel);
+      }
+      .sitio-cabecera .marco { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: baseline; justify-content: space-between; }
+      .marca { font-family: var(--display); font-weight: 700; font-size: 1.02rem; letter-spacing: -0.01em; color: var(--tinta); text-decoration: none; }
+      .marca span { display: block; font-family: var(--dato); font-size: 0.66rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris); margin-top: 0.2rem; }
+      .menu { display: flex; gap: 1.4rem; font-family: var(--dato); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; }
+      .menu a { color: var(--gris); text-decoration: none; }
+      .menu a:hover { color: var(--tinta); }
+
+      main { padding: 3.5rem 0 5rem; }
+
+      .sitio-pie { border-top: 1px solid var(--niebla); padding: 2.5rem 0 3.5rem; font-size: 0.92rem; color: var(--gris); }
+      .sitio-pie p { max-width: var(--medida); margin: 0 0 0.6rem; }
+
+      @media (prefers-reduced-motion: no-preference) {
+        a, .procedencia { transition: color 120ms ease, background 120ms ease; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="sitio-cabecera">
+      <div class="marco">
+        <a class="marca" href="/">
+          Observatorio de IA e Innovación en los Negocios
+          <span>Depto. de Administración · FEN · Universidad de Chile</span>
+        </a>
+        <nav class="menu">
+          <a href="/#areas">Áreas</a>
+          <a href="/datos/">Datos</a>
+          <a href="/publicaciones/">Publicaciones</a>
+          <a href="/webinars/">Webinars</a>
+          <a href="/metodo/">Método</a>
+        </nav>
+      </div>
+    </header>
+
+    <main><slot /></main>
+
+    <footer class="sitio-pie">
+      <div class="marco">
+        <p>
+          Observatorio de IA e Innovación en los Negocios · Departamento de
+          Administración, Facultad de Economía y Negocios, Universidad de Chile.
+        </p>
+        <p>
+          Qué se está descubriendo sobre IA e innovación, y qué de eso sirve
+          realmente a una empresa de la región. Cada pieza declara su
+          procedencia y el estatus de revisión de su fuente.
+        </p>
+        <p>© {anio}</p>
+      </div>
+    </footer>
+  </body>
+</html>

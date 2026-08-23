@@ -1,0 +1,41 @@
+---
+// El formulario definitivo se genera en Kit y se pega aquí.
+// Mientras tanto, el bloque enlaza a correo para no perder suscriptores.
+const correo = 'jeosepulve@fen.uchile.cl';
+---
+
+<aside class="suscripcion">
+  <h2>Recibe lo que publicamos</h2>
+  <p>
+    Un envío al mes con lo que seleccionamos de la literatura y de la discusión
+    pública, con su lectura para la región. Sin promociones.
+  </p>
+  <a class="boton" href={`mailto:${correo}?subject=Suscripción al Observatorio`}>
+    Suscribirme
+  </a>
+</aside>
+
+<style>
+  .suscripcion {
+    background: var(--azul-claro);
+    border-left: 4px solid var(--senal);
+    padding: 1.8rem;
+    margin: 3.5rem 0 0;
+    max-width: 640px;
+    border-radius: 0;
+  }
+  .suscripcion h2 { font-size: 1.2rem; }
+  .suscripcion p { margin: 0.8rem 0 1.4rem; color: var(--tinta); max-width: 52ch; font-size: 1rem; }
+  .boton {
+    display: inline-block;
+    background: var(--senal);
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--dato);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.7rem 1.3rem;
+  }
+  .boton:hover { background: var(--tinta); }
+</style>

@@ -1,0 +1,97 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  titulo="Método"
+  descripcion="Cómo el Observatorio selecciona, verifica y publica lo que publica."
+>
+  <article class="marco metodo">
+    <p class="antetitulo">Método</p>
+    <h1>Cómo trabajamos</h1>
+
+    <p class="bajada">
+      Publicamos poco y decimos de dónde viene cada cosa. Esta página explica el
+      criterio, porque un observatorio que no lo hace público pide confianza sin
+      dar razones para tenerla.
+    </p>
+
+    <h2>Qué revisamos</h2>
+    <p>
+      Cada semana consultamos de forma automática la literatura académica
+      indexada y los repositorios de documentos de trabajo, además de una
+      selección de medios y organismos internacionales. Los resultados se
+      filtran por área temática y, en las líneas regionales, por afiliación
+      institucional de los autores en Chile, Brasil o Argentina.
+    </p>
+    <p>
+      El resultado de esa recolección es público: vive en el mismo repositorio
+      que este sitio, con fecha, y puede auditarse.
+    </p>
+
+    <h2>Qué publicamos</h2>
+    <p>
+      La mayor parte de lo recolectado no se publica. Un trabajo entra si
+      responde a alguna de las preguntas que cada área declara, si su
+      procedencia editorial resiste revisión, y si permite escribir algo
+      sustantivo sobre lo que significa para empresas de los tres países. El
+      tercer criterio es el que más material descarta.
+    </p>
+
+    <h2>Los cuatro niveles de procedencia</h2>
+    <p>
+      Toda pieza del sitio lleva una marca visible que indica qué es. No es un
+      detalle de forma: es la información que permite decidir cuánto peso darle.
+    </p>
+    <dl class="niveles">
+      <div>
+        <dt><span class="procedencia" data-tipo="propio">Investigación del Observatorio</span></dt>
+        <dd>Trabajo de autoría propia. Sostiene una posición y la firma.</dd>
+      </div>
+      <div>
+        <dt><span class="procedencia" data-tipo="colaboracion">Colaboración</span></dt>
+        <dd>Trabajo conjunto con instituciones socias, identificadas en la pieza.</dd>
+      </div>
+      <div>
+        <dt><span class="procedencia" data-tipo="comentada">Comentada</span></dt>
+        <dd>
+          Investigación de terceros con análisis nuestro. El hallazgo es de sus
+          autores; la lectura sobre la región es nuestra y va separada.
+        </dd>
+      </div>
+      <div>
+        <dt><span class="procedencia" data-tipo="sugerencia">Sugerencia de lectura</span></dt>
+        <dd>Recomendación sin análisis. Vale la pena leerlo en la fuente.</dd>
+      </div>
+    </dl>
+
+    <h2>Revisión por pares y documentos de trabajo</h2>
+    <p>
+      Junto a la procedencia indicamos si la fuente pasó revisión por pares o es
+      un documento de trabajo. Publicamos preprints cuando aportan —en
+      regulación de IA llegan meses antes que las revistas— pero nunca sin
+      decirlo.
+    </p>
+
+    <h2>Lo que declaramos</h2>
+    <p>
+      Cuando una ficha se escribió a partir del resumen y no del texto completo,
+      se indica. Cuando un hallazgo no se midió en la región, se plantea como
+      hipótesis y no como conclusión. Y cuando escribimos sobre el rol de las
+      universidades en los ecosistemas de innovación, declaramos que somos parte
+      interesada.
+    </p>
+  </article>
+</Base>
+
+<style>
+  .metodo { max-width: 780px; }
+  .antetitulo { font-family: var(--dato); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gris); margin: 0 0 1rem; }
+  .bajada { font-size: 1.14rem; max-width: 56ch; margin: 1.3rem 0 2.8rem; }
+  .metodo h2 { margin: 2.6rem 0 0.8rem; font-size: 1.3rem; }
+  .metodo p { max-width: var(--medida); margin: 0 0 1.2rem; }
+  .niveles { margin: 1.6rem 0 0; }
+  .niveles > div { padding: 1.1rem 0; border-top: 1px solid var(--niebla); }
+  .niveles dt { margin-bottom: 0.6rem; }
+  .niveles dd { margin: 0; color: var(--gris); max-width: 56ch; }
+</style>

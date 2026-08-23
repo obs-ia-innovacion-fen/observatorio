@@ -1,0 +1,78 @@
+# Indicadores del Observatorio.
+#
+# REGLA: ninguna cifra sin fuente, anio y enlace. Sin esos tres campos no se
+# publica. "verificado" es la fecha en que alguien confirmo el dato en la
+# fuente: el sitio marca en amarillo lo que lleva mas de un anio sin verificar.
+#
+# Cifras heredadas del sitio anterior del Observatorio (dirigido por David
+# Diaz), atribuidas al ILIA. Reverificar contra el informe antes de publicar.
+
+indicadores:
+  - clave: adopcion-generativa
+    titulo: "15–20%"
+    detalle: "del mercado global de descargas de IA generativa corresponde a America Latina, tercera region del mundo en adopcion"
+    ambito: "America Latina"
+    fuente: "ILIA — CENIA / CEPAL"
+    anio: 2025
+    enlace: "https://indicelatam.cl/"
+    verificado: 2026-08-23
+
+  - clave: inversion-global
+    titulo: "1,28%"
+    detalle: "de la inversion global en IA llega a la region: brecha estructural de financiamiento"
+    ambito: "America Latina"
+    fuente: "ILIA — CENIA / CEPAL"
+    anio: 2025
+    enlace: "https://indicelatam.cl/"
+    verificado: 2026-08-23
+
+  - clave: curriculo-escolar
+    titulo: "13 de 19"
+    detalle: "paises sin IA integrada al curriculo escolar temprano"
+    ambito: "America Latina"
+    fuente: "ILIA — CENIA / CEPAL"
+    anio: 2025
+    enlace: "https://indicelatam.cl/"
+    verificado: 2026-08-23
+
+  - clave: doctorados
+    titulo: "11 de 19"
+    detalle: "paises sin programas doctorales en IA: el talento especializado sigue concentrado"
+    ambito: "America Latina"
+    fuente: "ILIA — CENIA / CEPAL"
+    anio: 2025
+    enlace: "https://indicelatam.cl/"
+    verificado: 2026-08-23
+
+  - clave: concentracion-investigacion
+    titulo: "68%"
+    detalle: "de los investigadores activos en IA de la region estan en Brasil y Mexico; el top-5 concentra el 87%"
+    ambito: "America Latina"
+    fuente: "ILIA — CENIA / CEPAL"
+    anio: 2025
+    enlace: "https://indicelatam.cl/"
+    verificado: 2026-08-23
+
+  - clave: estrategias-nacionales
+    titulo: "9 de 19"
+    detalle: "paises con estrategia nacional de IA: la gobernanza avanza mas lento que la adopcion"
+    ambito: "America Latina"
+    fuente: "ILIA — CENIA / CEPAL"
+    anio: 2025
+    enlace: "https://indicelatam.cl/"
+    verificado: 2026-08-23
+
+# --- PENDIENTES ---
+# Completar con cifra, anio y enlace exacto antes de publicarlas.
+#
+# Stanford AI Index (HAI): inversion privada, patentes, modelos publicados,
+#   posicion de Brasil y Chile en los rankings. https://hai.stanford.edu/ai-index
+#
+# Encuestas nacionales de innovacion — la capa que nadie compara:
+#   Brasil  PINTEC (IBGE)         proporcion de empresas innovadoras
+#   Argentina ENDEI               gasto en innovacion sobre ventas
+#   Chile   Encuesta Nacional de Innovacion (MinEcon)
+#   Comparar exige nota metodologica: los instrumentos no son identicos.
+#
+# Global Innovation Index (WIPO): posicion de los tres paises.
+# RICYT: indicadores de ciencia y tecnologia iberoamericanos.

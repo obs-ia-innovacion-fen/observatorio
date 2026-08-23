@@ -1,7 +1,7 @@
 ---
 titulo: "Gobernanza y regulación de la IA"
 slug: gobernanza-y-regulacion
-orden: 4
+orden: 3
 descripcion: "Cómo se gobierna la inteligencia artificial dentro de las empresas y cómo la regulan los Estados: deberes de directorio, marcos normativos y auditoría algorítmica en Chile, Brasil y Argentina."
 alcance: >
   Qué entra: responsabilidad de directorios y alta dirección frente a sistemas
