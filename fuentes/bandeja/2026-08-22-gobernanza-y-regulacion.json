@@ -1,24 +1,55 @@
 [
   {
     "fuente": "openalex",
-    "titulo": "Agentic Artificial Intelligence in Corporate Governance: Transforming Board Leadership through Autonomous Intelligence and Adaptive Decision-Making",
+    "titulo": "Artificial Intelligence and the Strategic Reconfiguration of Work: A Conceptual Analysis of Substitution, Augmentation, and Organizational Redesign in Manufacturing and Marketing",
     "anio": 2026,
-    "doi": "https://doi.org/10.59543/jidmis.v3.1174",
+    "doi": "https://doi.org/10.65166/bt13jr83",
+    "revista": "Journal of Enterprise Strategy and Management Innovation",
+    "editorial": "",
     "autores": [
-      "Ira Agarwal"
+      "Gilbert Tolentino",
+      "Leah F. Quinto",
+      "Cherry Ann Marie H. Espelita",
+      "Andrea Gwyneth Atento",
+      "Gay Marie Teodosio"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Artificial intelligence, human collaboration, and big data knowledge management: Enabling governance innovation and firm performance",
+    "titulo": "2026 Joint Address from the ASHP President and the Chief Executive Officer",
     "anio": 2026,
-    "doi": "https://doi.org/10.1016/j.jik.2026.101100",
+    "doi": "https://doi.org/10.1093/ajhp/zxag229",
+    "revista": "American Journal of Health-System Pharmacy",
+    "editorial": "Oxford University Press",
     "autores": [
-      "Adil Riaz",
-      "Shafique Ur Rehman",
-      "Ivan Brezina",
-      "Fauzia Jabeen"
+      "Melanie Dodd",
+      "Samuel Calabrese"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Transformation of Fiduciary Duties of Directors in Light of the Development of Artificial Intelligence",
+    "anio": 2026,
+    "doi": "https://doi.org/10.18572/1812-3791-2026-9-13-17",
+    "revista": "Russian judge",
+    "editorial": "",
+    "autores": [
+      "Anatoly Efimov"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Artificial Intelligence-Based Copyright Fiduciary Supervision: Strengthening Legal Certainty in Intellectual Property Financing",
+    "anio": 2026,
+    "doi": "https://doi.org/10.38035/jlph.v6i5.3560",
+    "revista": "Journal of Law Politic and Humanities",
+    "editorial": "",
+    "autores": [
+      "Hardi Fardiansyah",
+      "Nanda Dwi Rizkia"
     ],
     "citas": 0
   },
@@ -27,6 +58,8 @@
     "titulo": "Corporate Governance Decisions from Shareholder Control to Strategic Resilience",
     "anio": 2026,
     "doi": "https://doi.org/10.62225/2583049x.2026.6.4.6724",
+    "revista": "International Journal of Advanced Multidisciplinary Research and Studies",
+    "editorial": "",
     "autores": [
       "Trisha Biswas"
     ],
@@ -34,12 +67,13 @@
   },
   {
     "fuente": "openalex",
-    "titulo": "Artificial Intelligence Governance and Banking Regulatory Compliance: A Multiple-Case Study of Commercial Banks in Uganda",
+    "titulo": "Artificial Intelligence in Financial Management: Transforming Corporate Financial Decision-Making",
     "anio": 2026,
-    "doi": "https://doi.org/10.55220/2576-6821.v10.1341",
+    "doi": "https://doi.org/10.21275/sr26731005525",
+    "revista": "International Journal of Science and Research (IJSR)",
+    "editorial": "",
     "autores": [
-      "Joseph Kikomeko",
-      "Augustine Alloysius OGBE"
+      "Saddam Hussain"
     ],
     "citas": 0
   },
@@ -48,6 +82,8 @@
     "titulo": "Does artificial intelligence reshape the link between governance mechanisms and financial performance? Evidence from Palestine exchange",
     "anio": 2026,
     "doi": "https://doi.org/10.55493/5008.v14i3.6153",
+    "revista": "Asian Development Policy Review",
+    "editorial": "",
     "autores": [
       "Alaa Hekmat Amarna",
       "Ponnam Venkateswarlu"
@@ -56,117 +92,82 @@
   },
   {
     "fuente": "openalex",
-    "titulo": "Explicating the Interplay of Artificial Intelligence, Dynamic Capabilities, and Sharia Governance in Islamic Banking: A Systematic Review",
+    "titulo": "An empirical analysis of the application of artificial intelligence technology and its impact on corporate financial security",
     "anio": 2026,
-    "doi": "https://doi.org/10.59543/jidmis.v3.1620",
+    "doi": "https://doi.org/10.1016/j.frl.2026.110604",
+    "revista": "Finance research letters",
+    "editorial": "Elsevier BV",
     "autores": [
-      "Heru Muara Sidik"
+      "Fanghong Liu",
+      "Dan Yuan",
+      "Jiangang Wang"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "HUMANISTIC LEADERSHIP IN THE AGE OF ARTIFICIAL INTELLIGENCE: A HUMAN-CENTRED GOVERNANCE AND MEASUREMENT FRAMEWORK FOR AI-ENABLED ORGANIZATIONS",
+    "titulo": "The Use of Artificial Intelligence in South African Boardrooms: Company Law Implications and Challenges",
     "anio": 2026,
-    "doi": "https://doi.org/10.64971/j.cph.eijtem.v13.i3.9.2026",
+    "doi": "https://doi.org/10.3366/ajicl.2026.0575",
+    "revista": "African Journal of International and Comparative Law",
+    "editorial": "Edinburgh University Press",
     "autores": [
-      "Dr. Ignacio Bonasa Alzuria"
+      "Rehana Cassim"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "ARTIFICIAL INTELLIGENCE IN MANAGERIAL DECISION-MAKING",
+    "titulo": "President’s Column: Energizing Tomorrow: Let’s Keep Doing It!",
     "anio": 2026,
-    "doi": "https://doi.org/10.58257/ijprems53255",
-    "autores": [],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Board-level AI literacy as a missing governance capability: a pilot study of boards and executives",
-    "anio": 2026,
-    "doi": "https://doi.org/10.3389/frai.2026.1872783",
+    "doi": "https://doi.org/10.2118/0826-0001-jpt",
+    "revista": "Journal of Petroleum Technology",
+    "editorial": "Society of Petroleum Engineers",
     "autores": [
-      "Darko Tipurić",
-      "Domagoj Hruškа",
-      "Ivana Kovač"
+      "Jennifer Miskimins"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "The Influence of Corporate Governance Mechanisms on Corporate Tax Planning Practices in the Indian Automobile Industry",
+    "titulo": "Artificial Intelligence Adoption and Financial Reporting Transparency: Evidence from Listed Firms in Nigeria",
     "anio": 2026,
-    "doi": "https://doi.org/10.70917/ijcisim-2026-3979",
+    "doi": "https://doi.org/10.38124/ijisrt/26jul1378",
+    "revista": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "editorial": "",
     "autores": [
-      "Tushar Ranjan Barik",
-      "S. Maria Antonyraj",
-      "Sayantani Chakraborty",
-      "Sagar R. Saini",
-      "Alok Shrivastava",
-      "Abhishek Anand"
+      "Lawal T. Ibrahim",
+      "Aliyu Ochere Shafiyu",
+      "Abdulgafar Akilu",
+      "John Peter Asuku",
+      "Bello Salamat Onyinoyi",
+      "Shaibu Salawu"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Business Analytics and Artificial Intelligence",
+    "titulo": "Mapping Global Internal Control Research: A Bibliometric Analysis of Publication Trends, Emerging Themes, and Collaboration Patterns in Scopus (2022–2025)",
     "anio": 2026,
-    "doi": "https://doi.org/10.4324/9781003664550",
+    "doi": "https://doi.org/10.52970/grmilf.v6i3.2355",
+    "revista": "Golden Ratio of Mapping Idea and Literature Format",
+    "editorial": "",
     "autores": [
-      "Zabihollah Rezaee",
-      "Joseph H. Zhang",
-      "Salem Lotfi Boumediene",
-      "Nick J. Rezaee"
+      "Dodi Dahyawan",
+      "Fitriana Dachlan",
+      "Rachmat Agus Santoso"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Environmental, Social, and Governance (ESG) and Corporate Governance: A Scopus-Based Bibliometric Analysis (2016–2025)",
+    "titulo": "Agentic Artificial Intelligence in Corporate Governance: Transforming Board Leadership through Autonomous Intelligence and Adaptive Decision-Making",
     "anio": 2026,
-    "doi": "https://doi.org/10.21009/wahana.21.013",
+    "doi": "https://doi.org/10.59543/jidmis.v3.1174",
+    "revista": "Journal of Intelligent Decision Making and Information Science",
+    "editorial": "",
     "autores": [
-      "Nor Rahma Rizka",
-      "Fitra Izzadieny",
-      "Deafatunnizwa Ulfida",
-      "Rahmi Nadiar",
-      "Diva Trimuliani"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Artificial Intelligence in HR: Legal and Ethical Aspects of Application and Possibilities of Regulation in Different Labor Markets",
-    "anio": 2026,
-    "doi": "https://doi.org/10.36128/m5399490",
-    "autores": [
-      "Olena H. Sereda",
-      "Оlena Yе. Lutsenko",
-      "Oleksii S. Nesterovych",
-      "Nataliia M. Shvets",
-      "Dmytro A. Hryhorenko"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Cyber Fraud, Digital Evidence, and Corporate Governance: Reconstructing Forensic Accountability in the Fourth Industrial Revolution",
-    "anio": 2026,
-    "doi": "https://doi.org/10.58806/ijiissh.2026.v3i8n06",
-    "autores": [
-      "Esq Dr. Gaduga Godwin"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Artificial Intelligence Investment and Enterprise Green Innovation Efficiency",
-    "anio": 2026,
-    "doi": "https://doi.org/10.54254/2754-1169/2026.ld36070",
-    "autores": [
-      "Feng Qianhao"
+      "Ira Agarwal"
     ],
     "citas": 0
   },
@@ -340,6 +341,128 @@
       "Michalis Mamakos",
       "Lucen Li",
       "Magdalena Wojcieszak"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "A Methodology for Auditable Trustworthiness Levels in AI Lifecycle Governance",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.16130v1",
+    "autores": [
+      "Andrea Ferrario"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "When Not to Automate: A Formal Protocol for Human Preservation in AI-Optimized Organizations",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.15944v1",
+    "autores": [
+      "Jose Manuel de la Chica Rodriguez",
+      "Jairo Rodriguez Arias",
+      "Spyridon Chouliaras"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Making Agent-Mediated Contributions Governable: A Project-Level Governance Manifest for Open-Source AI Collaboration",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.15769v1",
+    "autores": [
+      "Jinjin Gao",
+      "Luyang Li",
+      "Shufen Guo",
+      "Ligang He",
+      "Xiaoning Sun"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Global Index on Responsible AI 2026 : Conceptual Framework and Methodology",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2608.18122v1",
+    "autores": [
+      "Fola Adeleke",
+      "Rachel Adams",
+      "Ayantola Alayande",
+      "Daniela Benavente",
+      "Ana Florido",
+      "Nicolás Grossman"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Traccia: An OpenTelemetry-Based Governance Platform for AI Systems",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.14309v1",
+    "autores": [
+      "Nutan Kumar Naik",
+      "Aditya Kumar Saroj",
+      "Vijay Prasad Poudel",
+      "Saurav Samantray",
+      "Abhishek Patel"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Education-centered critical policy analysis of AI: Ghana's AI strategy as a case",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2608.16910v1",
+    "autores": [
+      "Matthew Nyaaba",
+      "Vida Awinime Bugri",
+      "Eric Kojo Majialuwe",
+      "Bismark Nyaaba Akanzire",
+      "Ibrahim Nantomah",
+      "Felicia Boateng"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Towards Agentic AI Governance: A Preliminary Assessment",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.07612v1",
+    "autores": [
+      "Mubarak Raji",
+      "Masooda Bashir"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Government AI Use as a Monitoring Primitive: A Public Document Pilot Study",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.04543v1",
+    "autores": [
+      "David I. Atkinson",
+      "Joan Eleanor O'Bryan"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Macro-Prudential AI Governance: A Two-Layer Early Warning and Response System for Frontier AI",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.03542v1",
+    "autores": [
+      "Pranav Mehta"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "AGL-1: The Enterprise AI Governance Layer as a Control Plane for Trusted Enterprise Intelligence",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.03516v1",
+    "autores": [
+      "Roopam W. Sure"
     ],
     "citas": null
   }

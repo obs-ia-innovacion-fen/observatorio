@@ -1,20 +1,26 @@
+# Las consultas de OpenAlex admiten AND, OR y frases entre comillas.
+# No usar comas: separan filtros en la API y romperian la consulta.
+# Nota editorial: en pymes e innovacion la fuente fuerte es OpenAlex;
+# en gobernanza y regulacion es arXiv, porque el campo va mas rapido
+# que el ciclo de las revistas.
+
 areas:
   - slug: ia-en-pymes
-    openalex: "artificial intelligence adoption small medium enterprises"
-    arxiv: 'cat:econ.GN AND abs:"artificial intelligence" AND abs:"small firms"'
-    desde_dias: 30
-
-  - slug: ia-para-emprendedores
-    openalex: "generative artificial intelligence entrepreneurship new ventures"
-    arxiv: 'cat:cs.CY AND abs:"generative AI" AND abs:"entrepreneurship"'
-    desde_dias: 30
-
-  - slug: innovacion
-    openalex: "innovation ecosystems firm performance Latin America"
-    arxiv: ""
+    openalex: '("artificial intelligence" OR "generative AI") AND ("SME" OR "small and medium-sized enterprises" OR "small firms")'
+    arxiv: 'abs:"artificial intelligence" AND abs:"SMEs"'
     desde_dias: 45
 
+  - slug: ia-para-emprendedores
+    openalex: '("generative artificial intelligence" OR "generative AI") AND (entrepreneurship OR startup OR "new venture")'
+    arxiv: 'abs:"generative AI" AND abs:"entrepreneurship"'
+    desde_dias: 45
+
+  - slug: innovacion
+    openalex: '"innovation ecosystem" AND ("Latin America" OR Chile OR Brazil OR "emerging economies")'
+    arxiv: ""
+    desde_dias: 60
+
   - slug: gobernanza-y-regulacion
-    openalex: "artificial intelligence governance regulation corporate boards"
+    openalex: '"artificial intelligence" AND ("corporate governance" OR "board of directors" OR "fiduciary")'
     arxiv: 'cat:cs.CY AND abs:"AI governance"'
-    desde_dias: 30
+    desde_dias: 45

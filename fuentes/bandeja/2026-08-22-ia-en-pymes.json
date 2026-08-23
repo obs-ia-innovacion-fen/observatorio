@@ -1,80 +1,69 @@
 [
   {
     "fuente": "openalex",
-    "titulo": "ARTIFICIAL INTELLIGENCE AND THE ECONOMIC PERFORMANCE OF SMALL AND MEDIUM-SIZED ENTERPRISES: PRODUCTIVITY, ADOPTION COSTS AND ORGANIZATIONAL CAPABILITIES",
+    "titulo": "Digital transformation and competitiveness in Small and Medium-Sized Enterprises",
     "anio": 2026,
-    "doi": "https://doi.org/10.23900/artefactum.v25i6.3489",
+    "doi": "https://doi.org/10.64092/p83z3a49",
+    "revista": "Sophia Research Review",
+    "editorial": "Sophia Editions",
     "autores": [
-      "Cassio Gainett Cardoso Silva"
+      "Marjan Daman Keshideh",
+      "Matin Shahi"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Activate, legitimize, embed: enacting generative artificial intelligence adoption in small and medium-sized enterprises",
+    "titulo": "AI Chatbot Usage, Social Media Marketing, and Service Innovation–Internal Learning Capability Pathways to SME Business Sustainability in Thailand: An Interval Type-2 Fuzzy Delphi, PLS-SEM, and fsQCA Study",
     "anio": 2026,
-    "doi": "https://doi.org/10.1108/emjb-01-2026-0061",
+    "doi": "https://doi.org/10.3390/su18168538",
+    "revista": "Sustainability",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
     "autores": [
-      "Justin Siljeur",
-      "Niklas Schulte",
-      "Dominik Kanbach"
+      "Parinya Pattayanun",
+      "Sumaman Pankham",
+      "Somchai Lekcharoen"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Artificial Intelligence Adoption and Its Effects on Value Creation and Value Capture in UAE Small and Medium Enterprises",
+    "titulo": "Smart Factories, Smarter Research: A Critical Review of Manufacturing 4.0 Technologies, Sustainability, and the Road to Industry 5.0",
     "anio": 2026,
-    "doi": "https://doi.org/10.1016/j.joitmc.2026.100854",
+    "doi": "https://doi.org/10.3390/jmmp10080308",
+    "revista": "Journal of Manufacturing and Materials Processing",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
     "autores": [
-      "Maqsood Sandhu",
-      "Ali Nawaz",
-      "Amir Ahmad"
+      "A.S.G. Alghamdi"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Artificial Intelligence Adoption, Implementation Barriers, and Business Impact in Small and Medium-Sized Enterprises: A Systematic Literature Review",
+    "titulo": "Drivers and barriers to innovation performance: evidence from an interpretative literature review",
     "anio": 2026,
-    "doi": "https://doi.org/10.14738/abr.1407.12031",
+    "doi": "https://doi.org/10.1016/j.heliyon.2026.e45303",
+    "revista": "Heliyon",
+    "editorial": "Elsevier BV",
     "autores": [
-      "Edy Suandi Hamid",
-      "Bhenu Artha"
+      "Carlos Labarcés Ballestas",
+      "Ángel Peiró‐Signes",
+      "Marival Segarra-Oña",
+      "Óscar Trull"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "The impact of artificial intelligence on carbon emission intensity: evidence for an early-stage inverted U-shaped relationship",
+    "titulo": "Managers' perceptions on Generative AI-based services' role in SME's hotels",
     "anio": 2026,
-    "doi": "https://doi.org/10.3389/fenvs.2026.1756431",
+    "doi": "https://doi.org/10.1108/ihr-06-2025-0057",
+    "revista": "International Hospitality Review",
+    "editorial": "Emerald Publishing Limited",
     "autores": [
-      "Shawn Wang"
-    ],
-    "citas": 2
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Generative Artificial Intelligence Productivity in Indonesian Micro, Small, and Medium Enterprises",
-    "anio": 2026,
-    "doi": "https://doi.org/10.15408/sjie.v15i2.51244",
-    "autores": [
-      "Murniati",
-      "Sugeng Rianto",
-      "Ayman Ghazi Taher Nazzal",
-      "Mufida Sekardhani"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "ARTIFICIAL INTELLIGENCE ON PREDICTIVE MARKETING IN NIGERIA RETAIL/SMALL & MEDIUM ENTERPRISE FOR SUSTAINABLE DEVELOPMENT",
-    "anio": 2026,
-    "doi": "https://doi.org/10.5281/zenodo.21870481",
-    "autores": [
-      "Chukwudubem Charles  (Ph.D.) Iloka",
-      "Victor Edozie Uzuakpunwa"
+      "Anastasios Koukopoulos",
+      "Adam Vrechopoulos",
+      "Chris Lazaris"
     ],
     "citas": 0
   },
@@ -83,6 +72,8 @@
     "titulo": "Assessing the Current State of Artificial Intelligence Adoption in Accounting at Enterprises in Hanoi City",
     "anio": 2026,
     "doi": "https://doi.org/10.56201/jafm.vol.12.no6.2026.p153.165",
+    "revista": "JOURNAL OF ACCOUNTING AND FINANCIAL MANAGEMENT",
+    "editorial": "",
     "autores": [
       "Le Thi Hanh"
     ],
@@ -90,49 +81,81 @@
   },
   {
     "fuente": "openalex",
-    "titulo": "Mathematics & Artificial Intelligence for Industry from Small Business to Large Enterprises",
+    "titulo": "Investigating the state-of-the-art and challenges of artificial intelligence for production management in Italian manufacturing SMEs",
     "anio": 2026,
-    "doi": "https://doi.org/10.5281/zenodo.21785297",
+    "doi": "https://doi.org/10.1108/jmtm-07-2025-0725",
+    "revista": "Journal of Manufacturing Technology Management",
+    "editorial": "Emerald Publishing Limited",
     "autores": [
-      "Dr Pawan Kumar",
-      "Anil Kumar",
-      "Dr.  Ram Bhushan",
-      "Rajendra Kumar Tripathi",
-      "Ajit Kumar Shukla",
-      "Mrs.Madhu Sonkar"
+      "Andrea Chiarini",
+      "Alberto Grando",
+      "Surajit Bag"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "THE ADOPTION OF BUSINESS INTELLIGENCE PRACTICES IN SMALL TO MEDIUM-SIZE ENTERPRISES",
+    "titulo": "Psychological capital and digital readiness among manufacturing SME employees in Malaysia: the mediating role of work engagement and the moderating role of perceived organizational support",
     "anio": 2026,
-    "doi": "https://doi.org/10.18623/rvd.v23.6708",
+    "doi": "https://doi.org/10.23900/ra.v24i118.1536",
+    "revista": "Aposta",
+    "editorial": "Aposta",
     "autores": [
-      "Mirano Jansen",
-      "Kenneth Nwanua Ohei",
-      "Sam Lubbe"
+      "Wong Yang Li",
+      "Nor Akmar Binti Nordin",
+      "Mohammad Saipol Bin Mohd Sukor"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "AI adoption in small and medium-sized e-commerce enterprise: current state and future research agenda",
+    "titulo": "Barriers to generative AI adoption in SMEs: Role of knowledge assimilation in the technology–organization–environment framework",
     "anio": 2026,
-    "doi": "https://doi.org/10.58691/man/224519",
+    "doi": "https://doi.org/10.1080/26437015.2026.2716818",
+    "revista": "Journal of the International Council for Small Business",
+    "editorial": "Taylor & Francis",
     "autores": [
-      "Prashant Bari",
-      "Poornima Tapas"
+      "Oluseyi Ayomide Oyelami",
+      "Priscilla Bahaw"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Artificial intelligence adoption and sustainable financial decisionmaking among MSMEs: An empirical study of Cuttack city",
+    "titulo": "Manager-AI Agency Dyads in Skilled Crafts: Evolution of Agency Levels",
     "anio": 2026,
-    "doi": "https://doi.org/10.61577/jaiar.2026.100002",
+    "doi": "",
+    "revista": "Journal of the Association for Information Systems",
+    "editorial": "Association for Information Systems",
     "autores": [
-      "Nusrat Parween"
+      "Maximilian Schatz",
+      "Maximilian J. Blaschke"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Beyond Access: The AI Divide and Sustained Value Creation in SMEs",
+    "anio": 2026,
+    "doi": "",
+    "revista": "Journal of the Association for Information Systems",
+    "editorial": "Association for Information Systems",
+    "autores": [
+      "Michael Flores",
+      "Murad Moqbel",
+      "Laurie Giddens"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Intelligence vs execution: decoupling AI and automation's divergent roles in Ghana's post-COVID economic recovery",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/ajems-12-2024-0723",
+    "revista": "African Journal of Economic and Management Studies",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Lucy Anning"
     ],
     "citas": 0
   },
@@ -141,23 +164,425 @@
     "titulo": "Artificial Intelligence Adoption and Export Performance of Export-oriented SMEs in Coimbatore",
     "anio": 2026,
     "doi": "https://doi.org/10.9734/arjass/2026/v24i8931",
+    "revista": "Asian Research Journal of Arts & Social Sciences",
+    "editorial": "Sciencedomain International",
     "autores": [
       "B. Rohini"
     ],
     "citas": 0
   },
   {
-    "fuente": "arxiv",
-    "titulo": "AI as \"Co-founder\": GenAI for Entrepreneurship",
-    "anio": "2025",
-    "doi": "http://arxiv.org/abs/2512.06506v1",
+    "fuente": "openalex",
+    "titulo": "A destination-level conceptual framework linking AI-driven marketing mechanisms to sustainable tourism outcomes",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1007/s44282-026-00528-x",
+    "revista": "Discover Global Society",
+    "editorial": "Springer Science+Business Media",
     "autores": [
-      "Junhui Jeff Cai",
-      "Xian Gu",
-      "Liugang Sheng",
-      "Mengjia Xia",
-      "Linda Zhao",
-      "Wu Zhu"
+      "Adelina Zeqiri"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Learning from Demonstration for Robotic Deburring and Polishing: A Systematic Mapping Study",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3390/jmmp10080293",
+    "revista": "Journal of Manufacturing and Materials Processing",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
+    "autores": [
+      "Ercan Düzgün"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Digital Economy and the Transformation Path of Small and Medium-Sized Enterprises",
+    "anio": 2026,
+    "doi": "https://doi.org/10.54254/2754-1169/2026.35913",
+    "revista": "Advances in Economics Management and Political Sciences",
+    "editorial": "",
+    "autores": [
+      "Chenxi Yang"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Understanding AI-Driven Innovation and Sustainable Competitive Advantage in Indian SMEs",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1080/08874417.2026.2707143",
+    "revista": "Journal of Computer Information Systems",
+    "editorial": "Taylor & Francis",
+    "autores": [
+      "Aruna Polisetty",
+      "Sowmya G",
+      "Debarun Chakraborty",
+      "Nripendra P. Rana",
+      "Rishabh Rajan"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Employer perspectives on AI in SMEs: policy insights for productivity and sustainable careers",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/cdi-01-2026-0068",
+    "revista": "Career Development International",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Tony Fang",
+      "J.A. Harrison"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "AI adoption in small and medium-sized e-commerce enterprise: current state and future research agenda",
+    "anio": 2026,
+    "doi": "https://doi.org/10.58691/man/224519",
+    "revista": "Management",
+    "editorial": "De Gruyter",
+    "autores": [
+      "Prashant Bari",
+      "Poornima Tapas"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Artificial Intelligence (AI)-driven entrepreneurial strategies and customer-related performance of SMEs in Sanchez Mira, Cagayan, Philippines: an exploratory mixed-methods case study",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1186/s43093-026-00963-x",
+    "revista": "Future Business Journal",
+    "editorial": "Springer Science+Business Media",
+    "autores": [
+      "Michael Sacramed"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Emerging Challenges in Threat Modeling for GenAI-Augmented Systems: A View from the Trenches",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2607.28431v1",
+    "autores": [
+      "Nicolás E. Díaz Ferreyra",
+      "Manish Mahesh Kumar",
+      "Nohemí Villarreal",
+      "Pankaj Pantel",
+      "Immo Brueggemann",
+      "Riccardo Scandariato"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2608.00006v1",
+    "autores": [
+      "Md. Samiul Islam",
+      "Iqbal H. Sarker",
+      "Chadni Islam",
+      "Ahmad Mohsin",
+      "Ahmed Ibrahim",
+      "Helge Janicke"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Position: AI Governance Needs ISO-like Interoperability Protocols, Not Just Laws",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2608.14568v1",
+    "autores": [
+      "Azmine Toushik Wasi",
+      "Mst Rafia Islam",
+      "Mahfuz Ahmed Anik",
+      "Taki Hasan Rafi",
+      "Md Manjurul Ahsan",
+      "Dong-Kyu Chae"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Evolutionary Rule Extraction from Corporate Default Prediction Models",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2605.29478v1",
+    "autores": [
+      "Desirè Fabbretti",
+      "Matteo Pasquino",
+      "Elia Pacioni",
+      "Caterina Lucarelli",
+      "Davide Calvaresi"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "The Challenges of Balancing AI Compliance and Technological Innovations in Critical Sectors: A Systematic Literature Review",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2606.12423v1",
+    "autores": [
+      "Ayush Enkhtaivan",
+      "Chinazunwa Uwaoma"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Architecture Matters More Than Scale: A Comparative Study of Retrieval and Memory Augmentation for Financial QA Under SME Compute Constraints",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2604.17979v2",
+    "autores": [
+      "Jianan Liu",
+      "Jing Yang",
+      "Xianyou Li",
+      "Weiran Yan",
+      "Yichao Wu",
+      "Penghao Liang"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "The Spillover Effects of Peer AI Rinsing on Corporate Green Innovation",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2603.18415v2",
+    "autores": [
+      "Li Wenxiu",
+      "Wen Zhanjie",
+      "Xia Jiechang",
+      "Guo Jingqiao"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Artificial Intelligence (AI) Maturity in Small and Medium-Sized Enterprises: A Framework of Internalized and Ecosystem-Embedded Capabilities",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2603.08728v1",
+    "autores": [
+      "Sukanlaya Sawang",
+      "Virach Sornlertlamvanich"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Generative Artificial Intelligence in Small and Medium Enterprises: Navigating its Promises and Challenges",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2602.00091v1",
+    "autores": [
+      "Kumaran Rajaram",
+      "Patrick Nicolas Tinguely"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "A Conceptual Model for AI Adoption in Financial Decision-Making: Addressing the Unique Challenges of Small and Medium-Sized Enterprises",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2512.04339v1",
+    "autores": [
+      "Manh Chien Vu",
+      "Thang Le Dinh",
+      "Manh Chien Vu",
+      "Tran Duc Le",
+      "Thi Lien Huong Nguyen"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "The role of micro-credentials in the future digitalized AI-driven education",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2511.07583v1",
+    "autores": [
+      "Wadim Strielkowski"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Leveraging Multi-Agent System (MAS) and Fine-Tuned Small Language Models (SLMs) for Automated Telecom Network Troubleshooting",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2511.00651v2",
+    "autores": [
+      "Chenhua Shi",
+      "Bhavika Jalli",
+      "Gregor Macdonald",
+      "John Zou",
+      "Wanlu Lei",
+      "Mridul Jain"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Position Paper: If Innovation in AI Systematically Violates Fundamental Rights, Is It Innovation at All?",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2511.00027v1",
+    "autores": [
+      "Josu Eguiluz Castañeira",
+      "Axel Brando",
+      "Migle Laukyte",
+      "Marc Serra-Vidal"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "A Methodology for Assessing the Risk of Metric Failure in LLMs Within the Financial Domain",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2510.13524v2",
+    "autores": [
+      "William Flanagan",
+      "Mukunda Das",
+      "Rajitha Ramanayake",
+      "Swanuja Maslekar",
+      "Meghana Mangipudi",
+      "Joong Ho Choi"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "The Sandbox Configurator: A Framework to Support Technical Assessment in AI Regulatory Sandboxes",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2509.25256v3",
+    "autores": [
+      "Alessio Buscemi",
+      "Thibault Simonetto",
+      "Daniele Pagani",
+      "German Castignani",
+      "Maxime Cordy",
+      "Jordi Cabot"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Leveraging Artificial Intelligence as a Strategic Growth Catalyst for Small and Medium-sized Enterprises",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2509.14532v1",
+    "autores": [
+      "Oluwatosin Agbaakin"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "SME-TEAM: Leveraging Trust and Ethics for Secure and Responsible Use of AI and LLMs in SMEs",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2509.10594v2",
+    "autores": [
+      "Iqbal H. Sarker",
+      "Helge Janicke",
+      "Ahmad Mohsin",
+      "Leandros Maglaras"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "SME Gender-Related Innovation: A Non-Numerical Trend Analysis Using Positive, Zero, and Negative Quantities",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2504.08493v1",
+    "autores": [
+      "Nina Bočková",
+      "Barbora Volná",
+      "Mirko Dohnal"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Towards practicable Machine Learning development using AI Engineering Blueprints",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2504.06391v1",
+    "autores": [
+      "Nicolas Weeger",
+      "Annika Stiehl",
+      "Jóakim vom Kistowski",
+      "Stefan Geißelsöder",
+      "Christian Uhl"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Advancing DevSecOps in SMEs: Challenges and Best Practices for Secure CI/CD Pipelines",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2503.22612v1",
+    "autores": [
+      "Jayaprakashreddy Cheenepalli",
+      "John D. Hastings",
+      "Khandaker Mamun Ahmed",
+      "Chad Fenner"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Assessing AI Adoption and Digitalization in SMEs: A Framework for Implementation",
+    "anio": "2025",
+    "doi": "http://arxiv.org/abs/2501.08184v1",
+    "autores": [
+      "Serena Proietti",
+      "Roberto Magnani"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Climate AI for Corporate Decarbonization Metrics Extraction",
+    "anio": "2024",
+    "doi": "http://arxiv.org/abs/2411.03402v1",
+    "autores": [
+      "Aditya Dave",
+      "Mengchen Zhu",
+      "Dapeng Hu",
+      "Sachin Tiwari"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Towards Multimodal Emotional Support Conversation Systems",
+    "anio": "2024",
+    "doi": "http://arxiv.org/abs/2408.03650v2",
+    "autores": [
+      "Yuqi Chu",
+      "Lizi Liao",
+      "Zhiyuan Zhou",
+      "Chong-Wah Ngo",
+      "Richang Hong"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Strategic AI adoption in SMEs: A Prescriptive Framework",
+    "anio": "2024",
+    "doi": "http://arxiv.org/abs/2408.11825v1",
+    "autores": [
+      "Atif Hussain",
+      "Rana Rizwan"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Evacuation Management Framework towards Smart City-wide Intelligent Emergency Interactive Response System",
+    "anio": "2024",
+    "doi": "http://arxiv.org/abs/2403.07003v1",
+    "autores": [
+      "Anuj Abraham",
+      "Yi Zhang",
+      "Shitala Prasad"
     ],
     "citas": null
   }

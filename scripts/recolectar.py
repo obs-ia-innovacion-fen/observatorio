@@ -9,6 +9,7 @@ Uso:  python scripts/recolectar.py
 """
 
 import json
+import os
 import re
 import urllib.parse
 import urllib.request
@@ -25,7 +26,7 @@ CONTACTOS = [
 ]
 CORREO = CONTACTOS[0]  # OpenAlex acepta un solo mailto
 AGENTE = f"Observatorio FEN ({'; '.join(CONTACTOS)})"
-MAX_POR_FUENTE = 15
+MAX_POR_FUENTE = 25
 
 
 def leer_consultas(ruta):
@@ -51,25 +52,78 @@ def pedir(url):
         return respuesta.read()
 
 
+CLAVE_OPENALEX = os.environ.get("OPENALEX_API_KEY", "")
+
+# Fuentes que no son revistas con revision por pares: repositorios y servidores
+# de preprints. Se descartan localmente porque OpenAlex no ofrece un filtro de
+# calidad editorial documentado.
+FUENTES_EXCLUIDAS = (
+    "zenodo", "ssrn", "researchgate", "preprints.org", "figshare",
+    "open science framework", "research square", "social science research network",
+    "authorea", "proceedings", "iconic research",
+)
+
+# Allowlist opcional por editorial. Con EXIGIR_EDITORIAL = True solo pasan las
+# editoriales de abajo: mucho mas estricto, pero deja fuera revistas regionales
+# legitimas. Agregar aqui las que se decida aceptar caso a caso.
+EXIGIR_EDITORIAL = False
+EDITORIALES_PERMITIDAS = (
+    "elsevier", "springer", "wiley", "taylor & francis", "sage",
+    "emerald", "mdpi", "frontiers", "nature", "oxford university press",
+    "cambridge university press", "informs", "acm", "ieee",
+    "massachusetts institute of technology", "harvard",
+)
+
+
+def es_publicable(revista, editorial=""):
+    if not revista:
+        return False
+    if any(x in revista.lower() for x in FUENTES_EXCLUIDAS):
+        return False
+    if EXIGIR_EDITORIAL:
+        return any(x in (editorial or "").lower() for x in EDITORIALES_PERMITIDAS)
+    return True
+
+
 def desde_openalex(consulta, desde_dias):
     if not consulta:
         return []
     corte = (date.today() - timedelta(days=desde_dias)).isoformat()
-    parametros = urllib.parse.urlencode({
-        "search": consulta,
-        "filter": f"from_publication_date:{corte}",
-        "per-page": MAX_POR_FUENTE,
+    # title_and_abstract.search es mucho mas preciso que search, que tambien
+    # revisa el texto completo y por eso trae coincidencias tangenciales.
+    filtros = [
+        f"title_and_abstract.search:{consulta}",
+        f"from_publication_date:{corte}",
+        "type:article",
+    ]
+    parametros = {
+        "filter": ",".join(filtros),
+        "sort": "publication_date:desc",
+        "per_page": MAX_POR_FUENTE,
         "mailto": CORREO,
-    })
-    datos = json.loads(pedir(f"https://api.openalex.org/works?{parametros}"))
-    return [{
-        "fuente": "openalex",
-        "titulo": t.get("title") or "",
-        "anio": t.get("publication_year"),
-        "doi": t.get("doi") or "",
-        "autores": [a["author"]["display_name"] for a in t.get("authorships", [])[:6]],
-        "citas": t.get("cited_by_count", 0),
-    } for t in datos.get("results", [])]
+    }
+    if CLAVE_OPENALEX:
+        parametros["api_key"] = CLAVE_OPENALEX
+    datos = json.loads(pedir(f"https://api.openalex.org/works?{urllib.parse.urlencode(parametros)}"))
+
+    resultados = []
+    for t in datos.get("results", []):
+        origen = ((t.get("primary_location") or {}).get("source") or {})
+        revista = origen.get("display_name", "")
+        editorial = origen.get("host_organization_name", "") or ""
+        if not es_publicable(revista, editorial):
+            continue
+        resultados.append({
+            "fuente": "openalex",
+            "titulo": t.get("title") or "",
+            "anio": t.get("publication_year"),
+            "doi": t.get("doi") or "",
+            "revista": revista,
+            "editorial": editorial,
+            "autores": [a["author"]["display_name"] for a in t.get("authorships", [])[:6]],
+            "citas": t.get("cited_by_count", 0),
+        })
+    return resultados
 
 
 def desde_arxiv(consulta):

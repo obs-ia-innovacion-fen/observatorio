@@ -1,33 +1,81 @@
 [
   {
     "fuente": "openalex",
-    "titulo": "Embedding against the odds: how high-skilled immigrant entrepreneurs navigate constrained ecosystems through strategic networking",
+    "titulo": "Female participation in the Indian innovation ecosystem: Stylized facts from patent data",
     "anio": 2026,
-    "doi": "https://doi.org/10.1080/08985626.2026.2706805",
+    "doi": "https://doi.org/10.1016/j.wpi.2026.102486",
+    "revista": "World Patent Information",
+    "editorial": "Elsevier BV",
     "autores": [
-      "Farzana Adeel",
-      "Rod B. McNaughton",
-      "Janine Swail"
+      "Neha Raghuwanshi",
+      "Madan Dhanora"
     ],
-    "citas": 1
+    "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Holistic competencies and employability: Diagnosis and improvements for higher education in Ecuador from a labor market perspective",
+    "titulo": "Emerging Technologies and Innovation Learning Ecosystems",
     "anio": 2026,
-    "doi": "https://doi.org/10.51219/urforum.2026.diana-moya-loaiza",
+    "doi": "",
+    "revista": "Journal of the Association for Information Systems",
+    "editorial": "Association for Information Systems",
     "autores": [
-      "Diana Patricia Moya Loaiza",
-      "Juan Alcides Cárdenas Tapia",
-      "Cristian Leonardo García García"
+      "FABIO NAGAHAMA",
+      "Vanessa Martins dos Santos",
+      "Adrian Kemmer Cernev"
     ],
-    "citas": 1
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Artificial Intelligence Governance and Industrial Development: Transnational Spillovers, Technology Transfer, and Sustainable Territorial Implications in Brazil",
+    "anio": 2026,
+    "doi": "https://doi.org/10.59072/rper.vi75.910",
+    "revista": "RPER",
+    "editorial": "",
+    "autores": [
+      "Klemens Katterbauer",
+      "Rui Alexandre Castanho",
+      "Sema Yılmaz"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Cultural dynamics in entrepreneurial education: Barriers, perceptions, and transformation pathways",
+    "anio": 2026,
+    "doi": "https://doi.org/10.12688/f1000research.178134.3",
+    "revista": "F1000Research",
+    "editorial": "Faculty of 1000",
+    "autores": [
+      "Alejandro Valencia-Arias",
+      "Ada Gallegos",
+      "Jackeline Valencia",
+      "Ledy Gómez-Bayona",
+      "Rutsmy Angel Manuel Gallegos Pacheco"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Maker culture, Project-Based Learning (PjBL), and prototyping: Innovation ecosystems and the development of student entrepreneurship",
+    "anio": 2026,
+    "doi": "https://doi.org/10.33448/rsd-v15i7.51468",
+    "revista": "Research Society and Development",
+    "editorial": "Grupo de Pesquisa Metodologias em Ensino e Aprendizagem em Ciências",
+    "autores": [
+      "Emanuelly de Cássia Silva Miranda",
+      "Yara Pereira Silva Menezes de Sá"
+    ],
+    "citas": 0
   },
   {
     "fuente": "openalex",
     "titulo": "Understanding the Collaboration Paradox in Emerging Innovation Ecosystems: Evidence from a Brazilian Agroindustrial Region",
     "anio": 2026,
     "doi": "https://doi.org/10.3390/admsci16080354",
+    "revista": "Administrative Sciences",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
     "autores": [
       "Michele Cristina da Silva Villas Boas",
       "Ítalo José Bastos Guimarães",
@@ -40,150 +88,59 @@
   },
   {
     "fuente": "openalex",
-    "titulo": "One app for everything: a multidisciplinary review of super apps",
+    "titulo": "Steering networked ambidexterity under institutional voids: evidence from Iranian biotechnology SMEs",
     "anio": 2026,
-    "doi": "https://doi.org/10.1080/23311975.2026.2698117",
+    "doi": "https://doi.org/10.1108/ejim-02-2026-0219",
+    "revista": "European Journal of Innovation Management",
+    "editorial": "Emerald Publishing Limited",
     "autores": [
-      "Marc Hasselwander",
-      "Willy Kriswardhana",
-      "Domokos Esztergár‐Kiss",
-      "Oliver Lah",
-      "Marc Steinberg"
-    ],
-    "citas": 1
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Guest editorial: The next wave of innovation. Human, enterprise, and artificial intelligence united for impactful change",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1108/ejim-08-2026-150",
-    "autores": [
-      "Nicola Cucari",
-      "Francesco Schiavone",
-      "Biagio Palese"
+      "Mahdi Emrani",
+      "Morteza Akbari",
+      "Seyed Reza Hejazi"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Innovation Capability, Green Innovation, and Property Business Performance: The Mediating Role of Competitive Advantage",
+    "titulo": "Determinants of smart factory adoption in emerging economies: empirical evidence from the automotive industry in Morocco and Nigeria",
     "anio": 2026,
-    "doi": "https://doi.org/10.32535/ijabim.v11i2.4664",
+    "doi": "https://doi.org/10.1108/inmr-01-2024-0010",
+    "revista": "Innovation & Management Review",
+    "editorial": "Emerald Publishing Limited",
     "autores": [
-      "Dwi Retno Setyaningsih",
-      "Sabihaini Sabihaini",
-      "Heru Kristanto"
+      "Olugbenga Ayo Ojubanire",
+      "Hicham Sebti",
+      "Sabrina Berbain",
+      "Mohamed Amine Marhraoui",
+      "Oluwatosin Ifedayo Oke"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "ARTIFICIAL INTELLIGENCE ADOPTION AND FIRM PERFORMANCE IN SMES A SYSTEMATIC LITERATURE REVIEW AND FUTURE RESEARCH AGENDA",
+    "titulo": "Unveiling the Knowledge Structure of Digital Leadership and AI-Driven Transformation: Global Patterns and Future Directions",
     "anio": 2026,
-    "doi": "https://doi.org/10.32424/icsema.v2i1.857",
+    "doi": "https://doi.org/10.32725/acta.2026.005",
+    "revista": "Acta Universitatis Bohemiae Meridionalis",
+    "editorial": "University of South Bohemia in České Budějovice",
     "autores": [
-      "Ridha Rayan Furqan",
-      "Wiwiek Rabiatul Adawiyah",
-      "Ali Sahin",
-      "Ratno Purnomo"
+      "Shivani Bakshi Koshy",
+      "Manpreet Kaur",
+      "Vani Aggarwal"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "The Influence of Sustainable Procurement Orientation on Firm Performance: Moderating Effect of Institutional Isomorphism",
+    "titulo": "AI-DRIVEN INNOVATION AND HUMAN RESOURCE MANAGEMENT PERFORMANCE: A COMPARATIVE QUANTITATIVE STUDY BETWEEN MOROCCO AND MALAYSIA",
     "anio": 2026,
-    "doi": "https://doi.org/10.26437/h07rfk43",
+    "doi": "https://doi.org/10.11113/ijibs.v21.196",
+    "revista": "International Journal of Innovation and Business Strategy (IJIBS)",
+    "editorial": "",
     "autores": [
-      "J. A. Azanlerigu",
-      "A. S. Muntaka",
-      "G. Adda",
-      "J. Frimpong Manson",
-      "K. N. Kwasi",
-      "I. Ofori"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "The Impact of Fintech Innovations on Access to Finance for U.S. SMEs: Opportunities and Challenges within Digital Supply Chain Ecosystems",
-    "anio": 2026,
-    "doi": "https://doi.org/10.5120/ijcadf0d8b5ad42b",
-    "autores": [
-      "Henry Ejiga Adama",
-      "Yinka James Ololade"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Stress-testing a university social responsibility alignment framework in a post-conflict Latin-American setting",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1016/j.ssaho.2026.103238",
-    "autores": [
-      "Celmira Cornejo Zaga",
-      "Emilio José Medrano-Sánchez",
-      "Angel Orlando Salcedo Valdárrago",
-      "Marco Percy Godenzi-Jesús",
-      "Freddy Antonio Ochoa Tataje"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Regional innovation ecosystem helps China’s cities pursue global outward foreign direct investment? A configurational analysis in the pandemic era",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1057/s41599-026-08404-4",
-    "autores": [
-      "Wenbo Hu",
-      "Canfei He",
-      "Hantian Sheng"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "An Evitable Privatization? The Case of Italian Telecommunications",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1017/eso.2026.10136",
-    "autores": [
-      "Mattia Ravano"
-    ],
-    "citas": 1
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Innovation in Sport",
-    "anio": 2026,
-    "doi": "https://doi.org/10.4324/9781003225478",
-    "autores": [
-      "Laura Bradshaw"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Digital Transformation and ESG Performance in Sustainable Food Production: The Mediating Role of Green Innovation and Organizational Agility",
-    "anio": 2026,
-    "doi": "https://doi.org/10.21203/rs.3.rs-10249785/v1",
-    "autores": [
-      "Pinnika Syam Yadav",
-      "P B Yadav",
-      "Preeti Kumari"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Unveiling the twin transition in ecosystems: strategies and tensions",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1016/j.lrp.2026.102675",
-    "autores": [
-      "Adriana Hofmann Trevisan",
-      "Camila Gonçalves Castro",
-      "Leonardo Augusto de Vasconcelos Gomes",
-      "Aldo Roberto Ometto",
-      "Janaina Mascarenhas"
+      "Samah Fifani",
+      "Dounia Rabhi",
+      "Abdelhakim Qachar"
     ],
     "citas": 0
   }

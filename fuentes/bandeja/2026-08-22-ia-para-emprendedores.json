@@ -1,24 +1,70 @@
 [
   {
     "fuente": "openalex",
-    "titulo": "Digital Entrepreneurship and Business Performance: Evidence from Indonesian Youth-Led Ventures",
+    "titulo": "Recursive self-regulation in genAI-assisted experiential learning: A task-contingent model",
     "anio": 2026,
-    "doi": "https://doi.org/10.32664/86844h66",
+    "doi": "https://doi.org/10.1016/j.ijme.2026.101516",
+    "revista": "The International Journal of Management Education",
+    "editorial": "Elsevier BV",
     "autores": [
-      "Dinda Safira",
-      "Radhiana",
-      "M. Rifky",
-      "Syibran Malisi",
-      "Rosa Nabila",
-      "Zakiya Rahmati"
+      "Chamindika Weerakoon",
+      "Rosemary Fisher",
+      "Quyen Tran",
+      "Taylor Gogan",
+      "James S. Williams"
     ],
-    "citas": 1
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Finance 5.0: Transforming Financial Decision-Making Through Artificial Intelligence and Intelligent Analytics",
+    "anio": 2026,
+    "doi": "https://doi.org/10.63544/jbii.v5i8.168",
+    "revista": "Journal of Business Insight and Innovation",
+    "editorial": "",
+    "autores": [
+      "Sarmad Bin Saeed",
+      "Saba Mahmood",
+      "Abid Manzoor"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Gamifying entrepreneurship education: An AI-assisted innovation for neurodivergent and neurotypical students in Brazilian private universities",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1080/14703297.2026.2720556",
+    "revista": "Innovations in Education and Teaching International",
+    "editorial": "Taylor & Francis",
+    "autores": [
+      "Bruno de Souza Lessa",
+      "Maria Vilany de Abreu dos Santos",
+      "Bárbara Sampaio de Menezes",
+      "Karla Karine Moreira Barros",
+      "Josimar Sousa Costa",
+      "João Henrique Viana de Sousa"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Artificial intelligence and business model: a bibliometric analysis of strategic and entrepreneurial trends",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1007/s11365-026-01244-3",
+    "revista": "International Entrepreneurship and Management Journal",
+    "editorial": "Springer Science+Business Media",
+    "autores": [
+      "Federico Zilia"
+    ],
+    "citas": 0
   },
   {
     "fuente": "openalex",
     "titulo": "The Impact of Generative Artificial Intelligence on Entrepreneurship and Innovation in AI-Driven Economies: A Study on Support for AI-Based Startups, Technology Transfer and Innovation Ecosystems",
     "anio": 2026,
     "doi": "https://doi.org/10.56201/wjimt.v10.no6.2026.pg85.100",
+    "revista": "WORLD JOURNAL OF INNOVATION AND MODERN TECHNOLOGY",
+    "editorial": "",
     "autores": [
       "Gideon Simon Ghajiga"
     ],
@@ -26,24 +72,26 @@
   },
   {
     "fuente": "openalex",
-    "titulo": "Gender-Responsive Generative AI–Empowered Entrepreneurship: Challenges and Opportunities",
+    "titulo": "The Hybrid Artisan: Integrating AI-Powered Design Tools with Traditional Craftsmanship for Sustainable Creative Entrepreneurship",
     "anio": 2026,
-    "doi": "https://doi.org/10.5772/intechopen.1017036",
+    "doi": "https://doi.org/10.3390/su18168456",
+    "revista": "Sustainability",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
     "autores": [
-      "Sanaz Nikghadam-Hojjati",
-      "Jose Barata",
-      "Eda Marchetti"
+      "Ioana Pop Cohuţ"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "THE ROLE OF PRIMARY EDUCATION AND ARTIFICIAL INTELLIGENCE (AI) ON ENTREPRENEURSHIP AND SECURITY FOR SUSTAINABLE DEVELOPMENT",
+    "titulo": "The Emergence of One-Person Companies as Human–AI Socio-Technical Systems: Evidence from AI Ecosystem Density in Chinese Cities",
     "anio": 2026,
-    "doi": "https://doi.org/10.70382/hijiras.v012i2.083",
+    "doi": "https://doi.org/10.3390/systems14080994",
+    "revista": "Systems",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
     "autores": [
-      "ANDREW YAKUBU",
-      "MICAH AYUBA"
+      "Xintong Liu",
+      "Weixin Yang"
     ],
     "citas": 0
   },
@@ -52,6 +100,8 @@
     "titulo": "Exploring the Role of Artificial Intelligence in Entrepreneurial Education",
     "anio": 2026,
     "doi": "https://doi.org/10.70917/ijcisim-2026-4658",
+    "revista": "International Journal of Computer Information Systems and Industrial Management Applications",
+    "editorial": "",
     "autores": [
       "Vivaan Mehta"
     ],
@@ -59,36 +109,14 @@
   },
   {
     "fuente": "openalex",
-    "titulo": "AI Mentoring in Entrepreneurship Education and Early-Stage Ventures: Design Architectures and Evaluation Gaps",
+    "titulo": "From Anxiety to Action: How AI-FoMO Shapes Workers’ Digital Commerce Entrepreneurial Intention",
     "anio": 2026,
-    "doi": "https://doi.org/10.21203/rs.3.rs-10156547/v1",
+    "doi": "https://doi.org/10.3390/jtaer21080262",
+    "revista": "Journal of theoretical and applied electronic commerce research",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
     "autores": [
-      "Carlos Isaacs",
-      "Maria Elizete Kunkel",
-      "Luiz Galvão Martins",
-      "Jefferson Molleri",
-      "Erkko Autio"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "EXPRESS: Prompt-Making and Sensemaking: Using Generative Artificial Intelligence (GenAI) to Interpret Empirical Patterns in Qualitative Research",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1177/14761270261476963",
-    "autores": [
-      "Daniel O'Sullivan",
-      "Davide Ravasi"
-    ],
-    "citas": 0
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Exposing the Wizard of Oz: Transparency and Testing of Artificial Intelligence Systems",
-    "anio": 2026,
-    "doi": "",
-    "autores": [
-      "Henry H. Perritt Jr."
+      "Eunji Choi",
+      "Qinglin Li"
     ],
     "citas": 0
   },
@@ -97,6 +125,8 @@
     "titulo": "Generative AI as a Low-Cost Enabler of Campus Cultural Entrepreneurship: An Action Research Study on AI-Supported Entrepreneurial Learning among Vocational College Students",
     "anio": 2026,
     "doi": "https://doi.org/10.9734/ajess/2026/v52i83241",
+    "revista": "Asian Journal of Education and Social Studies",
+    "editorial": "",
     "autores": [
       "Wan Runyan"
     ],
@@ -104,76 +134,168 @@
   },
   {
     "fuente": "openalex",
-    "titulo": "Artificial Intelligence and Innovation Ecosystem: Evolutionary Developments, Challenges, and Future Directions",
+    "titulo": "Implementasi Generative AI untik Digital Marketing & Konten Sosial Media",
     "anio": 2026,
-    "doi": "",
+    "doi": "https://doi.org/10.25124/jaess.v4i1.11157",
+    "revista": "Journal of Applied Engineering and Social Science (JAESS)",
+    "editorial": "",
     "autores": [
-      "Zhimin Zhang",
-      "Chengzhen Ma",
-      "Jia Chai",
-      "Rongxin Zhan",
-      "Huansheng Ning",
-      "Lingfeng Mao"
+      "Iffah Nabila",
+      "Sri Widaningsih"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "The AIMEL Model: Artificial Intelligence Mediated Experiential Learning for the Formation of Sustainability and Entrepreneurial Competencies",
+    "titulo": "Study on the double-edged sword effect of gen AI on college student entrepreneurial performance: evidence from the CICSIC",
     "anio": 2026,
-    "doi": "https://doi.org/10.59543/jidmis.v3.1304",
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1909353",
+    "revista": "Frontiers in Psychology",
+    "editorial": "Frontiers Media",
     "autores": [
-      "Parisa Applegarth"
+      "Shujun Yu",
+      "Yongkang Xu",
+      "Xu Han"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Spatiotemporal evolution of innovation collaboration networks in China’s AI medical device industry: implications for public health governance",
+    "titulo": "Digital Entrepreneurship as a Driver Of Economic Transformation: Opportunities, Challenges, Capabilities, and Ecosystem Development in the Platform Era",
     "anio": 2026,
-    "doi": "https://doi.org/10.3389/fpubh.2026.1899325",
+    "doi": "https://doi.org/10.59890/ijaeam.v4i4.207",
+    "revista": "International Journal of Applied Economics Accounting and Management (IJAEAM)",
+    "editorial": "",
     "autores": [
-      "Feng Hu",
-      "Huijie Yang",
-      "Junyu Cheng",
-      "Zhijie Huang",
-      "Shaobo Yang",
-      "Xiaoping Wang"
-    ],
-    "citas": 1
-  },
-  {
-    "fuente": "openalex",
-    "titulo": "Trends and topics in arts education and artificial intelligence: a systematic review using a human-in-the-loop model",
-    "anio": 2026,
-    "doi": "https://doi.org/10.1504/ijart.2028.155022",
-    "autores": [
-      "e Yu",
-      "Ruolin Sun"
+      "Loso Judijanto"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "SMART REGULATION FOR SUSTAINABLE FINANCE: ARTIFICIAL INTELLIGENCE AND WOMEN-LED ENTERPRISES IN KENYA",
+    "titulo": "When Everyone Has the Same AI: Rethinking Startup Competitive Advantage in the Age of Generative AI",
     "anio": 2026,
-    "doi": "https://doi.org/10.66563/n9ex2v18",
+    "doi": "https://doi.org/10.70715/jitcai.2026.v3.i4.085",
+    "revista": "Journal of Information Technology Cybersecurity and Artificial Intelligence",
+    "editorial": "",
     "autores": [
-      "Jacqueline Waihenya",
-      "Kenneth Wyne Mutuma"
+      "Mwita Wanyancha"
     ],
     "citas": 0
   },
   {
     "fuente": "openalex",
-    "titulo": "Business model strategies and venture financing of AI startups",
+    "titulo": "Economic aspects of implementing generative technologies in visual content creation",
     "anio": 2026,
-    "doi": "https://doi.org/10.35854/1998-1627-2026-7-876-886",
+    "doi": "https://doi.org/10.33693/2541-8025-2026-22-3-167-178",
+    "revista": "Economic problems and legal practice",
+    "editorial": "",
     "autores": [
-      "Yufan Sun",
-      "Tatiana Gavrilova"
+      "Mikhail V. Romanov",
+      "Vladimir A. Lopatin",
+      "Valeriy E. Krivtsov"
     ],
     "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Generative AI-enhanced interactive learning environments in entrepreneurship education: personalization, ethical engagement, and entrepreneurial action tendency",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1080/10494820.2026.2689104",
+    "revista": "Interactive Learning Environments",
+    "editorial": "Taylor & Francis",
+    "autores": [
+      "Fei Sun",
+      "Muyan Li"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Digital entrepreneurship intention among Chinese and Vietnamese students: an EEM-imprinting-informed SEM-ANN model",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1038/s41598-026-63645-2",
+    "revista": "Scientific Reports",
+    "editorial": "Nature Portfolio",
+    "autores": [
+      "Wang Kang",
+      "Nam-Trung Tran",
+      "Yu-Yuan Qu",
+      "Lei Feng",
+      "Zhi-Qi Li"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "GenAI, Leadership, and Entrepreneurial Orientation: The Mediating Role of Knowledge Management Capability",
+    "anio": 2026,
+    "doi": "https://doi.org/10.34190/ejkm.24.1.4845",
+    "revista": "Electronic Journal of Knowledge Management",
+    "editorial": "Academic Conferences and Publishing International",
+    "autores": [
+      "Akerkin Eraliyeva",
+      "Baglan Murzabekova",
+      "Roza Kuralbayeva",
+      "Gulnar Lukhmanova",
+      "R. Amantaeva"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
+    "anio": 2026,
+    "doi": "https://doi.org/10.63383/evvq9585",
+    "revista": "MIT Sloan Management Review",
+    "editorial": "Massachusetts Institute of Technology",
+    "autores": [
+      "Nataliya Wright"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "titulo": "Agentic Workflows are Serverless Applications, so deploy them that way!",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1145/3830422.3830426",
+    "revista": "ACM SIGOPS Operating Systems Review",
+    "editorial": "Association for Computing Machinery",
+    "autores": [
+      "Ian Dougherty",
+      "Natalie Lambert",
+      "Yi-Xiang Wang",
+      "Ethan Xu",
+      "Reto Achermann",
+      "Alexandra Fedorova"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Evaluating Beyond the Screen: Collective Assessment of AI-Generated Business Plans with Resource-Constrained Entrepreneurs",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2608.16886v1",
+    "autores": [
+      "Qi Zhao",
+      "Marjory Pineda",
+      "Ketul Chhaya",
+      "Aakash Gautam",
+      "Yasmine Kotturi"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2605.10291v1",
+    "autores": [
+      "Hyunso Kim",
+      "Hyo Kang",
+      "Jaeyong Song"
+    ],
+    "citas": null
   },
   {
     "fuente": "arxiv",
@@ -182,6 +304,30 @@
     "doi": "http://arxiv.org/abs/2603.23685v2",
     "autores": [
       "Armin Catovic"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Ghost Framing Theory: Exploring the role of generative AI in new venture rhetorical legitimation",
+    "anio": "2026",
+    "doi": "http://arxiv.org/abs/2603.11384v1",
+    "autores": [
+      "Greg Nyilasy"
+    ],
+    "citas": null
+  },
+  {
+    "fuente": "arxiv",
+    "titulo": "Deconstructing the Veneer of Simplicity: Co-Designing Introductory Generative AI Workshops with Local Entrepreneurs",
+    "anio": "2024",
+    "doi": "http://arxiv.org/abs/2402.17082v1",
+    "autores": [
+      "Yasmine Kotturi",
+      "Angel Anderson",
+      "Glenn Ford",
+      "Michael Skirpan",
+      "Jeffrey P. Bigham"
     ],
     "citas": null
   }
