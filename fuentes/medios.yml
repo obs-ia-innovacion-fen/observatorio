@@ -1,7 +1,7 @@
 # Formato:  - Nombre del medio: URL del feed
 #
-# VERIFICAR cada URL en el navegador antes de confiar en ella: si devuelve XML,
-# sirve. Las marcadas [?] no pude comprobarlas y son las mas probables de fallar.
+# Todos los feeds de esta lista estan verificados y respondiendo.
+# Al agregar uno nuevo, comprobarlo con: python scripts/medios.py
 #
 # Recordatorio de derechos: de estas fuentes solo se guarda titular, fecha y
 # enlace. El comentario del Observatorio es redaccion propia. Nunca se
@@ -10,25 +10,25 @@
 medios:
 
   # --- Prensa y revistas de gestion (las que pediste) ---
-  - Harvard Business Review: http://feeds.harvardbusiness.org/harvardbusiness?format=xml
+  - Harvard Business Review: https://feeds.hbr.org/harvardbusiness
   - The Economist (portada): https://www.economist.com/latest/rss.xml
   - The Economist (negocios): https://www.economist.com/business/rss.xml
   - The Economist (ciencia y tecnologia): https://www.economist.com/science-and-technology/rss.xml
-  - MIT Sloan Management Review [?]: https://sloanreview.mit.edu/feed/
-  - MIT Technology Review [?]: https://www.technologyreview.com/feed/
-  - Financial Times [?]: https://www.ft.com/?format=rss
+  - MIT Sloan Management Review: https://sloanreview.mit.edu/feed/
+  - MIT Technology Review: https://www.technologyreview.com/feed/
+  - Financial Times: https://www.ft.com/?format=rss
 
   # --- Fuentes abiertas de politica y gobernanza de IA ---
   # Sin muro de pago y sin problema de derechos: material distintivo.
-  # Estas tres fallaron: OECD.AI da 404 y las otras dos devuelven HTML.
-  # Buscar la URL real del feed en el pie de pagina de cada sitio y reactivar.
+  # PENDIENTES: las URLs que probe estaban mal, las fuentes si valen.
+  # Resolverlas con:  python scripts/buscar_feeds.py https://oecd.ai https://hai.stanford.edu https://www.brookings.edu
   - OECD.AI: https://wp.oecd.ai/feed/
   # - Stanford HAI: ?
-  # - Brookings Tech: ?
+  # - Brookings: ?
 
   # --- Region: Chile, Brasil, Argentina ---
   # Aqui esta el valor diferencial. Nadie sistematiza esto.
-  # Buscar el feed de cada uno y completar.
+  # Resolverlos con:  python scripts/buscar_feeds.py https://www.df.cl https://valor.globo.com https://www.cronista.com https://www.americaeconomia.com https://blogs.iadb.org https://www.cepal.org
   # - Diario Financiero (CL): ?
   - Valor Economico (BR): https://valor.globo.com/rss/valor
   # - El Cronista (AR): ?

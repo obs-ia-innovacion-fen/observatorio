@@ -26,6 +26,27 @@ AGENTE = (
 )
 MAX_POR_MEDIO = 20
 
+# Los feeds de portada entran completos: obituarios, futbol, politica general.
+# Un titular se conserva solo si menciona alguno de estos terminos en el titulo
+# o en el extracto. Es una lista amplia a proposito: mejor dejar pasar algo de
+# ruido que perder una senal. Agregar terminos aqui cuando algo se escape.
+TEMAS = (
+    "artificial intelligence", "ai", "genai", "generative", "machine learning",
+    "algorithm", "algorithmic", "automation", "automated", "chatbot", "llm",
+    "large language model", "data protection", "privacy", "innovation",
+    "startup", "startups", "entrepreneur", "entrepreneurship", "sme", "smes",
+    "small business", "digital transformation", "productivity", "robot",
+    "robotics", "semiconductor", "chips", "regulation", "governance",
+    "inteligencia artificial", "inteligencia", "algoritmo", "algoritmos",
+    "innovacion", "innovacion", "emprendimiento", "pyme", "pymes",
+    "inteligencia artificial", "inovacao", "inovação", "inteligência artificial",
+    "algoritmo", "empreendedorismo", "regulacao", "regulação",
+    "deepfake", "deepfakes", "synthetic media", "facial recognition",
+    "surveillance", "copyright", "openai", "anthropic", "nvidia",
+    "modelo de linguagem", "aprendizaje automatico", "datos personales",
+    "dados pessoais", "reconhecimento facial",
+)
+
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 
@@ -54,6 +75,11 @@ def pedir(url):
     solicitud = urllib.request.Request(url, headers=cabeceras)
     with urllib.request.urlopen(solicitud, timeout=30) as respuesta:
         return respuesta.read()
+
+
+def es_del_tema(titulo, extracto):
+    texto = f"{titulo} {extracto}".lower()
+    return any(re.search(rf"\b{re.escape(t)}\b", texto) for t in TEMAS)
 
 
 def limpiar(texto):
@@ -95,13 +121,18 @@ def parsear(xml_bytes, medio):
             or ""
         )
 
+        titulo_limpio = limpiar(titulo)
+        extracto_limpio = limpiar(extracto)[:200]
+        if not es_del_tema(titulo_limpio, extracto_limpio):
+            continue
+
         resultados.append({
             "fuente": "rss",
             "medio": medio,
-            "titulo": limpiar(titulo),
+            "titulo": titulo_limpio,
             "enlace": enlace.strip(),
             "fecha": fecha.strip(),
-            "extracto": limpiar(extracto)[:200],
+            "extracto": extracto_limpio,
         })
 
     return resultados
