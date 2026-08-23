@@ -1,0 +1,204 @@
+[
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Investigating the state-of-the-art and challenges of artificial intelligence for production management in Italian manufacturing SMEs",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/jmtm-07-2025-0725",
+    "revista": "Journal of Manufacturing Technology Management",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Andrea Chiarini",
+      "Alberto Grando",
+      "Surajit Bag"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Development of an Automated Dye Color Mixing System with Computer Vision",
+    "anio": 2026,
+    "doi": "https://doi.org/10.24857/rgsa.v20n8-005",
+    "revista": "Revista de Gestão Social e Ambiental",
+    "editorial": "Centro Universitario da FEI",
+    "autores": [
+      "João Victor de Angeli Pudo",
+      "Anderson da Cunha Jesus",
+      "Eduardo Sousa Pereira de Aguiar",
+      "Ricardo Hovacker Baldaconi"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "THE ROLE OF DIGITAL TRANSFORMATION IN SME RESILIENCE: LOOKING BACK TO LOOK FORWARD",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1142/s1363919626500349",
+    "revista": "International Journal of Innovation Management",
+    "editorial": "Imperial College Press",
+    "autores": [
+      "Ana Colovic",
+      "Alan Bandeira Pinheiro",
+      "Olivier Lamotte"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Technological Capabilities and Digital Transformation of Industrial SMEs Toward Sustainable Adaptation to Industry 4.0 Environment: A Theory-Building Approach",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3390/su18157667",
+    "revista": "Sustainability",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
+    "autores": [
+      "José Toscano-Romero",
+      "Danilo Chávez",
+      "Sylvia Novillo-Villegas"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "KE4SME-INT",
+    "anio": 2026,
+    "doi": "https://doi.org/10.18624/e-tech.v19i1.1482",
+    "revista": "Revista E-Tech Tecnologias para Competitividade Industrial - ISSN - 1983-1838",
+    "editorial": "",
+    "autores": [
+      "Valério Junior Piana",
+      "Alexandre Leopoldo Gonçalves",
+      "Clarissa Stefani Teixeira"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Organizational Factors and Digital Transformation: A Systems Perspective on Small Firms",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3390/systems14080886",
+    "revista": "Systems",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
+    "autores": [
+      "Marina Proença",
+      "C M C dos Santos",
+      "Ana Maria Machado Toaldo",
+      "Artur Morgan",
+      "Tomás Sparano Martins"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Apropiación tecnológica y competitividad en las pymes latinoamericanas",
+    "anio": 2026,
+    "doi": "https://doi.org/10.32719/25506641.2026.20.4",
+    "revista": "Estudios de la Gestión revista internacional de administración",
+    "editorial": "",
+    "autores": [
+      "Hernán Cornejo"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Digital Transformation in SMEs in Developing Countries: A Culturally Contextualized Theory-Building Model",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3390/systems14070724",
+    "revista": "Systems",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
+    "autores": [
+      "Jaime Díaz",
+      "Ana Bustamante-Mora",
+      "Jeferson Arango‐López",
+      "Gabriel Villegas"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Sustainability, digitalization, environmental practices and innovation as determinants of SME competitiveness: Bibliometric analysis and emerging research trends",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/mrjiam-11-2024-1627",
+    "revista": "Management Research The Journal of the Iberoamerican Academy of Management",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Jeymi Fabiola Arias",
+      "Alejandro Díaz Pelaez",
+      "José Antonio Clemente‐Almendros",
+      "Jehovanni Fabricio Velarde-Molina"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Integrating artificial intelligence and digital twins into a data architecture for small-batch manufacturing",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1007/s00170-026-18133-2",
+    "revista": "The International Journal of Advanced Manufacturing Technology",
+    "editorial": "Springer Science+Business Media",
+    "autores": [
+      "Igor Polezi Munhoz",
+      "Mauro de Mesquita Spinola",
+      "Luiz Fernando Cardoso Durão",
+      "Justus Rein",
+      "Klaus Schützer",
+      "Benjamin Schleich"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "The innovation process: analysis of the particularities in the textile sector",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1186/s13731-026-00646-5",
+    "revista": "Journal of Innovation and Entrepreneurship",
+    "editorial": "Springer Nature",
+    "autores": [
+      "Sebastián Cardona-Acevedo",
+      "Alejandro Valencia-Arias",
+      "Jesús Alberto Jiménez García",
+      "Toño Eldrin Alvites Adan",
+      "Erica Agudelo-Ceballos",
+      "Jackeline Valencia"
+    ],
+    "citas": 1
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Communication and information resources and product innovation in SMEs: the sequential role of co-creation and process innovation",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/mrjiam-07-2025-1765",
+    "revista": "Management Research The Journal of the Iberoamerican Academy of Management",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Victor Muñoz-Cisterna",
+      "Ronald Mora",
+      "Nicolás Álvarez",
+      "Juan Carlos Beckles-Araya"
+    ],
+    "citas": 0
+  }
+]

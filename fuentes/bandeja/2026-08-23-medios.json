@@ -890,6 +890,30 @@
   {
     "fuente": "rss",
     "medio": "Financial Times [?]",
+    "titulo": "Are America’s vast Gulf bases worth rebuilding?",
+    "enlace": "https://www.ft.com/content/6f664a31-ca24-4a16-a6e9-5978fdf2512c?syn-25a6b1a6=1",
+    "fecha": "Sun, 23 Aug 2026 04:00:15 GMT",
+    "extracto": "Iran’s attacks exposed vulnerability of US military footprint spanning the region since the 1990s"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Why is the far right so obsessed with knights?",
+    "enlace": "https://www.ft.com/content/ef65c99c-b58c-430c-b6be-8036f042cc1e",
+    "fecha": "Sun, 23 Aug 2026 04:00:15 GMT",
+    "extracto": "Medieval military monks have become a regular sight at political rallies and marches"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Europe can do better than US-style air conditioning",
+    "enlace": "https://www.ft.com/content/fe9be519-ceae-4279-83b1-220f9505d6a9",
+    "fecha": "Sun, 23 Aug 2026 04:00:08 GMT",
+    "extracto": "The instinct is to bolt a dripping box to every building but there is a smarter, cooler way"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
     "titulo": "Israel’s Syria strike may have been bid to provoke Turkey conflict, US envoy says",
     "enlace": "https://www.ft.com/content/d770cdbf-46b1-4928-9ec7-e1155db679d2",
     "fecha": "Sat, 22 Aug 2026 18:17:56 GMT",
@@ -898,10 +922,26 @@
   {
     "fuente": "rss",
     "medio": "Financial Times [?]",
-    "titulo": "Russian ‘double-tap’ attack on Ukrainian shopping mall kills at least 16",
-    "enlace": "https://www.ft.com/content/a7837e1c-6865-42bd-9902-3d4c4b7f37ef?syn-25a6b1a6=1",
-    "fecha": "Sat, 22 Aug 2026 19:29:26 GMT",
-    "extracto": "Volodymyr Zelenskyy calls on allies to pile ‘real pressure’ on Moscow to end the war"
+    "titulo": "Investors try to catch ‘falling knife’ with bets on risky funds during chip rout",
+    "enlace": "https://www.ft.com/content/5e8072a7-cb99-47a6-9478-e46e7de3b4a2?syn-25a6b1a6=1",
+    "fecha": "Sun, 23 Aug 2026 04:00:08 GMT",
+    "extracto": "Leveraged single-stock ETFs attracted billions of dollars of net inflows even as they plunged during market sell-off"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "US buyers snap up Europe’s asset managers at fastest rate in decades",
+    "enlace": "https://www.ft.com/content/dd605c6f-8a6e-4664-970b-f4c07ea7a4d2?syn-25a6b1a6=1",
+    "fecha": "Sun, 23 Aug 2026 04:30:05 GMT",
+    "extracto": "European fund groups struggle as firms race to bulk up and expand globally"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "India’s reliance on Russian oil hits all-time high",
+    "enlace": "https://www.ft.com/content/be3c0c6c-0a65-4add-b675-7a5876f625be?syn-25a6b1a6=1",
+    "fecha": "Sun, 23 Aug 2026 04:00:15 GMT",
+    "extracto": "Middle East conflict exposes New Delhi’s energy security vulnerabilities"
   },
   {
     "fuente": "rss",
