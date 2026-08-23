@@ -225,6 +225,30 @@
   },
   {
     "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Mark Carney says Canada ‘at war’ with US over trade",
+    "enlace": "https://www.ft.com/content/e3b5c236-bd5f-45c2-8ddf-5279a7375d3f?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 17:22:54 GMT",
+    "extracto": "Prime Minister tells country Donald Trump ‘miscalculated’ by escalating tariff attack"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Israel’s Syria strike may have been bid to provoke Turkey conflict, US envoy says",
+    "enlace": "https://www.ft.com/content/d770cdbf-46b1-4928-9ec7-e1155db679d2",
+    "fecha": "Sat, 22 Aug 2026 18:17:56 GMT",
+    "extracto": "Washington’s ambassador to Ankara says attack on air base could have been ‘aggressive . . . pre-election concept’ ahead of October polls"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times [?]",
+    "titulo": "Russian ‘double-tap’ attack on Ukrainian shopping mall kills at least 16",
+    "enlace": "https://www.ft.com/content/a7837e1c-6865-42bd-9902-3d4c4b7f37ef?syn-25a6b1a6=1",
+    "fecha": "Sat, 22 Aug 2026 19:29:26 GMT",
+    "extracto": "Volodymyr Zelenskyy calls on allies to pile ‘real pressure’ on Moscow to end the war"
+  },
+  {
+    "fuente": "rss",
     "medio": "OECD.AI",
     "titulo": "A five-step roadmap to closing the AI evaluation gap",
     "enlace": "https://wp.oecd.ai/a-five-step-roadmap-to-closing-the-ai-evaluation-gap/",
