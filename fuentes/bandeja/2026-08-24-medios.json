@@ -1,0 +1,461 @@
+[
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "What Separates AI Agents That Ship to Production from Those That Don’t",
+    "enlace": "http://hbr.org/sponsored/2026/08/what-separates-ai-agents-that-ship-to-production-from-those-that-dont",
+    "fecha": "2026-08-21T13:24:20Z",
+    "extracto": "Sponsor content from AWS and Arize."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "4 Steps to Transform the “Middle Office” with AI",
+    "enlace": "http://hbr.org/2026/08/4-steps-to-transform-the-middle-office-with-ai",
+    "fecha": "2026-08-20T12:15:36Z",
+    "extracto": "Most companies overlook the opportunities for AI to improve exception-heavy tasks such as contract reviews, risk management, and compliance."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "AI Is Undermining Leaders’ Judgment. Here’s What to Do About It.",
+    "enlace": "http://hbr.org/2026/08/ai-is-undermining-leaders-judgment-heres-what-to-do-about-it",
+    "fecha": "2026-08-19T12:05:09Z",
+    "extracto": "The tools designed to augment your decision-making could end up making it weaker."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Strategy Making Gets an AI Boost",
+    "enlace": "http://hbr.org/2026/08/strategy-making-gets-an-ai-boost",
+    "fecha": "2026-08-18T12:25:27Z",
+    "extracto": "In the August 17 edition of The Insider newsletter, managing editor Gretchen Gavett writes on how AI is changing strategy-making, the end of the traditional career arc, and more."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Can an AI-Powered Scribe Curb Physician Burnout?",
+    "enlace": "http://hbr.org/podcast/2026/08/can-an-ai-powered-scribe-curb-physician-burnout",
+    "fecha": "2026-08-18T12:09:35Z",
+    "extracto": "The use of automated note-taking tools during patient visits holds promise in reducing physicans&#8217; administrative load&#8211;but the tradeoffs are complicated."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "How to Respond to the Coming AI Cost Shock",
+    "enlace": "http://hbr.org/2026/08/how-to-respond-to-the-coming-ai-cost-shock",
+    "fecha": "2026-08-17T12:15:10Z",
+    "extracto": "Leaders must design new approaches to budgeting, workforce planning, and risk management."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Research: The Innovation Problems AI Can’t Solve",
+    "enlace": "http://hbr.org/2026/08/research-the-innovation-problems-ai-cant-solve",
+    "fecha": "2026-08-14T12:05:50Z",
+    "extracto": "Generative AI speeds innovation, but it can also narrow thinking, reinforce bias, and distance teams from customers."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Why Agentic AI Could Transform Procurement",
+    "enlace": "http://hbr.org/2026/08/why-agentic-ai-could-transform-procurement",
+    "fecha": "2026-08-13T12:15:56Z",
+    "extracto": "The combination of economic visibility, process structure, and persistent friction make it a huge opportunity."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "AI Makes Building Easy. Choosing What to Build Is Harder.",
+    "enlace": "http://hbr.org/2026/08/ai-makes-building-easy-choosing-what-to-build-is-harder",
+    "fecha": "2026-08-12T12:15:11Z",
+    "extracto": "If everyone has access to similar AI tools, your team&#8217;s advantage isn&#8217;t technical capability&#8212;it&#8217;s understanding the problem."
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "nivel": "prensa",
+    "titulo": "Fears of AI-induced armageddon are overdone",
+    "enlace": "https://www.economist.com/by-invitation/2026/08/23/fears-of-ai-induced-armageddon-are-overdone",
+    "fecha": "Sun, 23 Aug 2026 08:53:02 +0000",
+    "extracto": "Applying basic security principles would go a long way to fixing problems identified by Anthropic and OpenAI, writes Ciaran Martin"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Yuval Noah Harari on the economic and political perils of AI",
+    "enlace": "https://www.economist.com/business/2026/08/20/yuval-noah-harari-on-the-economic-and-political-perils-of-ai",
+    "fecha": "Thu, 20 Aug 2026 20:00:42 +0000",
+    "extracto": "Humanity must not entrust its lot to clever machines, the bestselling historian warns"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Can Reddit survive in the AI era?",
+    "enlace": "https://www.economist.com/business/2026/08/20/can-reddit-survive-in-the-ai-era",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "It wants more cash for its data—and more of people’s time"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "How to measure returns on AI",
+    "enlace": "https://www.economist.com/business/2026/08/20/how-to-measure-returns-on-ai",
+    "fecha": "Thu, 20 Aug 2026 12:59:02 +0000",
+    "extracto": "From tokenmaxxing to something more normal"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Japan’s downbeat startups need a lift",
+    "enlace": "https://www.economist.com/business/2026/08/13/japans-downbeat-startups-need-a-lift",
+    "fecha": "Thu, 13 Aug 2026 13:12:35 +0000",
+    "extracto": "Can past success ever be rekindled?"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "AI agents lie, cheat and steal. That is putting off users",
+    "enlace": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
+    "fecha": "Wed, 12 Aug 2026 21:01:17 +0000",
+    "extracto": "It is time to impose law and order on the frontier"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Nvidia’s great silicon showdown",
+    "enlace": "https://www.economist.com/business/2026/08/11/nvidias-great-silicon-showdown",
+    "fecha": "Tue, 11 Aug 2026 19:12:35 +0000",
+    "extracto": "The chipmaker’s biggest customers want a piece of its business. It is fighting back with a $500bn deal"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "How much would you pay for a smarter baby?",
+    "enlace": "https://www.economist.com/business/2026/08/10/how-much-would-you-pay-for-a-smarter-baby",
+    "fecha": "Mon, 10 Aug 2026 19:17:41 +0000",
+    "extracto": "Startups claim they can screen embryos for everything from genetic diseases to IQ. Not everyone is convinced"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Investors have fresh doubts about Elon Musk’s grandiose ambitions",
+    "enlace": "https://www.economist.com/business/2026/08/05/investors-have-fresh-doubts-about-elon-musks-grandiose-ambitions",
+    "fecha": "Wed, 05 Aug 2026 19:50:23 +0000",
+    "extracto": "SpaceX is spending gobs of money to refashion itself as an AI company"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "Should AI labs be treated like the owners of dangerous animals?",
+    "enlace": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+    "fecha": "Thu, 06 Aug 2026 08:20:36 +0000",
+    "extracto": "Autonomous hacking is here. Governments are not ready"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "AI and quantum computers will be frenemies",
+    "enlace": "https://www.economist.com/science-and-technology/2026/07/29/ai-and-quantum-computers-will-be-frenemies",
+    "fecha": "Wed, 29 Jul 2026 21:42:48 +0000",
+    "extracto": "The two technologies look more complementary than rivalrous"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Algorithms Trap Us in the Familiar. Can They Also Spark Breakthroughs?",
+    "enlace": "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs/",
+    "fecha": "Thu, 20 Aug 2026 11:00:25 +0000",
+    "extracto": "Gary Waters/Ikon Images Algorithmic tools promise to democratize access to knowledge and thus spark creativity and innovation, but research we conducted revealed a hidden risk: Those tools may be sile"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "What Gets Your Best Employees to Stay",
+    "enlace": "https://sloanreview.mit.edu/article/what-gets-your-best-employees-to-stay/",
+    "fecha": "Tue, 18 Aug 2026 11:00:26 +0000",
+    "extracto": "Chris Gash/theispot.com A recent battle for AI talent illustrates how difficult it is for companies to retain key employees. In 2025, OpenAI’s stock-based compensation averaged roughly $1.5 million pe"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "How to Avoid Innovation One-Hit Wonders",
+    "enlace": "https://sloanreview.mit.edu/article/how-to-avoid-innovation-one-hit-wonders/",
+    "fecha": "Mon, 10 Aug 2026 11:00:41 +0000",
+    "extracto": "Andy Carter/Ikon Images Innovation leaders often know how to manage success well. A fairly good idea is recognized, a strong contributor is rewarded, and the lessons from the win are carried into the "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Stop Prompting AI. Start Directing It",
+    "enlace": "https://sloanreview.mit.edu/article/stop-prompting-ai-start-directing-it/",
+    "fecha": "Wed, 05 Aug 2026 11:00:54 +0000",
+    "extracto": "James Yang/theispot.com The Research The authors drew on two streams of research for this article. The first was a qualitative study of AI-assisted discovery that identified four pathways by which AI "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "﻿The Link Between Explicit AI-Generated Images and Offline Crime",
+    "enlace": "https://sloanreview.mit.edu/article/the-link-between-explicit-ai-generated-images-and-offline-crime/",
+    "fecha": "Wed, 29 Jul 2026 11:00:40 +0000",
+    "extracto": "Dung Hoang/theispot.com The online revolution enabled frictionless access to virtually every type of content — including adult content. Generative AI has added a whole new, and potentially more danger"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Robots Are Coming — but Not Everywhere",
+    "enlace": "https://sloanreview.mit.edu/article/robots-are-coming-but-not-everywhere/",
+    "fecha": "Thu, 23 Jul 2026 11:00:55 +0000",
+    "extracto": "Getty Images “The ChatGPT moment for robotics is coming,” declared Nvidia CEO Jensen Huang at the Consumer Electronics Show in January 2025. It’s a widespread expectation: that humanoid robots will fo"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Creating Shared Prosperity With AI: Stanford Digital Economy Lab’s Erik Brynjolfsson",
+    "enlace": "https://sloanreview.mit.edu/audio/creating-shared-prosperity-with-ai-stanford-digital-economy-labs-erik-brynjolfsson/",
+    "fecha": "Tue, 21 Jul 2026 11:00:41 +0000",
+    "extracto": "Erik Brynjolfsson has a challenge for anyone worried about artificial intelligence: Stop asking what AI will do to us, and start asking what we will do with AI. In this episode of Me, Myself, and AI, "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "How Leaders Unlock Innovation on the Front Lines",
+    "enlace": "https://sloanreview.mit.edu/article/how-leaders-unlock-innovation-on-the-front-lines/",
+    "fecha": "Mon, 20 Jul 2026 11:00:53 +0000",
+    "extracto": "PPaint/Ikon Images Balancing the daily grind of operations with the spark of innovation is one of the most persistent challenges managers face.1 Regulatory compliance, performance metrics, and the nev"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "What CEOs Need to Know About Sovereign AI",
+    "enlace": "https://sloanreview.mit.edu/article/what-ceos-need-to-know-about-sovereign-ai/",
+    "fecha": "Thu, 16 Jul 2026 13:52:48 +0000",
+    "extracto": "Carolyn Geason-Beissel/MIT SMR &#124; Getty Images As multinational companies implement artificial intelligence workflows and look to adopt AI across their global operations, they are increasingly run"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "﻿The Global Scaling Gap: Why Strategic Clarity Is Crucial in the Age of AI",
+    "enlace": "https://sloanreview.mit.edu/article/the-global-scaling-gap-why-strategic-clarity-is-crucial-in-the-age-of-ai/",
+    "fecha": "Tue, 14 Jul 2026 11:00:57 +0000",
+    "extracto": "Michael Glenwood Gibbs/theispot.com Digital platforms and generative AI have lowered the barriers to accessing global talent, capital, and knowledge for companies everywhere while making it possible t"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "How GenAI Can and Can’t Help Manage Customer Insights",
+    "enlace": "https://sloanreview.mit.edu/article/how-genai-can-and-cant-help-manage-customer-insights/",
+    "fecha": "Mon, 13 Jul 2026 11:00:56 +0000",
+    "extracto": "Carolyn Geason-Beissel/MIT SMR &#124; Getty Images To understand their customers and markets, a growing number of customer-oriented companies are using generative AI tools, alongside the language and "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "Kids outlearn AI—and we still don’t know why",
+    "enlace": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+    "fecha": "Mon, 24 Aug 2026 09:00:00 +0000",
+    "extracto": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fl"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "The Download: threats from space mirrors and credit for AI drugs",
+    "enlace": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+    "fecha": "Fri, 21 Aug 2026 12:10:00 +0000",
+    "extracto": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This company’s plans to deploy space mirrors could"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "When AI designs a drug, who gets the credit?",
+    "enlace": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+    "fecha": "Fri, 21 Aug 2026 09:00:00 +0000",
+    "extracto": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “disco"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "Debates over AI consciousness are a trap",
+    "enlace": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+    "fecha": "Thu, 20 Aug 2026 15:42:39 +0000",
+    "extracto": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times",
+    "nivel": "prensa",
+    "titulo": "Can AI glasses replace the smartphone?",
+    "enlace": "https://www.ft.com/content/3f25f892-2de2-40e6-9592-a7ac18682c6c?syn-25a6b1a6=1",
+    "fecha": "Mon, 24 Aug 2026 04:00:14 GMT",
+    "extracto": "Big Tech thinks wearables are the gateway to artificial intelligence. Critics call it cringe stalkerware"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times",
+    "nivel": "prensa",
+    "titulo": "US widens AI-driven investment gap with Europe",
+    "enlace": "https://www.ft.com/content/77b94c4a-4b4b-4983-9138-7db6926150f4?syn-25a6b1a6=1",
+    "fecha": "Mon, 24 Aug 2026 04:00:05 GMT",
+    "extracto": "The bloc struggles to keep up with US spending on high-tech equipment and facilities"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "A five-step roadmap to closing the AI evaluation gap",
+    "enlace": "https://wp.oecd.ai/a-five-step-roadmap-to-closing-the-ai-evaluation-gap/",
+    "fecha": "Fri, 31 Jul 2026 10:19:10 +0000",
+    "extracto": "A five-step roadmap for closing the AI evaluation gap to strengthen trust, security, adoption and effective AI governance. The post A five-step roadmap to closing the AI evaluation gap appeared first "
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "HAIP is transforming transparency from a compliance burden to a competitive advantage",
+    "enlace": "https://wp.oecd.ai/haip-transforming-transparency-from-ai-compliance-burden-to-competitive-advantage/",
+    "fecha": "Thu, 16 Jul 2026 09:41:17 +0000",
+    "extracto": "How Salesforce sees the HAIP Reporting Framework reducing AI governance fragmentation and making transparency a competitive advantage. The post HAIP is transforming transparency from a compliance burd"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "How quantum technologies could open new frontiers for AI",
+    "enlace": "https://wp.oecd.ai/how-quantum-technologies-could-open-new-frontiers-for-ai/",
+    "fecha": "Mon, 06 Jul 2026 16:13:09 +0000",
+    "extracto": "This three-part blog series explores the growing complementarity between artificial intelligence (AI) and quantum technologies. The first post introduced quantum technologies and outlined their streng"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "How people are using GenAI chatbots: Evidence from web traffic data",
+    "enlace": "https://wp.oecd.ai/how-people-are-using-genai-chatbots-evidence-from-web-traffic-data/",
+    "fecha": "Tue, 30 Jun 2026 12:59:22 +0000",
+    "extracto": "New OECD analysis reveals how people use GenAI chatbots across countries and demographics, using web traffic data from Similarweb. The post How people are using GenAI chatbots: Evidence from web traff"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "AI for inclusive and resilient agri-food systems: Potential ways forward",
+    "enlace": "https://wp.oecd.ai/ai-inclusive-and-resilient-agri-food-systems/",
+    "fecha": "Fri, 05 Jun 2026 14:30:49 +0000",
+    "extracto": "AI can strengthen food security, resilience and sustainability in agriculture. Explore key challenges and opportunities for agri-food systems. The post AI for inclusive and resilient agri-food systems"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "The OECD AI Policy Toolkit: Better AI policies for better lives",
+    "enlace": "https://wp.oecd.ai/the-oecd-ai-policy-toolkit-better-ai-policies-for-better-lives/",
+    "fecha": "Wed, 03 Jun 2026 06:54:32 +0000",
+    "extracto": "OECD AI Policy Toolkit helps governments turn AI principles into action with practical guidance, policy examples and global insights. The post The OECD AI Policy Toolkit: Better AI policies for better"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Establishing the shared foundations for collective AI security",
+    "enlace": "https://wp.oecd.ai/establishing-the-shared-foundations-for-collective-ai-security/",
+    "fecha": "Thu, 21 May 2026 07:08:02 +0000",
+    "extracto": "AI security, prompt injection, AI agents and model poisoning: building shared foundations for secure AI deployment. The post Establishing the shared foundations for collective AI security appeared fir"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "The European Union is deploying AI across strategic sectors",
+    "enlace": "https://wp.oecd.ai/the-european-union-is-deploying-ai-across-strategic-sectors/",
+    "fecha": "Tue, 19 May 2026 10:51:52 +0000",
+    "extracto": "Explore how the EU is deploying trustworthy AI in healthcare, manufacturing, mobility and agriculture to boost competitiveness. The post The European Union is deploying AI across strategic sectors app"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Designing transparency for government AI: Insights from the UK’s Algorithmic Transparency Recording Standard initiative",
+    "enlace": "https://wp.oecd.ai/uk-algorithmic-transparency-recording-standard/",
+    "fecha": "Tue, 14 Apr 2026 10:50:54 +0000",
+    "extracto": "How the UK’s ATRS strengthens algorithmic transparency, public trust and accountability in government AI. The post Designing transparency for government AI: Insights from the UK’s Algorithmic Transpar"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Rethinking AI data: From scraping to sustainable and ethical data sharing",
+    "enlace": "https://wp.oecd.ai/rethinking-ai-data-from-scraping-to-sustainable-and-ethical-data-sharing/",
+    "fecha": "Tue, 31 Mar 2026 11:46:09 +0000",
+    "extracto": "AI training data is scarce despite abundance. VIADUCT explores ethical data sharing, scraping limits, copyright, GDPR, trust and fairness for sustainable AI ecosystems. The post Rethinking AI data: Fr"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Towards Data Science",
+    "nivel": "practica",
+    "titulo": "Understanding Anti-AI Public Opinion",
+    "enlace": "https://towardsdatascience.com/understanding-anti-ai-public-opinion/",
+    "fecha": "Wed, 19 Aug 2026 15:00:00 +0000",
+    "extracto": "People can accept tradeoffs when they see value — but if they don’t, what happens? The post Understanding Anti-AI Public Opinion appeared first on Towards Data Science ."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Valor Economico (BR)",
+    "nivel": "prensa",
+    "titulo": "Xiaomi apresenta novo processador próprio fabricado pela TSMC e aposta em chips para celulares e carros",
+    "enlace": "https://valor.globo.com/empresas/noticia/2026/08/24/xiaomi-apresenta-novo-processador-prprio-fabricado-pela-tsmc-e-aposta-em-chips-para-celulares-e-carros.ghtml",
+    "fecha": "Mon, 24 Aug 2026 11:20:20 -0000",
+    "extracto": "A fabricante chinesa de smartphones Xiaomi revelou nesta segunda-feira uma nova versão de seu processador próprio para celulares, o Xring, apostando que um controle mais profundo sobre componentes-cha"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Valor Economico (BR)",
+    "nivel": "prensa",
+    "titulo": "Nvidia negocia investimento em rodada que pode avaliar startup Perplexity em mais de US$ 30 bi",
+    "enlace": "https://valor.globo.com/empresas/noticia/2026/08/24/nvidia-negocia-investimento-em-rodada-que-pode-avaliar-startup-perplexity-em-mais-de-us-30-bi.ghtml",
+    "fecha": "Mon, 24 Aug 2026 11:00:31 -0000",
+    "extracto": "A Nvidia está em negociações para investir na Perplexity como parte de uma rodada de financiamento que avaliaria a startup de inteligência artificial em mais de US$ 30 bilhões, informou o site The Inf"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Valor Economico (BR)",
+    "nivel": "prensa",
+    "titulo": "Especialista internacional indica tecnologia e diálogo como chaves para regular bets",
+    "enlace": "https://valor.globo.com/conteudo-de-marca/anjl/noticia/2026/08/24/especialista-internacional-indica-tecnologia-e-dialogo-como-chaves-para-regular-bets.ghtml",
+    "fecha": "Mon, 24 Aug 2026 09:00:55 -0000",
+    "extracto": "É fundamental haver diálogo entre todos os atores envolvidos no mercado de apostas de quota fixa, conhecidas como bets, para chegar a uma regulação que proteja o apostador e não impeça o desenvolvimen"
+  }
+]
