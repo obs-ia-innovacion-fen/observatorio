@@ -5,7 +5,9 @@ import Procedencia from '../../components/Procedencia.astro';
 
 export async function getStaticPaths() {
   const publicaciones = await getCollection('publicaciones');
-  return publicaciones.map((pieza) => ({ params: { id: pieza.id }, props: { pieza } }));
+  return publicaciones
+    .filter((pieza) => pieza.data.tipo !== 'sugerencia')
+    .map((pieza) => ({ params: { id: pieza.id }, props: { pieza } }));
 }
 
 const { pieza } = Astro.props;

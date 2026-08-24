@@ -6,7 +6,7 @@ doi: ""
 enlace: ""
 publicado_en: ""
 area: ia-en-pymes
-tipo: propio            # propio | colaboracion | comentada | sugerencia
+tipo: propio            # propio | colaboracion | sugerencia
 fuente_ficha:           # texto completo | resumen  (obligatorio)
 revisado_por_pares:     # true | false
 institucion: ""         # solo si tipo = colaboracion (ej. FGV Analytics, Cambridge)

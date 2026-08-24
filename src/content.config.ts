@@ -8,6 +8,7 @@ const areas = defineCollection({
     slug: z.string(),
     orden: z.number().default(99),
     descripcion: z.string(),
+    sintesis: z.string().optional(),
     alcance: z.string().optional(),
     diplomado_modulo: z.string().optional().nullable(),
   }),

@@ -1,4 +1,6 @@
 ---
+import fs from 'node:fs';
+import { load as cargarYaml } from 'js-yaml';
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Suscripcion from '../components/Suscripcion.astro';
@@ -6,41 +8,98 @@ import Suscripcion from '../components/Suscripcion.astro';
 let webinars = [];
 try { webinars = await getCollection('webinars'); } catch { webinars = []; }
 webinars.sort((a, b) => new Date(b.data.fecha_evento) - new Date(a.data.fecha_evento));
+
+const { proximas = [] } = cargarYaml(fs.readFileSync('./datos/agenda.yml', 'utf-8')) ?? {};
+const correo = 'jeosepulve@fen.uchile.cl';
+
+const rotulos = {
+  'confirmada': 'Confirmada',
+  'por-confirmar': 'Por confirmar',
+  'inscripcion-abierta': 'Inscripción abierta',
+};
 ---
 
-<Base titulo="Webinars" descripcion="Los webinars del Observatorio, con su grabación y la nota de lo que se discutió.">
+<Base titulo="Webinars y actividades" descripcion="Encuentros del Observatorio, con la nota de lo que se discutió, y las actividades que vienen.">
   <div class="marco">
-    <p class="antetitulo">Encuentros</p>
-    <h1>Webinars</h1>
+    <h1>Webinars y actividades</h1>
     <p class="bajada">
-      Cada sesión queda documentada: la grabación, los materiales y una nota con
-      lo sustantivo de la discusión, incluidos los puntos donde los panelistas
-      no estuvieron de acuerdo.
+      Cada sesión queda documentada: lo sustantivo de la discusión, incluidos
+      los puntos donde los panelistas no estuvieron de acuerdo.
     </p>
 
-    {webinars.length === 0 ? (
-      <p class="vacio">Las notas de los webinars realizados se publicarán acá.</p>
-    ) : (
-      webinars.map((w) => (
-        <article class="webinar">
-          <p class="fecha">{new Date(w.data.fecha_evento).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
-          <h2><a href={`/webinars/${w.id}/`}>{w.data.titulo}</a></h2>
-          {w.data.panelistas?.length > 0 && <p class="panel">{w.data.panelistas.join(' · ')}</p>}
-        </article>
-      ))
-    )}
+    <section class="agenda">
+      <h2>Lo que viene</h2>
+      {proximas.length === 0 ? (
+        <p class="vacio">Estamos preparando las próximas actividades.</p>
+      ) : (
+        proximas.map((a) => (
+          <article class="actividad">
+            <p class="meta">
+              <span class="tipo">{a.tipo}</span>
+              <span class="estado" data-estado={a.estado}>{rotulos[a.estado] ?? a.estado}</span>
+              {a.fecha && <span class="fecha">{a.fecha}</span>}
+            </p>
+            <h3>{a.titulo}</h3>
+            <p class="descripcion">{a.descripcion}</p>
+          </article>
+        ))
+      )}
+      <aside class="convocatoria">
+        <p>
+          Si quieres recibir la invitación cuando abran las inscripciones, o
+          proponer un tema para una sesión, escríbenos.
+        </p>
+        <a class="boton" href={`mailto:${correo}?subject=Actividades del Observatorio`}>
+          Quiero recibir las invitaciones
+        </a>
+      </aside>
+    </section>
+
+    <section class="realizados">
+      <h2>Realizados</h2>
+      {webinars.length === 0 ? (
+        <p class="vacio">Las notas de los webinars realizados se publicarán acá.</p>
+      ) : (
+        webinars.map((w) => (
+          <article class="webinar">
+            <p class="fecha-evento">
+              {new Date(w.data.fecha_evento).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </p>
+            <h3><a href={`/webinars/${w.id}/`}>{w.data.titulo}</a></h3>
+            {w.data.panelistas?.length > 0 && <p class="panel">{w.data.panelistas.join(' · ')}</p>}
+          </article>
+        ))
+      )}
+    </section>
 
     <Suscripcion />
   </div>
 </Base>
 
 <style>
-  .antetitulo { font-family: var(--dato); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gris); margin: 0 0 1rem; }
-  .bajada { max-width: 58ch; color: var(--gris); margin: 1.2rem 0 2.5rem; }
-  .webinar { padding: 1.6rem 0; border-top: 1px solid var(--niebla); }
-  .fecha { font-family: var(--dato); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gris); margin: 0 0 0.5rem; }
-  .webinar h2 a { color: var(--tinta); text-decoration: none; }
-  .webinar h2 a:hover { color: var(--senal); }
-  .panel { font-family: var(--dato); font-size: 0.8rem; color: var(--gris); margin: 0.5rem 0 0; }
-  .vacio { color: var(--gris); font-style: italic; padding: 1.5rem 0; border-top: 1px solid var(--niebla); }
+  .bajada { max-width: 58ch; color: var(--gris); margin: 1.1rem 0 2.8rem; }
+  h2 { font-size: 1.2rem; }
+
+  .agenda { margin-bottom: 3.5rem; }
+  .actividad { padding: 1.4rem 0; border-top: 1px solid var(--niebla); }
+  .meta { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; font-family: var(--dato); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em; margin: 0 0 0.6rem; }
+  .tipo { color: var(--senal); }
+  .estado { padding: 0.12rem 0.45rem; border: 1px solid var(--niebla); color: var(--gris); }
+  .estado[data-estado='inscripcion-abierta'] { background: var(--senal); color: #fff; border-color: var(--senal); }
+  .actividad h3 { font-size: 1.12rem; max-width: 44ch; }
+  .descripcion { margin: 0.6rem 0 0; color: var(--gris); max-width: 58ch; font-size: 0.97rem; }
+
+  .convocatoria { background: var(--azul-claro); border-left: 4px solid var(--senal); padding: 1.5rem; margin-top: 2rem; max-width: 620px; }
+  .convocatoria p { margin: 0 0 1.2rem; max-width: 50ch; font-size: 0.98rem; }
+  .boton { display: inline-block; background: var(--senal); color: #fff; text-decoration: none; font-family: var(--dato); font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.65rem 1.2rem; }
+  .boton:hover { background: var(--tinta); }
+
+  .realizados { padding-top: 1rem; border-top: 2px solid var(--tinta); }
+  .webinar { padding: 1.4rem 0; border-bottom: 1px solid var(--niebla); }
+  .fecha-evento { font-family: var(--dato); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0 0 0.5rem; }
+  .webinar h3 { font-size: 1.15rem; }
+  .webinar h3 a { color: var(--tinta); text-decoration: none; }
+  .webinar h3 a:hover { color: var(--senal); }
+  .panel { font-family: var(--dato); font-size: 0.76rem; color: var(--gris); margin: 0.5rem 0 0; }
+  .vacio { color: var(--gris); font-style: italic; }
 </style>

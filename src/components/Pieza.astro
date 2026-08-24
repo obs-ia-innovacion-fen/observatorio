@@ -2,13 +2,22 @@
 import Procedencia from './Procedencia.astro';
 const { pieza } = Astro.props;
 const d = pieza.data;
+
+// Una sugerencia no tiene analisis propio: enlaza directo a la fuente en vez
+// de a una pagina interna que estaria vacia.
+const esSugerencia = d.tipo === 'sugerencia';
+const destino = esSugerencia ? (d.enlace ?? d.doi ?? '#') : `/publicaciones/${pieza.id}/`;
 ---
 
 <article class="pieza">
   <div class="meta">
     <Procedencia tipo={d.tipo} revisado={d.revisado_por_pares} fuente={d.fuente_ficha} />
   </div>
-  <h3><a href={`/publicaciones/${pieza.id}/`}>{d.titulo}</a></h3>
+  <h3>
+    <a href={destino} rel={esSugerencia ? 'noopener' : undefined}>
+      {d.titulo}{esSugerencia && <span class="externo"> ↗</span>}
+    </a>
+  </h3>
   <p class="fuente">
     {d.autores.length > 0 && <span>{d.autores.join(', ')}</span>}
     {d.publicado_en && <span> · {d.publicado_en}</span>}
@@ -22,5 +31,6 @@ const d = pieza.data;
   .pieza h3 { font-size: 1.22rem; line-height: 1.25; }
   .pieza h3 a { color: var(--tinta); text-decoration: none; }
   .pieza h3 a:hover { color: var(--senal); text-decoration: underline; }
+  .externo { color: var(--gris); font-size: 0.8em; }
   .fuente { font-family: var(--dato); font-size: 0.78rem; color: var(--gris); margin: 0.5rem 0 0; line-height: 1.5; }
 </style>

@@ -1,0 +1,23 @@
+# Actividades del Observatorio. Se muestran en /webinars/.
+#
+# "estado" acepta: confirmada | por-confirmar | inscripcion-abierta
+# Una actividad sin fecha se anuncia igual, con estado por-confirmar: es
+# preferible declarar que se esta preparando a no aparecer.
+
+proximas:
+  - titulo: "El nuevo marco regulatorio europeo de IA y qué implica para las empresas de la región"
+    tipo: "Webinar"
+    fecha: ""
+    estado: "por-confirmar"
+    descripcion: >
+      Qué obligaciones concretas trae la regulación europea, a qué empresas de
+      la región alcanza por vía de clientes y cadenas de suministro, y qué
+      conviene tener resuelto antes de que sea exigible.
+
+  - titulo: "Encuentro presencial de cierre del ciclo"
+    tipo: "Encuentro"
+    fecha: ""
+    estado: "por-confirmar"
+    descripcion: >
+      Sesión presencial para cerrar el ciclo de webinars del año y presentar
+      los primeros resultados del trabajo del Observatorio.

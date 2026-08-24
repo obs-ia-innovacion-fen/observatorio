@@ -8,7 +8,7 @@ doi: "10.1080/26437015.2026.2716818"
 enlace: "https://doi.org/10.1080/26437015.2026.2716818"
 publicado_en: "Journal of the International Council for Small Business"
 area: ia-en-pymes
-tipo: sugerencia
+tipo: comentada
 fuente_ficha: resumen
 revisado_por_pares: true
 institucion: ""

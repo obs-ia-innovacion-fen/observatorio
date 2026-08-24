@@ -26,7 +26,14 @@ hallazgos:
     descargas de IA generativa y recibe poco mas del uno por ciento de la
     inversion global del sector. Se adopta mas rapido de lo que se desarrolla
     capacidad para decidir sobre lo que se adopta.
-  innovacion: 
+  innovacion: >
+    Chile lleva quince anos destinando entre 0,31 y 0,39 por ciento de su PIB a
+    investigacion y desarrollo, sin tendencia clara. Argentina, con un contexto
+    macroeconomico mucho mas dificil, destina proporcionalmente mas de la mitad
+    adicional. La comparacion sugiere que el nivel de inversion en conocimiento
+    responde menos a la holgura fiscal que a decisiones sostenidas en el tiempo.
+    Esa capacidad instalada es el punto de partida desde el cual se intenta
+    adoptar inteligencia artificial.
 
 indicadores:
   - clave: adopcion-generativa
@@ -89,6 +96,142 @@ indicadores:
     enlace: "https://indicelatam.cl/"
     verificado: 2026-08-23
 
+  - clave: gerd-chile
+    tema: innovacion
+    titulo: "0,39%"
+    detalle: "del PIB invierte Chile en investigacion y desarrollo (2022). El promedio de la Union Europea ese mismo anio bordea el 2%."
+    ambito: "Chile"
+    fuente: "OCDE — Main Science and Technology Indicators"
+    anio: 2022
+    enlace: "https://data-explorer.oecd.org"
+    pagina: "MSTI, indicador GERD como porcentaje del PIB"
+    verificado:
+
+  - clave: gerd-chile-argentina
+    tema: innovacion
+    titulo: "0,39% vs 0,60%"
+    detalle: "Gasto en I+D sobre PIB: Chile (2022) frente a Argentina (2023). Argentina destina proporcionalmente mas de la mitad adicional, pese a un contexto macroeconomico mucho mas dificil."
+    ambito: "Chile / Argentina"
+    fuente: "OCDE — Main Science and Technology Indicators"
+    anio: 2023
+    enlace: "https://data-explorer.oecd.org"
+    pagina: "MSTI, GERD porcentaje del PIB, CHL y ARG"
+    verificado:
+
+  - clave: gerd-comparado
+    tema: innovacion
+    titulo: "0,36% vs 2,13%"
+    detalle: "Gasto en I+D sobre PIB en 2021: Chile frente al promedio de los 27 paises de la Union Europea. Casi seis veces de diferencia."
+    ambito: "Chile / Union Europea"
+    fuente: "OCDE — Main Science and Technology Indicators"
+    anio: 2021
+    enlace: "https://data-explorer.oecd.org"
+    pagina: "MSTI, GERD porcentaje del PIB, CHL y EU27_2020"
+    verificado:
+
+  # --- AI Index 2026 (Stanford HAI): capitulos Economy (4) y Policy (8) ---
+  # Extraccion automatica desde el PDF publico. Cada cifra lleva pagina y numero
+  # de figura para verificacion rapida. verificado en blanco hasta comprobar.
+
+  - clave: chile-vacantes-ia-share
+    tema: ia
+    titulo: "2,41%"
+    detalle: "de las vacantes publicadas en Chile pidieron habilidades de IA en 2025 segun Lightcast; unico pais latinoamericano en el panel de la figura, sobre Reino Unido (1,93%) y bajo Estados Unidos (2,56%)"
+    ambito: "Chile"
+    fuente: "AI Index 2026 — Stanford HAI (Lightcast)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 204, Figura 4.4.1"
+    verificado:
+
+  - clave: chile-talento-ia-cambio-2019-25
+    tema: ia
+    titulo: "+82%"
+    detalle: "crecio la concentracion de talento en IA de Chile entre 2019 y 2025 segun LinkedIn; el informe advierte que todos los paises de la muestra crecieron al menos 75% desde una base baja, no es un aumento neto sobre el mercado laboral total"
+    ambito: "Chile"
+    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 214, Figura 4.4.22"
+    verificado:
+
+  - clave: argentina-talento-ia-cambio-2019-25
+    tema: ia
+    titulo: "+76%"
+    detalle: "crecio la concentracion de talento en IA de Argentina entre 2019 y 2025 segun LinkedIn; el segundo crecimiento mas bajo de la muestra"
+    ambito: "Argentina"
+    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 214, Figura 4.4.22"
+    verificado:
+
+  - clave: brasil-talento-ia-cambio-2019-25
+    tema: ia
+    titulo: "+107%"
+    detalle: "crecio la concentracion de talento en IA de Brasil entre 2019 y 2025 segun LinkedIn; el unico de los tres paises que mas que duplica su base de 2019, lejos de Chile (+82%) y Argentina (+76%)"
+    ambito: "Brasil"
+    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 214, Figura 4.4.22"
+    verificado:
+
+  - clave: chile-mujeres-en-ia
+    tema: ia
+    titulo: "23,7%"
+    detalle: "del talento en IA identificado por LinkedIn en Chile corresponde a mujeres en 2025; una de las brechas de genero mas amplias del panel, similar a Brasil"
+    ambito: "Chile"
+    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 217, Figura 4.4.25"
+    verificado:
+
+  - clave: argentina-mujeres-en-ia
+    tema: ia
+    titulo: "29,5%"
+    detalle: "del talento en IA identificado por LinkedIn en Argentina corresponde a mujeres en 2025; brecha menor que la chilena y la brasilena"
+    ambito: "Argentina"
+    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 217, Figura 4.4.25"
+    verificado:
+
+  - clave: brasil-mujeres-en-ia
+    tema: ia
+    titulo: "23,4%"
+    detalle: "del talento en IA identificado por LinkedIn en Brasil corresponde a mujeres en 2025; brecha comparable a la chilena"
+    ambito: "Brasil"
+    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 217, Figura 4.4.25"
+    verificado:
+
+  - clave: argentina-leyes-ia-g20-2016-25
+    tema: ia
+    titulo: "10"
+    detalle: "leyes de IA aprobadas por Argentina entre 2016 y 2025 segun Digital Policy Alert; empata con Canada y solo India (25) y China (17) la superan dentro del G20"
+    ambito: "Argentina"
+    fuente: "AI Index 2026 — Stanford HAI (Digital Policy Alert)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 342, Figura 8.4.3"
+    verificado:
+
+  - clave: brasil-leyes-ia-g20-2016-25
+    tema: ia
+    titulo: "6"
+    detalle: "leyes de IA aprobadas por Brasil entre 2016 y 2025 segun Digital Policy Alert; sexto lugar dentro del G20 medido, por debajo de Argentina (10). Chile no aparece en esta figura porque solo cubre paises del G20"
+    ambito: "Brasil"
+    fuente: "AI Index 2026 — Stanford HAI (Digital Policy Alert)"
+    anio: 2025
+    enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    pagina: "p. 342, Figura 8.4.3"
+    verificado:
+
 # --- SERIES COMPARADAS ---
 # Para datos dinamicos: una serie por indicador, con un valor por pais y anio.
 # El sitio dibuja el grafico solo, sin librerias externas.
@@ -102,7 +245,22 @@ indicadores:
 # Herramienta interactiva de comparacion entre paises:
 # https://hai.stanford.edu/ai-index/global-vibrancy-tool
 
-series: []
+series:
+  - clave: gerd-serie
+    tema: innovacion
+    titulo: "Gasto en I+D como porcentaje del PIB"
+    unidad: "% del PIB"
+    fuente: "OCDE — Main Science and Technology Indicators"
+    enlace: "https://data-explorer.oecd.org"
+    verificado:
+    nota: >
+      Chile y Argentina, con datos anuales del MSTI (medida G, unidad PT_B1GQ).
+      Brasil no figura como area de referencia en el MSTI: se verifico el
+      listado y las 50 economias con datos para este indicador no lo incluyen.
+      Para incorporarlo hay que traer PINTEC (IBGE) o RICYT.
+    paises:
+      Chile:     { 2015: 0.38, 2016: 0.37, 2017: 0.36, 2018: 0.37, 2019: 0.34, 2020: 0.34, 2021: 0.36, 2022: 0.39 }
+      Argentina: { 2015: 0.62, 2016: 0.53, 2017: 0.56, 2018: 0.49, 2019: 0.48, 2020: 0.54, 2021: 0.52, 2022: 0.55, 2023: 0.60 }
 #  - clave: vibrancy
 #    titulo: "Posicion en el indice global de vitalidad en IA"
 #    unidad: "puntaje"
@@ -114,6 +272,23 @@ series: []
 #      Chile:     { 2024: 0, 2025: 0, 2026: 0 }
 #      Brasil:    { 2024: 0, 2025: 0, 2026: 0 }
 #      Argentina: { 2024: 0, 2025: 0, 2026: 0 }
+
+  - clave: investigadores-por-mil-ocupados
+    tema: innovacion
+    titulo: "Investigadores por cada 1.000 personas ocupadas"
+    unidad: "por 1.000 empleos"
+    fuente: "OCDE — Main Science and Technology Indicators"
+    enlace: "https://data-explorer.oecd.org"
+    verificado:
+    nota: >
+      Solo Chile con el indicador estandar (medida T_RS, unidad 10P3EMP).
+      Argentina publica su recuento unicamente en equivalente a jornada
+      completa, en valores absolutos, lo que no es comparable con la razon per
+      capita chilena sin ajuste. Brasil no figura en el MSTI para esta medida.
+      Para comparar los tres hay que ir a RICYT, que los cubre con el mismo
+      instrumento.
+    paises:
+      Chile: { 2010: 0.74, 2011: 0.79, 2012: 0.86, 2013: 0.73, 2014: 0.93, 2015: 0.99, 2016: 1.07, 2017: 1.06, 2018: 1.12, 2019: 1.08, 2020: 1.26, 2021: 1.50, 2022: 1.56 }
 
 # --- PENDIENTES ---
 # Completar con cifra, anio y enlace exacto antes de publicarlas.
