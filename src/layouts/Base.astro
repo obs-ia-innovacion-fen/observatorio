@@ -39,13 +39,24 @@ const logos = [
     <meta name="twitter:title" content={tituloCompleto} />
     <meta name="twitter:description" content={descripcion} />
     <meta name="twitter:image" content={imagenAbsoluta} />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preload" href="/fonts/plus-jakarta-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/source-serif-4-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
     <style is:global>
+      /* Tipografias alojadas en el sitio (public/fonts): no dependen de Google
+         Fonts ni de la red de quien visita.
+         Display: Plus Jakarta Sans, la equivalente abierta de TT Wellingtons,
+         que es la letra del sitio oficial del Observatorio en Unegocios.
+         Para pasar a TT Wellingtons cuando lleguen los archivos con licencia:
+         poner los .woff2 en public/fonts, cambiar los tres @font-face de abajo
+         y el nombre en --display. Nada mas cambia. */
+      @font-face { font-family: 'Plus Jakarta Sans'; font-weight: 500; font-display: swap; src: url('/fonts/plus-jakarta-sans-latin-500-normal.woff2') format('woff2'); }
+      @font-face { font-family: 'Plus Jakarta Sans'; font-weight: 600; font-display: swap; src: url('/fonts/plus-jakarta-sans-latin-600-normal.woff2') format('woff2'); }
+      @font-face { font-family: 'Plus Jakarta Sans'; font-weight: 700; font-display: swap; src: url('/fonts/plus-jakarta-sans-latin-700-normal.woff2') format('woff2'); }
+      @font-face { font-family: 'Source Serif 4'; font-weight: 400; font-display: swap; src: url('/fonts/source-serif-4-latin-400-normal.woff2') format('woff2'); }
+      @font-face { font-family: 'Source Serif 4'; font-weight: 600; font-display: swap; src: url('/fonts/source-serif-4-latin-600-normal.woff2') format('woff2'); }
+      @font-face { font-family: 'IBM Plex Mono'; font-weight: 400; font-display: swap; src: url('/fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2'); }
+      @font-face { font-family: 'IBM Plex Mono'; font-weight: 500; font-display: swap; src: url('/fonts/ibm-plex-mono-latin-500-normal.woff2') format('woff2'); }
+
       :root {
         /* Paleta FEN: los dos azules del logotipo institucional */
         --fen: #0034D9;
@@ -58,7 +69,7 @@ const logos = [
         --azul-claro: #E8ECFB;
         --alerta: #8a4b1f;
 
-        --display: 'Archivo', system-ui, sans-serif;
+        --display: 'Plus Jakarta Sans', 'TT Wellingtons', system-ui, sans-serif;
         --cuerpo: 'Source Serif 4', Georgia, serif;
         --dato: 'IBM Plex Mono', ui-monospace, monospace;
 
@@ -80,7 +91,7 @@ const logos = [
 
       .marco { max-width: var(--ancho); margin: 0 auto; padding: 0 1.5rem; }
 
-      h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.16; letter-spacing: -0.008em; margin: 0; }
+      h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.14; letter-spacing: -0.015em; margin: 0; }
       h1 { font-size: clamp(2.3rem, 5vw, 3.5rem); }
       h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
       h3 { font-size: 1.3rem; }
@@ -159,6 +170,7 @@ const logos = [
           <a href="/publicaciones/">Publicaciones</a>
           <a href="/recursos/">Recursos</a>
           <a href="/novedades/">Novedades</a>
+          <a href="/radar/">Radar</a>
           <a href="/webinars/">Webinars</a>
         </nav>
       </div>

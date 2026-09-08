@@ -26,6 +26,11 @@ try {
 
 const { indicadores = [] } = cargarYaml(fs.readFileSync('./datos/indicadores.yml', 'utf-8')) ?? {};
 
+// Proximas actividades, desde datos/agenda.yml. Si no hay, el bloque no aparece.
+const { proximas = [] } = cargarYaml(fs.readFileSync('./datos/agenda.yml', 'utf-8')) ?? {};
+const agenda = proximas.slice(0, 3);
+const rotulosEstado = { 'confirmada': 'Confirmada', 'por-confirmar': 'Por confirmar', 'inscripcion-abierta': 'Inscripción abierta' };
+
 // Ultima recoleccion de medios, para la linea del radar.
 let radar = null;
 try {
@@ -79,6 +84,40 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
     </div>
   </section>
 
+  {(agenda.length > 0 || radar) && (
+    <section class="marco vivo" aria-label="Agenda y radar">
+      {agenda.length > 0 && (
+        <div class="tarjeta agenda">
+          <p class="rotulo">Próximas actividades</p>
+          <ul>
+            {agenda.map((a) => (
+              <li>
+                <p class="meta">
+                  <span class="tipo">{a.tipo}</span>
+                  <span class="estado" data-estado={a.estado}>{rotulosEstado[a.estado] ?? a.estado}</span>
+                  {a.fecha && <span>{a.fecha}</span>}
+                </p>
+                <p class="titulo-actividad">{a.titulo}</p>
+              </li>
+            ))}
+          </ul>
+          <a class="enlace-tarjeta" href="/webinars/#agenda">Toda la agenda e inscripciones</a>
+        </div>
+      )}
+      {radar && (
+        <div class="tarjeta radar">
+          <p class="rotulo">Selección semanal de noticias</p>
+          <p class="radar-cifra">{radar.titulares}</p>
+          <p class="radar-texto">
+            titulares sobre IA e innovación de <strong>{radar.medios}</strong> medios de Chile,
+            Argentina, Colombia, Brasil y el mundo, recolectados esta semana.
+          </p>
+          <a class="boton-radar" href="/radar/">Ver el radar de prensa</a>
+        </div>
+      )}
+    </section>
+  )}
+
   <section class="marco ultimo" aria-label="Lo último">
     {cifra && (
       <article class="bloque dato">
@@ -115,16 +154,6 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
       </article>
     )}
   </section>
-
-  {radar && (
-    <div class="marco">
-      <p class="radar">
-        Esta semana el recolector revisó <strong>{radar.titulares}</strong> titulares de
-        <strong>{radar.medios}</strong> medios de la región y el mundo.
-        <a href="/radar/">Ver el radar de prensa</a>
-      </p>
-    </div>
-  )}
 
   <div class="marco cierre">
     <Suscripcion />
@@ -167,7 +196,7 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
   .numero { font-family: var(--dato); font-size: 0.85rem; color: var(--fen); }
   .nombre { font-family: var(--display); font-weight: 600; font-size: 1.25rem; line-height: 1.25; }
 
-  .ultimo { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3rem; padding-top: 3.5rem; padding-bottom: 1rem; }
+  .ultimo { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3rem; padding-top: 3rem; padding-bottom: 1rem; }
   .bloque { border-top: 3px solid var(--fen); padding-top: 1.2rem; min-width: 0; }
   .bloque h2 { font-size: 1.35rem; line-height: 1.3; margin: 0.6rem 0 0; }
   .bloque h2 a { color: var(--tinta); text-decoration: none; }
@@ -178,9 +207,23 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
   .pie-bloque { font-family: var(--dato); font-size: 0.85rem; color: var(--gris); margin: 0.8rem 0 0; }
   .espaciado { margin-top: 2rem; }
   .cierre { padding-bottom: 4rem; }
-  .radar { font-family: var(--dato); font-size: 0.95rem; color: var(--gris); border-top: 1px solid var(--niebla); padding-top: 1.4rem; margin: 2.5rem 0 0; }
-  .radar strong { color: var(--tinta); font-weight: 500; }
-  .radar a { margin-left: 0.6rem; font-family: var(--display); font-weight: 600; }
+  .vivo { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2rem; padding-top: 2.5rem; }
+  .tarjeta { background: #fff; border-top: 4px solid var(--fen); padding: 1.6rem 1.8rem 1.8rem; display: flex; flex-direction: column; }
+  .agenda ul { list-style: none; padding: 0; margin: 0.4rem 0 0; flex: 1; }
+  .agenda li { padding: 0.9rem 0; border-top: 1px solid var(--niebla); }
+  .agenda li:first-child { border-top: 0; padding-top: 0.2rem; }
+  .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; align-items: center; font-family: var(--dato); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0 0 0.4rem; }
+  .tipo { color: var(--fen); }
+  .estado { padding: 0.1rem 0.45rem; border: 1px solid var(--niebla); }
+  .estado[data-estado='inscripcion-abierta'] { background: var(--fen); color: #fff; border-color: var(--fen); }
+  .titulo-actividad { font-family: var(--display); font-weight: 600; font-size: 1.2rem; line-height: 1.3; margin: 0; }
+  .enlace-tarjeta { margin-top: 1.2rem; font-family: var(--dato); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .radar-cifra { font-family: var(--display); font-weight: 700; font-size: 3.4rem; line-height: 1; color: var(--fen); margin: 0.4rem 0 0.5rem; }
+  .radar-texto { font-size: 1.05rem; line-height: 1.5; margin: 0 0 1.4rem; color: var(--gris); flex: 1; }
+  .radar-texto strong { color: var(--tinta); font-weight: 600; }
+  .boton-radar { align-self: flex-start; display: inline-block; background: var(--fen); color: #fff; text-decoration: none; font-family: var(--display); font-weight: 600; font-size: 1.05rem; padding: 0.85rem 1.5rem; }
+  .boton-radar:hover { background: var(--tinta); }
+  @media (max-width: 900px) { .vivo { grid-template-columns: 1fr; } }
 
   @media (max-width: 900px) {
     .entrada { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 3rem; padding-bottom: 3rem; }

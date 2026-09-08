@@ -24,10 +24,28 @@ const rotulos = {
     <h1>Webinars y actividades</h1>
     <p class="bajada">
       Cada sesión queda documentada: lo sustantivo de la discusión, incluidos
-      los puntos donde los panelistas no estuvieron de acuerdo.
+      los puntos donde los panelistas no estuvieron de acuerdo. Al final, lo
+      que viene y cómo inscribirse.
     </p>
 
-    <section class="agenda">
+    <section class="realizados">
+      <h2>Realizados</h2>
+      {webinars.length === 0 ? (
+        <p class="vacio">Las notas de los webinars realizados se publicarán acá.</p>
+      ) : (
+        webinars.map((w) => (
+          <article class="webinar">
+            <p class="fecha-evento">
+              {new Date(w.data.fecha_evento).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </p>
+            <h3><a href={`/webinars/${w.id}/`}>{w.data.titulo}</a></h3>
+            {w.data.panelistas?.length > 0 && <p class="panel">{w.data.panelistas.join(' · ')}</p>}
+          </article>
+        ))
+      )}
+    </section>
+
+    <section class="agenda" id="agenda">
       <h2>Lo que viene</h2>
       {proximas.length === 0 ? (
         <p class="vacio">Estamos preparando las próximas actividades.</p>
@@ -55,32 +73,14 @@ const rotulos = {
       </aside>
     </section>
 
-    <section class="realizados">
-      <h2>Realizados</h2>
-      {webinars.length === 0 ? (
-        <p class="vacio">Las notas de los webinars realizados se publicarán acá.</p>
-      ) : (
-        webinars.map((w) => (
-          <article class="webinar">
-            <p class="fecha-evento">
-              {new Date(w.data.fecha_evento).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })}
-            </p>
-            <h3><a href={`/webinars/${w.id}/`}>{w.data.titulo}</a></h3>
-            {w.data.panelistas?.length > 0 && <p class="panel">{w.data.panelistas.join(' · ')}</p>}
-          </article>
-        ))
-      )}
-    </section>
-
     <Suscripcion />
   </div>
 </Base>
 
 <style>
   .bajada { max-width: 58ch; color: var(--gris); margin: 1.1rem 0 2.8rem; }
-  h2 { font-size: 1.2rem; }
 
-  .agenda { margin-bottom: 3.5rem; }
+  .agenda { margin-top: 3.5rem; padding-top: 1rem; border-top: 2px solid var(--tinta); scroll-margin-top: 2rem; }
   .actividad { padding: 1.4rem 0; border-top: 1px solid var(--niebla); }
   .meta { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; font-family: var(--dato); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em; margin: 0 0 0.6rem; }
   .tipo { color: var(--senal); }
@@ -95,6 +95,7 @@ const rotulos = {
   .boton:hover { background: var(--tinta); }
 
   .realizados { padding-top: 1rem; border-top: 2px solid var(--tinta); }
+  h2 { font-size: clamp(1.5rem, 2.4vw, 1.9rem); }
   .webinar { padding: 1.4rem 0; border-bottom: 1px solid var(--niebla); }
   .fecha-evento { font-family: var(--dato); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0 0 0.5rem; }
   .webinar h3 { font-size: 1.15rem; }
