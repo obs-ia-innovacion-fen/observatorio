@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import { getCollection } from 'astro:content';
 const { titulo, descripcion, portada = false, imagen = '/og.png' } = Astro.props;
 const tituloCompleto = portada
-  ? 'Observatorio de IA e Innovación en los Negocios · FEN Universidad de Chile'
+  ? 'Observatorio de IA e Innovación en los Negocios · Facultad de Economía y Negocios, Universidad de Chile'
   : `${titulo} · Observatorio de IA e Innovación en los Negocios`;
 const canonica = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.pathname;
 const imagenAbsoluta = Astro.site ? new URL(imagen, Astro.site).href : imagen;
@@ -152,8 +152,8 @@ const logos = [
       .sitio-pie .pie { display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; justify-content: space-between; }
       .sitio-pie .contacto { display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; padding-bottom: 1.1rem; margin-bottom: 1.1rem; border-bottom: 1px solid var(--niebla); font-family: var(--dato); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; }
       .sitio-pie .contacto span { color: var(--tinta); }
-      .sitio-pie .contacto a { color: var(--gris); text-decoration: none; }
-      .sitio-pie .contacto a:hover { color: var(--senal); text-decoration: underline; }
+      .sitio-pie .contacto a { color: var(--fen); text-decoration: none; }
+      .sitio-pie .contacto a:hover { text-decoration: underline; }
       .sitio-pie p { margin: 0; }
 
       @media (prefers-reduced-motion: no-preference) {
@@ -172,7 +172,7 @@ const logos = [
           )}
           <a class="marca" href="/">
             Observatorio de IA e Innovación en los Negocios
-            <span>Depto. de Administración · FEN · Universidad de Chile</span>
+            <span>Departamento de Administración · Facultad de Economía y Negocios · Universidad de Chile</span>
           </a>
         </div>
         <nav class="menu">
@@ -204,7 +204,7 @@ const logos = [
             Cada pieza declara su procedencia y el estatus de revisión de su
             fuente. <a href="/metodo/">Cómo trabajamos</a>
           </p>
-          <p class="derechos">© {anio} · Universidad de Chile</p>
+          <p class="derechos">© {anio} · Facultad de Economía y Negocios, Universidad de Chile</p>
         </div>
       </div>
     </footer>
