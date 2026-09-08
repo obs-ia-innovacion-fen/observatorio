@@ -125,14 +125,16 @@ const logos = [
         background: #fff;
       }
       .sitio-cabecera .marco { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: baseline; justify-content: space-between; }
-      .marca { font-family: var(--display); font-weight: 700; font-size: 1.2rem; letter-spacing: -0.01em; color: var(--fen); text-decoration: none; }
-      .marca span { display: block; font-family: var(--dato); font-size: 0.78rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris); margin-top: 0.2rem; }
+      .marca { font-family: var(--display); font-weight: 700; font-size: 1.35rem; letter-spacing: -0.01em; color: var(--fen); text-decoration: none; }
+      .marca span { display: block; font-family: var(--dato); font-size: 0.8rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris); margin-top: 0.2rem; }
       .menu { display: flex; flex-wrap: wrap; gap: 0.6rem 1.6rem; font-family: var(--dato); font-size: 0.9rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.07em; }
       @media (max-width: 760px) {
         .sitio-cabecera .marco { flex-direction: column; align-items: flex-start; gap: 0.9rem; }
         .menu { width: 100%; gap: 0.5rem 1.1rem; font-size: 0.82rem; }
         .marca { font-size: 1.05rem; }
-        .logos img { height: 34px; }
+        .sitio-cabecera .identidad { flex-direction: column; align-items: flex-start; gap: 0.7rem; }
+        .sitio-cabecera .logos { border-right: 0; padding-right: 0; }
+        .logos img { height: 48px; }
       }
       .menu a { color: var(--gris); text-decoration: none; }
       .menu a:hover { color: var(--fen); }
@@ -140,8 +142,8 @@ const logos = [
       main { padding: 3.5rem 0 5rem; }
       main.portada { padding: 0; }
 
-      .identidad { display: flex; align-items: center; gap: 1.1rem; }
-      .logos { display: flex; align-items: center; gap: 0.9rem; padding-right: 1.1rem; border-right: 1px solid var(--niebla); }
+      .identidad { display: flex; align-items: center; gap: 1.3rem; }
+      .logos { display: flex; align-items: center; gap: 0.9rem; padding-right: 1.3rem; border-right: 1px solid var(--niebla); }
       .logos img { display: block; width: auto; }
 
       .sitio-pie { border-top: 3px solid var(--fen); padding: 1.6rem 0; font-size: 1rem; color: var(--gris); }
@@ -167,7 +169,7 @@ const logos = [
         <div class="identidad">
           {logos.length > 0 && (
             <span class="logos">
-              {logos.map((l) => <img src={`/logos/${l.archivo}`} alt={l.alt} height="44" />)}
+              {logos.map((l) => <img src={`/logos/${l.archivo}`} alt={l.alt} height="60" />)}
             </span>
           )}
           <a class="marca" href="/">
