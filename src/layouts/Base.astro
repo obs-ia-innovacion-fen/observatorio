@@ -9,6 +9,8 @@ const canonica = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Ast
 const imagenAbsoluta = Astro.site ? new URL(imagen, Astro.site).href : imagen;
 const areas = (await getCollection('areas')).sort((a, b) => a.data.orden - b.data.orden);
 const anio = new Date().getFullYear();
+const linkedin = 'https://www.linkedin.com/company/observatorioiaeinnovacion/';
+const correo = 'jeosepulve@fen.uchile.cl';
 
 // Los logotipos institucionales se muestran solo si los archivos estan puestos.
 const logos = [
@@ -126,7 +128,13 @@ const logos = [
       .sitio-cabecera .marco { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: baseline; justify-content: space-between; }
       .marca { font-family: var(--display); font-weight: 700; font-size: 1.2rem; letter-spacing: -0.01em; color: var(--fen); text-decoration: none; }
       .marca span { display: block; font-family: var(--dato); font-size: 0.78rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris); margin-top: 0.2rem; }
-      .menu { display: flex; gap: 1.6rem; font-family: var(--dato); font-size: 0.9rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.07em; }
+      .menu { display: flex; flex-wrap: wrap; gap: 0.6rem 1.6rem; font-family: var(--dato); font-size: 0.9rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.07em; }
+      @media (max-width: 760px) {
+        .sitio-cabecera .marco { flex-direction: column; align-items: flex-start; gap: 0.9rem; }
+        .menu { width: 100%; gap: 0.5rem 1.1rem; font-size: 0.82rem; }
+        .marca { font-size: 1.05rem; }
+        .logos img { height: 34px; }
+      }
       .menu a { color: var(--gris); text-decoration: none; }
       .menu a:hover { color: var(--fen); }
 
@@ -143,6 +151,10 @@ const logos = [
       .areas-pie a { color: var(--gris); text-decoration: none; }
       .areas-pie a:hover { color: var(--senal); text-decoration: underline; }
       .sitio-pie .pie { display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; justify-content: space-between; }
+      .sitio-pie .contacto { display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; padding-bottom: 1.1rem; margin-bottom: 1.1rem; border-bottom: 1px solid var(--niebla); font-family: var(--dato); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; }
+      .sitio-pie .contacto span { color: var(--tinta); }
+      .sitio-pie .contacto a { color: var(--gris); text-decoration: none; }
+      .sitio-pie .contacto a:hover { color: var(--senal); text-decoration: underline; }
       .sitio-pie p { margin: 0; }
 
       @media (prefers-reduced-motion: no-preference) {
@@ -183,6 +195,11 @@ const logos = [
         <nav class="areas-pie" aria-label="Áreas">
           <span>Áreas</span>
           {areas.map((a) => <a href={`/areas/${a.data.slug}/`}>{a.data.titulo}</a>)}
+        </nav>
+        <nav class="contacto" aria-label="Contacto">
+          <span>Contacto</span>
+          <a href={linkedin} rel="noopener">LinkedIn</a>
+          <a href={`mailto:${correo}`}>{correo}</a>
         </nav>
         <div class="pie">
           <p>

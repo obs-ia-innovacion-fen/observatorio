@@ -87,10 +87,10 @@ medios:
   - Clarin · Tecnologia (AR) [prensa]: https://www.clarin.com/rss/tecnologia/
   - Folha de S.Paulo · Tec (BR) [prensa]: https://feeds.folha.uol.com.br/tec/rss091.xml
   - Estadao · Economia (BR) [prensa]: https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/economia/?outputType=xml
-  - El Mercurio · Emol Economia (CL) [prensa]: https://www.emol.com/rss/rss.asp?canal=economia
   - America Economia [prensa]: https://www.americaeconomia.com/rss.xml
 
-  # Descartados el 2026-09-08: El Mostrador /feed/ (abandonado, ultima entrada
+  # Descartados el 2026-09-08: Emol / El Mercurio (sus feeds rss.emol.com y
+  # emol.com/rss ya no responden: redirigen a la portada), El Mostrador /feed/ (abandonado, ultima entrada
   # de 2021), Datos Protegidos /feed/ (ultima entrada de 2024), BioBioChile
   # /feed (404), Cooperativa (404), Minciencia y Corfo (sin feed publico),
   # Senado /rss (404), BID blogs (redirige a la portada sin feed).
