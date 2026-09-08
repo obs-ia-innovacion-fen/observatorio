@@ -45,8 +45,20 @@ try {
   const dirBandeja = './fuentes/bandeja';
   const ultimo = fs.readdirSync(dirBandeja).filter((f) => /^\d{4}-\d{2}-\d{2}-medios\.json$/.test(f)).sort().at(-1);
   if (ultimo) {
-    const piezas = JSON.parse(fs.readFileSync(`${dirBandeja}/${ultimo}`, 'utf-8'));
-    radar = { fecha: ultimo.slice(0, 10), titulares: piezas.length, medios: new Set(piezas.map((p) => p.medio)).size };
+    const piezas = JSON.parse(fs.readFileSync(`${dirBandeja}/${ultimo}`, 'utf-8'))
+      .filter((p) => p.nivel !== 'practica' && p.titulo && p.enlace)
+      .sort((a, b) => new Date(b.fecha ?? 0) - new Date(a.fecha ?? 0));
+    // Muestra: los dos titulares mas recientes de Chile y el ultimo de
+    // The Economist, MIT (Sloan o Technology Review) y Harvard Business Review.
+    const limpiar = (m) => (m ?? '').replace(/\s*\((CL|AR|CO|BR)\)\s*$/, '').replace(/\s*\(.*\)\s*$/, '');
+    const primero = (filtro, n = 1) => piezas.filter(filtro).slice(0, n);
+    const muestra = [
+      ...primero((p) => /\(CL\)\s*$/.test(p.medio), 2),
+      ...primero((p) => /^The Economist/.test(p.medio)),
+      ...primero((p) => /^MIT/.test(p.medio)),
+      ...primero((p) => /^Harvard/.test(p.medio)),
+    ].map((p) => ({ titulo: p.titulo, enlace: p.enlace, medio: limpiar(p.medio) }));
+    radar = { fecha: ultimo.slice(0, 10), titulares: piezas.length, medios: new Set(piezas.map((p) => p.medio)).size, muestra };
   }
 } catch { radar = null; }
 const cifra = indicadores.find((i) => i.clave === 'inversion-global') ?? indicadores[0] ?? null;
@@ -117,12 +129,24 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
       {radar && (
         <div class="tarjeta radar">
           <p class="rotulo">Selección semanal de noticias</p>
-          <p class="radar-cifra">{radar.titulares}</p>
-          <p class="radar-texto">
-            titulares sobre IA e innovación de <strong>{radar.medios}</strong> medios de Chile,
-            Argentina, Colombia, Brasil y el mundo, recolectados esta semana.
+          {radar.muestra.length > 0 ? (
+            <ul class="titulares">
+              {radar.muestra.map((t) => (
+                <li>
+                  <span class="medio">{t.medio}</span>
+                  <a href={t.enlace} rel="noopener">{t.titulo}</a>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="radar-texto">
+              <strong>{radar.titulares}</strong> titulares sobre IA e innovación de {radar.medios} medios,
+              recolectados esta semana.
+            </p>
+          )}
+          <p class="enlaces-tarjeta radar-pie">
+            <a href="/radar/">Revisar los {radar.titulares} titulares de la semana</a>
           </p>
-          <a class="boton-radar" href="/radar/">Ver el radar de prensa</a>
         </div>
       )}
     </section>
@@ -237,11 +261,15 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
   .proximas li { padding: 0.8rem 0; border-bottom: 1px solid var(--niebla); }
   .titulo-proxima { font-family: var(--display); font-weight: 600; font-size: 1.1rem; line-height: 1.3; margin: 0; }
   .enlace-tarjeta { margin-top: 1.2rem; font-family: var(--dato); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; }
-  .radar-cifra { font-family: var(--display); font-weight: 700; font-size: 3.4rem; line-height: 1; color: var(--fen); margin: 0.4rem 0 0.5rem; }
-  .radar-texto { font-size: 1.05rem; line-height: 1.5; margin: 0 0 1.4rem; color: var(--gris); flex: 1; }
+  .titulares { list-style: none; padding: 0; margin: 0.4rem 0 0; flex: 1; }
+  .titulares li { padding: 0.75rem 0; border-top: 1px solid var(--niebla); display: flex; flex-direction: column; gap: 0.3rem; }
+  .titulares li:first-child { border-top: 0; padding-top: 0.2rem; }
+  .titulares .medio { font-family: var(--dato); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--fen); }
+  .titulares a { font-family: var(--display); font-weight: 600; font-size: 1.05rem; line-height: 1.3; color: var(--tinta); text-decoration: none; }
+  .titulares a:hover { color: var(--fen); text-decoration: underline; }
+  .radar-texto { font-size: 1.05rem; line-height: 1.5; margin: 0.4rem 0 0; color: var(--gris); flex: 1; }
   .radar-texto strong { color: var(--tinta); font-weight: 600; }
-  .boton-radar { align-self: flex-start; display: inline-block; background: var(--fen); color: #fff; text-decoration: none; font-family: var(--display); font-weight: 600; font-size: 1.05rem; padding: 0.85rem 1.5rem; }
-  .boton-radar:hover { background: var(--tinta); }
+  .radar-pie a { color: var(--fen); }
   @media (max-width: 900px) { .vivo { grid-template-columns: 1fr; } }
 
   @media (max-width: 900px) {
