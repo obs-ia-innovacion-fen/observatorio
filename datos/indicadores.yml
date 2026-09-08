@@ -22,15 +22,15 @@
 hallazgos:
   actualizado: 2026-08-23
   ia: >
-    La region adopta rapido y construye despacio: es la tercera del mundo en
-    descargas de IA generativa y recibe poco mas del uno por ciento de la
-    inversion global del sector. Se adopta mas rapido de lo que se desarrolla
+    La región adopta rápido y construye despacio: es la tercera del mundo en
+    descargas de IA generativa y recibe poco más del uno por ciento de la
+    inversión global del sector. Se adopta más rápido de lo que se desarrolla
     capacidad para decidir sobre lo que se adopta.
   innovacion: >
-    Chile lleva quince anos destinando entre 0,31 y 0,39 por ciento de su PIB a
-    investigacion y desarrollo, sin tendencia clara. Argentina, con un contexto
-    macroeconomico mucho mas dificil, destina proporcionalmente mas de la mitad
-    adicional. La comparacion sugiere que el nivel de inversion en conocimiento
+    Chile lleva quince años destinando entre 0,31 y 0,39 por ciento de su PIB a
+    investigación y desarrollo, sin tendencia clara. Argentina, con un contexto
+    macroeconómico mucho más difícil, destina proporcionalmente más de la mitad
+    adicional. La comparación sugiere que el nivel de inversión en conocimiento
     responde menos a la holgura fiscal que a decisiones sostenidas en el tiempo.
     Esa capacidad instalada es el punto de partida desde el cual se intenta
     adoptar inteligencia artificial.
@@ -39,7 +39,7 @@ indicadores:
   - clave: adopcion-generativa
     tema: ia
     titulo: "15–20%"
-    detalle: "del mercado global de descargas de IA generativa corresponde a America Latina, tercera region del mundo en adopcion"
+    detalle: "del mercado global de descargas de IA generativa corresponde a América Latina, tercera región del mundo en adopción"
     ambito: "America Latina"
     fuente: "ILIA — CENIA / CEPAL"
     anio: 2025
@@ -49,7 +49,7 @@ indicadores:
   - clave: inversion-global
     tema: ia
     titulo: "1,28%"
-    detalle: "de la inversion global en IA llega a la region: brecha estructural de financiamiento"
+    detalle: "de la inversión global en IA llega a la región: brecha estructural de financiamiento"
     ambito: "America Latina"
     fuente: "ILIA — CENIA / CEPAL"
     anio: 2025
@@ -59,7 +59,7 @@ indicadores:
   - clave: curriculo-escolar
     tema: ia
     titulo: "13 de 19"
-    detalle: "paises sin IA integrada al curriculo escolar temprano"
+    detalle: "países sin IA integrada al currículo escolar temprano"
     ambito: "America Latina"
     fuente: "ILIA — CENIA / CEPAL"
     anio: 2025
@@ -69,7 +69,7 @@ indicadores:
   - clave: doctorados
     tema: ia
     titulo: "11 de 19"
-    detalle: "paises sin programas doctorales en IA: el talento especializado sigue concentrado"
+    detalle: "países sin programas doctorales en IA: el talento especializado sigue concentrado"
     ambito: "America Latina"
     fuente: "ILIA — CENIA / CEPAL"
     anio: 2025
@@ -79,7 +79,7 @@ indicadores:
   - clave: concentracion-investigacion
     tema: ia
     titulo: "68%"
-    detalle: "de los investigadores activos en IA de la region estan en Brasil y Mexico; el top-5 concentra el 87%"
+    detalle: "de los investigadores activos en IA de la región están en Brasil y México; el top-5 concentra el 87%"
     ambito: "America Latina"
     fuente: "ILIA — CENIA / CEPAL"
     anio: 2025
@@ -89,7 +89,7 @@ indicadores:
   - clave: estrategias-nacionales
     tema: ia
     titulo: "9 de 19"
-    detalle: "paises con estrategia nacional de IA: la gobernanza avanza mas lento que la adopcion"
+    detalle: "países con estrategia nacional de IA: la gobernanza avanza más lento que la adopción"
     ambito: "America Latina"
     fuente: "ILIA — CENIA / CEPAL"
     anio: 2025
@@ -99,7 +99,7 @@ indicadores:
   - clave: gerd-chile
     tema: innovacion
     titulo: "0,39%"
-    detalle: "del PIB invierte Chile en investigacion y desarrollo (2022). El promedio de la Union Europea ese mismo anio bordea el 2%."
+    detalle: "del PIB invierte Chile en investigación y desarrollo (2022). El promedio de la Unión Europea ese mismo año bordea el 2%."
     ambito: "Chile"
     fuente: "OCDE — Main Science and Technology Indicators"
     anio: 2022
@@ -110,7 +110,7 @@ indicadores:
   - clave: gerd-chile-argentina
     tema: innovacion
     titulo: "0,39% vs 0,60%"
-    detalle: "Gasto en I+D sobre PIB: Chile (2022) frente a Argentina (2023). Argentina destina proporcionalmente mas de la mitad adicional, pese a un contexto macroeconomico mucho mas dificil."
+    detalle: "Gasto en I+D sobre PIB: Chile (2022) frente a Argentina (2023). Argentina destina proporcionalmente más de la mitad adicional, pese a un contexto macroeconómico mucho más difícil."
     ambito: "Chile / Argentina"
     fuente: "OCDE — Main Science and Technology Indicators"
     anio: 2023
@@ -121,7 +121,7 @@ indicadores:
   - clave: gerd-comparado
     tema: innovacion
     titulo: "0,36% vs 2,13%"
-    detalle: "Gasto en I+D sobre PIB en 2021: Chile frente al promedio de los 27 paises de la Union Europea. Casi seis veces de diferencia."
+    detalle: "Gasto en I+D sobre PIB en 2021: Chile frente al promedio de los 27 países de la Unión Europea. Casi seis veces de diferencia."
     ambito: "Chile / Union Europea"
     fuente: "OCDE — Main Science and Technology Indicators"
     anio: 2021
@@ -136,7 +136,7 @@ indicadores:
   - clave: chile-vacantes-ia-share
     tema: ia
     titulo: "2,41%"
-    detalle: "de las vacantes publicadas en Chile pidieron habilidades de IA en 2025 segun Lightcast; unico pais latinoamericano en el panel de la figura, sobre Reino Unido (1,93%) y bajo Estados Unidos (2,56%)"
+    detalle: "de las vacantes publicadas en Chile pidieron habilidades de IA en 2025 según Lightcast; único país latinoamericano en el panel de la figura, sobre Reino Unido (1,93%) y bajo Estados Unidos (2,56%)"
     ambito: "Chile"
     fuente: "AI Index 2026 — Stanford HAI (Lightcast)"
     anio: 2025
@@ -147,7 +147,7 @@ indicadores:
   - clave: chile-talento-ia-cambio-2019-25
     tema: ia
     titulo: "+82%"
-    detalle: "crecio la concentracion de talento en IA de Chile entre 2019 y 2025 segun LinkedIn; el informe advierte que todos los paises de la muestra crecieron al menos 75% desde una base baja, no es un aumento neto sobre el mercado laboral total"
+    detalle: "creció la concentración de talento en IA de Chile entre 2019 y 2025 según LinkedIn; el informe advierte que todos los países de la muestra crecieron al menos 75% desde una base baja, no es un aumento neto sobre el mercado laboral total"
     ambito: "Chile"
     fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
     anio: 2025
@@ -158,7 +158,7 @@ indicadores:
   - clave: argentina-talento-ia-cambio-2019-25
     tema: ia
     titulo: "+76%"
-    detalle: "crecio la concentracion de talento en IA de Argentina entre 2019 y 2025 segun LinkedIn; el segundo crecimiento mas bajo de la muestra"
+    detalle: "creció la concentración de talento en IA de Argentina entre 2019 y 2025 según LinkedIn; el segundo crecimiento más bajo de la muestra"
     ambito: "Argentina"
     fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
     anio: 2025
@@ -169,7 +169,7 @@ indicadores:
   - clave: brasil-talento-ia-cambio-2019-25
     tema: ia
     titulo: "+107%"
-    detalle: "crecio la concentracion de talento en IA de Brasil entre 2019 y 2025 segun LinkedIn; el unico de los tres paises que mas que duplica su base de 2019, lejos de Chile (+82%) y Argentina (+76%)"
+    detalle: "creció la concentración de talento en IA de Brasil entre 2019 y 2025 según LinkedIn; el único de los tres países que más que duplica su base de 2019, lejos de Chile (+82%) y Argentina (+76%)"
     ambito: "Brasil"
     fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
     anio: 2025
@@ -180,7 +180,7 @@ indicadores:
   - clave: chile-mujeres-en-ia
     tema: ia
     titulo: "23,7%"
-    detalle: "del talento en IA identificado por LinkedIn en Chile corresponde a mujeres en 2025; una de las brechas de genero mas amplias del panel, similar a Brasil"
+    detalle: "del talento en IA identificado por LinkedIn en Chile corresponde a mujeres en 2025; una de las brechas de género más amplias del panel, similar a Brasil"
     ambito: "Chile"
     fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
     anio: 2025
@@ -191,7 +191,7 @@ indicadores:
   - clave: argentina-mujeres-en-ia
     tema: ia
     titulo: "29,5%"
-    detalle: "del talento en IA identificado por LinkedIn en Argentina corresponde a mujeres en 2025; brecha menor que la chilena y la brasilena"
+    detalle: "del talento en IA identificado por LinkedIn en Argentina corresponde a mujeres en 2025; brecha menor que la chilena y la brasileña"
     ambito: "Argentina"
     fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
     anio: 2025
@@ -213,7 +213,7 @@ indicadores:
   - clave: argentina-leyes-ia-g20-2016-25
     tema: ia
     titulo: "10"
-    detalle: "leyes de IA aprobadas por Argentina entre 2016 y 2025 segun Digital Policy Alert; empata con Canada y solo India (25) y China (17) la superan dentro del G20"
+    detalle: "leyes de IA aprobadas por Argentina entre 2016 y 2025 según Digital Policy Alert; empata con Canadá y solo India (25) y China (17) la superan dentro del G20"
     ambito: "Argentina"
     fuente: "AI Index 2026 — Stanford HAI (Digital Policy Alert)"
     anio: 2025
@@ -224,7 +224,7 @@ indicadores:
   - clave: brasil-leyes-ia-g20-2016-25
     tema: ia
     titulo: "6"
-    detalle: "leyes de IA aprobadas por Brasil entre 2016 y 2025 segun Digital Policy Alert; sexto lugar dentro del G20 medido, por debajo de Argentina (10). Chile no aparece en esta figura porque solo cubre paises del G20"
+    detalle: "leyes de IA aprobadas por Brasil entre 2016 y 2025 según Digital Policy Alert; sexto lugar dentro del G20 medido, por debajo de Argentina (10). Chile no aparece en esta figura porque solo cubre países del G20"
     ambito: "Brasil"
     fuente: "AI Index 2026 — Stanford HAI (Digital Policy Alert)"
     anio: 2025

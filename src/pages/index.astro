@@ -1,8 +1,33 @@
 ---
+import fs from 'node:fs';
+import { load as cargarYaml } from 'js-yaml';
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import Procedencia from '../components/Procedencia.astro';
+import Suscripcion from '../components/Suscripcion.astro';
 
 const areas = (await getCollection('areas')).sort((a, b) => a.data.orden - b.data.orden);
+
+// Lo último: una publicación con análisis propio, una novedad y una actividad.
+const orden = { propio: 0, colaboracion: 1, comentada: 2, sugerencia: 3 };
+const publicaciones = (await getCollection('publicaciones'))
+  .sort((a, b) => (orden[a.data.tipo] ?? 9) - (orden[b.data.tipo] ?? 9) || new Date(b.data.fecha) - new Date(a.data.fecha));
+const destacada = publicaciones[0];
+
+let novedad = null;
+try {
+  novedad = (await getCollection('vigilancia')).sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha))[0] ?? null;
+} catch { novedad = null; }
+
+let webinar = null;
+try {
+  webinar = (await getCollection('webinars')).sort((a, b) => new Date(b.data.fecha_evento) - new Date(a.data.fecha_evento))[0] ?? null;
+} catch { webinar = null; }
+
+const { indicadores = [] } = cargarYaml(fs.readFileSync('./datos/indicadores.yml', 'utf-8')) ?? {};
+const cifra = indicadores.find((i) => i.clave === 'inversion-global') ?? indicadores[0] ?? null;
+
+const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 
 <Base
@@ -10,86 +35,131 @@ const areas = (await getCollection('areas')).sort((a, b) => a.data.orden - b.dat
   titulo="Inicio"
   descripcion="Observatorio de IA e Innovación en los Negocios, FEN Universidad de Chile. Qué se está descubriendo sobre IA e innovación, y qué de eso sirve realmente a una empresa de la región."
 >
-  <div class="marco entrada">
-    <div class="presentacion">
-      <h1>
-        Qué se está descubriendo sobre IA e innovación, y qué de eso sirve
-        realmente a una empresa de la región.
-      </h1>
-
-      <p class="explicacion">
-        Seguimos la investigación de punta, evaluamos qué funciona en la
-        práctica y lo miramos donde importa: ecosistemas locales y regionales,
-        innovación de triple impacto y empresas de menor tamaño. Publicamos
-        poco, y cada pieza declara de dónde viene.
-      </p>
-
-      <div class="atajos">
-        <a href="/metodo/">Cómo trabajamos</a>
-        <a href="/datos/">Datos de la región</a>
-        <a href="/publicaciones/">Publicaciones</a>
-        <a href="/webinars/">Webinars</a>
+  <section class="hero">
+    <div class="marco entrada">
+      <div class="presentacion">
+        <p class="antetitulo">Observatorio · FEN · Universidad de Chile</p>
+        <h1>
+          Qué se está descubriendo sobre IA e innovación, y qué de eso sirve
+          realmente a una empresa de la región.
+        </h1>
+        <p class="explicacion">
+          Seguimos la investigación de punta, evaluamos qué funciona en la
+          práctica y lo miramos donde importa: ecosistemas locales y regionales,
+          innovación de triple impacto y empresas de menor tamaño. Publicamos
+          poco, y cada pieza declara de dónde viene.
+        </p>
+        <div class="atajos">
+          <a class="boton" href="/publicaciones/">Ver publicaciones</a>
+          <a class="enlace" href="/recursos/">Recursos para aprender</a>
+          <a class="enlace" href="/metodo/">Cómo trabajamos</a>
+        </div>
       </div>
-    </div>
 
-    <nav class="areas" aria-label="Áreas de trabajo">
-      <p class="rotulo">Áreas de trabajo</p>
-      {areas.map((area, i) => (
-        <a class="area" href={`/areas/${area.data.slug}/`}>
-          <span class="numero">{String(i + 1).padStart(2, '0')}</span>
-          <span class="nombre">{area.data.titulo}</span>
-        </a>
-      ))}
-    </nav>
+      <nav class="areas" aria-label="Áreas de trabajo">
+        <p class="rotulo">Áreas de trabajo</p>
+        {areas.map((area, i) => (
+          <a class="area" href={`/areas/${area.data.slug}/`}>
+            <span class="numero">{String(i + 1).padStart(2, '0')}</span>
+            <span class="nombre">{area.data.titulo}</span>
+          </a>
+        ))}
+      </nav>
+    </div>
+  </section>
+
+  <section class="marco ultimo" aria-label="Lo último">
+    {cifra && (
+      <article class="bloque dato">
+        <p class="rotulo">Dato de la región</p>
+        <p class="cifra">{cifra.titulo}</p>
+        <p class="texto">{cifra.detalle}</p>
+        <p class="pie-bloque">{cifra.fuente} · {cifra.anio} · <a href="/datos/">Todos los indicadores</a></p>
+      </article>
+    )}
+    {destacada && (
+      <article class="bloque">
+        <p class="rotulo">Última publicación</p>
+        <div class="etiqueta"><Procedencia tipo={destacada.data.tipo} revisado={destacada.data.revisado_por_pares} /></div>
+        <h2><a href={destacada.data.tipo === 'sugerencia' ? (destacada.data.enlace ?? destacada.data.doi) : `/publicaciones/${destacada.id}/`}>{destacada.data.titulo}</a></h2>
+        <p class="pie-bloque">{destacada.data.publicado_en} · {destacada.data.anio}</p>
+      </article>
+    )}
+    {(novedad || webinar) && (
+      <article class="bloque">
+        {novedad && (
+          <>
+            <p class="rotulo">Novedad</p>
+            <h2><a href={`/novedades/${novedad.id}/`}>{novedad.data.titulo}</a></h2>
+            <p class="pie-bloque">{fecha(novedad.data.fecha)}</p>
+          </>
+        )}
+        {webinar && (
+          <>
+            <p class="rotulo espaciado">Webinar</p>
+            <h2><a href={`/webinars/${webinar.id}/`}>{webinar.data.titulo}</a></h2>
+            <p class="pie-bloque">{fecha(webinar.data.fecha_evento)}</p>
+          </>
+        )}
+      </article>
+    )}
+  </section>
+
+  <div class="marco cierre">
+    <Suscripcion />
   </div>
 </Base>
 
 <style>
+  .hero { background: var(--fen); color: #fff; }
   .entrada {
-    min-height: calc(100vh - 148px);
     display: grid;
-    grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+    grid-template-columns: minmax(0, 1.3fr) minmax(300px, 0.7fr);
     gap: 4rem;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
+  .antetitulo { font-family: var(--dato); font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; color: #C9D1F7; margin: 0 0 1.4rem; }
+  .presentacion h1 { font-size: clamp(2.2rem, 4vw, 3.4rem); max-width: 22ch; color: #fff; }
+  .explicacion { max-width: 52ch; font-size: 1.25rem; line-height: 1.55; margin: 1.8rem 0 2.2rem; color: #E6EAFB; }
+  .atajos { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 2rem; }
+  .boton {
+    display: inline-block; background: #fff; color: var(--fen); text-decoration: none;
+    font-family: var(--display); font-weight: 600; font-size: 1.05rem; padding: 0.85rem 1.5rem;
+  }
+  .boton:hover { background: var(--azul-claro); }
+  .enlace { color: #fff; font-family: var(--dato); font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase; }
 
-  .presentacion h1 {
-    font-size: clamp(1.7rem, 3vw, 2.5rem);
-    max-width: 20ch;
-  }
-  .explicacion {
-    max-width: 52ch;
-    font-size: 1.05rem;
-    margin: 1.6rem 0 2rem;
-  }
-  .atajos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem 1.6rem;
-    font-family: var(--dato);
-    font-size: 0.76rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-  }
-
-  .areas { border-left: 4px solid var(--senal); padding-left: 1.6rem; }
+  .areas { background: #fff; color: var(--tinta); padding: 1.6rem 1.8rem 0.6rem; border-top: 6px solid var(--fen-claro); }
   .rotulo {
-    font-family: var(--dato); font-size: 0.7rem; letter-spacing: 0.12em;
+    font-family: var(--dato); font-size: 0.8rem; letter-spacing: 0.12em;
     text-transform: uppercase; color: var(--gris); margin: 0 0 0.8rem;
   }
   .area {
-    display: flex; align-items: baseline; gap: 0.9rem;
-    padding: 0.72rem 0; border-bottom: 1px solid var(--niebla);
+    display: flex; align-items: baseline; gap: 1rem;
+    padding: 0.9rem 0; border-bottom: 1px solid var(--niebla);
     text-decoration: none; color: var(--tinta);
   }
   .area:last-child { border-bottom: 0; }
-  .area:hover .nombre { color: var(--senal); text-decoration: underline; }
-  .numero { font-family: var(--dato); font-size: 0.7rem; color: var(--senal); }
-  .nombre { font-family: var(--display); font-weight: 500; font-size: 1.02rem; line-height: 1.25; }
+  .area:hover .nombre { color: var(--fen); text-decoration: underline; }
+  .numero { font-family: var(--dato); font-size: 0.85rem; color: var(--fen); }
+  .nombre { font-family: var(--display); font-weight: 600; font-size: 1.25rem; line-height: 1.25; }
 
-  @media (max-width: 860px) {
-    .entrada { grid-template-columns: 1fr; gap: 2.5rem; min-height: 0; padding-top: 3rem; align-items: start; }
+  .ultimo { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3rem; padding-top: 3.5rem; padding-bottom: 1rem; }
+  .bloque { border-top: 3px solid var(--fen); padding-top: 1.2rem; min-width: 0; }
+  .bloque h2 { font-size: 1.35rem; line-height: 1.3; margin: 0.6rem 0 0; }
+  .bloque h2 a { color: var(--tinta); text-decoration: none; }
+  .bloque h2 a:hover { color: var(--fen); text-decoration: underline; }
+  .etiqueta { margin-top: 0.2rem; }
+  .cifra { font-family: var(--display); font-weight: 600; font-size: 3.2rem; line-height: 1; color: var(--fen); margin: 0.4rem 0 0.6rem; }
+  .texto { margin: 0; max-width: 34ch; }
+  .pie-bloque { font-family: var(--dato); font-size: 0.85rem; color: var(--gris); margin: 0.8rem 0 0; }
+  .espaciado { margin-top: 2rem; }
+  .cierre { padding-bottom: 4rem; }
+
+  @media (max-width: 900px) {
+    .entrada { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 3rem; padding-bottom: 3rem; }
+    .ultimo { grid-template-columns: 1fr; gap: 2rem; }
   }
 </style>

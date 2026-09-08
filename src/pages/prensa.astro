@@ -1,0 +1,64 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+let fichas = [];
+try { fichas = await getCollection('prensa'); } catch { fichas = []; }
+fichas.sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
+
+const conContenido = await Promise.all(
+  fichas.map(async (f) => ({ ficha: f, Contenido: (await render(f)).Content }))
+);
+
+const fecha = (d, aprox) =>
+  new Date(d).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' }) + (aprox ? ' (aprox.)' : '');
+---
+
+<Base
+  titulo="En los medios"
+  descripcion="Apariciones de integrantes del Observatorio en prensa, radio y televisión, con enlace a la pieza original."
+>
+  <div class="marco prensa">
+    <p class="antetitulo">Prensa</p>
+    <h1>En los medios</h1>
+    <p class="bajada">
+      Cuando un integrante del Observatorio es consultado por un medio, dejamos
+      registro de qué se dijo y en qué contexto, con enlace a la pieza original.
+    </p>
+
+    {conContenido.length === 0 ? (
+      <p class="vacio">Todavía no hay apariciones registradas.</p>
+    ) : (
+      conContenido.map(({ ficha, Contenido }) => (
+        <article class="ficha" id={ficha.id}>
+          <p class="meta">
+            <span class="medio">{ficha.data.medio}</span>
+            <span>{fecha(ficha.data.fecha, ficha.data.fecha_aproximada)}</span>
+            {ficha.data.formato && <span>{ficha.data.formato}</span>}
+          </p>
+          <h2>{ficha.data.titulo}</h2>
+          <p class="quien">
+            {ficha.data.integrante}
+            {ficha.data.autor_nota && <span> · Nota de {ficha.data.autor_nota}</span>}
+          </p>
+          <div class="cuerpo"><Contenido /></div>
+          <p class="enlace"><a href={ficha.data.enlace} rel="noopener">Ver la pieza original ↗</a></p>
+        </article>
+      ))
+    )}
+  </div>
+</Base>
+
+<style>
+  .prensa { max-width: 820px; }
+  .antetitulo { font-family: var(--dato); font-size: 0.85rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gris); margin: 0 0 1rem; }
+  .bajada { max-width: 58ch; font-size: 1.2rem; color: var(--gris); margin: 1.2rem 0 3rem; }
+  .ficha { padding: 2.2rem 0; border-top: 2px solid var(--tinta); }
+  .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; font-family: var(--dato); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0 0 0.8rem; }
+  .medio { color: var(--fen); }
+  .ficha h2 { font-size: clamp(1.4rem, 2.4vw, 1.8rem); }
+  .quien { font-family: var(--dato); font-size: 0.9rem; color: var(--gris); margin: 0.6rem 0 1.4rem; }
+  .cuerpo :global(p) { max-width: var(--medida); margin: 0 0 1.1rem; }
+  .enlace { font-family: var(--dato); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; margin: 0.6rem 0 0; }
+  .vacio { color: var(--gris); font-style: italic; }
+</style>

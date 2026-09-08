@@ -10,7 +10,17 @@
 
 subtitulo: "Por qué existe el Observatorio y a quién sirve."
 
+# Mision oficial, tal como figura en la pagina del Observatorio en Unegocios
+# (con la errata "fomenstar" corregida). No se edita aqui: si cambia, cambia
+# primero alla. "enfoque" es la concrecion de esa mision en este sitio.
 mision_general: >
+  El Observatorio de Inteligencia Artificial e Innovación tiene como misión
+  fomentar el desarrollo de la IA y la innovación en todas las industrias y
+  campos, a través de la investigación, la educación y la creación de redes
+  de colaboración.
+
+enfoque_titulo: "Cómo lo hacemos"
+enfoque: >
   Reunir, curar y poner a disposición información relevante sobre inteligencia
   artificial e innovación, y conectarla con quienes deciden en las empresas y
   los ecosistemas de la región.
@@ -119,6 +129,24 @@ metas:
       Buscar en los países de la región experiencias concretas de adopción que
       otras empresas puedan replicar, y abrir a partir de ellas espacios de
       colaboración con quienes las llevaron adelante.
+
+# Objetivos generales: los tres desafios que declara la pagina oficial del
+# Observatorio en Unegocios, literales. Los especificos son los de este sitio:
+# como este sistema de informacion cumple los generales.
+objetivos_generales:
+  - >
+    Crear investigaciones basadas en datos para mejorar la comprensión de la
+    IA y la innovación en diferentes campos.
+  - >
+    Difundir el conocimiento generado a través de publicaciones y eventos,
+    para que la IA y la innovación puedan ser aplicadas en diferentes
+    industrias.
+  - >
+    Formar a profesionales en la aplicación de las últimas tecnologías de IA e
+    innovación en el contexto empresarial, para mejorar la eficiencia y
+    competitividad de las empresas.
+
+objetivos_fuente: "https://www.unegocios.uchile.cl/observatorios/ia-e-innovaci%C3%B3n-en-los-negocios"
 
 objetivos:
   - >

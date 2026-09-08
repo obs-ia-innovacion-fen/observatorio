@@ -1,0 +1,157 @@
+---
+import fs from 'node:fs';
+import { load as cargarYaml } from 'js-yaml';
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Suscripcion from '../components/Suscripcion.astro';
+
+const { portal, playgrounds = [], programas = [], programas_fuente } =
+  cargarYaml(fs.readFileSync('./datos/recursos.yml', 'utf-8')) ?? {};
+
+// Un programa sin enlace no se publica: la regla es la misma que para las cifras.
+const programasPublicables = programas.filter((p) => p.url);
+
+// Agrupar los playgrounds por familia, conservando el orden del archivo.
+const familias = [];
+for (const pg of playgrounds) {
+  let f = familias.find((x) => x.nombre === pg.familia);
+  if (!f) { f = { nombre: pg.familia, items: [] }; familias.push(f); }
+  f.items.push(pg);
+}
+
+let webinars = 0;
+let publicaciones = 0;
+try { webinars = (await getCollection('webinars')).length; } catch { webinars = 0; }
+try { publicaciones = (await getCollection('publicaciones')).length; } catch { publicaciones = 0; }
+---
+
+<Base
+  titulo="Recursos"
+  descripcion="Recursos para aprender IA y analítica: playgrounds interactivos de machine learning, programas de formación de la FEN y el material del Observatorio."
+>
+  <div class="marco">
+    <p class="antetitulo">Formación</p>
+    <h1>Recursos para aprender</h1>
+    <p class="bajada">
+      Lo que el Observatorio pone a disposición para formarse en inteligencia
+      artificial y analítica: herramientas para practicar, programas para
+      profundizar y el material de nuestras sesiones y publicaciones.
+    </p>
+
+    <section class="portal" aria-labelledby="portal-titulo">
+      <div class="portal-texto">
+        <p class="rotulo">Practicar</p>
+        <h2 id="portal-titulo">{portal.titulo}</h2>
+        <p>{portal.descripcion}</p>
+        <a class="boton" href={portal.url} rel="noopener">{portal.texto_enlace}</a>
+      </div>
+    </section>
+
+    {familias.map((f) => (
+      <section class="familia">
+        <h3 class="familia-nombre">{f.nombre}</h3>
+        <div class="tarjetas">
+          {f.items.map((pg) => (
+            <a class="tarjeta" href={pg.url} rel="noopener">
+              <span class="tarjeta-titulo">{pg.titulo} <span class="externo">↗</span></span>
+              <span class="tarjeta-detalle">{pg.detalle}</span>
+              <span class="temas">{pg.temas.join(' · ')}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <section class="programas" aria-labelledby="programas-titulo">
+      <p class="rotulo">Profundizar</p>
+      <h2 id="programas-titulo">Programas de formación</h2>
+      <p class="intro">
+        Programas de la Facultad de Economía y Negocios vinculados al trabajo
+        del Observatorio. Cada uno enlaza a su página de información e
+        inscripción.
+      </p>
+      <ul class="lista-programas">
+        {programasPublicables.map((p) => (
+          <li>
+            <span class="tipo">{p.tipo}</span>
+            <a href={p.url} rel="noopener">{p.titulo}</a>
+            <span class="detalle-programa">{p.institucion}{p.direccion && ` · Dirige ${p.direccion}`}</span>
+          </li>
+        ))}
+      </ul>
+      {programas_fuente && (
+        <p class="origen">
+          Según la <a href={programas_fuente} rel="noopener">página del Observatorio en Unegocios</a>.
+        </p>
+      )}
+    </section>
+
+    <section class="propio" aria-labelledby="propio-titulo">
+      <p class="rotulo">Del Observatorio</p>
+      <h2 id="propio-titulo">Material propio</h2>
+      <div class="dos">
+        <a class="bloque" href="/webinars/">
+          <span class="bloque-titulo">Webinars y actividades</span>
+          <span class="bloque-detalle">
+            Cada sesión queda documentada con su nota y sus materiales.
+            {webinars > 0 && ` ${webinars} ${webinars === 1 ? 'sesión documentada' : 'sesiones documentadas'}.`}
+          </span>
+        </a>
+        <a class="bloque" href="/publicaciones/">
+          <span class="bloque-titulo">Publicaciones y lecturas</span>
+          <span class="bloque-detalle">
+            Investigación propia, colaboraciones, comentarios de literatura y
+            sugerencias de lectura, con su procedencia declarada.
+            {publicaciones > 0 && ` ${publicaciones} piezas.`}
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <Suscripcion />
+  </div>
+</Base>
+
+<style>
+  .antetitulo { font-family: var(--dato); font-size: 0.85rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gris); margin: 0 0 1rem; }
+  .bajada { max-width: 58ch; font-size: 1.2rem; color: var(--gris); margin: 1.2rem 0 3rem; }
+  .rotulo { font-family: var(--dato); font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--fen); margin: 0 0 0.6rem; }
+
+  .portal { background: var(--fen); color: #fff; padding: 2.6rem 2.4rem; margin-bottom: 2.5rem; }
+  .portal .rotulo { color: #C9D1F7; }
+  .portal h2 { color: #fff; max-width: 22ch; }
+  .portal p { max-width: 64ch; font-size: 1.1rem; color: #E6EAFB; margin: 1rem 0 1.6rem; }
+  .boton { display: inline-block; background: #fff; color: var(--fen); text-decoration: none; font-family: var(--display); font-weight: 600; font-size: 1.05rem; padding: 0.85rem 1.5rem; }
+  .boton:hover { background: var(--azul-claro); }
+
+  .familia { margin-bottom: 2.2rem; }
+  .familia-nombre { font-family: var(--dato); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris); font-weight: 500; padding-bottom: 0.6rem; border-bottom: 1px solid var(--niebla); margin-bottom: 1rem; }
+  .tarjetas { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.4rem; }
+  .tarjeta { display: flex; flex-direction: column; gap: 0.5rem; padding: 1.3rem 1.4rem; background: #fff; border-top: 3px solid var(--fen); text-decoration: none; color: var(--tinta); }
+  .tarjeta:hover .tarjeta-titulo { color: var(--fen); text-decoration: underline; }
+  .tarjeta-titulo { font-family: var(--display); font-weight: 600; font-size: 1.25rem; line-height: 1.25; }
+  .externo { color: var(--gris); font-size: 0.8em; }
+  .tarjeta-detalle { font-size: 1rem; line-height: 1.5; color: var(--gris); }
+  .temas { font-family: var(--dato); font-size: 0.8rem; color: var(--fen); margin-top: 0.3rem; }
+
+  .programas { margin-top: 4rem; padding-top: 1.5rem; border-top: 2px solid var(--tinta); }
+  .intro { color: var(--gris); max-width: 58ch; margin: 0.8rem 0 1.6rem; }
+  .lista-programas { list-style: none; padding: 0; margin: 0; }
+  .lista-programas li { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 0.2rem 1.2rem; padding: 1rem 0; border-top: 1px solid var(--niebla); align-items: baseline; }
+  .lista-programas a { font-family: var(--display); font-weight: 600; font-size: 1.15rem; color: var(--tinta); text-decoration: none; }
+  .lista-programas a:hover { color: var(--fen); text-decoration: underline; }
+  .tipo { font-family: var(--dato); font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--fen); }
+  .detalle-programa { grid-column: 2; font-size: 0.95rem; color: var(--gris); }
+  .origen { font-family: var(--dato); font-size: 0.8rem; color: var(--gris); margin: 1.2rem 0 0; }
+  @media (max-width: 640px) {
+    .lista-programas li { grid-template-columns: 1fr; }
+    .detalle-programa { grid-column: 1; }
+  }
+
+  .propio { margin-top: 4rem; padding-top: 1.5rem; border-top: 2px solid var(--tinta); }
+  .dos { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.6rem; margin-top: 1.4rem; }
+  .bloque { display: flex; flex-direction: column; gap: 0.5rem; padding: 1.4rem 1.5rem; background: var(--azul-claro); border-left: 4px solid var(--fen); text-decoration: none; color: var(--tinta); }
+  .bloque:hover .bloque-titulo { color: var(--fen); text-decoration: underline; }
+  .bloque-titulo { font-family: var(--display); font-weight: 600; font-size: 1.25rem; }
+  .bloque-detalle { color: var(--gris); font-size: 1rem; line-height: 1.5; }
+</style>

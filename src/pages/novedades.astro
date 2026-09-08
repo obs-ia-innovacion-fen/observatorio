@@ -5,6 +5,11 @@ import Base from '../layouts/Base.astro';
 let notas = [];
 try { notas = await getCollection('vigilancia'); } catch { notas = []; }
 notas.sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
+
+let prensa = [];
+try { prensa = await getCollection('prensa'); } catch { prensa = []; }
+prensa.sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
+prensa = prensa.slice(0, 3);
 ---
 
 <Base
@@ -34,6 +39,20 @@ notas.sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
         </article>
       ))
     )}
+
+    {prensa.length > 0 && (
+      <section class="medios">
+        <h2 class="medios-titulo">En los medios</h2>
+        <p class="medios-bajada">Apariciones recientes de integrantes del Observatorio.</p>
+        {prensa.map((p) => (
+          <article class="aparicion">
+            <p class="fecha"><span class="medio">{p.data.medio}</span> · {new Date(p.data.fecha).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+            <h3><a href={`/prensa/#${p.id}`}>{p.data.titulo}</a></h3>
+          </article>
+        ))}
+        <p class="todas"><a href="/prensa/">Todas las apariciones</a></p>
+      </section>
+    )}
   </div>
 </Base>
 
@@ -45,4 +64,13 @@ notas.sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
   .nota h2 a { color: var(--tinta); text-decoration: none; }
   .nota h2 a:hover { color: var(--senal); }
   .vacio { color: var(--gris); font-style: italic; padding-top: 1.5rem; border-top: 1px solid var(--niebla); }
+  .medios { margin-top: 4rem; padding-top: 1.2rem; border-top: 2px solid var(--tinta); }
+  .medios-titulo { font-size: clamp(1.4rem, 2.4vw, 1.8rem); }
+  .medios-bajada { color: var(--gris); margin: 0.5rem 0 1rem; }
+  .aparicion { padding: 1.2rem 0; border-top: 1px solid var(--niebla); }
+  .medio { color: var(--fen); }
+  .aparicion h3 { font-size: 1.25rem; }
+  .aparicion h3 a { color: var(--tinta); text-decoration: none; }
+  .aparicion h3 a:hover { color: var(--fen); text-decoration: underline; }
+  .todas { margin: 1.2rem 0 0; font-family: var(--dato); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; }
 </style>

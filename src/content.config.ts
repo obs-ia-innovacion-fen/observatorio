@@ -56,4 +56,21 @@ const webinars = defineCollection({
   }),
 });
 
-export const collections = { areas, publicaciones, vigilancia, webinars };
+// Apariciones de integrantes del Observatorio en medios. Una ficha por
+// aparicion; el texto es redaccion propia y solo enlaza a la pieza original.
+const prensa = defineCollection({
+  loader: glob({ pattern: '[^_]*.md', base: './contenido/prensa' }),
+  schema: z.object({
+    titulo: z.string(),
+    fecha: z.coerce.date(),
+    fecha_aproximada: z.boolean().default(false),
+    medio: z.string(),
+    formato: z.string().optional().nullable(),
+    integrante: z.string(),
+    autor_nota: z.string().optional().nullable(),
+    enlace: z.string(),
+    area: z.string().optional().nullable(),
+  }),
+});
+
+export const collections = { areas, publicaciones, vigilancia, webinars, prensa };

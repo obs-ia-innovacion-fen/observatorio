@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://observatorio-ia-innovacion.vercel.app',
+  // URL publica del sitio. Cambiar cuando exista el dominio definitivo.
+  site: 'https://obs-ia-innovacion-fen.pages.dev',
   markdown: { shikiConfig: { theme: 'github-light' } },
 });

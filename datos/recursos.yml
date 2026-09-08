@@ -1,0 +1,100 @@
+# Recursos del Observatorio: formacion y aprendizaje.
+#
+# Tres bloques. Los playgrounds son de David Diaz y viven en su portal
+# (ml-ai-portal.vercel.app): aqui solo se enlazan, no se copia su codigo.
+# Los programas son los que Unegocios asocia al Observatorio en su pagina
+# oficial; "direccion" replica lo que declara esa pagina y se corrige alli
+# primero. Un programa sin enlace no se publica.
+
+portal:
+  titulo: "Playgrounds interactivos de machine learning"
+  descripcion: >
+    Nueve micro-sitios para explorar técnicas de machine learning ajustando
+    parámetros y viendo el resultado en el momento. Corren en el navegador,
+    sin instalar nada ni crear cuenta. Los construyó David Díaz como material
+    de sus cursos de machine learning, IA y business intelligence.
+  autor: "David Díaz"
+  url: "https://ml-ai-portal.vercel.app"
+  texto_enlace: "Ir al portal de aprendizaje"
+
+playgrounds:
+  - familia: "Marco y ciclo de vida"
+    titulo: "Panorama del ML (CRISP-DM)"
+    detalle: "Las fases del ciclo de modelamiento analítico, la madurez de los modelos y un laboratorio para ubicar cada técnica en un marco común."
+    temas: ["CRISP-DM", "Ciclo de vida"]
+    url: "https://ml-landscape-playground.vercel.app"
+  - familia: "Aprendizaje no supervisado"
+    titulo: "Clustering"
+    detalle: "K-Means, DBSCAN y clustering jerárquico: cómo cambian las particiones al mover centroides, epsilon y criterio de enlace."
+    temas: ["K-Means", "DBSCAN", "Jerárquico"]
+    url: "https://clustering-playground.vercel.app"
+  - familia: "Aprendizaje no supervisado"
+    titulo: "Análisis de componentes principales"
+    detalle: "Reducción de dimensionalidad: varianza explicada, reconstrucción con menos componentes y detección de anomalías."
+    temas: ["PCA", "SVD", "Anomalías"]
+    url: "https://pca-playground.vercel.app"
+  - familia: "Aprendizaje no supervisado"
+    titulo: "Autoencoders"
+    detalle: "Entrenar un autoencoder en el navegador, ver cómo se forman los embeddings en el espacio latente y usar el error de reconstrucción para detectar anomalías."
+    temas: ["Autoencoder", "Embeddings", "Espacio latente"]
+    url: "https://autoencoder-embedding-playground.vercel.app"
+  - familia: "Reglas de asociación"
+    titulo: "Reglas de asociación"
+    detalle: "Análisis de canasta de mercado con Apriori y FP-Growth: conjuntos frecuentes, soporte, confianza y lift."
+    temas: ["Apriori", "FP-Growth", "Soporte / confianza / lift"]
+    url: "https://association-rules-playground.vercel.app"
+  - familia: "Aprendizaje supervisado"
+    titulo: "Regresión supervisada"
+    detalle: "Ajustar rectas a mano, ver la solución analítica de mínimos cuadrados, extender a polinomios y controlar la complejidad con Ridge y Lasso."
+    temas: ["Regresión lineal", "Polinomial", "Ridge / Lasso"]
+    url: "https://linear-models-playground.vercel.app"
+  - familia: "Aprendizaje supervisado"
+    titulo: "Árboles y ensambles"
+    detalle: "De un árbol de decisión a Random Forest y Gradient Boosting: profundidad, importancia de variables y el compromiso sesgo-varianza."
+    temas: ["Árbol de decisión", "Random Forest", "Gradient Boosting"]
+    url: "https://tree-ensemble-playground.vercel.app"
+  - familia: "Aprendizaje supervisado"
+    titulo: "Kernels y redes neuronales"
+    detalle: "Métricas de distancia en KNN, márgenes de SVM, la regla de aprendizaje del perceptrón y la arquitectura de un perceptrón multicapa."
+    temas: ["KNN", "SVM", "Perceptrón", "MLP"]
+    url: "https://kernel-neural-playground.vercel.app"
+  - familia: "Evaluación de modelos"
+    titulo: "Evaluación"
+    detalle: "Matriz de confusión, curvas ROC, precisión-recall, análisis de umbral y desbalance de clases con SMOTE."
+    temas: ["ROC / AUC", "Matriz de confusión", "SMOTE"]
+    url: "https://evaluation-playground-psi.vercel.app"
+
+programas:
+  - titulo: "Magíster en Analítica de Negocios"
+    tipo: "Magíster"
+    institucion: "Postgrado FEN, Universidad de Chile"
+    direccion: "David Díaz"
+    url: "https://www.postgradouchile.cl/magister/magister-en-analitica-de-negocios-weekend/"
+  - titulo: "Data Analytics Certificate MIT – UChile"
+    tipo: "Certificado"
+    institucion: "Postgrado FEN, Universidad de Chile, con MIT"
+    direccion: "David Díaz"
+    url: "https://www.postgradouchile.cl/postitulos/data-analytics-certificate-mit-uchile/"
+  - titulo: "Diplomado en Business Intelligence Aplicado"
+    tipo: "Diplomado"
+    institucion: "Unegocios, FEN"
+    direccion: "Felix Lizama"
+    url: "https://unegocios.uchile.cl/programas/diplomado-de-extension-en-business-intelligence-aplicado/"
+  - titulo: "Diplomado en Gestión de la Innovación"
+    tipo: "Diplomado"
+    institucion: "Unegocios, FEN"
+    direccion: "María Constanza Rebolledo"
+    url: "https://unegocios.uchile.cl/programas/diplomado-de-extension-en-gestion-de-la-innovacion/"
+  - titulo: "Diplomado en Inteligencia Artificial: Estrategia y Aplicaciones de Negocios"
+    tipo: "Diplomado"
+    institucion: "Unegocios, FEN"
+    direccion: "Juan Pablo Forno"
+    url: "https://unegocios.uchile.cl/programas/diplomado-de-extension-en-inteligencia-artificial-estrategia-y-aplicaciones-de-negocios/"
+  - titulo: "Diplomado en Inteligencia de Clientes y Big Data"
+    tipo: "Diplomado"
+    institucion: "Unegocios, FEN"
+    direccion: "Juan Pablo Forno"
+    url: "https://unegocios.uchile.cl/programas/diplomado-en-inteligencia-de-clientes-y-big-data/"
+
+# Pagina oficial del Observatorio en Unegocios, de donde sale la lista de programas.
+programas_fuente: "https://www.unegocios.uchile.cl/observatorios/ia-e-innovaci%C3%B3n-en-los-negocios"

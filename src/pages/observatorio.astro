@@ -30,6 +30,12 @@ const indice = [
       <h2>Misión</h2>
       <p class="subtitulo">{inst.subtitulo}</p>
       <p class="mision">{inst.mision_general}</p>
+      {inst.enfoque && (
+        <div class="enfoque">
+          <p class="etiqueta">{inst.enfoque_titulo ?? 'Cómo lo hacemos'}</p>
+          <p class="enfoque-texto">{inst.enfoque}</p>
+        </div>
+      )}
 
       <div class="dos-temas">
         {inst.mision?.map((m) => (
@@ -107,7 +113,19 @@ const indice = [
 
     <section class="objetivos" id="objetivos">
       <h2>Objetivos</h2>
-      <p class="intro">Las líneas de trabajo permanentes con las que se alcanzan esas metas.</p>
+      {inst.objetivos_generales?.length > 0 && (
+        <>
+          <p class="etiqueta">Objetivos generales</p>
+          <ol class="generales">
+            {inst.objetivos_generales.map((o) => <li>{o}</li>)}
+          </ol>
+          {inst.objetivos_fuente && (
+            <p class="origen">Según la <a href={inst.objetivos_fuente} rel="noopener">declaración institucional del Observatorio</a>.</p>
+          )}
+        </>
+      )}
+      <p class="etiqueta especificos">Objetivos específicos de este sitio</p>
+      <p class="intro">Cómo este sistema de información cumple los objetivos generales.</p>
       <ul>
         {inst.objetivos?.map((o) => <li>{o}</li>)}
       </ul>
@@ -183,7 +201,9 @@ const indice = [
   .declaracion { margin-top: 2.4rem; }
   .subtitulo { font-size: 1rem; color: var(--gris); margin: 0.6rem 0 1.4rem; }
 
-  .mision { font-size: 1.1rem; max-width: 62ch; margin: 0; line-height: 1.6; }
+  .mision { font-size: 1.25rem; max-width: 62ch; margin: 0; line-height: 1.55; }
+  .enfoque { margin-top: 1.6rem; border-left: 4px solid var(--fen); padding: 0.2rem 0 0.2rem 1.2rem; max-width: 62ch; }
+  .enfoque-texto { margin: 0; font-size: 1.1rem; line-height: 1.55; }
 
   .dos-temas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2.2rem; }
   .tema { border-top: 3px solid var(--senal); padding-top: 1rem; min-width: 0; }
@@ -230,9 +250,15 @@ const indice = [
 
   .objetivos { margin-top: 3.5rem; }
   .objetivos .intro { color: var(--gris); font-size: 0.96rem; margin: 0.7rem 0 1.3rem; max-width: 52ch; }
+  .generales { margin: 0.4rem 0 0; padding-left: 1.6rem; max-width: 62ch; }
+  .generales li { padding: 0.6rem 0 0.6rem 0.3rem; font-size: 1.05rem; border-top: 1px solid var(--niebla); }
+  .objetivos > .etiqueta:first-of-type { margin-top: 1rem !important; }
+  .generales li::marker { color: var(--fen); font-family: var(--dato); font-size: 0.9rem; }
+  .origen { font-family: var(--dato); font-size: 0.85rem; color: var(--gris); margin: 0.6rem 0 0; }
+  .especificos { margin-top: 2rem !important; }
   .objetivos ul { list-style: none; padding: 0; margin: 0; }
-  .objetivos li { padding: 0.85rem 0 0.85rem 1.3rem; border-top: 1px solid var(--niebla); max-width: 62ch; font-size: 0.98rem; position: relative; }
-  .objetivos li::before { content: '·'; position: absolute; left: 0; color: var(--senal); font-weight: 500; }
+  .objetivos ul li { padding: 0.85rem 0 0.85rem 1.3rem; border-top: 1px solid var(--niebla); max-width: 62ch; font-size: 0.98rem; position: relative; }
+  .objetivos ul li::before { content: '·'; position: absolute; left: 0; color: var(--senal); font-weight: 500; }
 
   .trabajo { margin-top: 3.5rem; }
   .trabajo p { max-width: 58ch; margin: 1rem 0 0; }
