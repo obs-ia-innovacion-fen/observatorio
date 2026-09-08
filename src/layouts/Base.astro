@@ -10,7 +10,6 @@ const imagenAbsoluta = Astro.site ? new URL(imagen, Astro.site).href : imagen;
 const areas = (await getCollection('areas')).sort((a, b) => a.data.orden - b.data.orden);
 const anio = new Date().getFullYear();
 const linkedin = 'https://www.linkedin.com/company/observatorioiaeinnovacion/';
-const correo = 'jeosepulve@fen.uchile.cl';
 
 // Los logotipos institucionales se muestran solo si los archivos estan puestos.
 const logos = [
@@ -199,7 +198,6 @@ const logos = [
         <nav class="contacto" aria-label="Contacto">
           <span>Contacto</span>
           <a href={linkedin} rel="noopener">LinkedIn</a>
-          <a href={`mailto:${correo}`}>{correo}</a>
         </nav>
         <div class="pie">
           <p>
