@@ -25,6 +25,17 @@ try {
 } catch { webinar = null; }
 
 const { indicadores = [] } = cargarYaml(fs.readFileSync('./datos/indicadores.yml', 'utf-8')) ?? {};
+
+// Ultima recoleccion de medios, para la linea del radar.
+let radar = null;
+try {
+  const dirBandeja = './fuentes/bandeja';
+  const ultimo = fs.readdirSync(dirBandeja).filter((f) => /^\d{4}-\d{2}-\d{2}-medios\.json$/.test(f)).sort().at(-1);
+  if (ultimo) {
+    const piezas = JSON.parse(fs.readFileSync(`${dirBandeja}/${ultimo}`, 'utf-8'));
+    radar = { fecha: ultimo.slice(0, 10), titulares: piezas.length, medios: new Set(piezas.map((p) => p.medio)).size };
+  }
+} catch { radar = null; }
 const cifra = indicadores.find((i) => i.clave === 'inversion-global') ?? indicadores[0] ?? null;
 
 const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' });
@@ -105,6 +116,16 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
     )}
   </section>
 
+  {radar && (
+    <div class="marco">
+      <p class="radar">
+        Esta semana el recolector revisó <strong>{radar.titulares}</strong> titulares de
+        <strong>{radar.medios}</strong> medios de la región y el mundo.
+        <a href="/radar/">Ver el radar de prensa</a>
+      </p>
+    </div>
+  )}
+
   <div class="marco cierre">
     <Suscripcion />
   </div>
@@ -157,6 +178,9 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
   .pie-bloque { font-family: var(--dato); font-size: 0.85rem; color: var(--gris); margin: 0.8rem 0 0; }
   .espaciado { margin-top: 2rem; }
   .cierre { padding-bottom: 4rem; }
+  .radar { font-family: var(--dato); font-size: 0.95rem; color: var(--gris); border-top: 1px solid var(--niebla); padding-top: 1.4rem; margin: 2.5rem 0 0; }
+  .radar strong { color: var(--tinta); font-weight: 500; }
+  .radar a { margin-left: 0.6rem; font-family: var(--display); font-weight: 600; }
 
   @media (max-width: 900px) {
     .entrada { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 3rem; padding-bottom: 3rem; }

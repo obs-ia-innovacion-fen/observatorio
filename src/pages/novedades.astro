@@ -25,6 +25,7 @@ prensa = prensa.slice(0, 3);
       empresa. Lo tercero es valioso y llega antes que lo demás, pero no es
       evidencia y lo decimos.
     </p>
+    <p class="radar-enlace"><a href="/radar/">Ver el radar de prensa de esta semana</a>: todos los titulares que recolectó el sistema, sin revisión.</p>
 
     {notas.length === 0 ? (
       <p class="vacio">Todavía no publicamos novedades. Van a aparecer acá.</p>
@@ -57,7 +58,9 @@ prensa = prensa.slice(0, 3);
 </Base>
 
 <style>
-  .bajada { max-width: 62ch; color: var(--gris); margin: 1.1rem 0 2.5rem; }
+  .bajada { max-width: 62ch; color: var(--gris); margin: 1.1rem 0 1rem; }
+  .radar-enlace { max-width: 62ch; margin: 0 0 2.5rem; color: var(--gris); }
+  .radar-enlace a { font-family: var(--display); font-weight: 600; }
   .nota { padding: 1.4rem 0; border-top: 1px solid var(--niebla); }
   .fecha { font-family: var(--dato); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0 0 0.5rem; }
   .nota h2 { font-size: 1.2rem; }

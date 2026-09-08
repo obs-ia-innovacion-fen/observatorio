@@ -1,0 +1,164 @@
+---
+// Radar de prensa: la ultima recoleccion de medios, tal como salio del
+// recolector, sin revision editorial. Se lee en el momento del build; como
+// cada recoleccion hace push a main, la pagina se reconstruye sola.
+import fs from 'node:fs';
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+
+const dirBandeja = path.resolve('./fuentes/bandeja');
+let fechaCorrida = null;
+let piezas = [];
+
+if (fs.existsSync(dirBandeja)) {
+  const archivos = fs.readdirSync(dirBandeja).filter((f) => /^\d{4}-\d{2}-\d{2}-medios\.json$/.test(f)).sort();
+  const ultimo = archivos.at(-1);
+  if (ultimo) {
+    fechaCorrida = ultimo.slice(0, 10);
+    try { piezas = JSON.parse(fs.readFileSync(path.join(dirBandeja, ultimo), 'utf-8')); } catch { piezas = []; }
+  }
+}
+
+// El pais sale del sufijo del nombre del medio en fuentes/medios.yml.
+const PAISES = [
+  { clave: 'CL', nombre: 'Chile' },
+  { clave: 'AR', nombre: 'Argentina' },
+  { clave: 'CO', nombre: 'Colombia' },
+  { clave: 'BR', nombre: 'Brasil' },
+  { clave: 'GL', nombre: 'Global' },
+];
+const paisDe = (medio) => {
+  const m = /\((CL|AR|CO|BR)\)\s*$/.exec(medio ?? '');
+  return m ? m[1] : 'GL';
+};
+const nombreLimpio = (medio) => (medio ?? '').replace(/\s*\((CL|AR|CO|BR)\)\s*$/, '');
+
+const NIVELES = { prensa: 'Prensa', institucional: 'Institucional', practica: 'Práctica' };
+
+const fechaCorta = (f) => {
+  const d = new Date(f);
+  return isNaN(d) ? '' : d.toLocaleDateString('es-CL', { day: 'numeric', month: 'short' });
+};
+
+// Agrupacion: pais -> medio -> piezas. La practica va aparte, al final.
+const principales = piezas.filter((p) => p.nivel !== 'practica');
+const practica = piezas.filter((p) => p.nivel === 'practica');
+
+const porPais = PAISES.map((pais) => {
+  const delPais = principales.filter((p) => paisDe(p.medio) === pais.clave);
+  const medios = [];
+  for (const p of delPais) {
+    const nombre = nombreLimpio(p.medio);
+    let m = medios.find((x) => x.nombre === nombre);
+    if (!m) { m = { nombre, nivel: p.nivel, piezas: [] }; medios.push(m); }
+    m.piezas.push(p);
+  }
+  return { ...pais, medios, total: delPais.length };
+}).filter((p) => p.total > 0);
+
+const totalMedios = new Set(piezas.map((p) => p.medio)).size;
+const fechaLegible = fechaCorrida
+  ? new Date(fechaCorrida + 'T12:00:00').toLocaleDateString('es-CL', { day: 'numeric', month: 'long', year: 'numeric' })
+  : null;
+---
+
+<Base
+  titulo="Radar de prensa"
+  descripcion="Titulares sobre IA e innovación que el recolector del Observatorio encontró esta semana en la prensa de Chile, Argentina, Colombia, Brasil y el mundo. Sin revisión editorial."
+>
+  <div class="marco radar">
+    <p class="antetitulo">Recolección automática</p>
+    <h1>Radar de prensa</h1>
+    <p class="bajada">
+      Titulares que el recolector del Observatorio encontró esta semana en los
+      medios que seguimos, filtrados por tema. No están revisados ni son una
+      recomendación: lo que merece lectura propia aparece en
+      <a href="/novedades/">Novedades</a>. De cada pieza guardamos solo el
+      titular y el enlace a su fuente.
+    </p>
+
+    {fechaCorrida ? (
+      <p class="corrida">
+        Recolección del <strong>{fechaLegible}</strong> ·
+        <strong>{piezas.length}</strong> titulares de <strong>{totalMedios}</strong> medios ·
+        <a href="/metodo/">Cómo se recolecta</a> ·
+        <a href="https://github.com/obs-ia-innovacion-fen/observatorio/tree/main/fuentes/bandeja" rel="noopener">Semanas anteriores</a>
+      </p>
+    ) : (
+      <p class="vacio">Todavía no hay una recolección publicada.</p>
+    )}
+
+    {porPais.length > 0 && (
+      <nav class="paises" aria-label="Países">
+        {porPais.map((p) => <a href={`#${p.clave.toLowerCase()}`}>{p.nombre} <span>{p.total}</span></a>)}
+      </nav>
+    )}
+
+    {porPais.map((pais) => (
+      <section class="pais" id={pais.clave.toLowerCase()}>
+        <h2>{pais.nombre}</h2>
+        {pais.medios.map((m) => (
+          <div class="medio">
+            <h3>
+              {m.nombre}
+              <span class="nivel" data-nivel={m.nivel}>{NIVELES[m.nivel] ?? m.nivel}</span>
+            </h3>
+            <ul>
+              {m.piezas.map((p) => (
+                <li>
+                  <a href={p.enlace} rel="noopener">{p.titulo}</a>
+                  {p.fecha && <span class="fecha">{fechaCorta(p.fecha)}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
+    ))}
+
+    {practica.length > 0 && (
+      <section class="pais practica" id="practica">
+        <h2>Práctica</h2>
+        <p class="aviso">
+          Publicaciones de practicantes, sin revisión editorial fuerte. Sirven
+          como señal de qué se está usando; no se citan como evidencia.
+        </p>
+        <ul>
+          {practica.map((p) => (
+            <li>
+              <a href={p.enlace} rel="noopener">{p.titulo}</a>
+              <span class="fecha">{nombreLimpio(p.medio)}{p.fecha && ` · ${fechaCorta(p.fecha)}`}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </div>
+</Base>
+
+<style>
+  .radar { max-width: 900px; }
+  .antetitulo { font-family: var(--dato); font-size: 0.85rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gris); margin: 0 0 1rem; }
+  .bajada { max-width: 62ch; font-size: 1.15rem; color: var(--gris); margin: 1.2rem 0 1.6rem; }
+  .corrida { font-family: var(--dato); font-size: 0.95rem; color: var(--gris); border-left: 4px solid var(--fen); padding-left: 1rem; margin: 0 0 2rem; }
+  .corrida strong { color: var(--tinta); font-weight: 500; }
+  .vacio { color: var(--gris); font-style: italic; }
+
+  .paises { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0 0 2.5rem; }
+  .paises a { font-family: var(--display); font-weight: 600; font-size: 1.05rem; text-decoration: none; color: var(--tinta); background: #fff; border-top: 3px solid var(--fen); padding: 0.6rem 1rem; }
+  .paises a span { font-family: var(--dato); font-size: 0.85rem; color: var(--fen); margin-left: 0.4rem; }
+  .paises a:hover { color: var(--fen); }
+
+  .pais { margin-top: 2.5rem; padding-top: 1rem; border-top: 2px solid var(--tinta); scroll-margin-top: 2rem; }
+  .pais h2 { font-size: clamp(1.6rem, 2.6vw, 2rem); margin-bottom: 0.6rem; }
+  .medio { margin-top: 1.4rem; }
+  .medio h3 { font-size: 1.15rem; display: flex; align-items: baseline; gap: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--niebla); }
+  .nivel { font-family: var(--dato); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gris); font-weight: 400; }
+  .nivel[data-nivel='institucional'] { color: var(--fen); }
+  .pais ul { list-style: none; padding: 0; margin: 0; }
+  .pais li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.2rem 1.5rem; padding: 0.7rem 0; border-bottom: 1px solid var(--niebla); font-size: 1.05rem; line-height: 1.4; }
+  .pais li a { color: var(--tinta); text-decoration: none; flex: 1 1 60ch; }
+  .pais li a:hover { color: var(--fen); text-decoration: underline; }
+  .fecha { font-family: var(--dato); font-size: 0.85rem; color: var(--gris); white-space: nowrap; }
+  .aviso { color: var(--gris); max-width: 58ch; margin: 0.4rem 0 1rem; }
+</style>

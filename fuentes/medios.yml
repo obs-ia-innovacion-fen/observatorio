@@ -42,13 +42,15 @@ medios:
   # de Medium y su direccion cambio.
   - Towards Data Science [practica]: https://towardsdatascience.com/feed/
 
-  # --- Region: Chile, Brasil, Argentina ---
+  # --- Region: Chile, Argentina, Colombia, Brasil ---
   # Aqui esta el valor diferencial. Nadie sistematiza esto.
   # Los feeds de portada traen mucho ruido (politica, deportes, estilo de
   # vida); el filtro TEMAS de medios.py se encarga. Cuando un medio ofrece
   # feed por seccion, se usa la de negocios o tecnologia.
   #
-  # Verificados el 2026-09-08 (responden con titulares del dia):
+  # Verificados el 2026-09-08 (responden con titulares del dia). El sufijo
+  # (CL)/(AR)/(CO)/(BR) en el nombre es lo que usa el Radar del sitio para
+  # agrupar por pais; sin sufijo, el medio cae en "Global".
 
   # Chile
   - Diario Financiero (CL) [prensa]: https://www.df.cl/noticias/site/list/port/rss.xml
@@ -63,6 +65,15 @@ medios:
   - Ambito · Economia (AR) [prensa]: https://www.ambito.com/rss/pages/economia.xml
   - Ambito · Negocios (AR) [prensa]: https://www.ambito.com/rss/pages/negocios.xml
   - La Nacion · portada (AR) [prensa]: https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml
+
+  # Colombia
+  - El Tiempo · Tecnosfera (CO) [prensa]: https://www.eltiempo.com/rss/tecnosfera.xml
+  - Portafolio · Negocios (CO) [prensa]: https://www.portafolio.co/rss/negocios.xml
+  - Portafolio · Economia (CO) [prensa]: https://www.portafolio.co/rss/economia.xml
+  - La Republica (CO) [prensa]: https://www.larepublica.co/rss
+  - Valora Analitik (CO) [prensa]: https://www.valoraanalitik.com/feed/
+  - Impacto TIC (CO) [prensa]: https://impactotic.co/feed/
+  - Semana · Economia (CO) [prensa]: https://www.semana.com/arc/outboundfeeds/rss/category/economia/?outputType=xml
 
   # Brasil
   - Valor Economico (BR) [prensa]: https://valor.globo.com/rss/valor
