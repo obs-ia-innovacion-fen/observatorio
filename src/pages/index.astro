@@ -48,12 +48,15 @@ try {
     const piezas = JSON.parse(fs.readFileSync(`${dirBandeja}/${ultimo}`, 'utf-8'))
       .filter((p) => p.nivel !== 'practica' && p.titulo && p.enlace)
       .sort((a, b) => new Date(b.fecha ?? 0) - new Date(a.fecha ?? 0));
-    // Muestra: los dos titulares mas recientes de Chile y el ultimo de
-    // The Economist, MIT (Sloan o Technology Review) y Harvard Business Review.
-    const limpiar = (m) => (m ?? '').replace(/\s*\((CL|AR|CO|BR)\)\s*$/, '').replace(/\s*\(.*\)\s*$/, '');
+    // Muestra: el titular mas reciente de Diario Financiero, El Mercurio y
+    // La Tercera, y el ultimo de The Economist, MIT (Sloan o Technology
+    // Review) y Harvard Business Review.
+    const limpiar = (m) => (m ?? '').replace(/\s*\((CL|AR|CO|BR)\)\s*$/, '').replace(/\s*\(.*\)\s*$/, '').split(' · ')[0];
     const primero = (filtro, n = 1) => piezas.filter(filtro).slice(0, n);
     const muestra = [
-      ...primero((p) => /\(CL\)\s*$/.test(p.medio), 2),
+      ...primero((p) => /^Diario Financiero/.test(p.medio)),
+      ...primero((p) => /^El Mercurio/.test(p.medio)),
+      ...primero((p) => /^La Tercera/.test(p.medio)),
       ...primero((p) => /^The Economist/.test(p.medio)),
       ...primero((p) => /^MIT/.test(p.medio)),
       ...primero((p) => /^Harvard/.test(p.medio)),
