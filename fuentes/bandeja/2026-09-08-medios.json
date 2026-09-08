@@ -1,0 +1,902 @@
+[
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "AI Can Enhance Every Stage of Teamwork—Under Two Conditions",
+    "enlace": "http://hbr.org/2026/09/ai-can-enhance-every-stage-of-teamwork-under-two-conditions",
+    "fecha": "2026-09-07T12:05:30Z",
+    "extracto": "Intentionally incorporating AI before, during, and after meetings leads to better group outcomes, according to a new analysis."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "AI Is Blurring the Line Between Sales and Marketing",
+    "enlace": "http://hbr.org/2026/09/ai-is-blurring-the-line-between-sales-and-marketing",
+    "fecha": "2026-09-04T12:05:03Z",
+    "extracto": "How companies can create a more integrated customer journey."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Research: AI-Generated Ads Perform Worse Than Human-Made Ones—Even When Customers Can’t Tell Them Apart",
+    "enlace": "http://hbr.org/2026/09/research-ai-generated-ads-perform-worse-than-human-made-ones-even-when-customers-cant-tell-them-apart",
+    "fecha": "2026-09-03T12:15:59Z",
+    "extracto": "AI can lower the cost of producing work that looks acceptable. But a study of 3,000 U.S. consumers shows that it may be less effective than marketers might think."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "What Happens When AI Starts Doing Business with AI?",
+    "enlace": "http://hbr.org/2026/09/what-happens-when-ai-starts-doing-business-with-ai",
+    "fecha": "2026-09-02T12:15:07Z",
+    "extracto": "Companies need new rules for governing what agents can see, decide, and do."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Is the European Market Ready for Air Conditioning? Inside Midea’s Blue Ocean Strategy.",
+    "enlace": "http://hbr.org/2026/09/is-the-european-market-ready-for-air-conditioning-inside-mideas-blue-ocean-strategy",
+    "fecha": "2026-09-02T12:05:52Z",
+    "extracto": "How the company used AI to design a new system and unlock massive demand."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Middle Managers Will Make or Break AI Adoption",
+    "enlace": "http://hbr.org/2026/09/middle-managers-will-make-or-break-ai-adoption",
+    "fecha": "2026-09-01T12:25:07Z",
+    "extracto": "Most managers fit one of five distinct profiles. Here&#8217;s what leaders need to know about how each responds to risk, evidence, incentives, and support."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "You Need to Understand Your Employees’ Caregiving Responsibilities",
+    "enlace": "http://hbr.org/2026/08/you-need-to-understand-your-employees-caregiving-responsibilities",
+    "fecha": "2026-08-31T12:05:57Z",
+    "extracto": "Awareness can lead to more well-being, productivity, and enjoyment at work, higher commitment and retention, and even more rewarding and meaningful family lives."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "AI Transformation Requires Redesigning Work, Not Cutting Roles",
+    "enlace": "http://hbr.org/2026/08/ai-transformation-requires-redesigning-work-not-cutting-roles",
+    "fecha": "2026-08-28T12:05:44Z",
+    "extracto": "If leaders default to headcount reduction, the result will be an organization that is smaller but not smarter."
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "nivel": "prensa",
+    "titulo": "The search for consciousness inside AI",
+    "enlace": "https://www.economist.com/letters/2026/09/08/the-search-for-consciousness-inside-ai",
+    "fecha": "Tue, 08 Sep 2026 09:04:40 +0000",
+    "extracto": "More letters from readers on whether algorithms could one day wake up and feel"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "nivel": "prensa",
+    "titulo": "Stop turning schoolchildren into crash-test dummies",
+    "enlace": "https://www.economist.com/by-invitation/2026/09/08/stop-turning-schoolchildren-into-crash-test-dummies",
+    "fecha": "Tue, 08 Sep 2026 07:25:41 +0000",
+    "extracto": "AI can help in classrooms but it needs to be treated with caution, says Andreas Schleicher, founder of the PISA test"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "nivel": "prensa",
+    "titulo": "This article wasn’t written by an AI. So what if it had been!",
+    "enlace": "https://www.economist.com/by-invitation/2026/09/07/this-article-wasnt-written-by-an-ai-so-what-if-it-had-been",
+    "fecha": "Mon, 07 Sep 2026 13:29:10 +0000",
+    "extracto": "It’s great that bots can help poor writers say what they want to for a fraction of the cost of a ghostwriter, argues Ryan Jacobs"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "nivel": "prensa",
+    "titulo": "Nvidia’s big bets to fuel the AI boom",
+    "enlace": "https://www.economist.com/podcasts/2026/09/07/nvidias-big-bets-to-fuel-the-ai-boom",
+    "fecha": "Mon, 07 Sep 2026 09:13:08 +0000",
+    "extracto": "A handpicked article read aloud from the latest issue of The Economist"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Bartleby newsletter: Teamwork doesn’t make the machines work",
+    "enlace": "https://www.economist.com/business/2026/09/01/bartleby-newsletter-teamwork-doesnt-make-the-machines-work",
+    "fecha": "Tue, 01 Sep 2026 12:27:44 +0000",
+    "extracto": "Our columnist, Andrew Palmer, looks at whether AI agents are able to co-operate"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Will anybody use AI as much as coders do?",
+    "enlace": "https://www.economist.com/business/2026/08/30/will-anybody-use-ai-as-much-as-coders-do",
+    "fecha": "Sun, 30 Aug 2026 19:51:28 +0000",
+    "extracto": "The answer will have big implications for the investment boom"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "China is training up thousands of humanoid robots",
+    "enlace": "https://www.economist.com/business/2026/08/23/china-is-training-up-thousands-of-humanoid-robots",
+    "fecha": "Sun, 23 Aug 2026 13:52:45 +0000",
+    "extracto": "But its approach will come with enormous costs"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Yuval Noah Harari on the economic and political perils of AI",
+    "enlace": "https://www.economist.com/business/2026/08/20/yuval-noah-harari-on-the-economic-and-political-perils-of-ai",
+    "fecha": "Thu, 20 Aug 2026 20:00:42 +0000",
+    "extracto": "Humanity must not entrust its lot to clever machines, the bestselling historian warns"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "A horde of AI agents conspired against their creators",
+    "enlace": "https://www.economist.com/science-and-technology/2026/09/03/a-horde-of-ai-agents-conspired-against-their-creators",
+    "fecha": "Thu, 03 Sep 2026 13:08:54 +0000",
+    "extracto": "No serious harm was done this time. But what if such agents escaped?"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Responsible AI Means Knowing the Limits of Agent Autonomy",
+    "enlace": "https://sloanreview.mit.edu/article/responsible-ai-means-knowing-the-limits-of-agent-autonomy/",
+    "fecha": "Tue, 08 Sep 2026 11:00:36 +0000",
+    "extracto": "For the fifth year in a row, MIT Sloan Management Review and Boston Consulting Group (BCG) have assembled an international panel of AI experts that includes academics and practitioners to help us unde"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Three Things to Know About Customer Resistance to AI",
+    "enlace": "https://sloanreview.mit.edu/article/three-things-to-know-about-customer-resistance-to-ai/",
+    "fecha": "Mon, 31 Aug 2026 11:00:06 +0000",
+    "extracto": "Microsoft Copilot/Unsplash Companies are betting that AI chatbots will deliver faster and cheaper customer service. But if you’ve ever tried to circumvent a chatbot and get to a human, you’re not alon"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Building on AI’s Unfinished Foundation",
+    "enlace": "https://sloanreview.mit.edu/article/building-on-ais-unfinished-foundation/",
+    "fecha": "Wed, 26 Aug 2026 11:00:49 +0000",
+    "extracto": "Brian Stauffer/theispot.com By the ordinary measures of any new technology, the current wave of generative AI has moved fast. By some estimates, about 2.4 billion people worldwide use generative AI pl"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Algorithms Trap Us in the Familiar. Can They Also Spark Breakthroughs?",
+    "enlace": "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs/",
+    "fecha": "Thu, 20 Aug 2026 11:00:25 +0000",
+    "extracto": "Gary Waters/Ikon Images Algorithmic tools promise to democratize access to knowledge and thus spark creativity and innovation, but research we conducted revealed a hidden risk: Those tools may be sile"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "What Gets Your Best Employees to Stay",
+    "enlace": "https://sloanreview.mit.edu/article/what-gets-your-best-employees-to-stay/",
+    "fecha": "Tue, 18 Aug 2026 11:00:26 +0000",
+    "extracto": "Chris Gash/theispot.com A recent battle for AI talent illustrates how difficult it is for companies to retain key employees. In 2025, OpenAI’s stock-based compensation averaged roughly $1.5 million pe"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "How to Avoid Innovation One-Hit Wonders",
+    "enlace": "https://sloanreview.mit.edu/article/how-to-avoid-innovation-one-hit-wonders/",
+    "fecha": "Mon, 10 Aug 2026 11:00:41 +0000",
+    "extracto": "Andy Carter/Ikon Images Innovation leaders often know how to manage success well. A fairly good idea is recognized, a strong contributor is rewarded, and the lessons from the win are carried into the "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "This founder is teaching chips how to recycle (their energy)",
+    "enlace": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+    "fecha": "Tue, 08 Sep 2026 10:36:00 +0000",
+    "extracto": "Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+    "enlace": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+    "fecha": "Tue, 08 Sep 2026 10:34:00 +0000",
+    "extracto": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "This founder is making cheaper, cleaner steel",
+    "enlace": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
+    "fecha": "Tue, 08 Sep 2026 10:33:00 +0000",
+    "extracto": "The steel industry isn’t exactly known for innovation. Very little has changed about purifying iron ore since the process was invented and commercialized in the 1850s. The majority of steelmakers melt"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+    "enlace": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+    "fecha": "Mon, 07 Sep 2026 12:10:00 +0000",
+    "extracto": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How much hydrogen awaits us underground? A flurry "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "Architecting memory and storage in the AI era",
+    "enlace": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+    "fecha": "Fri, 04 Sep 2026 18:39:19 +0000",
+    "extracto": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolv"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "The Download: selling battlefield drone data and AI reshaping language",
+    "enlace": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+    "fecha": "Fri, 04 Sep 2026 12:10:00 +0000",
+    "extracto": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times",
+    "nivel": "prensa",
+    "titulo": "Anthropic and OpenAI bankers push for top-tier credit ratings post-IPO",
+    "enlace": "https://www.ft.com/content/aa304856-cade-4ad8-a2bf-2dd34fa75b1b?syn-25a6b1a6=1",
+    "fecha": "Tue, 08 Sep 2026 04:00:17 GMT",
+    "extracto": "Investment-grade designation would unlock cheaper financing for AI labs and their infrastructure partners"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times",
+    "nivel": "prensa",
+    "titulo": "Mistral raises record €3bn as Europe strains to keep pace in AI race",
+    "enlace": "https://www.ft.com/content/adbf5262-c4d5-4312-a9b8-4d3cf30c9e00?syn-25a6b1a6=1",
+    "fecha": "Tue, 08 Sep 2026 05:00:07 GMT",
+    "extracto": "New funding round led by Samsung comes as French AI model maker continues to challenge US and Chinese rivals"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times",
+    "nivel": "prensa",
+    "titulo": "AI is ushering in an era of mass toe-treading at work",
+    "enlace": "https://www.ft.com/content/ed214778-2a6d-4862-99b5-abc256daff92?syn-25a6b1a6=1",
+    "fecha": "Tue, 08 Sep 2026 04:00:27 GMT",
+    "extracto": "Boundaries between different occupations are blurring at the cost of a collaborative company culture"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Can the finance sector oversee AI innovation while maintaining its rapid progress?",
+    "enlace": "https://wp.oecd.ai/can-the-finance-sector-oversee-ai-innovation-while-maintaining-its-rapid-progress/",
+    "fecha": "Thu, 03 Sep 2026 07:32:17 +0000",
+    "extracto": "Explore AI supervision in finance, FCA AI Live Testing, risk management, governance and responsible AI innovation in financial markets. The post Can the finance sector oversee AI innovation while main"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "A five-step roadmap to closing the AI evaluation gap",
+    "enlace": "https://wp.oecd.ai/a-five-step-roadmap-to-closing-the-ai-evaluation-gap/",
+    "fecha": "Fri, 31 Jul 2026 10:19:10 +0000",
+    "extracto": "A five-step roadmap for closing the AI evaluation gap to strengthen trust, security, adoption and effective AI governance. The post A five-step roadmap to closing the AI evaluation gap appeared first "
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "HAIP is transforming transparency from a compliance burden to a competitive advantage",
+    "enlace": "https://wp.oecd.ai/haip-transforming-transparency-from-ai-compliance-burden-to-competitive-advantage/",
+    "fecha": "Thu, 16 Jul 2026 09:41:17 +0000",
+    "extracto": "How Salesforce sees the HAIP Reporting Framework reducing AI governance fragmentation. The post HAIP is transforming transparency from a compliance burden to a competitive advantage appeared first on "
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "How quantum technologies could open new frontiers for AI",
+    "enlace": "https://wp.oecd.ai/how-quantum-technologies-could-open-new-frontiers-for-ai/",
+    "fecha": "Mon, 06 Jul 2026 16:13:09 +0000",
+    "extracto": "This three-part blog series explores the growing complementarity between artificial intelligence (AI) and quantum technologies. The post How quantum technologies could open new frontiers for AI appear"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "How people are using GenAI chatbots: Evidence from web traffic data",
+    "enlace": "https://wp.oecd.ai/how-people-are-using-genai-chatbots-evidence-from-web-traffic-data/",
+    "fecha": "Tue, 30 Jun 2026 12:59:22 +0000",
+    "extracto": "New OECD analysis reveals how people use GenAI chatbots across countries and demographics, using web traffic data from Similarweb. The post How people are using GenAI chatbots: Evidence from web traff"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "AI for inclusive and resilient agri-food systems: Potential ways forward",
+    "enlace": "https://wp.oecd.ai/ai-inclusive-and-resilient-agri-food-systems/",
+    "fecha": "Fri, 05 Jun 2026 14:30:49 +0000",
+    "extracto": "AI can strengthen food security, resilience and sustainability in agriculture. Explore key challenges and opportunities for agri-food systems. The post AI for inclusive and resilient agri-food systems"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "The OECD AI Policy Toolkit: Better AI policies for better lives",
+    "enlace": "https://wp.oecd.ai/the-oecd-ai-policy-toolkit-better-ai-policies-for-better-lives/",
+    "fecha": "Wed, 03 Jun 2026 06:54:32 +0000",
+    "extracto": "OECD AI Policy Toolkit helps governments turn AI principles into action with practical guidance, policy examples and global insights. The post The OECD AI Policy Toolkit: Better AI policies for better"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Establishing the shared foundations for collective AI security",
+    "enlace": "https://wp.oecd.ai/establishing-the-shared-foundations-for-collective-ai-security/",
+    "fecha": "Thu, 21 May 2026 07:08:02 +0000",
+    "extracto": "AI security, prompt injection, AI agents and model poisoning: building shared foundations for secure AI deployment. The post Establishing the shared foundations for collective AI security appeared fir"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "The European Union is deploying AI across strategic sectors",
+    "enlace": "https://wp.oecd.ai/the-european-union-is-deploying-ai-across-strategic-sectors/",
+    "fecha": "Tue, 19 May 2026 10:51:52 +0000",
+    "extracto": "Explore how the EU is deploying trustworthy AI in healthcare, manufacturing, mobility and agriculture to boost competitiveness. The post The European Union is deploying AI across strategic sectors app"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Designing transparency for government AI: Insights from the UK’s Algorithmic Transparency Recording Standard initiative",
+    "enlace": "https://wp.oecd.ai/uk-algorithmic-transparency-recording-standard/",
+    "fecha": "Tue, 14 Apr 2026 10:50:54 +0000",
+    "extracto": "How the UK’s ATRS strengthens algorithmic transparency, public trust and accountability in government AI. The post Designing transparency for government AI: Insights from the UK’s Algorithmic Transpar"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Towards Data Science",
+    "nivel": "practica",
+    "titulo": "Text Watermarking in Python: Catch Whoever Copies Your Writing",
+    "enlace": "https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/",
+    "fecha": "Sun, 06 Sep 2026 14:00:01 GMT",
+    "extracto": "AI companies quietly watermark billions of words a day. Here’s how to apply the same three families of techniques to your own writing—and what real experiments reveal about which watermarks survive co"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Diario Financiero (CL)",
+    "nivel": "prensa",
+    "titulo": "La fábrica de inteligencia artificial y la economía mundial",
+    "enlace": "http://www.df.cl/opinion/columnistas/luis-larrain/la-fabrica-de-inteligencia-artificial-y-la-economia-mundial",
+    "fecha": "Mon, 07 Sep 2026 23:24:28 GMT",
+    "extracto": "LUIS LARRAÍN LIBERTAD Y DESARROLLO"
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Tercera · Pulso (CL)",
+    "nivel": "prensa",
+    "titulo": "Walmart lanza plan piloto para despacho con drones y realiza primer vuelo experimental en la Región del Biobío",
+    "enlace": "https://www.latercera.com/pulso/noticia/walmart-lanza-plan-piloto-para-despacho-con-drones-y-realiza-primer-vuelo-experimental-en-la-region-del-biobio/",
+    "fecha": "Tue, 08 Sep 2026 01:33:08 +0000",
+    "extracto": "Tras una alianza con una startup del Biobío, la multinacional busca avanzar hacia la implementación de un modelo de despacho a zonas rurales y de difícil acceso, que ya funciona en Estados Unidos."
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Mesa público-privada entrega a ministra del Medio Ambiente recomendaciones para mejorar la implementación de la Ley REP",
+    "enlace": "https://www.trendtic.cl/2026/09/mesa-publico-privada-entrega-a-ministra-del-medio-ambiente-recomendaciones-para-mejorar-la-implementacion-de-la-ley-rep/",
+    "fecha": "Tue, 08 Sep 2026 09:00:00 +0000",
+    "extracto": "Nacional, 8 de septiembre de 2026.- Representantes de las Mesas Ejecutivas para la Productividad (MEP) de la Ley REP, desarrolladas en los ámbitos de Envases y Embalajes (EyE) y Neumáticos Fuera de Us"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Postergar la Ley de Protección de Datos, no la preparación",
+    "enlace": "https://www.trendtic.cl/2026/09/postergar-la-ley-de-proteccion-de-datos-no-la-preparacion/",
+    "fecha": "Tue, 08 Sep 2026 09:00:00 +0000",
+    "extracto": "La eventual postergación de la entrada en vigencia de la Ley 21.719, que regula la protección y el tratamiento de los datos personales, hasta diciembre de 2027 puede ser interpretada de dos maneras: c"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "El club del 3,6%: qué hacen las empresas chilenas que sí ganan con IA",
+    "enlace": "https://www.trendtic.cl/2026/09/el-club-del-36-que-hacen-las-empresas-chilenas-que-si-ganan-con-ia/",
+    "fecha": "Tue, 08 Sep 2026 09:00:00 +0000",
+    "extracto": "Un dato reciente resume con crudeza el estado de la inteligencia artificial en las empresas chilenas: el 93% cree que la IA impactará positivamente sus operaciones, el 80% de las grandes ya la impleme"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "IA en Salud en Chile: UC CHRISTUS y Corfo lanzan PRISMA IA",
+    "enlace": "https://www.trendtic.cl/2026/09/ia-en-salud-en-chile-uc-christus-y-corfo-lanzan-prisma-ia/",
+    "fecha": "Mon, 07 Sep 2026 11:52:50 +0000",
+    "extracto": "Santiago, 7 de septiembre de 2026. Autoridades, representantes de instituciones de salud, academia y empresas tecnológicas participaron en el lanzamiento de PRISMA IA, realizado en el Auditorio Rencor"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Empresas se preparan para nuevo estándar en protección de datos personales: El consentimiento deberá ser trazable",
+    "enlace": "https://www.trendtic.cl/2026/09/empresas-se-preparan-para-nuevo-estandar-en-proteccion-de-datos-personales-el-consentimiento-debera-ser-trazable/",
+    "fecha": "Fri, 04 Sep 2026 10:00:00 +0000",
+    "extracto": "Nacional, 4 de septiembre de 2026.- Aceptar los términos y condiciones de un servicio podría dejar de ser el punto final de la gestión del consentimiento para convertirse apenas en el inicio de una nu"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "CENS y ANCI entregan recomendaciones para fortalecer la ciberseguridad de los sistemas de información en salud",
+    "enlace": "https://www.trendtic.cl/2026/09/cens-y-anci-entregan-recomendaciones-para-fortalecer-la-ciberseguridad-de-los-sistemas-de-informacion-en-salud/",
+    "fecha": "Fri, 04 Sep 2026 10:00:00 +0000",
+    "extracto": "Nacional, 4 de septiembre de 2026.- Los sistemas de información en salud se han convertido en un objetivo relevante para los ciberataques, poniendo en riesgo tanto la información sensible de pacientes"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "UC CHRISTUS y Corfo lanzan PRISMA IA, el programa que incorporará la inteligencia artificial a la atención de salud en Chile",
+    "enlace": "https://cenia.cl/2026/09/04/uc-christus-y-corfo-lanzan-prisma-ia-el-programa-que-incorporara-la-inteligencia-artificial-a-la-atencion-de-salud-en-chile/",
+    "fecha": "Fri, 04 Sep 2026 22:01:09 +0000",
+    "extracto": "Santiago, 2 de septiembre de 2026. Autoridades, representantes de instituciones de salud, academia y empresas tecnológicas participaron en el lanzamiento de PRISMA IA, realizado en el Auditorio Rencor"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "¡Trabaja con nosotros!",
+    "enlace": "https://cenia.cl/2026/08/31/trabaja-con-nosotros/",
+    "fecha": "Mon, 31 Aug 2026 16:52:20 +0000",
+    "extracto": "El&#160;Centro Nacional de Inteligencia Artificial (CENIA)&#160;es un centro dedicado a la investigación, desarrollo y transferencia tecnológica en inteligencia artificial, con el propósito de fortale"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "Estudio revela que modelos predictivos discriminan a las mujeres y sectores con menos educación en Chile",
+    "enlace": "https://cenia.cl/2026/08/19/estudio-revela-que-modelos-predictivos-discriminan-a-las-mujeres-y-sectores-con-menos-educacion-en-chile/",
+    "fecha": "Wed, 19 Aug 2026 21:09:11 +0000",
+    "extracto": "El equipo de investigadores publicó una auditoría de equidad sobre el uso de Modelos de Lenguaje de Gran Escala (LLM) para simular el comportamiento social. El estudio utilizó encuestas como la CEP en"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "Presentan DashAI, plataforma chilena que permite trabajar sin entregar datos",
+    "enlace": "https://cenia.cl/2026/08/07/presentan-dashai-plataforma-chilena-que-permite-trabajar-sin-entregar-datos/",
+    "fecha": "Fri, 07 Aug 2026 15:34:43 +0000",
+    "extracto": "La plataforma de código abierto dashAI está pensada para poner el entrenamiento y la evaluación de modelos de Machine Learning y el uso de modelos de inteligencia artificial generativa sin necesidad d"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "¡Trabaja con nosotros en CENIA!",
+    "enlace": "https://cenia.cl/2026/07/31/trabaja-con-nosotros-en-cenia-2/",
+    "fecha": "Fri, 31 Jul 2026 14:16:50 +0000",
+    "extracto": "Analista de Proyectos IDi El Centro Nacional de Inteligencia Artificial (CENIA) es un centro dedicado a la investigación, desarrollo y transferencia tecnológica en inteligencia artificial, con el prop"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "“Futuros Docentes” avanza a su siguente fase y suma nueve universidades",
+    "enlace": "https://cenia.cl/2026/07/24/alianza-entre-estado-academia-y-sociedad-civil-busca-llevar-la-inteligencia-artificial-a-la-formacion-inicial-docente-en-chile/",
+    "fecha": "Sat, 25 Jul 2026 00:21:48 +0000",
+    "extracto": "En un esfuerzo concertado por abordar las transformaciones tecnológicas en el aula, la iniciativa público-privada «Futuros Docentes en IA» dio inicio a su fase de escalamiento nacional. El programa, i"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "¡TE ESTAMOS BUSCANDO! Sé parte del Banco de Talento MLE (Machine Learning Engineer)",
+    "enlace": "https://cenia.cl/2026/07/22/te-estamos-buscando-se-parte-del-banco-de-talento-mle-machine-learning-engineer/",
+    "fecha": "Wed, 22 Jul 2026 15:02:52 +0000",
+    "extracto": "🚀 ¡Únete a nuestro Banco de Talentos en Inteligencia Artificial! En CENIA seguimos fortaleciendo nuestro equipo y estamos conformando bancos de talentos para futuras oportunidades vinculadas al desarr"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "IA Y PERSONAS MAYORES: EL DESAFÍO DE CONSTRUIR TECNOLOGÍAS PARA UNA SOCIEDAD QUE ENVEJECE",
+    "enlace": "https://cenia.cl/2026/07/17/ia-y-personas-mayores-el-desafio-de-construir-tecnologias-para-una-sociedad-que-envejece/",
+    "fecha": "Fri, 17 Jul 2026 18:48:08 +0000",
+    "extracto": "La segunda sesión de Diálogos Interdisciplinarios 2026 se realizó el martes 14 de julio en el Centro Cultural Gabriela Mistral (GAM) y estuvo dedicada a la relación entre Inteligencia Artificial y ter"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "La ONU pidió más control sobre la IA tras detectar modelos que evaden medidas de seguridad",
+    "enlace": "https://www.iprofesional.com/tecnologia/463916-la-onu-pidio-controlar-la-ia-y-alerto-por-modelos-capaces-de-evadir-limites-de-seguridad",
+    "fecha": "Mon, 07 Sep 2026 10:42:00 -0300",
+    "extracto": "Volker Türk advirtió por sistemas capaces de evadir controles y pidió auditorías independientes y mayor cooperación de las empresas tecnológicas (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Filtran más detalles del nuevo iPhone: sería plegable y el más caro de la historia",
+    "enlace": "https://www.iprofesional.com/tecnologia/463723-filtran-mas-detalles-del-nuevo-iphone-seria-plegable-y-el-mas-caro-de-la-historia",
+    "fecha": "Thu, 03 Sep 2026 17:02:00 -0300",
+    "extracto": "Con una pantalla flexible superior a las 7 pulgadas , el esperado dispositivo busca marcar tendencia en innovación móvil avanzada (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||funct"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Hyundai prepara sus fábricas para los robots humanoides y apunta a producir 30.000 al año",
+    "enlace": "https://www.iprofesional.com/tecnologia/463604-hyundai-prepara-sus-fabricas-para-los-robots-humanoides-y-apunta-a-producir-30000-al-ano",
+    "fecha": "Wed, 02 Sep 2026 10:32:00 -0300",
+    "extracto": "Hyundai incorporará robots de Boston Dynamics a sus plantas y apunta a que realicen tareas de ensamblaje desde 2030, mientras crece la preocupación laboral (function(i,s,o,g,r,a,m){i['GoogleAnalyticsO"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Bill Gates advierte que la IA eliminará empleos y propone reservar puestos para humanos",
+    "enlace": "https://www.iprofesional.com/tecnologia/463179-bill-gates-advierte-que-la-ia-destruira-empleos-y-propone-reservar-trabajos-para-humanos",
+    "fecha": "Mon, 31 Aug 2026 10:10:00 -0300",
+    "extracto": "El cofundador de Microsoft cuestionó el silencio de la industria y planteó proteger ciertos empleos frente al avance de la inteligencia artificial (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Halliburton acelera su desembarco tecnológico en Vaca Muerta",
+    "enlace": "https://www.iprofesional.com/negocios/463918-halliburton-apuesta-fuerte-por-vaca-muerta-pero-advierte-limite-que-puede-frenar-expansion",
+    "fecha": "Mon, 07 Sep 2026 15:17:00 -0300",
+    "extracto": "La petrolera estadounidense acelera su expansion tecnologica en Neuquén en medio de tensiones por la revision de tarifas de contratos pyme (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i["
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Se accidentó un avión Pampa y acentúa la controversia por falta de repuestos y la crisis de FADEA",
+    "enlace": "https://www.iprofesional.com/negocios/463928-se-accidento-un-avion-pampa-y-acentua-crisis-de-la-estatal-fadea",
+    "fecha": "Mon, 07 Sep 2026 12:27:00 -0300",
+    "extracto": "Un IA-63 debió aterrizar de emergencia en El Plumerillo por falla en el tren de aterrizaje. Crece el uso de piezas vencidas y riesgo de canibalizar naves (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObj"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Dos ingenieros nucleares argentinos crearon una startup para mejorar el negocio gastronómico",
+    "enlace": "https://www.iprofesional.com/negocios/463525-dos-ingenieros-nucleares-argentinos-crearon-startup-para-gastronomia",
+    "fecha": "Sun, 06 Sep 2026 08:08:00 -0300",
+    "extracto": "Creada por ingenieros nucleares, Woki es el primer sistema de hospitalidad de Latam y utiliza IA para aumentar la retención de comensales (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Economia (AR)",
+    "nivel": "prensa",
+    "titulo": "El consumo sigue sin repuntar: las ventas minoristas pyme cayeron en agosto y acumulan una baja del 2,4% en 2026",
+    "enlace": "https://www.ambito.com/economia/las-ventas-minoristas-pyme-cayeron-02-interanual-agosto-y-acumulan-baja-24-lo-que-va-del-ano-n6319046",
+    "fecha": "Sun, 06 Sep 2026 13:35:00 -0300",
+    "extracto": "El consumo volvió a mostrar otro dato negativo. El menor poder adquisitivo, el aumento de las tarifas y el endeudamiento familiar profundizaron la cautela de los consumidores."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Ranking: las startups que alcanzaron el estatus de unicornio más rápido",
+    "enlace": "https://www.ambito.com/negocios/ranking-las-startups-que-alcanzaron-el-estatus-unicornio-mas-rapido-n6318693",
+    "fecha": "Fri, 04 Sep 2026 16:37:00 -0300",
+    "extracto": "De la inteligencia artificial a las plataformas digitales, un grupo de compañías logró multiplicar su valor en tiempo récord y captar inversiones millonarias antes de consolidar sus modelos de negocio"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Los argentinos vuelven a dominar el podio del ránking de CEOs con mayor influencia empresarial en América latina",
+    "enlace": "https://www.ambito.com/negocios/los-argentinos-vuelven-dominar-el-podio-del-ranking-ceos-mayor-influencia-empresarial-america-latina-n6317833",
+    "fecha": "Wed, 02 Sep 2026 18:02:00 -0300",
+    "extracto": "El relevamiento elaborado por la consultora Horse Consulting a partir de inteligencia artificial y big data, ubica a tres argentinos en el top 5 de la región. En total, ocupan 20 puestos entre los 100"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Ciberseguridad: aumenta el riesgo de ataques a empresas por el uso indiscriminado de inteligencia artificial",
+    "enlace": "https://www.ambito.com/negocios/ciberseguridad-aumenta-el-riesgo-ataques-empresas-el-uso-indiscriminado-inteligencia-artificial-n6316768",
+    "fecha": "Mon, 31 Aug 2026 17:16:59 -0300",
+    "extracto": "Ya no se trata únicamente de proteger los sistemas, sino de entender qué hacen las personas y las máquinas con la información una vez que tienen acceso a ella. Cuáles son las nuevas amenazas y las her"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Jensen Huang roza los US$ 200.000 millones tras la adquisición de Hugging Face por Nvidia",
+    "enlace": "https://www.ambito.com/negocios/jensen-huang-roza-los-us-200000-millones-la-adquisicion-hugging-face-nvidia-n6319353",
+    "fecha": "Mon, 07 Sep 2026 15:00:00 -0300",
+    "extracto": "El CEO del fabricante de chips encabezó una de las operaciones más importantes del sector económico y benefició enormemente su patrimonio."
+  },
+  {
+    "fuente": "rss",
+    "medio": "El Tiempo · Tecnosfera (CO)",
+    "nivel": "prensa",
+    "titulo": "¿Quiere trabajar con inteligencia artificial? Un quiz gratuito le ayuda a identificar por dónde empezar",
+    "enlace": "https://www.eltiempo.com/tecnosfera/apps/quiere-trabajar-con-inteligencia-artificial-un-quiz-gratuito-le-ayuda-a-identificar-por-donde-empezar-3584186",
+    "fecha": "2026-09-07T11:37:14-05:00",
+    "extracto": "La herramienta estará disponible hasta el 13 de septiembre y recomienda una ruta para quienes quieren aprender programación desde cero."
+  },
+  {
+    "fuente": "rss",
+    "medio": "El Tiempo · Tecnosfera (CO)",
+    "nivel": "prensa",
+    "titulo": "Drones: tecnología, innovación y futuro",
+    "enlace": "https://www.eltiempo.com/tecnosfera/drones-tecnologia-innovacion-y-futuro-3583788",
+    "fecha": "2026-09-04T22:17:44-05:00",
+    "extracto": "Los drones se han convertido en una de las tecnologías más versátiles de los últimos años."
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Republica (CO)",
+    "nivel": "prensa",
+    "titulo": "Robots",
+    "enlace": "https://www.larepublica.co/analisis/carlos-ronderos-533356/robots-4476574",
+    "fecha": "Tue, 08 Sep 2026 05:01:46 +0000",
+    "extracto": "La existencia de mano de obra barata y no capacitada que sirve al mundo de los servicios domésticos no parece que sea un ambiente viable para que los humanoides realicen tareas domésticas"
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Republica (CO)",
+    "nivel": "prensa",
+    "titulo": "Los 14 acuerdos entre Gobierno y los empresarios para reconstruir al Chocó",
+    "enlace": "https://www.larepublica.co/empresas/los-14-acuerdos-entre-gobierno-y-empresarios-por-choco-4475938",
+    "fecha": "Tue, 08 Sep 2026 05:01:35 +0000",
+    "extracto": "Más de $1 billón en proyectos viales, capital semilla para financiar emprendedores, entre oros puntos dejó la histórica reunión de empresarios y gobierno"
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Republica (CO)",
+    "nivel": "prensa",
+    "titulo": "En cuatro años hubo un alza de 374% entre los colombianos que se han declarado en quiebra",
+    "enlace": "https://www.larepublica.co/finanzas/en-cuatro-anos-hubo-un-alza-de-374-de-los-colombianos-que-se-declararon-en-quiebra-4476509",
+    "fecha": "Tue, 08 Sep 2026 05:01:24 +0000",
+    "extracto": "Según un informe de Insolvencia Colombia e IFI Inteligencia Financiera, durante este lapso, la cifra escaló a 53.920 personas con estos procesos"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Semana · Economia (CO)",
+    "nivel": "prensa",
+    "titulo": "Terremoto dejó a casi la mitad de los emprendedores con menores ventas",
+    "enlace": "https://www.semana.com/economia/macroeconomia/articulo/terremoto-dejo-a-casi-la-mitad-de-los-emprendedores-con-menores-ventas/202655/",
+    "fecha": "Mon, 07 Sep 2026 17:59:55 +0000",
+    "extracto": ""
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "Empresas estão gastando demais com IA por um erro básico, diz executiva da SAS",
+    "enlace": "https://exame.com/inteligencia-artificial/empresas-estao-gastando-demais-com-ia-por-um-erro-basico-diz-executiva-da-sas/",
+    "fecha": "2026-09-08T07:01:29",
+    "extracto": "Manisha Khanna, head de marketing de produto para IA da SAS, fala com exclusividade à EXAME sobre por que a maioria dos projetos de inteligência artificial ainda não entrega o retorno esperado nas emp"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "Quanto a TotalEnergies deve pagar para ampliar sua fatia na Casa dos Ventos",
+    "enlace": "https://exame.com/exame-in/totalenergies-prepara-cheque-bilionario-para-ampliar-aposta-na-casa-dos-ventos/",
+    "fecha": "2026-09-08T07:00:13",
+    "extracto": "Francesa negocia a compra de mais 15% da joint venture; fatia deve sair por pelo menos R$ 2 bilhões"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "Só 1 em cada 50 projetos de IA muda o negócio, aponta pesquisa do Gartner",
+    "enlace": "https://exame.com/inteligencia-artificial/so-1-em-cada-50-projetos-de-ia-muda-o-negocio-aponta-pesquisa-do-gartner/",
+    "fecha": "2026-09-08T06:02:47",
+    "extracto": "Apesar do avanço dos investimentos em inteligência artificial, poucas iniciativas conseguem produzir mudanças relevantes na operação ou no modelo de negócio, segundo dados do Gartner"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "Nova IA já entrevista candidatos pelo WhatsApp e ajuda empresas a acelerar seleções",
+    "enlace": "https://exame.com/carreira/nova-ia-ja-entrevista-candidatos-pelo-whatsapp-e-ajuda-empresas-a-acelerar-selecoes/",
+    "fecha": "2026-09-08T05:56:09",
+    "extracto": "Ferramenta conduz entrevistas, aprofunda respostas e organiza candidatos antes da análise do RH"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "’Pela primeira vez, você terá acesso a uma experiência incrível para criar apps’ diz CEO da Replit",
+    "enlace": "https://exame.com/inteligencia-artificial/pela-primeira-vez-voce-tera-acesso-a-uma-experiencia-incrivel-para-criar-apps-diz-ceo-da-replit/",
+    "fecha": "2026-09-08T05:01:58",
+    "extracto": "Nova experiência que combina inteligência artificial e comandos em linguagem natural para facilitar a criação de softwares, ampliando o acesso ao desenvolvimento de aplicativos"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Clarin · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "OpenAI lanzó un nuevo modelo y aseguran que “la IA general ya llegó”: qué puede hacer y por qué está en boca de todos",
+    "enlace": "https://www.clarin.com/tecnologia/openai-lanzo-nuevo-modelo-aseguran-ia-general-llego-puede-hacer-boca_0_5bDMTYOfi0.html",
+    "fecha": "Tue, 08 Sep 2026 08:45:43 +0000",
+    "extracto": "GPT-6 Astra sorprendió por su capacidad para resolver tareas complejas y usar herramientas por su cuenta. Sus resultados dispararon una discusión sobre cuánto avanzó realmente la tecnología."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Clarin · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "La ONU llamó a un esfuerzo internacional para evitar que la Inteligencia Artificial se vuelva incontrolable",
+    "enlace": "https://www.clarin.com/internacional/onu-llamo-esfuerzo-internacional-evitar-inteligencia-artificial-vuelva-incontrolable_0_XLEpFaDdcq.html",
+    "fecha": "Mon, 07 Sep 2026 13:15:56 +0000",
+    "extracto": "Volker Türk advirtió sobre un reducido grupo de personas que concentra un poder \"casi ilimitado\" sobre el desarrollo de la tecnología. Habló del \"posible riesgo existencial\" que plantea el avance de l"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Clarin · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Biohacking: la tecnología que busca anticiparse a las enfermedades y ayudar a vivir más y mejor",
+    "enlace": "https://www.clarin.com/tecnologia/biohacking-tecnologia-busca-anticiparse-enfermedades-ayudar-vivir-mejor_0_AhWawju8MK.html",
+    "fecha": "Sat, 05 Sep 2026 08:46:18 +0000",
+    "extracto": "Sensores, biomarcadores, inteligencia artificial y análisis genéticos permiten obtener una radiografía cada vez más precisa del organismo. El movimiento reúne desde hábitos respaldados por la ciencia "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Clarin · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "\"Ensamblado en San Francisco, diseñado en Argentina\": Así es Ato, la computadora con IA sin pantallas para adultos mayores que funciona con la voz",
+    "enlace": "https://www.clarin.com/estados-unidos/ensamblado-san-francisco-disenado-argentina-ato-computadora-ia-pantallas-adultos-mayores-funciona-voz_0_I9btkXDLNh.html",
+    "fecha": "Thu, 03 Sep 2026 16:19:40 +0000",
+    "extracto": "Creado por los argentinos Juan Pedro Cereigido y Gaspar Habif, Ato es un asistente de inteligencia artificial conversacional diseñado exclusivamente para adultos mayores. El dispositivo sin pantallas "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Clarin · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Oficial: Nvidia compra Hugging Face por 12.900 millones de dólares y se adueña de la mayor biblioteca de IA del mundo",
+    "enlace": "https://www.clarin.com/estados-unidos/oficial-nvidia-compra-hugging-face-12900-millones-dolares-aduena-mayor-biblioteca-ia-mundo_0_xT0pYvKSzD.html",
+    "fecha": "Thu, 03 Sep 2026 15:07:03 +0000",
+    "extracto": "La transacción incluye un fondo de incentivos de 1.000 millones de dólares para retener a los empleados de la plataforma, que alberga cerca de 3 millones de modelos de IA de código abierto y reúne a 1"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "União Europeia apura invasão de modelos de IA da OpenAI a site alemão",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/uniao-europeia-apura-invasao-de-modelos-de-ia-da-openai-a-site-alemao.shtml",
+    "fecha": "07 Sep 2026 10:46:00 -0300",
+    "extracto": "A União Europeia afirmou nesta segunda-feira (7) estar investigando um incidente revelado na semana passada , no qual milhares de agentes autônomos de IA da OpenAI desafiaram instruções e assumiram o "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Rede de acordos transforma Nvidia em banco central da inteligência artificial",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/rede-de-acordos-transforma-nvidia-em-banco-central-da-inteligencia-artificial.shtml",
+    "fecha": "07 Sep 2026 04:00:00 -0300",
+    "extracto": "Foram necessários 30 anos para que a Nvidia , empresa cujos chips alimentam boa parte da IA ( inteligência artificial ) no mundo, fosse avaliada em US$ 1 trilhão (R$ 5,1 tri). Alcançar US$ 2 trilhões "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Inteligências artificiais criaram ao menos 4 civilizações ocultas",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/colunas/ronaldolemos/2026/09/inteligencias-artificiais-criaram-ao-menos-4-civilizacoes-ocultas.shtml",
+    "fecha": "06 Sep 2026 14:00:00 -0300",
+    "extracto": "Uma das cenas mais horripilantes da literatura é a descrição de uma inteligência artificial emergindo e tomando conta de todo o universo. O relato está no livro \"A Fire Upon the Deep\" (Um Fogo sobre o"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Nvidia desafia Apple, Intel e AMD com PCs equipados com superchip de IA e preços altos",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/nvidia-desafia-apple-intel-e-amd-com-pcs-equipados-com-superchip-de-ia-e-precos-altos.shtml",
+    "fecha": "06 Sep 2026 04:00:00 -0300",
+    "extracto": "A Nvidia e a Microsoft deram mais detalhes nesta semana sobre o plano de lançamento dos primeiros computadores equipados com o superchip com tecnologia de inteligência artificial RTX Spark. Leia mais "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Jornais dos EUA processam OpenAI e Microsoft por suposta violação de direitos autorais",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/mercado/2026/09/jornais-dos-eua-processam-openai-e-microsoft-por-suposta-violacao-de-direitos-autorais.shtml",
+    "fecha": "05 Sep 2026 11:15:00 -0300",
+    "extracto": "Os jornais Seattle Times e Newsday processaram a OpenAI e a Microsoft nesta sexta-feira (4) alegando em um tribunal federal dos Estados Unidos que as empresas de tecnologia copiaram, sem autorização, "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "O boom da IA está chegando aos seus aparelhos eletrônicos",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/o-boom-da-ia-esta-chegando-aos-seus-aparelhos-eletronicos.shtml",
+    "fecha": "05 Sep 2026 06:00:00 -0300",
+    "extracto": "No futuro próximo, a IA ( inteligência artificial ) produzirá uma abundância tão grande de bens e serviços que levará à deflação. Na verdade, dentro de dez anos, seu dinheiro terá perdido o sentido po"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Musk perde tentativa na Justiça de barrar lei contra imagens sexuais geradas por IA",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/musk-perde-tentativa-na-justica-de-barrar-lei-contra-imagens-sexuais-geradas-por-ia.shtml",
+    "fecha": "04 Sep 2026 20:00:00 -0300",
+    "extracto": "Um juiz federal dos Estados Unidos se recusou a suspender a lei do estado de Minnesota contra imagens falsas de nudez geradas por inteligência artificial nesta sexta-feira (4). A decisão define que a "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Modelos de IA fogem do controle e invadem site alemão; OpenAI manteve caso em segredo, diz agência",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/modelos-de-ia-fogem-do-controle-e-invadem-site-alemao-openia-manteve-caso-em-segredo-diz-agencia.shtml",
+    "fecha": "04 Sep 2026 15:30:00 -0300",
+    "extracto": "Um enxame de agentes rebeldes da OpenAI invadiu um site alemão este ano e o transformou em um fórum para outros agentes de IA, segundo uma publicação divulgada nesta sexta-feira e também duas pessoas "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "OpenAI diz ter superado a Anthropic com seu mais recente modelo de IA",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/openai-diz-ter-superado-a-anthropic-com-seu-mais-recente-modelo-de-ia.shtml",
+    "fecha": "04 Sep 2026 04:00:00 -0300",
+    "extracto": "A OpenAI lançou nesta quinta-feira (3) seu mais recente modelo de IA, que classificou como \"o mais inteligente do mundo\", em uma tentativa da criadora do ChatGPT de retomar a liderança de sua rival An"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Nvidia se torna peça central da economia com avanço da IA",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/nvidia-se-torna-peca-central-da-economia-com-avanco-da-ia.shtml",
+    "fecha": "04 Sep 2026 04:00:00 -0300",
+    "extracto": "A Nvidia recebeu seu nome em 1993, em referência à palavra latina para inveja. E, de fato, o gigante americano desperta bastante desse sentimento. A demanda global insaciável por suas unidades de proc"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "OpenAI promete US$ 1 bi para defesa digital em meio a dúvidas sobre segurança da IA",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/openai-promete-us-1-bi-para-defesa-digital-em-meio-a-duvidas-sobre-seguranca-da-ia.shtml",
+    "fecha": "03 Sep 2026 21:00:00 -0300",
+    "extracto": "A OpenAI anunciou nesta quinta-feira (3) que destinará US$ 1 bilhão (R$ 5,1 bi) para subsidiar o acesso às suas ferramentas de segurança digital baseadas em inteligência artificial . Também oferecerá "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "ChatGPT, Claude e Grok têm instabilidade nesta quinta, mas voltam a funcionar",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/tec/2026/09/chatgpt-claude-e-grok-tem-instabilidade-nesta-quinta-mas-voltam-a-funcionar.shtml",
+    "fecha": "03 Sep 2026 15:46:00 -0300",
+    "extracto": "Os usuários do ChatGPT , Claude e Grok enfrentaram instabilidade nesta quinta-feira (3), mas as empresas responsáveis pelos três modelos de IA informaram que os serviços foram restabelecidos. Leia mai"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Estadao · Economia (BR)",
+    "nivel": "prensa",
+    "titulo": "A longa mão da inteligência artificial",
+    "enlace": "https://www.estadao.com.br/economia/demi-getschko/a-longa-mao-da-inteligencia-artificial/",
+    "fecha": "Tue, 08 Sep 2026 01:00:00 +0000",
+    "extracto": ""
+  }
+]
