@@ -19,10 +19,18 @@ try {
   novedad = (await getCollection('vigilancia')).sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha))[0] ?? null;
 } catch { novedad = null; }
 
-let webinar = null;
-try {
-  webinar = (await getCollection('webinars')).sort((a, b) => new Date(b.data.fecha_evento) - new Date(a.data.fecha_evento))[0] ?? null;
-} catch { webinar = null; }
+let webinars = [];
+try { webinars = (await getCollection('webinars')).sort((a, b) => new Date(b.data.fecha_evento) - new Date(a.data.fecha_evento)); } catch { webinars = []; }
+let prensa = [];
+try { prensa = (await getCollection('prensa')).sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha)); } catch { prensa = []; }
+
+// Actividad reciente: seminarios y webinars, apariciones en medios y novedades,
+// mezclados por fecha. Es lo que muestra que el Observatorio esta vivo.
+const reciente = [
+  ...webinars.map((w) => ({ tipo: 'Seminario / webinar', titulo: w.data.titulo, fecha: w.data.fecha_evento, url: `/webinars/${w.id}/` })),
+  ...prensa.map((p) => ({ tipo: `En los medios · ${p.data.medio.split(',')[0]}`, titulo: p.data.titulo, fecha: p.data.fecha, url: `/prensa/#${p.id}` })),
+  ...(novedad ? [{ tipo: 'Novedad', titulo: novedad.data.titulo, fecha: novedad.data.fecha, url: `/novedades/${novedad.id}/` }] : []),
+].sort((a, b) => new Date(b.fecha) - new Date(a.fecha)).slice(0, 4);
 
 const { indicadores = [] } = cargarYaml(fs.readFileSync('./datos/indicadores.yml', 'utf-8')) ?? {};
 
@@ -84,24 +92,26 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
     </div>
   </section>
 
-  {(agenda.length > 0 || radar) && (
-    <section class="marco vivo" aria-label="Agenda y radar">
-      {agenda.length > 0 && (
+  {(reciente.length > 0 || radar) && (
+    <section class="marco vivo" aria-label="Actividad reciente y radar">
+      {reciente.length > 0 && (
         <div class="tarjeta agenda">
-          <p class="rotulo">Próximas actividades</p>
+          <p class="rotulo">Actividad reciente</p>
           <ul>
-            {agenda.map((a) => (
+            {reciente.map((r) => (
               <li>
                 <p class="meta">
-                  <span class="tipo">{a.tipo}</span>
-                  <span class="estado" data-estado={a.estado}>{rotulosEstado[a.estado] ?? a.estado}</span>
-                  {a.fecha && <span>{a.fecha}</span>}
+                  <span class="tipo">{r.tipo}</span>
+                  <span>{fecha(r.fecha)}</span>
                 </p>
-                <p class="titulo-actividad">{a.titulo}</p>
+                <p class="titulo-actividad"><a href={r.url}>{r.titulo}</a></p>
               </li>
             ))}
           </ul>
-          <a class="enlace-tarjeta" href="/webinars/#agenda">Toda la agenda e inscripciones</a>
+          <p class="enlaces-tarjeta">
+            <a href="/webinars/">Todas las actividades</a>
+            <a href="/prensa/">En los medios</a>
+          </p>
         </div>
       )}
       {radar && (
@@ -135,24 +145,26 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
         <p class="pie-bloque">{destacada.data.publicado_en} · {destacada.data.anio}</p>
       </article>
     )}
-    {(novedad || webinar) && (
-      <article class="bloque">
-        {novedad && (
-          <>
-            <p class="rotulo">Novedad</p>
-            <h2><a href={`/novedades/${novedad.id}/`}>{novedad.data.titulo}</a></h2>
-            <p class="pie-bloque">{fecha(novedad.data.fecha)}</p>
-          </>
-        )}
-        {webinar && (
-          <>
-            <p class="rotulo espaciado">Webinar</p>
-            <h2><a href={`/webinars/${webinar.id}/`}>{webinar.data.titulo}</a></h2>
-            <p class="pie-bloque">{fecha(webinar.data.fecha_evento)}</p>
-          </>
-        )}
-      </article>
-    )}
+    <article class="bloque">
+      <p class="rotulo">Próximas actividades</p>
+      {agenda.length > 0 ? (
+        <ul class="proximas">
+          {agenda.map((a) => (
+            <li>
+              <p class="meta">
+                <span class="tipo">{a.tipo}</span>
+                <span class="estado" data-estado={a.estado}>{rotulosEstado[a.estado] ?? a.estado}</span>
+                {a.fecha && <span>{a.fecha}</span>}
+              </p>
+              <p class="titulo-proxima">{a.titulo}</p>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="texto">Estamos preparando las próximas actividades.</p>
+      )}
+      <p class="pie-bloque"><a href="/webinars/#agenda">Agenda e inscripciones</a></p>
+    </article>
   </section>
 
   <div class="marco cierre">
@@ -212,11 +224,18 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
   .agenda ul { list-style: none; padding: 0; margin: 0.4rem 0 0; flex: 1; }
   .agenda li { padding: 0.9rem 0; border-top: 1px solid var(--niebla); }
   .agenda li:first-child { border-top: 0; padding-top: 0.2rem; }
+  .agenda li { padding: 0.75rem 0; }
   .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; align-items: center; font-family: var(--dato); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0 0 0.4rem; }
   .tipo { color: var(--fen); }
   .estado { padding: 0.1rem 0.45rem; border: 1px solid var(--niebla); }
   .estado[data-estado='inscripcion-abierta'] { background: var(--fen); color: #fff; border-color: var(--fen); }
-  .titulo-actividad { font-family: var(--display); font-weight: 600; font-size: 1.2rem; line-height: 1.3; margin: 0; }
+  .titulo-actividad { font-family: var(--display); font-weight: 600; font-size: 1.15rem; line-height: 1.3; margin: 0; }
+  .titulo-actividad a { color: var(--tinta); text-decoration: none; }
+  .titulo-actividad a:hover { color: var(--fen); text-decoration: underline; }
+  .enlaces-tarjeta { margin: 1.2rem 0 0; display: flex; gap: 1.6rem; font-family: var(--dato); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .proximas { list-style: none; padding: 0; margin: 0.4rem 0 0; }
+  .proximas li { padding: 0.8rem 0; border-bottom: 1px solid var(--niebla); }
+  .titulo-proxima { font-family: var(--display); font-weight: 600; font-size: 1.1rem; line-height: 1.3; margin: 0; }
   .enlace-tarjeta { margin-top: 1.2rem; font-family: var(--dato); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; }
   .radar-cifra { font-family: var(--display); font-weight: 700; font-size: 3.4rem; line-height: 1; color: var(--fen); margin: 0.4rem 0 0.5rem; }
   .radar-texto { font-size: 1.05rem; line-height: 1.5; margin: 0 0 1.4rem; color: var(--gris); flex: 1; }
