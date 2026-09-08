@@ -44,11 +44,42 @@ medios:
 
   # --- Region: Chile, Brasil, Argentina ---
   # Aqui esta el valor diferencial. Nadie sistematiza esto.
-  # Resolverlos con:  python scripts/buscar_feeds.py https://www.df.cl https://valor.globo.com https://www.cronista.com https://www.americaeconomia.com https://blogs.iadb.org https://www.cepal.org
-  # - Diario Financiero (CL): ?
+  # Los feeds de portada traen mucho ruido (politica, deportes, estilo de
+  # vida); el filtro TEMAS de medios.py se encarga. Cuando un medio ofrece
+  # feed por seccion, se usa la de negocios o tecnologia.
+  #
+  # Verificados el 2026-09-08 (responden con titulares del dia):
+
+  # Chile
+  - Diario Financiero (CL) [prensa]: https://www.df.cl/noticias/site/list/port/rss.xml
+  - La Tercera · Pulso (CL) [prensa]: https://www.latercera.com/arc/outboundfeeds/rss/category/pulso/?outputType=xml
+  - La Tercera · portada (CL) [prensa]: https://www.latercera.com/arc/outboundfeeds/rss/?outputType=xml
+  - trendTIC (CL) [prensa]: https://www.trendtic.cl/feed/
+  - CENIA — Centro Nacional de IA (CL) [institucional]: https://cenia.cl/feed/
+
+  # Argentina
+  - iProfesional · Tecnologia (AR) [prensa]: https://www.iprofesional.com/rss/tecnologia
+  - iProfesional · Negocios (AR) [prensa]: https://www.iprofesional.com/rss/negocios
+  - Ambito · Economia (AR) [prensa]: https://www.ambito.com/rss/pages/economia.xml
+  - Ambito · Negocios (AR) [prensa]: https://www.ambito.com/rss/pages/negocios.xml
+  - La Nacion · portada (AR) [prensa]: https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml
+
+  # Brasil
   - Valor Economico (BR) [prensa]: https://valor.globo.com/rss/valor
-  # - El Cronista (AR): ?
-  # - America Economia: ?
-  # - SEBRAE Inteligencia (BR): ?
-  # - BID / IDB blogs: ?
-  # - CEPAL: ?
+  - Exame (BR) [prensa]: https://exame.com/feed/
+  - Agencia Brasil (BR) [institucional]: https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml
+
+  # Por confirmar en la primera corrida: son las URL que declaran los propios
+  # medios, pero no pudieron comprobarse desde fuera de sus dominios. Si en el
+  # registro de Actions aparece "aviso: fallo <medio>", comentar la linea.
+  - El Cronista (AR) [prensa]: https://www.cronista.com/files/rss/news.xml
+  - Clarin · Tecnologia (AR) [prensa]: https://www.clarin.com/rss/tecnologia/
+  - Folha de S.Paulo · Tec (BR) [prensa]: https://feeds.folha.uol.com.br/tec/rss091.xml
+  - Estadao · Economia (BR) [prensa]: https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/economia/?outputType=xml
+  - Emol · Economia (CL) [prensa]: https://www.emol.com/rss/rss.asp?canal=economia
+  - America Economia [prensa]: https://www.americaeconomia.com/rss.xml
+
+  # Descartados el 2026-09-08: El Mostrador /feed/ (abandonado, ultima entrada
+  # de 2021), Datos Protegidos /feed/ (ultima entrada de 2024), BioBioChile
+  # /feed (404), Cooperativa (404), Minciencia y Corfo (sin feed publico),
+  # Senado /rss (404), BID blogs (redirige a la portada sin feed).

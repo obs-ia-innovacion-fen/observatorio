@@ -46,6 +46,20 @@ TEMAS = (
     "surveillance", "copyright", "openai", "anthropic", "nvidia",
     "modelo de linguagem", "aprendizaje automatico", "datos personales",
     "dados pessoais", "reconhecimento facial",
+    # Terminos en espanol y portugues que faltaban: "ia" es la sigla que usa
+    # toda la prensa de la region y no estaba en la lista.
+    "ia", "genai", "chatgpt", "gemini", "copilot", "agentes de ia", "agente de ia",
+    "automatizacion", "automatización", "automatização", "automacao",
+    "transformacion digital", "transformación digital", "transformação digital",
+    "ciberseguridad", "cibersegurança", "proteccion de datos", "protección de datos",
+    "proteção de dados", "ley de datos", "agencia de proteccion", "agencia de protección",
+    "gobernanza", "governança", "regulacion", "regulación", "innovación", "inovacao",
+    "emprendedor", "emprendedores", "emprendedora", "empreendedor", "empreendedores",
+    "unicornio", "unicórnio", "fintech", "mipyme", "mipymes", "pequenas empresas",
+    "pequeñas empresas", "pequenas empresas", "startups", "venture", "capital de riesgo",
+    "digitalizacion", "digitalización", "digitalização", "productividad", "produtividade",
+    "robots", "robótica", "robotica", "semiconductores", "semicondutores",
+    "algoritmos", "reconocimiento facial", "deepfake",
 )
 
 ATOM = "{http://www.w3.org/2005/Atom}"
