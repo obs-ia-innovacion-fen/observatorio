@@ -111,7 +111,20 @@ TEMAS_NEGOCIO = (
 )
 
 
+# Avisos de empleo: no son noticia aunque mencionen IA. Se descartan por el
+# titular. Las convocatorias a fondos o programas si se conservan.
+NO_ES_NOTICIA = (
+    "trabaja con nosotros", "trabaje con nosotros", "oferta laboral", "ofertas laborales",
+    "oferta de empleo", "ofertas de empleo", "vacante", "estamos contratando",
+    "we're hiring", "we are hiring", "job opening", "join our team",
+    "vaga de emprego", "vagas de emprego", "trabalhe conosco",
+)
+
+
 def es_del_tema(titulo, extracto, nivel="prensa"):
+    titulo_min = (titulo or "").lower()
+    if any(t in titulo_min for t in NO_ES_NOTICIA):
+        return False
     texto = f"{titulo} {extracto}".lower()
     if not any(re.search(rf"\b{re.escape(t)}\b", texto) for t in TEMAS):
         return False
