@@ -7,13 +7,16 @@ const publicaciones = await getCollection('publicaciones');
 const areas = (await getCollection('areas')).sort((a, b) => a.data.orden - b.data.orden);
 ---
 
-<Base titulo="Publicaciones" descripcion="Todo lo publicado por el Observatorio, agrupado por área.">
+<Base titulo="Publicaciones" descripcion="Producción del Observatorio y lecturas comentadas de la literatura académica y profesional, organizadas por área de trabajo.">
   <div class="marco">
-    <p class="antetitulo">Archivo</p>
+    <p class="antetitulo">Investigación y análisis</p>
     <h1>Publicaciones</h1>
     <p class="bajada">
-      Cada pieza indica su procedencia: investigación propia, colaboración,
-      comentario de literatura ajena o sugerencia de lectura.
+      Producción del Observatorio y lecturas comentadas de la literatura
+      académica y profesional, organizadas por área de trabajo. Cada pieza
+      declara su procedencia, ya sea investigación propia, trabajo en
+      colaboración, comentario de un texto ajeno o sugerencia de lectura, de
+      modo que el lector sepa desde el inicio qué tipo de aporte tiene delante.
     </p>
 
     {areas.map((area) => {
