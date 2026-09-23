@@ -11,7 +11,7 @@ export function getStaticPaths() {
       props: {
         titulo: 'Inteligencia artificial',
         enCamino: [
-          { nombre: 'AI Index 2026 — Stanford HAI', url: 'https://hai.stanford.edu/ai-index/2026-ai-index-report', que: 'Inversión privada, adopción empresarial y marcos regulatorios, de los capítulos de economía y gobernanza.' },
+          { nombre: 'AI Index 2026, Stanford HAI', url: 'https://hai.stanford.edu/ai-index/2026-ai-index-report', que: 'Inversión privada, adopción empresarial y marcos regulatorios, de los capítulos de economía y gobernanza.' },
           { nombre: 'OECD.AI Policy Observatory', url: 'https://oecd.ai', que: 'Políticas nacionales de IA y talento especializado.' },
         ],
       },
@@ -21,7 +21,7 @@ export function getStaticPaths() {
       props: {
         titulo: 'Innovación',
         enCamino: [
-          { nombre: 'OCDE — Main Science and Technology Indicators', url: 'https://data-explorer.oecd.org', que: 'Gasto en investigación y desarrollo sobre PIB, e investigadores por cada mil ocupados. Es la única fuente consultable por API, así que será la primera en dar gráficos comparados.' },
+          { nombre: 'OCDE, Main Science and Technology Indicators', url: 'https://data-explorer.oecd.org', que: 'Gasto en investigación y desarrollo sobre PIB, e investigadores por cada mil ocupados. Es la única fuente consultable por API, así que será la primera en dar gráficos comparados.' },
           { nombre: 'RICYT', url: 'https://www.ricyt.org', que: 'Indicadores iberoamericanos de ciencia y tecnología. Cubre a los tres países con el mismo instrumento, lo que lo hace mejor para compararlos entre sí.' },
           { nombre: 'Encuestas nacionales de innovación', url: 'https://www.ricyt.org', que: 'PINTEC en Brasil, ENDEI en Argentina y la Encuesta Nacional de Innovación en Chile. Compararlas exige una nota metodológica que todavía no está escrita.' },
         ],
@@ -56,8 +56,9 @@ const fuentes = [...new Set(cifras.map((c) => c.fuente))];
     {cifras.length === 0 ? (
       <section class="en-camino">
         <p class="explicacion">
-          Todavía no publicamos indicadores de este tema. No es un descuido:
-          preferimos no mostrar cifras que no hayamos verificado en su fuente.
+          Todavía no publicamos indicadores de este tema. No es un descuido,
+          sino que preferimos no mostrar cifras que no hayamos verificado en su
+          fuente.
           Estas son las fuentes que estamos incorporando y qué esperamos de
           cada una.
         </p>
@@ -82,7 +83,7 @@ const fuentes = [...new Set(cifras.map((c) => c.fuente))];
             <p class="detalle">{i.detalle}</p>
             <p class="origen">
               <a href={i.enlace} rel="noopener">{i.fuente}</a> · {i.anio}
-              {i.pagina && <span> · p. {i.pagina}</span>}
+              {i.pagina && <span> · {i.pagina}</span>}
               {i.vencido && <span class="vencido">verificar</span>}
             </p>
           </article>
@@ -104,8 +105,8 @@ const fuentes = [...new Set(cifras.map((c) => c.fuente))];
         <p class="nota">
           Usamos datos que las fuentes publican para reutilización, no
           reproducciones de sus gráficos. La cobertura de la OCDE no es igual
-          para los tres países: Chile es miembro, Brasil está en proceso de
-          adhesión y Argentina no lo es, así que cuando falte un dato lo
+          para los tres países, porque Chile es miembro, Brasil está en proceso
+          de adhesión y Argentina no lo es. Por eso, cuando falte un dato lo
           decimos en vez de dejar el espacio vacío.
         </p>
       </section>

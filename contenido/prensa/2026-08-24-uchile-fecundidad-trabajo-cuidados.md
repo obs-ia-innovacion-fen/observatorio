@@ -1,5 +1,5 @@
 ---
-titulo: "U. de Chile: fecundidad bajo el umbral y su efecto en trabajo y cuidados"
+titulo: "U. de Chile consulta al Observatorio sobre la fecundidad bajo el umbral y su efecto en trabajo y cuidados"
 fecha: 2026-08-24
 medio: "Prensa U. de Chile"
 formato: "Nota con expertos"
@@ -30,7 +30,7 @@ política pública diseñe respuestas diferenciadas para cada uno, en vez de una
 fórmula única.
 
 La aparición ilustra uno de los ejes que el Observatorio va incorporando a su
-agenda: cómo se cruzan la longevidad laboral, la baja fecundidad y la adopción
-de inteligencia artificial en la fuerza de trabajo chilena. Es un ángulo que
+agenda, que es cómo se cruzan la longevidad laboral, la baja fecundidad y la
+adopción de inteligencia artificial en la fuerza de trabajo chilena. Es un ángulo que
 combina investigación académica de la FEN con la mirada aplicada a empresas y
 directorios que caracteriza el trabajo del Observatorio.

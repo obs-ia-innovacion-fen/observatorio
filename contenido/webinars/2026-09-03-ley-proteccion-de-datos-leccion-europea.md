@@ -2,9 +2,9 @@
 titulo: "Ley de Protección de Datos: lo que Europa ya aprendió y lo que Chile aún debe resolver"
 fecha_evento: 2026-09-03
 panelistas:
-  - "Rodrigo Cetina Presuel — Senior Lecturer en Derecho y Políticas Públicas y Associate Dean de Educación y Asuntos Académicos, UPF Barcelona School of Management, Universitat Pompeu Fabra"
-  - "David Díaz Solís — Director del Observatorio de IA e Innovación en los Negocios, FEN UChile (apertura)"
-  - "Juan-Ernesto Sepúlveda — Investigador asociado del Observatorio, FEN UChile (moderación)"
+  - "Rodrigo Cetina Presuel, Senior Lecturer en Derecho y Políticas Públicas y Associate Dean de Educación y Asuntos Académicos, UPF Barcelona School of Management, Universitat Pompeu Fabra"
+  - "David Díaz Solís, Director del Observatorio de IA e Innovación en los Negocios, FEN UChile (apertura)"
+  - "Juan-Ernesto Sepúlveda, Investigador asociado del Observatorio, FEN UChile (moderación)"
 area: gobernanza-y-regulacion
 grabacion: ""
 materiales:

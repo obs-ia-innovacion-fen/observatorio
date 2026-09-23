@@ -20,7 +20,7 @@ const anchoGrupo = 100 / Math.max(anios.length, 1);
   </figcaption>
 
   <svg viewBox={`0 0 100 ${alto / 3}`} preserveAspectRatio="none" role="img"
-       aria-label={`${serie.titulo}: comparación entre ${paises.join(', ')}`}>
+       aria-label={`${serie.titulo}, comparación entre ${paises.join(', ')}`}>
     {anios.map((anio, i) =>
       paises.map((pais, j) => {
         const v = serie.paises[pais][anio] ?? 0;

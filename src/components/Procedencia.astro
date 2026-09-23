@@ -12,11 +12,17 @@ const revision =
   revisado === true ? 'revisado por pares'
   : revisado === false ? 'sin revisión por pares'
   : null;
+
+const lectura =
+  fuente === 'resumen' ? 'leído desde el resumen'
+  : fuente === 'texto completo' ? 'leído en texto completo'
+  : fuente ? `leído desde ${fuente}`
+  : null;
 ---
 
 <span class="procedencia" data-tipo={tipo}>{etiquetas[tipo] ?? tipo}</span>
 {revision && <span class="revision">{revision}</span>}
-{fuente && <span class="revision">leído: {fuente}</span>}
+{lectura && <span class="revision">{lectura}</span>}
 
 <style>
   .revision {

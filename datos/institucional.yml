@@ -30,13 +30,13 @@ mision:
     texto: >
       Innovar es crear conocimiento y convertirlo en valor. Seguimos cómo
       ocurre ese proceso en los ecosistemas de la región y qué lo hace
-      sostenible: la innovación de triple impacto, que genera valor económico,
-      social y ambiental a la vez.
+      sostenible. La respuesta es la innovación de triple impacto, que genera
+      valor económico, social y ambiental a la vez.
   - tema: "Inteligencia artificial"
     texto: >
       La inteligencia artificial acelera cada etapa de ese proceso y exige algo
       a cambio. Su uso responsable y ético no es un requisito que se cumple
-      después: es condición para que el valor que promete sea sostenible.
+      después, sino la condición para que el valor que promete sea sostenible.
 
 funciones:
   - titulo: "Rigor"
@@ -80,22 +80,22 @@ vision:
     texto: >
       Producir un informe de referencia sobre adopción de inteligencia
       artificial en las empresas de la región, con foco en las pequeñas y
-      medianas: qué las ayuda a adoptarla, qué las frena y qué condiciones
-      hacen que esa adopción genere valor.
+      medianas. El informe debe responder qué las ayuda a adoptarla, qué las
+      frena y qué condiciones hacen que esa adopción genere valor.
 
 # Instituciones con las que se busca construir la red de trabajo.
 # Estado: en construccion. No declarar como acuerdos vigentes los que no lo son.
 red:
-  - institucion: "FGV Analytics — FGV EAESP, São Paulo"
+  - institucion: "FGV Analytics, FGV EAESP, São Paulo"
     pais: "Brasil"
     url: "https://eaesp.fgv.br/"          # completar con el enlace exacto del centro
-  - institucion: "Lab-GEOPI — Laboratório de Estudos sobre Organização da Pesquisa e da Inovação, Unicamp"
+  - institucion: "Lab-GEOPI, Laboratório de Estudos sobre Organização da Pesquisa e da Inovação, Unicamp"
     pais: "Brasil"
     url: "https://www.ige.unicamp.br/geopi/"
   - institucion: "Universitat Pompeu Fabra"
     pais: "España"
     url: "https://www.upf.edu/"
-  - institucion: "Manchester Institute of Innovation Research — Alliance Manchester Business School"
+  - institucion: "Manchester Institute of Innovation Research, Alliance Manchester Business School"
     pais: "Reino Unido"
     url: "https://www.mioir.manchester.ac.uk/"
 
@@ -111,7 +111,7 @@ metas:
       Llegar a ser un lugar donde se encuentre, en un mismo sitio,
       publicaciones, datos, notas y noticias sobre innovación e inteligencia
       artificial, con criterio de selección explícito y fuentes declaradas.
-      Leerlos juntos —y no cada fuente por separado, como se hace hoy— es lo
+      Leerlos juntos, y no cada fuente por separado como se hace hoy, es lo
       que produce esa perspectiva.
   - tema: "Innovación"
     titulo: "Formalizar la red"

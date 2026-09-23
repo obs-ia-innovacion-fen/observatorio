@@ -25,12 +25,12 @@ playgrounds:
     url: "https://ml-landscape-playground.vercel.app"
   - familia: "Aprendizaje no supervisado"
     titulo: "Clustering"
-    detalle: "K-Means, DBSCAN y clustering jerárquico: cómo cambian las particiones al mover centroides, epsilon y criterio de enlace."
+    detalle: "K-Means, DBSCAN y clustering jerárquico, para observar cómo cambian las particiones al mover centroides, epsilon y criterio de enlace."
     temas: ["K-Means", "DBSCAN", "Jerárquico"]
     url: "https://clustering-playground.vercel.app"
   - familia: "Aprendizaje no supervisado"
     titulo: "Análisis de componentes principales"
-    detalle: "Reducción de dimensionalidad: varianza explicada, reconstrucción con menos componentes y detección de anomalías."
+    detalle: "Reducción de dimensionalidad con varianza explicada, reconstrucción con menos componentes y detección de anomalías."
     temas: ["PCA", "SVD", "Anomalías"]
     url: "https://pca-playground.vercel.app"
   - familia: "Aprendizaje no supervisado"
@@ -40,7 +40,7 @@ playgrounds:
     url: "https://autoencoder-embedding-playground.vercel.app"
   - familia: "Reglas de asociación"
     titulo: "Reglas de asociación"
-    detalle: "Análisis de canasta de mercado con Apriori y FP-Growth: conjuntos frecuentes, soporte, confianza y lift."
+    detalle: "Análisis de canasta de mercado con Apriori y FP-Growth, que cubre conjuntos frecuentes, soporte, confianza y lift."
     temas: ["Apriori", "FP-Growth", "Soporte / confianza / lift"]
     url: "https://association-rules-playground.vercel.app"
   - familia: "Aprendizaje supervisado"
@@ -50,7 +50,7 @@ playgrounds:
     url: "https://linear-models-playground.vercel.app"
   - familia: "Aprendizaje supervisado"
     titulo: "Árboles y ensambles"
-    detalle: "De un árbol de decisión a Random Forest y Gradient Boosting: profundidad, importancia de variables y el compromiso sesgo-varianza."
+    detalle: "De un árbol de decisión a Random Forest y Gradient Boosting, con atención a la profundidad, la importancia de variables y el compromiso sesgo-varianza."
     temas: ["Árbol de decisión", "Random Forest", "Gradient Boosting"]
     url: "https://tree-ensemble-playground.vercel.app"
   - familia: "Aprendizaje supervisado"

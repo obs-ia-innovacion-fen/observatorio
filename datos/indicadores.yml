@@ -22,7 +22,7 @@
 hallazgos:
   actualizado: 2026-08-23
   ia: >
-    La región adopta rápido y construye despacio: es la tercera del mundo en
+    La región adopta rápido y construye despacio. Es la tercera del mundo en
     descargas de IA generativa y recibe poco más del uno por ciento de la
     inversión global del sector. Se adopta más rápido de lo que se desarrolla
     capacidad para decidir sobre lo que se adopta.
@@ -38,10 +38,10 @@ hallazgos:
 indicadores:
   - clave: adopcion-generativa
     tema: ia
-    titulo: "15–20%"
+    titulo: "15-20%"
     detalle: "del mercado global de descargas de IA generativa corresponde a América Latina, tercera región del mundo en adopción"
     ambito: "America Latina"
-    fuente: "ILIA — CENIA / CEPAL"
+    fuente: "ILIA, CENIA y CEPAL"
     anio: 2025
     enlace: "https://indicelatam.cl/"
     verificado: 2026-08-23
@@ -49,9 +49,9 @@ indicadores:
   - clave: inversion-global
     tema: ia
     titulo: "1,28%"
-    detalle: "de la inversión global en IA llega a la región: brecha estructural de financiamiento"
+    detalle: "de la inversión global en IA llega a la región, lo que revela una brecha estructural de financiamiento"
     ambito: "America Latina"
-    fuente: "ILIA — CENIA / CEPAL"
+    fuente: "ILIA, CENIA y CEPAL"
     anio: 2025
     enlace: "https://indicelatam.cl/"
     verificado: 2026-08-23
@@ -61,7 +61,7 @@ indicadores:
     titulo: "13 de 19"
     detalle: "países sin IA integrada al currículo escolar temprano"
     ambito: "America Latina"
-    fuente: "ILIA — CENIA / CEPAL"
+    fuente: "ILIA, CENIA y CEPAL"
     anio: 2025
     enlace: "https://indicelatam.cl/"
     verificado: 2026-08-23
@@ -69,9 +69,9 @@ indicadores:
   - clave: doctorados
     tema: ia
     titulo: "11 de 19"
-    detalle: "países sin programas doctorales en IA: el talento especializado sigue concentrado"
+    detalle: "países sin programas doctorales en IA, lo que muestra que el talento especializado sigue concentrado"
     ambito: "America Latina"
-    fuente: "ILIA — CENIA / CEPAL"
+    fuente: "ILIA, CENIA y CEPAL"
     anio: 2025
     enlace: "https://indicelatam.cl/"
     verificado: 2026-08-23
@@ -81,7 +81,7 @@ indicadores:
     titulo: "68%"
     detalle: "de los investigadores activos en IA de la región están en Brasil y México; el top-5 concentra el 87%"
     ambito: "America Latina"
-    fuente: "ILIA — CENIA / CEPAL"
+    fuente: "ILIA, CENIA y CEPAL"
     anio: 2025
     enlace: "https://indicelatam.cl/"
     verificado: 2026-08-23
@@ -89,9 +89,9 @@ indicadores:
   - clave: estrategias-nacionales
     tema: ia
     titulo: "9 de 19"
-    detalle: "países con estrategia nacional de IA: la gobernanza avanza más lento que la adopción"
+    detalle: "países con estrategia nacional de IA, lo que indica que la gobernanza avanza más lento que la adopción"
     ambito: "America Latina"
-    fuente: "ILIA — CENIA / CEPAL"
+    fuente: "ILIA, CENIA y CEPAL"
     anio: 2025
     enlace: "https://indicelatam.cl/"
     verificado: 2026-08-23
@@ -101,7 +101,7 @@ indicadores:
     titulo: "0,39%"
     detalle: "del PIB invierte Chile en investigación y desarrollo (2022). El promedio de la Unión Europea ese mismo año bordea el 2%."
     ambito: "Chile"
-    fuente: "OCDE — Main Science and Technology Indicators"
+    fuente: "OCDE, Main Science and Technology Indicators"
     anio: 2022
     enlace: "https://data-explorer.oecd.org"
     pagina: "MSTI, indicador GERD como porcentaje del PIB"
@@ -110,9 +110,9 @@ indicadores:
   - clave: gerd-chile-argentina
     tema: innovacion
     titulo: "0,39% vs 0,60%"
-    detalle: "Gasto en I+D sobre PIB: Chile (2022) frente a Argentina (2023). Argentina destina proporcionalmente más de la mitad adicional, pese a un contexto macroeconómico mucho más difícil."
+    detalle: "Gasto en I+D sobre PIB de Chile (2022) frente a Argentina (2023). Argentina destina proporcionalmente más de la mitad adicional, pese a un contexto macroeconómico mucho más difícil."
     ambito: "Chile / Argentina"
-    fuente: "OCDE — Main Science and Technology Indicators"
+    fuente: "OCDE, Main Science and Technology Indicators"
     anio: 2023
     enlace: "https://data-explorer.oecd.org"
     pagina: "MSTI, GERD porcentaje del PIB, CHL y ARG"
@@ -121,9 +121,9 @@ indicadores:
   - clave: gerd-comparado
     tema: innovacion
     titulo: "0,36% vs 2,13%"
-    detalle: "Gasto en I+D sobre PIB en 2021: Chile frente al promedio de los 27 países de la Unión Europea. Casi seis veces de diferencia."
+    detalle: "Gasto en I+D sobre PIB en 2021 de Chile frente al promedio de los 27 países de la Unión Europea. La diferencia es de casi seis veces."
     ambito: "Chile / Union Europea"
-    fuente: "OCDE — Main Science and Technology Indicators"
+    fuente: "OCDE, Main Science and Technology Indicators"
     anio: 2021
     enlace: "https://data-explorer.oecd.org"
     pagina: "MSTI, GERD porcentaje del PIB, CHL y EU27_2020"
@@ -138,7 +138,7 @@ indicadores:
     titulo: "2,41%"
     detalle: "de las vacantes publicadas en Chile pidieron habilidades de IA en 2025 según Lightcast; único país latinoamericano en el panel de la figura, sobre Reino Unido (1,93%) y bajo Estados Unidos (2,56%)"
     ambito: "Chile"
-    fuente: "AI Index 2026 — Stanford HAI (Lightcast)"
+    fuente: "AI Index 2026, Stanford HAI (Lightcast)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 204, Figura 4.4.1"
@@ -149,7 +149,7 @@ indicadores:
     titulo: "+82%"
     detalle: "creció la concentración de talento en IA de Chile entre 2019 y 2025 según LinkedIn; el informe advierte que todos los países de la muestra crecieron al menos 75% desde una base baja, no es un aumento neto sobre el mercado laboral total"
     ambito: "Chile"
-    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    fuente: "AI Index 2026, Stanford HAI (LinkedIn)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 214, Figura 4.4.22"
@@ -160,7 +160,7 @@ indicadores:
     titulo: "+76%"
     detalle: "creció la concentración de talento en IA de Argentina entre 2019 y 2025 según LinkedIn; el segundo crecimiento más bajo de la muestra"
     ambito: "Argentina"
-    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    fuente: "AI Index 2026, Stanford HAI (LinkedIn)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 214, Figura 4.4.22"
@@ -171,7 +171,7 @@ indicadores:
     titulo: "+107%"
     detalle: "creció la concentración de talento en IA de Brasil entre 2019 y 2025 según LinkedIn; el único de los tres países que más que duplica su base de 2019, lejos de Chile (+82%) y Argentina (+76%)"
     ambito: "Brasil"
-    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    fuente: "AI Index 2026, Stanford HAI (LinkedIn)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 214, Figura 4.4.22"
@@ -182,7 +182,7 @@ indicadores:
     titulo: "23,7%"
     detalle: "del talento en IA identificado por LinkedIn en Chile corresponde a mujeres en 2025; una de las brechas de género más amplias del panel, similar a Brasil"
     ambito: "Chile"
-    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    fuente: "AI Index 2026, Stanford HAI (LinkedIn)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 217, Figura 4.4.25"
@@ -193,7 +193,7 @@ indicadores:
     titulo: "29,5%"
     detalle: "del talento en IA identificado por LinkedIn en Argentina corresponde a mujeres en 2025; brecha menor que la chilena y la brasileña"
     ambito: "Argentina"
-    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    fuente: "AI Index 2026, Stanford HAI (LinkedIn)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 217, Figura 4.4.25"
@@ -204,7 +204,7 @@ indicadores:
     titulo: "23,4%"
     detalle: "del talento en IA identificado por LinkedIn en Brasil corresponde a mujeres en 2025; brecha comparable a la chilena"
     ambito: "Brasil"
-    fuente: "AI Index 2026 — Stanford HAI (LinkedIn)"
+    fuente: "AI Index 2026, Stanford HAI (LinkedIn)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 217, Figura 4.4.25"
@@ -215,7 +215,7 @@ indicadores:
     titulo: "10"
     detalle: "leyes de IA aprobadas por Argentina entre 2016 y 2025 según Digital Policy Alert; empata con Canadá y solo India (25) y China (17) la superan dentro del G20"
     ambito: "Argentina"
-    fuente: "AI Index 2026 — Stanford HAI (Digital Policy Alert)"
+    fuente: "AI Index 2026, Stanford HAI (Digital Policy Alert)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 342, Figura 8.4.3"
@@ -226,7 +226,7 @@ indicadores:
     titulo: "6"
     detalle: "leyes de IA aprobadas por Brasil entre 2016 y 2025 según Digital Policy Alert; sexto lugar dentro del G20 medido, por debajo de Argentina (10). Chile no aparece en esta figura porque solo cubre países del G20"
     ambito: "Brasil"
-    fuente: "AI Index 2026 — Stanford HAI (Digital Policy Alert)"
+    fuente: "AI Index 2026, Stanford HAI (Digital Policy Alert)"
     anio: 2025
     enlace: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     pagina: "p. 342, Figura 8.4.3"
@@ -250,12 +250,12 @@ series:
     tema: innovacion
     titulo: "Gasto en I+D como porcentaje del PIB"
     unidad: "% del PIB"
-    fuente: "OCDE — Main Science and Technology Indicators"
+    fuente: "OCDE, Main Science and Technology Indicators"
     enlace: "https://data-explorer.oecd.org"
     verificado:
     nota: >
       Chile y Argentina, con datos anuales del MSTI (medida G, unidad PT_B1GQ).
-      Brasil no figura como area de referencia en el MSTI: se verifico el
+      Brasil no figura como area de referencia en el MSTI. Se verifico el
       listado y las 50 economias con datos para este indicador no lo incluyen.
       Para incorporarlo hay que traer PINTEC (IBGE) o RICYT.
     paises:
@@ -277,7 +277,7 @@ series:
     tema: innovacion
     titulo: "Investigadores por cada 1.000 personas ocupadas"
     unidad: "por 1.000 empleos"
-    fuente: "OCDE — Main Science and Technology Indicators"
+    fuente: "OCDE, Main Science and Technology Indicators"
     enlace: "https://data-explorer.oecd.org"
     verificado:
     nota: >

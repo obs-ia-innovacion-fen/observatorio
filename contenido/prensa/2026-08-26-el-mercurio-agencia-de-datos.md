@@ -1,5 +1,5 @@
 ---
-titulo: "El Mercurio Chile Tecnológico: el tamaño real de la Agencia de Datos"
+titulo: "El Mercurio Chile Tecnológico dimensiona la Agencia de Datos"
 fecha: 2026-08-26
 medio: "El Mercurio, suplemento Chile Tecnológico"
 formato: "Nota con expertos consultados"
@@ -24,17 +24,17 @@ Protección de Datos Personales, que aún no cuenta con consejeros ni capacidad
 operativa. Junto a Arturo Alba (Universidad Adolfo Ibáñez), Matías Aránguiz
 (Pontificia Universidad Católica) y George Lever (Cámara de Comercio de
 Santiago), Díaz aportó la lectura de gestión y ejecución. Su primera
-intervención fue directa: sin la Agencia instalada, faltará el sistema que
+intervención fue directa. Sin la Agencia instalada, faltará el sistema que
 debe recibir los reclamos, fiscalizar y sancionar los incumplimientos. Su
-segundo cálculo puso el problema en tiempo real: aunque los consejeros fueran
+segundo cálculo puso el problema en tiempo real. Aunque los consejeros fueran
 nombrados de inmediato, se necesitarían entre seis y doce meses para disponer
 de una Agencia operativa, considerando la contratación de especialistas, la
 habilitación de los sistemas de reclamación y la dictación de las normas que
 la propia ley le encarga.
 
-La aparición ilustra una constante del trabajo del Observatorio: dimensionar
-en operación, y no solo en principios, lo que la agenda regulatoria chilena
-promete. Es la mirada que el Observatorio despliega en su acompañamiento a
+La aparición ilustra una constante del trabajo del Observatorio, que es
+dimensionar en operación, y no solo en principios, lo que la agenda
+regulatoria chilena promete. Es la mirada que el Observatorio despliega en su acompañamiento a
 directorios y equipos ejecutivos, y que quedó especialmente vigente cuando,
 apenas seis días después de esta nota, el Ejecutivo formalizó el proyecto que
 posterga la entrada en vigencia de la Ley 21.719 hasta diciembre de 2027.

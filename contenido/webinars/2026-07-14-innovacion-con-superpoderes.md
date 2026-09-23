@@ -2,10 +2,10 @@
 titulo: "Innovación con superpoderes: lo que cambia (y lo que no) con IA"
 fecha_evento: 2026-07-14
 panelistas:
-  - "David Díaz — Director del Observatorio, FEN UChile"
-  - "Carmen Contreras — Directora académica del Diplomado en Gestión de la Innovación, Unegocios FEN UChile"
-  - "Bastián Celedón — SONDA"
-  - "Carlos Rodríguez — Corporate Venturing"
+  - "David Díaz, Director del Observatorio, FEN UChile"
+  - "Carmen Contreras, Directora académica del Diplomado en Gestión de la Innovación, Unegocios FEN UChile"
+  - "Bastián Celedón, SONDA"
+  - "Carlos Rodríguez, Corporate Venturing"
 area: ia-en-pymes
 grabacion: ""
 materiales: []
