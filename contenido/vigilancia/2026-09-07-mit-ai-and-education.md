@@ -4,6 +4,8 @@ fecha: 2026-09-07
 area: gobernanza-y-regulacion
 autor: "Observatorio de IA e Innovación en los Negocios"
 paises: []
+origen: "Universidad. Reporte institucional del MIT, elaborado por un comité ad hoc"
+evidencia: "Marco de principios y áreas de acción, sin resultados medidos"
 fuentes:
   - "https://aiandeducation.mit.edu/report/"
 ---

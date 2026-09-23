@@ -25,7 +25,7 @@ prensa = prensa.slice(0, 3);
       empresas. Cada nota indica su origen y su nivel de evidencia, para que el
       lector pueda distinguir una tendencia emergente de un dato verificado.
     </p>
-    <p class="radar-enlace"><a href="/radar/">Ver el radar de prensa de esta semana</a>: todos los titulares que recolectó el sistema, sin revisión.</p>
+    <p class="radar-enlace"><a href="/radar/">Ver el radar de prensa de esta semana</a>, con todos los titulares seleccionados por el sistema de monitoreo.</p>
 
     {notas.length === 0 ? (
       <p class="vacio">Todavía no publicamos novedades. Van a aparecer acá.</p>
@@ -37,6 +37,12 @@ prensa = prensa.slice(0, 3);
             {n.data.paises?.length > 0 && <span class="paises"> · {n.data.paises.join(' · ')}</span>}
           </p>
           <h2><a href={`/novedades/${n.id}/`}>{n.data.titulo}</a></h2>
+          {(n.data.origen || n.data.evidencia) && (
+            <p class="senal">
+              {n.data.origen && <span><span class="rotulo">Origen</span> {n.data.origen}</span>}
+              {n.data.evidencia && <span><span class="rotulo">Evidencia</span> {n.data.evidencia}</span>}
+            </p>
+          )}
         </article>
       ))
     )}
@@ -76,4 +82,6 @@ prensa = prensa.slice(0, 3);
   .aparicion h3 a { color: var(--tinta); text-decoration: none; }
   .aparicion h3 a:hover { color: var(--fen); text-decoration: underline; }
   .todas { margin: 1.2rem 0 0; font-family: var(--dato); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .senal { display: flex; flex-wrap: wrap; gap: 0.3rem 1.6rem; margin: 0.5rem 0 0; font-size: 0.95rem; color: var(--gris); }
+  .senal .rotulo { font-family: var(--dato); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--fen); margin-right: 0.4rem; }
 </style>

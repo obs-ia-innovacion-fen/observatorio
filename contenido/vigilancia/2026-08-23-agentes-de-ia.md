@@ -4,6 +4,8 @@ fecha: 2026-08-23
 area: gobernanza-y-regulacion
 autor: "Observatorio de IA e Innovación en los Negocios"
 paises: []
+origen: "Prensa de negocios (HBR, The Economist), un preprint y una nota de práctica"
+evidencia: "Reportajes y un documento de trabajo sin revisión por pares, sin datos medidos en la región"
 fuentes:
   - "https://hbr.org/2026/08/why-agentic-ai-could-transform-procurement"
   - "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users"

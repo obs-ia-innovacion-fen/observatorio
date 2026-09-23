@@ -41,6 +41,10 @@ const vigilancia = defineCollection({
     autor: z.string().optional().nullable(),
     paises: z.array(z.string()).default([]),
     fuentes: z.array(z.string()).default([]),
+    // Origen de la señal (quién la produce) y nivel de evidencia (qué
+    // sostiene lo que dice). Ambos se muestran junto al título.
+    origen: z.string().optional().nullable(),
+    evidencia: z.string().optional().nullable(),
   }),
 });
 
