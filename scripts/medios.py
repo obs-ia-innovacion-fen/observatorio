@@ -121,13 +121,35 @@ NO_ES_NOTICIA = (
 )
 
 
+# Terminos que por si solos no definen el tema (una nota sobre una tienda
+# puede mencionar "pymes" de paso). Solo cuentan si aparecen en el titular;
+# en el extracto se exige un termino especifico de IA, innovacion o
+# emprendimiento.
+TEMAS_DEBILES = (
+    "pyme", "pymes", "mipyme", "mipymes", "sme", "smes", "small business",
+    "pequenas empresas", "pequeñas empresas", "productividad", "produtividade",
+    "productivity", "regulacion", "regulación", "regulacao", "regulação",
+    "regulation", "gobernanza", "governança", "governance", "fintech",
+    "digitalizacion", "digitalización", "digitalização", "privacy",
+    "copyright", "surveillance", "chips", "semiconductor", "semiconductores",
+    "semicondutores", "nvidia", "venture", "capital de riesgo", "unicornio",
+    "unicórnio", "inteligencia",
+)
+
+
 def es_del_tema(titulo, extracto, nivel="prensa"):
     titulo_min = (titulo or "").lower()
     if any(t in titulo_min for t in NO_ES_NOTICIA):
         return False
-    texto = f"{titulo} {extracto}".lower()
-    if not any(re.search(rf"\b{re.escape(t)}\b", texto) for t in TEMAS):
+    extracto_min = (extracto or "").lower()
+    en_titulo = any(re.search(rf"\b{re.escape(t)}\b", titulo_min) for t in TEMAS)
+    en_extracto = any(
+        re.search(rf"\b{re.escape(t)}\b", extracto_min)
+        for t in TEMAS if t not in TEMAS_DEBILES
+    )
+    if not (en_titulo or en_extracto):
         return False
+    texto = f"{titulo} {extracto}".lower()
     if nivel == "practica":
         return any(re.search(rf"\b{re.escape(t)}\w*", texto) for t in TEMAS_NEGOCIO)
     return True
