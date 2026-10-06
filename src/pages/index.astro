@@ -218,7 +218,7 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
   .boton:hover { background: var(--azul-claro); }
   .enlace { color: #fff; font-family: var(--dato); font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase; }
 
-  .areas { background: #fff; color: var(--tinta); padding: 1.6rem 1.8rem 0.6rem; border-top: 6px solid var(--fen-claro); }
+  .areas { background: var(--superficie); color: var(--tinta); padding: 1.6rem 1.8rem 0.6rem; border-top: 6px solid var(--fen-claro); }
   .rotulo {
     font-family: var(--dato); font-size: 0.8rem; letter-spacing: 0.12em;
     text-transform: uppercase; color: var(--gris); margin: 0 0 0.8rem;
@@ -229,34 +229,34 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
     text-decoration: none; color: var(--tinta);
   }
   .area:last-child { border-bottom: 0; }
-  .area:hover .nombre { color: var(--fen); text-decoration: underline; }
-  .numero { font-family: var(--dato); font-size: 0.85rem; color: var(--fen); }
+  .area:hover .nombre { color: var(--senal); text-decoration: underline; }
+  .numero { font-family: var(--dato); font-size: 0.85rem; color: var(--senal); }
   .nombre { font-family: var(--display); font-weight: 600; font-size: 1.25rem; line-height: 1.25; }
 
   .ultimo { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3rem; padding-top: 3rem; padding-bottom: 1rem; }
   .bloque { border-top: 3px solid var(--fen); padding-top: 1.2rem; min-width: 0; }
   .bloque h2 { font-size: 1.35rem; line-height: 1.3; margin: 0.6rem 0 0; }
   .bloque h2 a { color: var(--tinta); text-decoration: none; }
-  .bloque h2 a:hover { color: var(--fen); text-decoration: underline; }
+  .bloque h2 a:hover { color: var(--senal); text-decoration: underline; }
   .etiqueta { margin-top: 0.2rem; }
-  .cifra { font-family: var(--display); font-weight: 600; font-size: 3.2rem; line-height: 1; color: var(--fen); margin: 0.4rem 0 0.6rem; }
+  .cifra { font-family: var(--display); font-weight: 600; font-size: 3.2rem; line-height: 1; color: var(--senal); margin: 0.4rem 0 0.6rem; }
   .texto { margin: 0; max-width: 34ch; }
   .pie-bloque { font-family: var(--dato); font-size: 0.85rem; color: var(--gris); margin: 0.8rem 0 0; }
   .espaciado { margin-top: 2rem; }
   .cierre { padding-bottom: 4rem; }
   .vivo { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2rem; padding-top: 2.5rem; }
-  .tarjeta { background: #fff; border-top: 4px solid var(--fen); padding: 1.6rem 1.8rem 1.8rem; display: flex; flex-direction: column; }
+  .tarjeta { background: var(--superficie); border-top: 4px solid var(--fen); padding: 1.6rem 1.8rem 1.8rem; display: flex; flex-direction: column; }
   .agenda ul { list-style: none; padding: 0; margin: 0.4rem 0 0; flex: 1; }
   .agenda li { padding: 0.9rem 0; border-top: 1px solid var(--niebla); }
   .agenda li:first-child { border-top: 0; padding-top: 0.2rem; }
   .agenda li { padding: 0.75rem 0; }
   .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; align-items: center; font-family: var(--dato); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--gris); margin: 0 0 0.4rem; }
-  .tipo { color: var(--fen); }
+  .tipo { color: var(--senal); }
   .estado { padding: 0.1rem 0.45rem; border: 1px solid var(--niebla); }
   .estado[data-estado='inscripcion-abierta'] { background: var(--fen); color: #fff; border-color: var(--fen); }
   .titulo-actividad { font-family: var(--display); font-weight: 600; font-size: 1.15rem; line-height: 1.3; margin: 0; }
   .titulo-actividad a { color: var(--tinta); text-decoration: none; }
-  .titulo-actividad a:hover { color: var(--fen); text-decoration: underline; }
+  .titulo-actividad a:hover { color: var(--senal); text-decoration: underline; }
   .enlaces-tarjeta { margin: 1.2rem 0 0; display: flex; gap: 1.6rem; font-family: var(--dato); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; }
   .proximas { list-style: none; padding: 0; margin: 0.4rem 0 0; }
   .proximas li { padding: 0.8rem 0; border-bottom: 1px solid var(--niebla); }
@@ -265,12 +265,12 @@ const fecha = (f) => new Date(f).toLocaleDateString('es-CL', { day: 'numeric', m
   .titulares { list-style: none; padding: 0; margin: 0.4rem 0 0; flex: 1; }
   .titulares li { padding: 0.75rem 0; border-top: 1px solid var(--niebla); display: flex; flex-direction: column; gap: 0.3rem; }
   .titulares li:first-child { border-top: 0; padding-top: 0.2rem; }
-  .titulares .medio { font-family: var(--dato); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--fen); }
+  .titulares .medio { font-family: var(--dato); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--senal); }
   .titulares a { font-family: var(--display); font-weight: 600; font-size: 1.05rem; line-height: 1.3; color: var(--tinta); text-decoration: none; }
-  .titulares a:hover { color: var(--fen); text-decoration: underline; }
+  .titulares a:hover { color: var(--senal); text-decoration: underline; }
   .radar-texto { font-size: 1.05rem; line-height: 1.5; margin: 0.4rem 0 0; color: var(--gris); flex: 1; }
   .radar-texto strong { color: var(--tinta); font-weight: 600; }
-  .radar-pie a { color: var(--fen); }
+  .radar-pie a { color: var(--senal); }
   @media (max-width: 900px) { .vivo { grid-template-columns: 1fr; } }
 
   @media (max-width: 900px) {

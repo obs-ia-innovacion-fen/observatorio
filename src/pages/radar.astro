@@ -149,20 +149,20 @@ const fechaLegible = fechaCorrida
   .vacio { color: var(--gris); font-style: italic; }
 
   .paises { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0 0 2.5rem; }
-  .paises a { font-family: var(--display); font-weight: 600; font-size: 1.05rem; text-decoration: none; color: var(--tinta); background: #fff; border-top: 3px solid var(--fen); padding: 0.6rem 1rem; }
-  .paises a span { font-family: var(--dato); font-size: 0.85rem; color: var(--fen); margin-left: 0.4rem; }
-  .paises a:hover { color: var(--fen); }
+  .paises a { font-family: var(--display); font-weight: 600; font-size: 1.05rem; text-decoration: none; color: var(--tinta); background: var(--superficie); border-top: 3px solid var(--fen); padding: 0.6rem 1rem; }
+  .paises a span { font-family: var(--dato); font-size: 0.85rem; color: var(--senal); margin-left: 0.4rem; }
+  .paises a:hover { color: var(--senal); }
 
   .pais { margin-top: 2.5rem; padding-top: 1rem; border-top: 2px solid var(--tinta); scroll-margin-top: 2rem; }
   .pais h2 { font-size: clamp(1.6rem, 2.6vw, 2rem); margin-bottom: 0.6rem; }
   .medio { margin-top: 1.4rem; }
   .medio h3 { font-size: 1.15rem; display: flex; align-items: baseline; gap: 0.8rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--niebla); }
   .nivel { font-family: var(--dato); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gris); font-weight: 400; }
-  .nivel[data-nivel='institucional'] { color: var(--fen); }
+  .nivel[data-nivel='institucional'] { color: var(--senal); }
   .pais ul { list-style: none; padding: 0; margin: 0; }
   .pais li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.2rem 1.5rem; padding: 0.7rem 0; border-bottom: 1px solid var(--niebla); font-size: 1.05rem; line-height: 1.4; }
   .pais li a { color: var(--tinta); text-decoration: none; flex: 1 1 60ch; }
-  .pais li a:hover { color: var(--fen); text-decoration: underline; }
+  .pais li a:hover { color: var(--senal); text-decoration: underline; }
   .fecha { font-family: var(--dato); font-size: 0.85rem; color: var(--gris); white-space: nowrap; }
   .aviso { color: var(--gris); max-width: 58ch; margin: 0.4rem 0 1rem; }
 </style>
