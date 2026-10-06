@@ -1,1 +1,184 @@
-[]
+[
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "The Architecture of the Intuition Ecosystem Model (IEM): Multidimensional Validation and Decision Engineering in Complex Governance",
+    "anio": 2026,
+    "doi": "https://doi.org/10.46328/ijonest.7580",
+    "revista": "International Journal on Engineering Science and Technology",
+    "editorial": "",
+    "autores": [
+      "Antônio José Balloni",
+      "Miguel Juan Bacic"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "From excitement to refusal: affective entanglements with Generative AI in academic research",
+    "anio": 2026,
+    "doi": "https://doi.org/10.36556/eol.v21i49.2154",
+    "revista": "Educação Online",
+    "editorial": "Pontifical Catholic University of Rio de Janeiro",
+    "autores": [
+      "Francesca Peruzzo",
+      "Marina Avelar"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "INTELIGÊNCIA ARTIFICIAL E DIREITOS FUNDAMENTAIS: DESAFIOS PARA A PROTEÇÃO DA DIGNIDADE DA PESSOA HUMANA NO DIREITO BRASILEIRO",
+    "anio": 2026,
+    "doi": "https://doi.org/10.51891/rease.v12i10.30815",
+    "revista": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+    "editorial": "Arche Scientific and Editorial Consultancy",
+    "autores": [
+      "Myllena Alves Harduim"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Imagen e inteligencia artificial",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7219513227",
+    "revista": "RevCom",
+    "editorial": "Uiversidad Nacional de La Plata",
+    "autores": [
+      "María Ledesma",
+      "Emiliano Eseiza"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Lenguaje, encuadre mediático y opinión pública: una lectura desde la neurocognición",
+    "anio": 2026,
+    "doi": "https://doi.org/10.51247/pdlc.v7i4.1024",
+    "revista": "Portal de la Ciencia",
+    "editorial": "",
+    "autores": [
+      "Felipe Arturo Maurelia-Burgos"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "AI agents for decision support in logistics management: a literature review",
+    "anio": 2026,
+    "doi": "https://doi.org/10.22306/al.v13i3.813",
+    "revista": "Acta Logistica",
+    "editorial": "4S go, s.r.o.",
+    "autores": [
+      "Diana Sánchez‐Partida",
+      "Emmy Getsel Sánchez-Córdova",
+      "Manuel Romero-Julio"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Generative AI and media accessibility for disabled audiences in Ibero-America",
+    "anio": 2026,
+    "doi": "https://doi.org/10.7764/rdp3bb09",
+    "revista": "Cuadernos info",
+    "editorial": "",
+    "autores": [
+      "Bruno Galasso"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "A dignidade humana na era da inteligência artificial à luz da Magnifica Humanitas",
+    "anio": 2026,
+    "doi": "https://doi.org/10.36592/opiniaofilosofica.2026.v17.1374",
+    "revista": "Revista Opinião Filosófica",
+    "editorial": "Sociedade Hegel Brasileira",
+    "autores": [
+      "Tiago de Fraga Gomes",
+      "Clelia Peretti",
+      "Sônia Maria de Souza Bonelli",
+      "Luiz Carlos Susin",
+      "Édison Hüttner"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "ÉTICA NO CONTEXTO DA ROBÓTICA: DOS FUNDAMENTOS BIOÉTICOS E NORMATIVOS À GOVERNANÇA DOS SISTEMAS AUTÓNOMOS",
+    "anio": 2026,
+    "doi": "https://doi.org/10.51891/rease.v12i9.30625",
+    "revista": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+    "editorial": "Arche Scientific and Editorial Consultancy",
+    "autores": [
+      "Elfas Alberto Macia"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Crowdsourcing in disaster management: A critical review of evidence, theory, and practice from digital volunteering to AI-augmented resilience",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1016/j.pdisas.2026.100724",
+    "revista": "Progress in Disaster Science",
+    "editorial": "Elsevier BV",
+    "autores": [
+      "Ricardo Gacitúa",
+      "Michael Klafft",
+      "Carla Taramasco Toro"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "ChatGPT and Generative AI in Physical Education: Applications, Benefits, Limitations, and Risks for Teachers, Students, Coaches, and Professionals",
+    "anio": 2026,
+    "doi": "https://doi.org/10.66104/027mff80",
+    "revista": "Nexus Science Review",
+    "editorial": "",
+    "autores": [
+      "Kalyd Pierry Ferreira Gonçalves"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "APLICAÇÃO DE INTELIGÊNCIA ARTIFICIAL GENERATIVA NA CRIAÇÃO DE DISCURSOS POLÍTICOS NO AMBIENTE PARLAMENTAR",
+    "anio": 2026,
+    "doi": "https://doi.org/10.55028/xdgjcm72",
+    "revista": "Desafio Online",
+    "editorial": "Universidade Federal de Mato Grosso do Sul",
+    "autores": [
+      "Márcio Welter",
+      "Lyvia Mendes Corrêa",
+      "Clarissa Carneiro Mussi",
+      "Armando Luciano Carvalho Agostini"
+    ],
+    "citas": 0
+  }
+]

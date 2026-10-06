@@ -1,5 +1,187 @@
 [
   {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Identification and Validation of Components Affecting the Sustainability of the National Banking Network",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7216784993",
+    "revista": "Journal of Management and Business Solutions",
+    "editorial": "",
+    "autores": [
+      "Fatemeh  Khaleghi Maybodi",
+      "Alireza Rayati Shavazi",
+      "Gholamreza Askarzadeh Dareh",
+      "Seyed Yahya Abtahi"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Mechanism of anti-crisis financial management of an insurance company amidst cyberattacks and digital shocks",
+    "anio": 2026,
+    "doi": "https://doi.org/10.36887/2524-0455-2026-4-64",
+    "revista": "Actual problems of innovative economy and law",
+    "editorial": "",
+    "autores": [
+      "Svitlana M. Khalatur",
+      "О. М. Грабчук",
+      "Mykyta Slobodianiuk"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "How conversational AI shapes the readability of 10-K reports",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/imds-11-2025-1599",
+    "revista": "Industrial Management & Data Systems",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Junru Zhang",
+      "Chen Zheng",
+      "Grantley Taylor",
+      "Xuequn Wang"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Beyond Compliance: AI, GDPR, and ESG as Pillars of Emerging Responsible Corporate Governance in the EU Regulatory Landscape",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3390/laws15050130",
+    "revista": "Laws",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
+    "autores": [
+      "Charalampos Stamelos"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Algorithmic Governance and Corporate Accountability: A Legal Framework for Responsible AI Deployment in Business Enterprises",
+    "anio": 2026,
+    "doi": "https://doi.org/10.51137/wrp.ijarbm.744",
+    "revista": "International Journal of Applied Research in Business and Management",
+    "editorial": "",
+    "autores": [
+      "Mlondolozi Mvikweni",
+      "Paul Sakwe Masumbe"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "The Impact of Artificial Intelligence (AI), Good Corporate Governance, and Risk Management on the Financial Performance of Bank Rakyat Indonesia (BRI) 2020–2025",
+    "anio": 2026,
+    "doi": "https://doi.org/10.59963/jpema.v8i2.723",
+    "revista": "Jurnal Point Equilibrium Manajemen dan Akuntansi",
+    "editorial": "",
+    "autores": [
+      "Winona Kumara Dewi",
+      "Erniwati Erniwati",
+      "Dinda Desta Safitri"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Algorithmic Oversight: Caremark's Fiduciary Framework Applied to Artificial Intelligence",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7209983947",
+    "revista": "Digital USD (University of San Diego)",
+    "editorial": "University of California San Diego",
+    "autores": [
+      "Samar Singh"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "مدى الالتزام بتطبيق تقنية الذكاء الاصطناعي في حوكمة الشركات التجارية",
+    "anio": 2026,
+    "doi": "https://doi.org/10.61710/v10/i3/s20",
+    "revista": "Journal of Imam Al-Kadhum College",
+    "editorial": "",
+    "autores": [
+      "هشام جادالله منصور"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Are There Viable Solutions for Mitigating Digital Debt in an Accounting Practice?",
+    "anio": 2026,
+    "doi": "https://doi.org/10.37945/cbr.2026.08.04",
+    "revista": "CECCAR BUSINESS REVIEW",
+    "editorial": "",
+    "autores": [
+      "Luana Cosăcescu"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Governing AI-Assisted Strategy Tools: A Substitutability–Commitment Framework and the Role of Epistemic Custody",
+    "anio": 2026,
+    "doi": "https://doi.org/10.19166/ms.v6i2.11693",
+    "revista": "Milestone Journal of Strategic Management",
+    "editorial": "Pelita Harapan University",
+    "autores": [
+      "Michael Willie"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Internal Audit of Pension Funds: The Case of Georgias Funded Pension Scheme",
+    "anio": 2026,
+    "doi": "https://doi.org/10.52340/ekonomisti.2026.03.03",
+    "revista": "EKONOMISTI",
+    "editorial": "",
+    "autores": [
+      "Otar Anguridze"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Blockchain, Artificial Intelligence, and ESG Disclosure Quality: The Moderating Roles of Financial Regulation and Stakeholder Engagement",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3390/risks14100221",
+    "revista": "Risks",
+    "editorial": "Multidisciplinary Digital Publishing Institute",
+    "autores": [
+      "Nashat Ali Almasria",
+      "Saleh Hamood Nasser AL-Sinawi",
+      "Hassan Hamad Aldboush",
+      "Ahmad Ibrahim Mohammad Abu-dawleh"
+    ],
+    "citas": 0
+  },
+  {
     "fuente": "arxiv",
     "titulo": "Architecture Without an Architect? Global Governance of Artificial Intelligence in a Divided World",
     "anio": "2026",

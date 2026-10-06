@@ -1,5 +1,183 @@
 [
   {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "From generative AI usage to entrepreneurial intention: The sequential roles of task and social self-efficacy",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1016/j.ijme.2026.101555",
+    "revista": "The International Journal of Management Education",
+    "editorial": "Elsevier BV",
+    "autores": [
+      "Qianjun Zhang",
+      "Qiang Li",
+      "Zhuoyu Li",
+      "Kai Gan"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "From GenAI-enabled knowledge creation to SME digital transformation: the mediating role of entrepreneurial innovativeness",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/jkm-06-2026-1177",
+    "revista": "Journal of Knowledge Management",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Haoyu Cao",
+      "Hyoungsuk Lee",
+      "Vikram Kumar Sharma",
+      "Jehan Saleh Lardhi",
+      "Omar Abdeljaber"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "AI-ENABLED INNOVATION AND ENTREPRENEURSHIP COURSES IN HIGHER EDUCATION: RESEARCH HOTSPOTS, EVOLUTIONARY TRAJECTORIES, AND EMERGING FRONTIERS",
+    "anio": 2026,
+    "doi": "https://doi.org/10.37792/erhfvg60",
+    "revista": "Journal of Innovative Technologies in Learning and Education",
+    "editorial": "",
+    "autores": [
+      "Yundong Wu"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Balancing Originality and Strategy: The 4A Modes Framework of Human-AI Collaboration in Advertising Creativity",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1080/00913367.2026.2733981",
+    "revista": "Journal of Advertising",
+    "editorial": "Taylor & Francis",
+    "autores": [
+      "Junyu Bao",
+      "Zhibin Jiang",
+      "Xinyu Lu",
+      "Xuebing Qin"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Constraint-driven AI coaching in academic entrepreneurship education: Evidence on entrepreneurial readiness and orientation under responsible design",
+    "anio": 2026,
+    "doi": "https://doi.org/10.25447/sit.34021737.v1",
+    "revista": "Singapore Institute of Technology",
+    "editorial": "Singapore Institute of Technology",
+    "autores": [
+      "Nadya Shaznay Patel",
+      "Luca Iandoli",
+      "Peter Kay Chai Tay"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Validating the economic viability of a generative AI product's business model and ways to scale it in practice",
+    "anio": 2026,
+    "doi": "https://doi.org/10.33693/2541-8025-2026-22-4-165-172",
+    "revista": "Economic problems and legal practice",
+    "editorial": "",
+    "autores": [
+      "Mikhail V. Romanov",
+      "Vladimir A. Lopatin",
+      "Valeriy E. Krivtsov"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Not that simple: How can generative artificial intelligence be used to develop college students’ entrepreneurial ability?",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1016/j.ijme.2026.101542",
+    "revista": "The International Journal of Management Education",
+    "editorial": "Elsevier BV",
+    "autores": [
+      "Ruxin Zhang",
+      "Ying Cai",
+      "Ziwei Lyu"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Mapping the Global Knowledge Structure of Startup and Entrepreneurial Mindset Research Among Higher Education Graduates: A Bibliometric Analysis",
+    "anio": 2026,
+    "doi": "https://doi.org/10.3126/njmgtres.v6i1.100598",
+    "revista": "Nepalese Journal of Management Research",
+    "editorial": "",
+    "autores": [
+      "Yam Bahadur Silwal",
+      "Kulchandra Pandit",
+      "Mamata Prajapati"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Human Judgment and Institutional Design in Innovation Driven Entrepreneurship",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7220202903",
+    "revista": "Journal of Economic and Financial Studies",
+    "editorial": "",
+    "autores": [
+      "Ifelda Nengsih",
+      "Wahyu Mustika Rani",
+      "Mariana Puspa Dewi",
+      "Vicy Andriany"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "AI-Assisted Startup Readiness Assessment and Decision Support System Using Semantic Similarity and Personalized Recommendations",
+    "anio": 2026,
+    "doi": "https://doi.org/10.55248/gengpi.07.0926.3023",
+    "revista": "International Journal of Research Publication and Reviews",
+    "editorial": "",
+    "autores": [
+      "Amudala Ankitha",
+      "Kunchala Srinivas Rao"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Exploring the impact of generative AI chatbot support on students’ collaborative problem-solving in a university entrepreneurship course: insights from an epistemic network analysis",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1007/s10639-026-14105-x",
+    "revista": "Education and Information Technologies",
+    "editorial": "Springer Science+Business Media",
+    "autores": [
+      "Liucheng Pan",
+      "Yanjie Song",
+      "Shen Ba"
+    ],
+    "citas": 0
+  },
+  {
     "fuente": "arxiv",
     "titulo": "Evaluating Beyond the Screen: Collective Assessment of AI-Generated Business Plans with Resource-Constrained Entrepreneurs",
     "anio": "2026",

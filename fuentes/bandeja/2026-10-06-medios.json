@@ -415,12 +415,21 @@
   },
   {
     "fuente": "rss",
-    "medio": "Diario Financiero (CL)",
+    "medio": "La Tercera · Pulso (CL)",
     "nivel": "prensa",
-    "titulo": "La batalla de Sony contra la música creada con IA: 260 mil canciones bajo la mira",
-    "enlace": "http://www.df.cl/internacional/ft/la-batalla-de-sony-contra-la-musica-creada-con-ia-260-mil-canciones-bajo",
-    "fecha": "Mon, 05 Oct 2026 16:57:15 GMT",
-    "extracto": "Las batallas entre discográficas aumentan con canciones deepfake generadas por IA que imitan a sus artistas más importantes."
+    "titulo": "Uso de chatbots en Chile se duplica en dos años y supera el 60% de la población",
+    "enlace": "https://www.latercera.com/pulso/noticia/uso-de-chatbots-en-chile-se-duplica-en-dos-anos-y-supera-el-60-de-la-poblacion/",
+    "fecha": "Tue, 06 Oct 2026 00:02:54 +0000",
+    "extracto": "De acuerdo a un sondeo de País Digital y la empresa Mundo, hay otros tipos de Inteligencia Artificial que tienen un menor uso: por ejemplo, el 60% de los encuestados nunca ha utilizado IA agéntica. Re"
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Tercera · portada (CL)",
+    "nivel": "prensa",
+    "titulo": "Uso de chatbots en Chile se duplica en dos años y supera el 60% de la población",
+    "enlace": "https://www.latercera.com/pulso/noticia/uso-de-chatbots-en-chile-se-duplica-en-dos-anos-y-supera-el-60-de-la-poblacion/",
+    "fecha": "Tue, 06 Oct 2026 00:02:54 +0000",
+    "extracto": "De acuerdo a un sondeo de País Digital y la empresa Mundo, hay otros tipos de Inteligencia Artificial que tienen un menor uso: por ejemplo, el 60% de los encuestados nunca ha utilizado IA agéntica. Re"
   },
   {
     "fuente": "rss",
@@ -430,15 +439,6 @@
     "enlace": "https://www.latercera.com/cartas-al-director/noticia/el-rol-del-docente-desafiado-por-la-instalacion-de-la-ia/",
     "fecha": "Mon, 05 Oct 2026 23:48:00 +0000",
     "extracto": ""
-  },
-  {
-    "fuente": "rss",
-    "medio": "La Tercera · portada (CL)",
-    "nivel": "prensa",
-    "titulo": "Descuentos de hasta 65%: DREAME presenta su ecosistema con ofertas para este Cyber Day",
-    "enlace": "https://www.latercera.com/publirreportajes/noticia/descuentos-de-hasta-65-dreame-presenta-su-ecosistema-con-ofertas-para-este-cyber-day/",
-    "fecha": "Mon, 05 Oct 2026 13:37:54 +0000",
-    "extracto": "Aspiradoras robots, aspiradoras verticales, lavadoras, televisores, freidoras de aire y estilizadores de pelo están con promociones desde el 29%."
   },
   {
     "fuente": "rss",
@@ -925,6 +925,15 @@
     "enlace": "https://valor.globo.com/legislacao/noticia/2026/10/05/fachin-e-galpolo-recebem-amanh-proposta-para-regulao-nacional-de-cesso-de-precatrios.ghtml",
     "fecha": "Mon, 05 Oct 2026 22:31:53 -0000",
     "extracto": "Representantes do grupo de trabalho do Conselho Nacional de Justiça (CNJ) e do Banco Central (BC) entregam amanhã ao presidente do CNJ, ministro Edson Fachin, e ao presidente do BC, Gabriel Galípolo, "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "Agentes de IA tentam driblar proteções do 'Google Maps' chinês",
+    "enlace": "https://exame.com/inteligencia-artificial/agentes-de-ia-tentam-driblar-protecoes-do-google-maps-chines/",
+    "fecha": "2026-10-05T20:59:27",
+    "extracto": "Relatório aponta que sistemas buscaram dados de uso em parques e hospitais; atribuição à fabricante do Hunyuan permanece preliminar"
   },
   {
     "fuente": "rss",
