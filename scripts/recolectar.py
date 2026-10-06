@@ -8,9 +8,12 @@ Sin dependencias externas, de modo que corre tal cual en GitHub Actions.
 Uso:  python scripts/recolectar.py
 """
 
+import http.client
 import json
 import os
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -47,10 +50,73 @@ def leer_consultas(ruta):
     return areas
 
 
+# Las APIs abiertas fallan a ratos con 429 o 5xx, sobre todo ante rafagas de
+# consultas. pedir() deja una pausa entre consultas al mismo servidor y
+# reintenta las fallas transitorias antes de darse por vencida.
+ESPERAS_REINTENTO = (5, 15, 45)  # segundos antes de cada reintento
+ESPERA_MAXIMA_TOTAL = 600        # tope de espera por reintentos en toda la corrida
+CODIGOS_TRANSITORIOS = {429, 500, 502, 503, 504}
+PAUSA_POR_SERVIDOR = {"export.arxiv.org": 3.0}  # arXiv pide 3 s entre consultas
+PAUSA_POR_DEFECTO = 1.0
+_ultima_consulta = {}
+_espera_acumulada = 0.0
+
+
+def esperar_turno(servidor):
+    """Espacia las consultas a un mismo servidor."""
+    pausa = PAUSA_POR_SERVIDOR.get(servidor, PAUSA_POR_DEFECTO)
+    anterior = _ultima_consulta.get(servidor)
+    if anterior is not None:
+        faltan = pausa - (time.monotonic() - anterior)
+        if faltan > 0:
+            time.sleep(faltan)
+    _ultima_consulta[servidor] = time.monotonic()
+
+
+def segundos_para_reintentar(error, intento):
+    """Segundos a esperar antes del siguiente intento, o None si no conviene reintentar."""
+    if intento >= len(ESPERAS_REINTENTO):
+        return None
+    if isinstance(error, urllib.error.HTTPError):
+        if error.code not in CODIGOS_TRANSITORIOS:
+            return None
+        indicado = (error.headers.get("Retry-After") or "").strip() if error.headers else ""
+        if indicado.isdigit():
+            # Una espera larga indica un bloqueo que no se resuelve reintentando.
+            return int(indicado) if int(indicado) <= 120 else None
+        return ESPERAS_REINTENTO[intento]
+    if isinstance(error, (urllib.error.URLError, http.client.HTTPException, TimeoutError, ConnectionError)):
+        return ESPERAS_REINTENTO[intento]
+    return None
+
+
+def avisar_falla(servidor, error):
+    """Deja la falla a la vista en el resumen de la ejecucion de GitHub Actions."""
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        mensaje = f"{servidor}: {error}".replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+        print(f"::warning title=Fuente sin respuesta::{mensaje}")
+
+
 def pedir(url):
+    global _espera_acumulada
+    servidor = urllib.parse.urlsplit(url).netloc
     solicitud = urllib.request.Request(url, headers={"User-Agent": AGENTE})
-    with urllib.request.urlopen(solicitud, timeout=30) as respuesta:
-        return respuesta.read()
+    intento = 0
+    while True:
+        esperar_turno(servidor)
+        try:
+            with urllib.request.urlopen(solicitud, timeout=30) as respuesta:
+                return respuesta.read()
+        except Exception as error:
+            espera = segundos_para_reintentar(error, intento)
+            if espera is None or _espera_acumulada + espera > ESPERA_MAXIMA_TOTAL:
+                avisar_falla(servidor, error)
+                raise
+            motivo = f"HTTP {error.code}" if isinstance(error, urllib.error.HTTPError) else type(error).__name__
+        intento += 1
+        _espera_acumulada += espera
+        print(f"  reintento {intento} de {len(ESPERAS_REINTENTO)} con {servidor} en {espera} s ({motivo})")
+        time.sleep(espera)
 
 
 CLAVE_OPENALEX = os.environ.get("OPENALEX_API_KEY", "")
