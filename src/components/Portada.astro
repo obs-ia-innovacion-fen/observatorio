@@ -1,0 +1,55 @@
+---
+// Imagen de portada de una tarjeta. Si la pieza trae imagen, se muestra;
+// si no, se genera un fondo propio en la paleta FEN con un rótulo grande,
+// para que ninguna tarjeta quede vacía.
+const {
+  imagen = null,
+  alt = '',
+  rotulo = '',
+  variante = 'a',
+  proporcion = '16 / 9',
+  video = false,
+  carga = 'lazy',
+} = Astro.props;
+---
+
+<div class="portada" data-variante={variante} style={`aspect-ratio: ${proporcion}`}>
+  {imagen ? (
+    <img src={imagen} alt={alt} loading={carga} decoding="async" />
+  ) : (
+    <span class="generada" aria-hidden="true"><span>{rotulo}</span></span>
+  )}
+  {video && (
+    <span class="play" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor" /></svg>
+    </span>
+  )}
+</div>
+
+<style>
+  .portada { position: relative; overflow: hidden; border-radius: 12px; background: var(--azul-claro); }
+  .portada img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 400ms ease; }
+  .generada {
+    position: absolute; inset: 0; display: flex; align-items: flex-end; padding: 1.1rem 1.2rem;
+    background:
+      radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.16) 1px, transparent 0) 0 0 / 18px 18px,
+      radial-gradient(120% 90% at 100% 0%, var(--g2) 0%, transparent 60%),
+      linear-gradient(135deg, var(--g1), var(--g3));
+  }
+  .generada span {
+    font-family: var(--display); font-weight: 700; color: #fff; line-height: 1.05;
+    font-size: clamp(1.2rem, 2.4vw, 1.9rem); letter-spacing: -0.02em; max-width: 14ch;
+  }
+  [data-variante='a'] { --g1: #0034D9; --g2: #3B78DB; --g3: #0D0B70; }
+  [data-variante='b'] { --g1: #0D0B70; --g2: #5868EB; --g3: #1B2D7A; }
+  [data-variante='c'] { --g1: #1C4FD6; --g2: #6FA8FF; --g3: #102766; }
+  [data-variante='d'] { --g1: #2B2F8F; --g2: #8B93FF; --g3: #0D0B70; }
+  .play {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center;
+    background: rgba(13, 11, 112, 0.72); color: #fff; backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+  }
+  .play svg { width: 24px; height: 24px; margin-left: 3px; }
+  :global(a:hover) .portada img { transform: scale(1.035); }
+</style>

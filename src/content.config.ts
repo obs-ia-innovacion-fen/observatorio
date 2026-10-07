@@ -29,6 +29,10 @@ const publicaciones = defineCollection({
     revisado_por_pares: z.boolean().optional().nullable(),
     institucion: z.string().optional().nullable(),
     destacado: z.boolean().default(false),
+    // Imagen de portada: ruta dentro de public/ (por ejemplo
+    // /imagenes/archivo.webp) y quién la produjo.
+    imagen: z.string().optional().nullable(),
+    imagen_credito: z.string().optional().nullable(),
   }),
 });
 
@@ -45,6 +49,10 @@ const vigilancia = defineCollection({
     // sostiene lo que dice). Ambos se muestran junto al título.
     origen: z.string().optional().nullable(),
     evidencia: z.string().optional().nullable(),
+    // Imagen de portada: ruta dentro de public/ (por ejemplo
+    // /imagenes/archivo.webp) y quién la produjo.
+    imagen: z.string().optional().nullable(),
+    imagen_credito: z.string().optional().nullable(),
   }),
 });
 
@@ -57,6 +65,10 @@ const webinars = defineCollection({
     area: z.string().optional().nullable(),
     grabacion: z.string().optional().nullable(),
     materiales: z.array(z.string()).default([]),
+    // Imagen de portada: ruta dentro de public/ (por ejemplo
+    // /imagenes/archivo.webp) y quién la produjo.
+    imagen: z.string().optional().nullable(),
+    imagen_credito: z.string().optional().nullable(),
   }),
 });
 
@@ -74,7 +86,29 @@ const prensa = defineCollection({
     autor_nota: z.string().optional().nullable(),
     enlace: z.string(),
     area: z.string().optional().nullable(),
+    // Imagen de portada: ruta dentro de public/ (por ejemplo
+    // /imagenes/archivo.webp) y quién la produjo.
+    imagen: z.string().optional().nullable(),
+    imagen_credito: z.string().optional().nullable(),
   }),
 });
 
-export const collections = { areas, publicaciones, vigilancia, webinars, prensa };
+// Episodios del videopodcast. Se muestran con su miniatura y enlazan a
+// YouTube o Spotify.
+const podcasts = defineCollection({
+  loader: glob({ pattern: '[^_]*.md', base: './contenido/podcasts' }),
+  schema: z.object({
+    titulo: z.string(),
+    numero: z.number().optional().nullable(),
+    serie: z.string().default('VideoPodcast uNegocios'),
+    fecha: z.coerce.date().optional().nullable(),
+    invitados: z.array(z.string()).default([]),
+    youtube: z.string().optional().nullable(),
+    spotify: z.string().optional().nullable(),
+    area: z.string().optional().nullable(),
+    imagen: z.string().optional().nullable(),
+    imagen_credito: z.string().optional().nullable(),
+  }),
+});
+
+export const collections = { areas, publicaciones, vigilancia, webinars, prensa, podcasts };

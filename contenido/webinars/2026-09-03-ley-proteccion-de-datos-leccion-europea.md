@@ -7,6 +7,8 @@ panelistas:
   - "Juan-Ernesto Sepúlveda, Investigador asociado del Observatorio, FEN UChile (moderación)"
 area: gobernanza-y-regulacion
 grabacion: ""
+imagen: "/imagenes/webinar-proteccion-datos-panel.webp"
+imagen_credito: "Unegocios FEN UChile"
 materiales:
   - "https://blog.unegocios.uchile.cl/prensa-observatorios/seminario-ley-de-protecci%C3%B3n-de-datos-lo-que-europa-ya-aprendi%C3%B3-y-lo-que-chile-a%C3%BAn-debe-resolver?hsLang=es-cl"
 ---
