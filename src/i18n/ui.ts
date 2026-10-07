@@ -2,7 +2,8 @@
 // notas, webinars) vive en contenido/ y se traduce aparte; aquí solo van los
 // textos fijos del sitio: menú, botones, pie de página.
 
-export const idiomas = { es: 'Español', en: 'English' } as const;
+export const idiomas = { es: 'Español', en: 'English', pt: 'Português' } as const;
+export const locales = { es: 'es-CL', en: 'en-US', pt: 'pt-BR' } as const;
 export type Idioma = keyof typeof idiomas;
 export const idiomaPorDefecto: Idioma = 'es';
 
@@ -85,39 +86,77 @@ export const ui = {
     'inicio.indicadores': 'All indicators',
     'inicio.verEvento': 'See the seminar',
   },
+  pt: {
+    'sitio.nombre': 'Observatório de IA e Inovação nos Negócios',
+    'sitio.nombreCorto': 'Observatório de IA e Inovação',
+    'sitio.institucion': 'Departamento de Administração · FEN · Universidade do Chile',
+    'menu.inicio': 'Início',
+    'menu.actividades': 'Eventos',
+    'menu.noticias': 'Notícias',
+    'menu.investigacion': 'Pesquisa',
+    'menu.datos': 'Dados',
+    'menu.recursos': 'Recursos',
+    'menu.nosotros': 'Sobre nós',
+    'menu.principal': 'Menu principal',
+    'tema.claro': 'Mudar para o modo claro',
+    'tema.oscuro': 'Mudar para o modo escuro',
+    'idioma.cambiar': 'Idioma',
+    'pie.areas': 'Áreas',
+    'pie.contacto': 'Contato',
+    'pie.procedencia': 'Cada peça declara sua procedência e o status de revisão de sua fonte.',
+    'pie.metodo': 'Como trabalhamos',
+    'pie.derechos': 'Faculdade de Economia e Negócios, Universidade do Chile',
+    'aviso.soloEspanol': 'Este conteúdo está disponível apenas em espanhol.',
+    'inicio.verTodo': 'Ver tudo',
+    'inicio.destacado': 'Evento em destaque',
+    'inicio.proximas': 'Próximas atividades',
+    'inicio.porConfirmar': 'Data a confirmar',
+    'inicio.agenda': 'Agenda completa',
+    'inicio.medios': 'O Observatório na mídia',
+    'inicio.noticias': 'Notícias de IA e inovação',
+    'inicio.analisis': 'Análise do Observatório',
+    'inicio.radar': 'Radar da semana',
+    'inicio.radarTodo': 'As {n} manchetes da semana',
+    'inicio.investigacion': 'Pesquisa em destaque',
+    'inicio.podcast': 'Videopodcast',
+    'inicio.spotify': 'Ouvir no Spotify',
+    'inicio.episodio': 'Episódio',
+    'inicio.dato': 'Dado da região',
+    'inicio.indicadores': 'Todos os indicadores',
+    'inicio.verEvento': 'Ver o seminário',
+  },
 } as const;
 
 export type Clave = keyof (typeof ui)['es'];
 
 export function idiomaDe(url: URL): Idioma {
   const [, primero] = url.pathname.split('/');
-  return primero === 'en' ? 'en' : 'es';
+  return primero === 'en' || primero === 'pt' ? primero : 'es';
 }
 
 export function t(idioma: Idioma, clave: Clave): string {
   return ui[idioma][clave] ?? ui.es[clave];
 }
 
-// Antepone /en a una ruta interna cuando corresponde.
+// Antepone /en o /pt a una ruta interna cuando corresponde.
 export function ruta(idioma: Idioma, camino: string): string {
-  return idioma === 'en' ? `/en${camino === '/' ? '/' : camino}` : camino;
+  return idioma === 'es' ? camino : `/${idioma}${camino}`;
 }
 
-// Paginas que existen en ambos idiomas. Las demas (fichas y notas
-// individuales) estan solo en español: el boton de idioma lleva entonces a
-// la portada de la seccion correspondiente.
-export const rutasBilingues = [
+// Paginas que existen en los tres idiomas. Las demas (fichas y notas
+// individuales) estan solo en español: el selector de idioma lleva entonces
+// a la portada de la seccion correspondiente.
+export const rutasTraducidas = [
   '/', '/observatorio/', '/datos/', '/publicaciones/', '/recursos/',
   '/novedades/', '/radar/', '/webinars/', '/prensa/', '/metodo/',
 ];
 
-export function rutaAlterna(url: URL): string {
-  const idioma = idiomaDe(url);
-  const base = idioma === 'en' ? url.pathname.replace(/^\/en(?=\/|$)/, '') || '/' : url.pathname;
+// La misma pagina en otro idioma.
+export function rutaEn(url: URL, destino: Idioma): string {
+  const base = url.pathname.replace(/^\/(en|pt)(?=\/|$)/, '') || '/';
   const conBarra = base.endsWith('/') ? base : `${base}/`;
-  const destino = idioma === 'en' ? 'es' : 'en';
-  if (rutasBilingues.includes(conBarra)) return ruta(destino, conBarra);
-  // Ruta de detalle: se vuelve a la seccion madre si existe en ambos idiomas.
+  if (destino === 'es' || rutasTraducidas.includes(conBarra)) return ruta(destino, conBarra);
+  // Ruta de detalle: se va a la seccion madre si esta traducida.
   const seccion = `/${conBarra.split('/')[1]}/`;
-  return ruta(destino, rutasBilingues.includes(seccion) ? seccion : '/');
+  return ruta(destino, rutasTraducidas.includes(seccion) ? seccion : '/');
 }

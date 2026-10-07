@@ -9,10 +9,10 @@ import Base from '../layouts/Base.astro';
 import Portada from '../components/Portada.astro';
 import Procedencia from '../components/Procedencia.astro';
 import Suscripcion from '../components/Suscripcion.astro';
-import { idiomaDe, t, ruta } from '../i18n/ui';
+import { idiomaDe, t, ruta, locales } from '../i18n/ui';
 
 const idioma = idiomaDe(Astro.url);
-const local = idioma === 'en' ? 'en-US' : 'es-CL';
+const local = locales[idioma];
 const fecha = (f) => new Date(f).toLocaleDateString(local, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 const fechaCorta = (f) => new Date(f).toLocaleDateString(local, { day: 'numeric', month: 'short', timeZone: 'UTC' });
 const seguro = async (nombre) => { try { return await getCollection(nombre); } catch { return []; } };
