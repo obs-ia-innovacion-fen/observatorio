@@ -2,7 +2,8 @@
 import fs from 'node:fs';
 import { getCollection } from 'astro:content';
 import { idiomaDe, t, ruta, rutaEn, idiomas } from '../i18n/ui';
-const { titulo, descripcion, portada = false, imagen = '/og.png' } = Astro.props;
+import { esVistaPrevia, ramaActual } from '../lib/contenido';
+const { titulo, descripcion, portada = false, imagen = '/og.png', borrador = false } = Astro.props;
 const idioma = idiomaDe(Astro.url);
 const tituloCompleto = portada
   ? `${t(idioma, 'sitio.nombre')} · ${t(idioma, 'pie.derechos')}`
@@ -44,6 +45,7 @@ const logos = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{tituloCompleto}</title>
     <meta name="description" content={descripcion} />
+    {(esVistaPrevia || borrador) && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonica} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="website" />
@@ -239,6 +241,9 @@ const logos = [
         .menu a { padding: 0.38rem 0.7rem; font-size: 0.84rem; }
       }
 
+      .aviso-previa, .aviso-borrador { font-family: var(--dato); font-size: 0.8rem; text-align: center; padding: 0.45rem 1rem; }
+      .aviso-previa { background: #F5B731; color: #231F20; font-weight: 600; }
+      .aviso-borrador { background: var(--alerta); color: #fff; font-weight: 600; letter-spacing: 0.02em; }
       main { padding: 3.5rem 0 5rem; }
       main.portada { padding: 0; }
 
@@ -298,6 +303,13 @@ const logos = [
         </div>
       </div>
     </header>
+
+    {esVistaPrevia && (
+      <div class="aviso-previa" role="note">
+        Vista previa{ramaActual ? ` de la rama ${ramaActual}` : ''}: incluye borradores que aún no están publicados.
+      </div>
+    )}
+    {borrador && <div class="aviso-borrador" role="note">Borrador · esta pieza no se ve en el sitio publicado hasta que se apruebe.</div>}
 
     <main class={portada ? 'portada' : ''}><slot /></main>
 

@@ -1,5 +1,6 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
+import { getCollection } from '../../lib/contenido';
 import Base from '../../layouts/Base.astro';
 import Procedencia from '../../components/Procedencia.astro';
 
@@ -17,7 +18,7 @@ const areas = await getCollection('areas');
 const area = areas.find((a) => a.data.slug === d.area);
 ---
 
-<Base titulo={d.titulo} descripcion={d.publicado_en ?? 'Publicación del Observatorio'}>
+<Base borrador={d.borrador} titulo={d.titulo} descripcion={d.publicado_en ?? 'Publicación del Observatorio'}>
   <article class="marco ficha">
     <div class="meta">
       <Procedencia tipo={d.tipo} revisado={d.revisado_por_pares} fuente={d.fuente_ficha} />

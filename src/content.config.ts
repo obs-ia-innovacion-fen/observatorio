@@ -33,6 +33,8 @@ const publicaciones = defineCollection({
     // /imagenes/archivo.webp) y quién la produjo.
     imagen: z.string().optional().nullable(),
     imagen_credito: z.string().optional().nullable(),
+    // true: no se publica en main; se ve solo en las vistas previas.
+    borrador: z.boolean().default(false),
   }),
 });
 
@@ -53,6 +55,8 @@ const vigilancia = defineCollection({
     // /imagenes/archivo.webp) y quién la produjo.
     imagen: z.string().optional().nullable(),
     imagen_credito: z.string().optional().nullable(),
+    // true: no se publica en main; se ve solo en las vistas previas.
+    borrador: z.boolean().default(false),
   }),
 });
 
@@ -69,6 +73,8 @@ const webinars = defineCollection({
     // /imagenes/archivo.webp) y quién la produjo.
     imagen: z.string().optional().nullable(),
     imagen_credito: z.string().optional().nullable(),
+    // true: no se publica en main; se ve solo en las vistas previas.
+    borrador: z.boolean().default(false),
   }),
 });
 
@@ -90,6 +96,8 @@ const prensa = defineCollection({
     // /imagenes/archivo.webp) y quién la produjo.
     imagen: z.string().optional().nullable(),
     imagen_credito: z.string().optional().nullable(),
+    // true: no se publica en main; se ve solo en las vistas previas.
+    borrador: z.boolean().default(false),
   }),
 });
 
@@ -108,6 +116,8 @@ const podcasts = defineCollection({
     area: z.string().optional().nullable(),
     imagen: z.string().optional().nullable(),
     imagen_credito: z.string().optional().nullable(),
+    // true: no se publica en main; se ve solo en las vistas previas.
+    borrador: z.boolean().default(false),
   }),
 });
 

@@ -4,7 +4,7 @@
 // la lista completa. Todo se arma solo desde contenido/ y fuentes/bandeja/.
 import fs from 'node:fs';
 import { load as cargarYaml } from 'js-yaml';
-import { getCollection } from 'astro:content';
+import { getCollection } from '../lib/contenido';
 import Base from '../layouts/Base.astro';
 import Portada from '../components/Portada.astro';
 import Procedencia from '../components/Procedencia.astro';

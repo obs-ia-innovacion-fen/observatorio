@@ -1,5 +1,6 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
+import { getCollection } from '../../lib/contenido';
 import Base from '../../layouts/Base.astro';
 import Suscripcion from '../../components/Suscripcion.astro';
 
@@ -13,7 +14,7 @@ const { w } = Astro.props;
 const { Content } = await render(w);
 ---
 
-<Base titulo={w.data.titulo} descripcion="Nota del webinar del Observatorio de IA e Innovación en los Negocios.">
+<Base borrador={w.data.borrador} titulo={w.data.titulo} descripcion="Nota del webinar del Observatorio de IA e Innovación en los Negocios.">
   <article class="marco nota">
     <p class="antetitulo">
       <a href="/webinars/">Webinars</a> ·
