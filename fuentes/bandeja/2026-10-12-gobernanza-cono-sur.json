@@ -1,0 +1,191 @@
+[
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Mapeamento da produção e colaboração acadêmica entre especialistas brasileiros em inteligência artificial e machine learning aplicados à saúde: uma análise bibliométrica",
+    "anio": 2026,
+    "doi": "https://doi.org/10.29397/reciis.v20.5111",
+    "revista": "Reciis",
+    "editorial": "Instituto de Comunicação e Informação Científica e Tecnológica em Saúde (Icict) da Fundação Oswaldo Cruz (Fiocruz)",
+    "autores": [
+      "Bruno Cardoso Dantas",
+      "Jesús Pascual Mena‐Chalco"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Inteligência de Dados Aplicada à Governança das Contratações Públicas: Evidências de Concentração de Mercado e Modelagem Preditiva de Riscos no Estado do Rio de Janeiro",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7221497472",
+    "revista": "Revista Economia & Gestão",
+    "editorial": "Pontifícia Universidade Católica de Minas Gerais",
+    "autores": [
+      "Rafael Cocchiarelli",
+      "José Francisco Moreira Pessanha",
+      "Nathalia Cordeiro",
+      "Antonio Ranha"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "RISK MANAGEMENT WITH ARTIFICIAL INTELLIGENCE: PREDICTIVE CAPABILITIES, HUMAN–AI DECISION-MAKING, AND ALGORITHMIC GOVERNANCE",
+    "anio": 2026,
+    "doi": "https://doi.org/10.23900/artefactum.v25i10.4561",
+    "revista": "Artefactum",
+    "editorial": "Rafrom Comércio e Representações Ltda",
+    "autores": [
+      "Alcimar de Lima Marques Filho",
+      "Ernanda da Silva Moura",
+      "Francisco de Assis Mourão",
+      "Mário José da Silva",
+      "Marusca Wisler Iannuzzi",
+      "Paula Dyanne Dias Freire"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "All novelty is but oblivion: Problem framing and AI regulation in Latin American policymaking",
+    "anio": 2026,
+    "doi": "https://doi.org/10.53857/rlesd.06.2026.03",
+    "revista": "Revista Latinoamericana de Economía y Sociedad Digital",
+    "editorial": "",
+    "autores": [
+      "Juan Martín Marinangeli"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "The use of drones in public safety: mapping applications, potential and limitations",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1108/pijpsm-05-2026-0159",
+    "revista": "Policing An International Journal",
+    "editorial": "Emerald Publishing Limited",
+    "autores": [
+      "Márcio Pereira Basílio",
+      "Valdecy Pereira",
+      "Fatih Yiğit"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Perfil, situación laboral y expectativas de los trabajadores de plataformas digitales de reparto en la ciudad de Paraná",
+    "anio": 2026,
+    "doi": "https://doi.org/10.33255/1621/2757",
+    "revista": "Ciencia, Docencia y Tecnología Suplemento",
+    "editorial": "National University of Entre Ríos",
+    "autores": [
+      "César Alberto Sione",
+      "Mária Laura Bevilacqua",
+      "Graciela Mingo",
+      "Esteban Cuatrín Sperati",
+      "Manuel Cavia",
+      "Fabiola Bogado Ibarra"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Current Analysis Of Digital Accessibility In Public Service Systems, Legal Regulation, And The Necessity Of Developing Ai-Based Sign Language Virtual Interpreters",
+    "anio": 2026,
+    "doi": "https://doi.org/10.14464/ess.v13i16.990",
+    "revista": "Embedded Selforganising Systems",
+    "editorial": "Chemnitz University of Technology",
+    "autores": [
+      "Enkhmanlai Khatanbaatar",
+      "Lut-Ochir Vanganjil"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Regulação eleitoral digital e poder infraestrutural das plataformas: limites das Resoluções do TSE nas eleições presidenciais de 2022",
+    "anio": 2026,
+    "doi": "https://doi.org/10.26512/lstr.2026.v18.n3.e61486",
+    "revista": "Law State and Telecommunications Review",
+    "editorial": "University of Brasília",
+    "autores": [
+      "Isabela Quartieri da Rosa",
+      "Rafael Santos de Oliveira"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "The Architecture of the Intuition Ecosystem Model (IEM): Multidimensional Validation and Decision Engineering in Complex Governance",
+    "anio": 2026,
+    "doi": "https://doi.org/10.46328/ijonest.7580",
+    "revista": "International Journal on Engineering Science and Technology",
+    "editorial": "",
+    "autores": [
+      "Antônio José Balloni",
+      "Miguel Juan Bacic"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "From excitement to refusal: affective entanglements with Generative AI in academic research",
+    "anio": 2026,
+    "doi": "https://doi.org/10.36556/eol.v21i49.2154",
+    "revista": "Educação Online",
+    "editorial": "Pontifical Catholic University of Rio de Janeiro",
+    "autores": [
+      "Francesca Peruzzo",
+      "Marina Avelar"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "INTELIGÊNCIA ARTIFICIAL E DIREITOS FUNDAMENTAIS: DESAFIOS PARA A PROTEÇÃO DA DIGNIDADE DA PESSOA HUMANA NO DIREITO BRASILEIRO",
+    "anio": 2026,
+    "doi": "https://doi.org/10.51891/rease.v12i10.30815",
+    "revista": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+    "editorial": "Arche Scientific and Editorial Consultancy",
+    "autores": [
+      "Myllena Alves Harduim"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "AGENTES DE INTELIGÊNCIA ARTIFICIAL NA PESQUISA HISTÓRICA: TRANSCRIÇÃO, EXTRAÇÃO DE INFORMAÇÕES E CRÍTICA DAS FONTES EM ACERVOS DOCUMENTAIS",
+    "anio": 2026,
+    "doi": "https://doi.org/10.22169/cadernointer.v15n56.4059",
+    "revista": "Caderno Intersaberes",
+    "editorial": "Uninter",
+    "autores": [
+      "Dênio Portella Bezerra",
+      "Fernando Marcel Kowalski"
+    ],
+    "citas": 0
+  }
+]
