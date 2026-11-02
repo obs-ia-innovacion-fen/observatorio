@@ -1,0 +1,1136 @@
+[
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "The “Human-in-the-Loop” Fallacy",
+    "enlace": "http://hbr.org/2026/11/the-human-in-the-loop-fallacy",
+    "fecha": "2026-11-02T13:05:40Z",
+    "extracto": "Why putting people in charge of checking AI’s work is a losing strategy—and what leaders need to do instead."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "How to Prepare for AI-Powered Cyber Threats",
+    "enlace": "http://hbr.org/2026/10/how-to-prepare-for-ai-powered-cyber-threats",
+    "fecha": "2026-10-30T12:35:15Z",
+    "extracto": "A subscriber-exclusive roundtable about how AI is changing cybersecurity—and new ways to build resilience."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Insurers’ AI Ambitions Are Outpacing Their Data",
+    "enlace": "http://hbr.org/sponsored/2026/10/insurers-ai-ambitions-are-outpacing-their-data",
+    "fecha": "2026-10-29T16:11:05Z",
+    "extracto": "Sponsor Content from RELTIO."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Operating AI in Production: Building Trust, Visibility, and Accountability at Scale",
+    "enlace": "http://hbr.org/sponsored/2026/10/operating-ai-in-production-building-trust-visibility-and-accountability-at-scale",
+    "fecha": "2026-10-29T15:46:04Z",
+    "extracto": "Sponsor Content Webinar from AWS and Dynatrace."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "The 10 Most Popular HBR Articles of October 2026",
+    "enlace": "http://hbr.org/2026/10/the-10-most-popular-hbr-articles-of-october-2026",
+    "fecha": "2026-10-29T12:25:36Z",
+    "extracto": "Our subscribers’ top reads on AI, CEO leadership, productive conflict, and more."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Empower Your Most Curious Employees to Drive Your Digital Transformation",
+    "enlace": "http://hbr.org/2026/10/empower-your-most-curious-employees-to-drive-your-digital-transformation",
+    "fecha": "2026-10-28T12:15:43Z",
+    "extracto": "The employees most eager to experiment with AI and other emerging technologies can accelerate your company’s digital transformation—if you know how to harness them."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Harvard Business Review",
+    "nivel": "prensa",
+    "titulo": "Your Company’s Fraud Defenses Aren’t Ready for AI Threats",
+    "enlace": "http://hbr.org/2026/10/your-companys-fraud-defenses-arent-ready-for-ai-threats",
+    "fecha": "2026-10-28T12:05:38Z",
+    "extracto": "Criminals are using the technology to exploit gaps between functions. Three questions can help leaders close them."
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "nivel": "prensa",
+    "titulo": "Hackers are running riot with AI. Its makers want to cash in",
+    "enlace": "https://www.economist.com/business/2026/11/01/hackers-are-running-riot-with-ai-its-makers-want-to-cash-in",
+    "fecha": "Sun, 01 Nov 2026 21:41:42 +0000",
+    "extracto": "OpenAI and Anthropic spy a big opportunity in cyber-security"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (portada)",
+    "nivel": "prensa",
+    "titulo": "AI is disrupting the art of campaigning",
+    "enlace": "https://www.economist.com/united-states/2026/11/01/ai-is-disrupting-the-art-of-campaigning",
+    "fecha": "Sun, 01 Nov 2026 14:10:44 +0000",
+    "extracto": "Candidates are using the technology to crunch data—and carry out dirty tricks"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Hackers are running riot with AI. Its makers want to cash in",
+    "enlace": "https://www.economist.com/business/2026/11/01/hackers-are-running-riot-with-ai-its-makers-want-to-cash-in",
+    "fecha": "Sun, 01 Nov 2026 21:41:42 +0000",
+    "extracto": "OpenAI and Anthropic spy a big opportunity in cyber-security"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Google’s $500bn bloodbath reflects the danger it faces from AI",
+    "enlace": "https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai",
+    "fecha": "Thu, 29 Oct 2026 23:41:09 +0000",
+    "extracto": "As its search engine sputters, rivals gain ground"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Why it’s a bad time to be a rat-killer",
+    "enlace": "https://www.economist.com/business/2026/10/29/why-its-a-bad-time-to-be-a-rat-killer",
+    "fecha": "Thu, 29 Oct 2026 13:48:04 +0000",
+    "extracto": "Private equity and artificial intelligence are nibbling at sales"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Don’t expect supersize profits from Anthropic soon",
+    "enlace": "https://www.economist.com/business/2026/10/26/dont-expect-supersize-profits-from-anthropic-soon",
+    "fecha": "Mon, 26 Oct 2026 22:23:01 +0000",
+    "extracto": "Lurking in its IPO prospectus are warnings of challenges ahead"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "If AI displaces human workers, they will lose more than just pay",
+    "enlace": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
+    "fecha": "Thu, 22 Oct 2026 12:59:25 +0000",
+    "extracto": "Work has value beyond the income it provides"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "Personal AI assistants could soon reshape the digital economy",
+    "enlace": "https://www.economist.com/business/2026/10/20/personal-ai-assistants-could-soon-reshape-the-digital-economy",
+    "fecha": "Tue, 20 Oct 2026 19:55:23 +0000",
+    "extracto": "But they will first have to prove they are safe for users and helpful for businesses"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "The AI industry’s gigantic debts are making investors nervous",
+    "enlace": "https://www.economist.com/business/2026/10/18/the-ai-industrys-gigantic-debts-are-making-investors-nervous",
+    "fecha": "Sun, 18 Oct 2026 20:19:28 +0000",
+    "extracto": "Who will be left to pick up the bill in the event of a crash?"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "When AI agents take matters into their own hands",
+    "enlace": "https://www.economist.com/business/2026/10/15/when-ai-agents-take-matters-into-their-own-hands",
+    "fecha": "Thu, 15 Oct 2026 12:50:21 +0000",
+    "extracto": "Inside the Annapurna incident"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (negocios)",
+    "nivel": "prensa",
+    "titulo": "AI neolabs are raising huge sums. Most have little to show for it",
+    "enlace": "https://www.economist.com/business/2026/10/15/ai-neolabs-are-raising-huge-sums-most-have-little-to-show-for-it",
+    "fecha": "Thu, 15 Oct 2026 12:50:21 +0000",
+    "extracto": "Superstar researchers who branch out on their own need to start producing results"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "Treatments for age-related infertility are being developed at last",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/26/treatments-for-age-related-infertility-are-being-developed-at-last",
+    "fecha": "Mon, 26 Oct 2026 21:40:51 +0000",
+    "extracto": "Startups hope to improve IVF by revealing the biology of infertility"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "China increasingly depends on copying American AI",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/25/china-increasingly-depends-on-copying-american-ai",
+    "fecha": "Sun, 25 Oct 2026 17:44:35 +0000",
+    "extracto": "Model distillation infuriates America, but may end up holding China back"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "AI models may not be so opaque after all",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/24/ai-models-may-not-be-so-opaque-after-all",
+    "fecha": "Sat, 24 Oct 2026 15:20:57 +0000",
+    "extracto": "A glimmer of hope for those worried about AI safety"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "America’s new era of private science",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/19/americas-new-era-of-private-science",
+    "fecha": "Mon, 19 Oct 2026 18:31:42 +0000",
+    "extracto": "The future of innovation may be research outside universities"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "Could AI help scientists with their paperwork?",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/14/could-ai-help-scientists-with-their-paperwork",
+    "fecha": "Wed, 14 Oct 2026 18:48:48 +0000",
+    "extracto": "Yes—but that amplifies existing problems"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "AI will make it possible to design and build organisms from scratch",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/14/ai-will-make-it-possible-to-design-and-build-organisms-from-scratch",
+    "fecha": "Wed, 14 Oct 2026 18:47:25 +0000",
+    "extracto": "Synthetic biology has arrived at last"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "AI companies want to become frontier scientific researchers",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/14/ai-companies-want-to-become-frontier-scientific-researchers",
+    "fecha": "Wed, 14 Oct 2026 18:45:42 +0000",
+    "extracto": "Better AI models may be their reward"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "AI’s transformation of mathematics is a turning point for science",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/12/ais-transformation-of-mathematics-is-a-turning-point-for-science",
+    "fecha": "Mon, 12 Oct 2026 17:43:28 +0000",
+    "extracto": "Other disciplines should take heed"
+  },
+  {
+    "fuente": "rss",
+    "medio": "The Economist (ciencia y tecnologia)",
+    "nivel": "prensa",
+    "titulo": "OpenAI claims to have solved hundreds of long-standing maths problems",
+    "enlace": "https://www.economist.com/science-and-technology/2026/10/07/openai-claims-to-have-solved-hundreds-of-long-standing-maths-problems",
+    "fecha": "Wed, 07 Oct 2026 18:52:54 +0000",
+    "extracto": "It is judgment day for mathematics"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "The AI Governance Paradox",
+    "enlace": "https://sloanreview.mit.edu/article/the-ai-governance-paradox/",
+    "fecha": "Mon, 02 Nov 2026 12:00:13 +0000",
+    "extracto": "Getty Images Operations that run under extreme risk — such as nuclear power plants, aircraft carriers, and air traffic control centers — have long understood that safety depends not just on good techn"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "AI Is Thriving at Capital One",
+    "enlace": "https://sloanreview.mit.edu/article/ai-is-thriving-at-capital-one/",
+    "fecha": "Wed, 28 Oct 2026 11:00:15 +0000",
+    "extracto": "Eliot Wyatt/Ikon Images If one were making a list of the companies that have most exploited the potential of data, analytics, and artificial intelligence in the 21st century, Capital One would probabl"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "The Defining Challenge of Responsible AI Is Designing Systems That Preserve Human Judgment When and Where It Counts",
+    "enlace": "https://sloanreview.mit.edu/article/the-defining-challenge-of-responsible-ai-is-designing-systems-that-preserve-human-judgment-when-and-where-it-counts/",
+    "fecha": "Thu, 15 Oct 2026 11:00:55 +0000",
+    "extracto": "For the fifth year in a row, MIT Sloan Management Review and Boston Consulting Group (BCG) have assembled an international panel of AI experts comprising academics and practitioners to help us underst"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "The New Rules of Brand Visibility in AI Search",
+    "enlace": "https://sloanreview.mit.edu/article/the-new-rules-of-brand-visibility-in-ai-search/",
+    "fecha": "Tue, 13 Oct 2026 11:00:34 +0000",
+    "extracto": "Alice Mollon/Ikon Images The Research The authors interviewed 15 senior marketing and digital leaders across industries, including financial services, software as a service, retail, media, higher educ"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "How to Outcompete Your Client’s AI",
+    "enlace": "https://sloanreview.mit.edu/article/how-to-outcompete-your-clients-ai/",
+    "fecha": "Tue, 29 Sep 2026 11:00:55 +0000",
+    "extracto": "Andy Carter/Ikon Images The in-house lawyers at real estate investment firm Alturas Capital Partners used to rely on outside counsel for much of its lease work. Thanks to generative AI, it can now do "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "Five Urgent Priorities for CMOs in 2027",
+    "enlace": "https://sloanreview.mit.edu/article/five-urgent-priorities-for-cmos-in-2027/",
+    "fecha": "Tue, 22 Sep 2026 11:00:03 +0000",
+    "extracto": "Matt Harrison Clough/Ikon Images In an unpredictable economy and fractured media landscape, marketing leaders are navigating a period of profound transformation and disruption — and as AI technologies"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "How AI Creates a Capability Mirage",
+    "enlace": "https://sloanreview.mit.edu/article/how-ai-creates-a-capability-mirage/",
+    "fecha": "Mon, 14 Sep 2026 11:00:15 +0000",
+    "extracto": "PPaint/Ikon Images Dry rot. A Potemkin village. The Wizard of Oz. What do those things have in common? In each case, they may look good on the surface, but it’s only an illusion. Wood afflicted with d"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Sloan Management Review",
+    "nivel": "prensa",
+    "titulo": "When AI Disruption Never Ends",
+    "enlace": "https://sloanreview.mit.edu/article/when-ai-disruption-never-ends/",
+    "fecha": "Thu, 10 Sep 2026 11:00:26 +0000",
+    "extracto": "Phil Bliss/theispot.com A vice president of product opens her laptop on a Monday morning to find that the AI model her team had worked with for the past six weeks to build a customer workflow has been"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "Raising the quality of insights in agentic analytics",
+    "enlace": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+    "fecha": "Mon, 02 Nov 2026 17:00:00 +0000",
+    "extracto": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automa"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "Stop counting tokens, start counting what ships",
+    "enlace": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+    "fecha": "Mon, 02 Nov 2026 13:10:32 +0000",
+    "extracto": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 "
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "The Download: AI agent tracking and climate feedback loops",
+    "enlace": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+    "fecha": "Thu, 29 Oct 2026 12:10:00 +0000",
+    "extracto": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ ac"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "We urgently need to monitor AI agents’ actions in real time",
+    "enlace": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+    "fecha": "Thu, 29 Oct 2026 10:11:12 +0000",
+    "extracto": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about"
+  },
+  {
+    "fuente": "rss",
+    "medio": "MIT Technology Review",
+    "nivel": "prensa",
+    "titulo": "Creating AI value with enterprise context",
+    "enlace": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+    "fecha": "Wed, 28 Oct 2026 20:32:02 +0000",
+    "extracto": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automati"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Financial Times",
+    "nivel": "prensa",
+    "titulo": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
+    "enlace": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f?syn-25a6b1a6=1",
+    "fecha": "Mon, 02 Nov 2026 16:31:21 GMT",
+    "extracto": "Claude maker’s infrastructure costs rise faster than revenues, as investors scrutinise economics of AI boom"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Investors matter for the future of trustworthy AI. Are they ready?",
+    "enlace": "https://wp.oecd.ai/investors-matter-for-the-future-of-trustworthy-ai-are-they-ready/",
+    "fecha": "Mon, 12 Oct 2026 09:54:10 +0000",
+    "extracto": "Investors are beginning to treat trustworthy AI as a material business factor. The challenge now is helping guide capital flows towards firms developing and deploying trustworthy AI. The post Investor"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Bridging frameworks: How HAIP 2.0 supports interoperability with the EU AI Act",
+    "enlace": "https://wp.oecd.ai/bridging-frameworks-how-haip-2-0-supports-interoperability-with-the-eu-ai-act/",
+    "fecha": "Wed, 30 Sep 2026 07:55:00 +0000",
+    "extracto": "This blog article explores how HAIP 2.0 and the EU instruments intersect, where they diverge, and why their complementarity matters for effective AI governance. The post Bridging frameworks: How HAIP "
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Governing with agentic AI: when machines act on government’s behalf",
+    "enlace": "https://wp.oecd.ai/governing-with-agentic-ai-when-machines-act-on-governments-behalf/",
+    "fecha": "Fri, 25 Sep 2026 15:24:56 +0000",
+    "extracto": "Agentic AI raises new questions about how governments can maintain standards of safe, secure and trustworthy AI while machines act on their behalf. The post Governing with agentic AI: when machines ac"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Putting agentic AI systems to work: What practitioners reveal about deployment and governance",
+    "enlace": "https://wp.oecd.ai/putting-agentic-ai-systems-to-work-what-practitioners-reveal-about-deployment-and-governance/",
+    "fecha": "Thu, 24 Sep 2026 08:46:35 +0000",
+    "extracto": "How are different organisations using agentic AI in practice? What governance approaches are they adopting to manage it responsibly? The post Putting agentic AI systems to work: What practitioners rev"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "Can the finance sector oversee AI innovation while maintaining its rapid progress?",
+    "enlace": "https://wp.oecd.ai/can-the-finance-sector-oversee-ai-innovation-while-maintaining-its-rapid-progress/",
+    "fecha": "Thu, 03 Sep 2026 07:32:17 +0000",
+    "extracto": "Explore AI supervision in finance, FCA AI Live Testing, risk management, governance and responsible AI innovation in financial markets. The post Can the finance sector oversee AI innovation while main"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "A five-step roadmap to closing the AI evaluation gap",
+    "enlace": "https://wp.oecd.ai/a-five-step-roadmap-to-closing-the-ai-evaluation-gap/",
+    "fecha": "Fri, 31 Jul 2026 10:19:10 +0000",
+    "extracto": "A five-step roadmap for closing the AI evaluation gap to strengthen trust, security, adoption and effective AI governance. The post A five-step roadmap to closing the AI evaluation gap appeared first "
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "HAIP is transforming transparency from a compliance burden to a competitive advantage",
+    "enlace": "https://wp.oecd.ai/haip-transforming-transparency-from-ai-compliance-burden-to-competitive-advantage/",
+    "fecha": "Thu, 16 Jul 2026 09:41:17 +0000",
+    "extracto": "How Salesforce sees the HAIP Reporting Framework reducing AI governance fragmentation. The post HAIP is transforming transparency from a compliance burden to a competitive advantage appeared first on "
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "How quantum technologies could open new frontiers for AI",
+    "enlace": "https://wp.oecd.ai/how-quantum-technologies-could-open-new-frontiers-for-ai/",
+    "fecha": "Mon, 06 Jul 2026 16:13:09 +0000",
+    "extracto": "This three-part blog series explores the growing complementarity between artificial intelligence (AI) and quantum technologies. The post How quantum technologies could open new frontiers for AI appear"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "How people are using GenAI chatbots: Evidence from web traffic data",
+    "enlace": "https://wp.oecd.ai/how-people-are-using-genai-chatbots-evidence-from-web-traffic-data/",
+    "fecha": "Tue, 30 Jun 2026 12:59:22 +0000",
+    "extracto": "New OECD analysis reveals how people use GenAI chatbots across countries and demographics, using web traffic data from Similarweb. The post How people are using GenAI chatbots: Evidence from web traff"
+  },
+  {
+    "fuente": "rss",
+    "medio": "OECD.AI",
+    "nivel": "institucional",
+    "titulo": "AI for inclusive and resilient agri-food systems: Potential ways forward",
+    "enlace": "https://wp.oecd.ai/ai-inclusive-and-resilient-agri-food-systems/",
+    "fecha": "Fri, 05 Jun 2026 14:30:49 +0000",
+    "extracto": "AI can strengthen food security, resilience and sustainability in agriculture. Explore key challenges and opportunities for agri-food systems. The post AI for inclusive and resilient agri-food systems"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Towards Data Science",
+    "nivel": "practica",
+    "titulo": "The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+    "enlace": "https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+    "fecha": "Sun, 01 Nov 2026 16:00:00 GMT",
+    "extracto": "Beyond RAG: How modern architectures engineer precise, cost-efficient context for enterprise AI agents. The post The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patter"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Towards Data Science",
+    "nivel": "practica",
+    "titulo": "We Taught AI to Answer Questions. Who Taught It to Change Its Mind?",
+    "enlace": "https://towardsdatascience.com/we-taught-ai-to-answer-questions-who-taught-it-to-change-its-mind/",
+    "fecha": "Sat, 31 Oct 2026 14:00:00 GMT",
+    "extracto": "When new evidence kills one conclusion, do the decisions built on it change too? I tested six update strategies, then a local model. The post We Taught AI to Answer Questions. Who Taught It to Change "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Towards Data Science",
+    "nivel": "practica",
+    "titulo": "How to Make AI Work for End-to-End Business Processes",
+    "enlace": "https://towardsdatascience.com/how-to-make-ai-work-for-end-to-end-business-processes/",
+    "fecha": "Wed, 28 Oct 2026 15:30:00 GMT",
+    "extracto": "From simplifying workflows to connecting knowledge and rules, coordinating AI agents, and delivering measurable business results. The post How to Make AI Work for End-to-End Business Processes appeare"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Diario Financiero (CL)",
+    "nivel": "prensa",
+    "titulo": "La millonaria factura de la IA: tres gigantes tech salen a buscar casi US$ 47 mil millones en medio de dudas del mercado",
+    "enlace": "http://www.df.cl/internacional/multinacionales/la-millonaria-factura-de-la-ia-tres-gigantes-tech-salen-a-buscar-casi-us",
+    "fecha": "Mon, 02 Nov 2026 20:16:16 GMT",
+    "extracto": "Los gigantes tecnológicos lanzaron sus propios programas en los mercados de capitales para financiar sus inversiones en inteligencia artificial. Sin embargo, las mayores exigencias de rentabilidad y e"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Diario Financiero (CL)",
+    "nivel": "prensa",
+    "titulo": "IPSA cierra al alza con fuerte impulso de Latam, que subió más de 7% ante el desplome de los precios del petróleo",
+    "enlace": "http://www.df.cl/mercados/bolsa-monedas/bolsas-hoy-8fpxk",
+    "fecha": "Mon, 02 Nov 2026 19:39:03 GMT",
+    "extracto": "Las bolsas en general registraron un mal octubre, en medio del desarme de ambiciosas apuestas al desarrollo de la IA y las preocupaciones por el posible recrudecimiento de la guerra contra Irán una ve"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Diario Financiero (CL)",
+    "nivel": "prensa",
+    "titulo": "Startup chilena que desarrolla agentes de IA para logística abre operación en EEUU",
+    "enlace": "http://www.df.cl/df-lab/innovacion-y-startups/startup-chilena-que-desarrolla-agentes-de-ia-para-logistica-abre-operacion",
+    "fecha": "Mon, 02 Nov 2026 16:49:19 GMT",
+    "extracto": "SmartUp instalará un equipo en Atlanta, atraída por los ciclos de venta más cortos y tickets de compra que triplican los de Latinoamérica."
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Tercera · Pulso (CL)",
+    "nivel": "prensa",
+    "titulo": "Los láseres de la IA valen oro: Marvell paga US$ 115.000 millones por Lumentum, en una de las mayores operaciones del año",
+    "enlace": "https://www.latercera.com/pulso/noticia/marvell-comprara-lumentum-por-us-115000-millones-en-una-de-las-mayores-operaciones-del-ano/",
+    "fecha": "Mon, 02 Nov 2026 13:45:28 +0000",
+    "extracto": "El fabricante de chips pagará con acciones por la empresa de láseres y componentes ópticos, en una apuesta por la conectividad de la inteligencia artificial."
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Tercera · portada (CL)",
+    "nivel": "prensa",
+    "titulo": "RADAR LT: Bootcamp Chile 2026 busca transformar la ciencia en startups de alto impacto",
+    "enlace": "https://www.latercera.com/videos/noticia/radar-lt-bootcamp-chile-2026-busca-transformar-la-ciencia-en-startups-de-alto-impacto/",
+    "fecha": "Mon, 02 Nov 2026 17:47:56 +0000",
+    "extracto": "Organizado por HUBTEC y CITES, el programa reunió a investigadores y emprendedores para fortalecer proyectos científico-tecnológicos y abrir nuevas oportunidades de financiamiento e inversión."
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Microsoft: el valor de la inteligencia artificial está en transformar el negocio y potenciar a las personas",
+    "enlace": "https://www.trendtic.cl/2026/11/microsoft-el-valor-de-la-inteligencia-artificial-esta-en-transformar-el-negocio-y-potenciar-a-las-personas/",
+    "fecha": "Mon, 02 Nov 2026 15:05:07 +0000",
+    "extracto": "Durante el Microsoft Frontier Tour, realizado recientemente en México, Isabel Morell conversó para trendTIC con tres ejecutivos de la compañía sobre las oportunidades de la IA en Latinoamérica, el ava"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "De usar IA a transformar negocios: el nuevo enfoque de Microsoft para la operación empresarial",
+    "enlace": "https://www.trendtic.cl/2026/10/de-usar-ia-a-transformar-negocios-el-nuevo-enfoque-de-microsoft-para-la-operacion-empresarial/",
+    "fecha": "Fri, 30 Oct 2026 15:58:35 +0000",
+    "extracto": "Ciudad de México, 30 de octubre de 2026.- Microsoft reunió a líderes empresariales y tecnológicos en México durante su evento Frontier Tour, para analizar el paso de las empresas latinoamericanas de u"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Microsoft y CENIA le dan motor a Latam GPT, el primer gran modelo de lenguaje abierto de América Latina",
+    "enlace": "https://www.trendtic.cl/2026/10/microsoft-y-cenia-le-dan-motor-a-latam-gpt-el-primer-gran-modelo-de-lenguaje-abierto-de-america-latina/",
+    "fecha": "Fri, 30 Oct 2026 12:05:19 +0000",
+    "extracto": "Santiago de Chile, 30 de octubre de 2026 – Microsoft y el Centro Nacional de Inteligencia Artificial (CENIA) de Chile anunciaron una alianza para impulsar el desarrollo de Latam GPT, el primer gran mo"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Senado aprueba proyecto que posterga a octubre de 2027 la nueva Ley de Protección de Datos",
+    "enlace": "https://www.trendtic.cl/2026/10/senado-aprueba-proyecto-que-posterga-a-octubre-de-2027-la-nueva-ley-de-proteccion-de-datos/",
+    "fecha": "Wed, 28 Oct 2026 20:52:01 +0000",
+    "extracto": "Por 33 votos a favor y seis en contra, la Sala respaldó la iniciativa, que pasa a la Cámara de Diputadas y Diputados. El texto también contempla ampliar de tres a cinco los integrantes del Consejo Dir"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Gobierno ingresa proyecto para habilitar a Corfo a invertir en fondos de fondos y capital de riesgo",
+    "enlace": "https://www.trendtic.cl/2026/10/gobierno-ingresa-proyecto-para-habilitar-a-corfo-a-invertir-en-fondos-de-fondos-y-capital-de-riesgo/",
+    "fecha": "Wed, 28 Oct 2026 16:12:26 +0000",
+    "extracto": "Santiago, 28 de octubre de 2026 &#8211; Ampliar las alternativas de financiamiento para que las empresas innovadoras puedan crecer e internacionalizarse desde Chile es el objetivo del proyecto de ley "
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Con foco en seguridad digital y protección de datos: Subtel instruye bloqueo de cerca de 2 mil sitios de TV pirata",
+    "enlace": "https://www.trendtic.cl/2026/10/con-foco-en-seguridad-digital-y-proteccion-de-datos-subtel-instruye-bloqueo-de-cerca-de-2-mil-sitios-de-tv-pirata/",
+    "fecha": "Tue, 27 Oct 2026 13:19:57 +0000",
+    "extracto": "Chile, 27 de octubre de 2026.- Con foco en la seguridad digital y protección de datos de las personas, la Subsecretaría de Telecomunicaciones (Subtel) dio a conocer un procedimiento que busca resguard"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Ley de Protección de Datos: Comisión del Senado acuerda recortar prórroga propuesta por Gobierno y fija nueva fecha para octubre de 2027",
+    "enlace": "https://www.trendtic.cl/2026/10/ley-de-proteccion-de-datos-comision-del-senado-acuerda-recortar-prorroga-propuesta-por-gobierno-y-fija-nueva-fecha-para-octubre-de-2027/",
+    "fecha": "Tue, 27 Oct 2026 12:26:02 +0000",
+    "extracto": "La Comisión de Constitución despachó a Hacienda el proyecto que modifica la Ley N.º 21.719. La propuesta también aumenta de tres a cinco los integrantes del Consejo Directivo de la futura Agencia de P"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "Hackatón en Puerto Montt: 14 equipos aplicaron inteligencia artificial a desafíos de la salmonicultura",
+    "enlace": "https://www.trendtic.cl/2026/10/hackaton-en-puerto-montt-14-equipos-aplicaron-inteligencia-artificial-a-desafios-de-la-salmonicultura/",
+    "fecha": "Fri, 23 Oct 2026 12:58:33 +0000",
+    "extracto": "La Cross-Industry Hackatón, realizada el 20 de octubre de 2026, convocó a 42 participantes del sur de Chile. Organizada por Këtrawa, con el respaldo de Huawei Cloud, SalmonChile y Corfo, la iniciativa"
+  },
+  {
+    "fuente": "rss",
+    "medio": "trendTIC (CL)",
+    "nivel": "prensa",
+    "titulo": "ChileCompra presenta 17 cláusulas de ciberseguridad para las compras públicas y abre primera compra coordinada de XDR",
+    "enlace": "https://www.trendtic.cl/2026/10/chilecompra-presenta-17-clausulas-de-ciberseguridad-para-las-compras-publicas-y-abre-primera-compra-coordinada-de-xdr/",
+    "fecha": "Thu, 22 Oct 2026 13:58:24 +0000",
+    "extracto": "La nueva directiva entrega recomendaciones para incorporar exigencias de seguridad en los contratos del Estado según el riesgo de cada adquisición. En paralelo, los organismos podrán inscribirse hasta"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "Microsoft y CENIA le dan motor a Latam GPT, el primer gran modelo de lenguaje abierto de América Latina",
+    "enlace": "https://cenia.cl/2026/10/29/microsoft-y-cenia-le-dan-motor-a-latam-gpt-el-primer-gran-modelo-de-lenguaje-abierto-de-america-latina/",
+    "fecha": "Thu, 29 Oct 2026 15:28:24 +0000",
+    "extracto": "Santiago de Chile, 28 de octubre de 2026 – Microsoft y el Centro Nacional de Inteligencia Artificial (CENIA) de Chile anunciaron una alianza para impulsar el desarrollo de Latam GPT, el primer gran mo"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "Investigadores de CENIA presentarán en NeurIPS un estudio que explica por qué algunos modelos de Inteligencia Artificial resuelven mejor las tareas con textos largos",
+    "enlace": "https://cenia.cl/2026/10/22/investigadores-de-cenia-presentaran-en-neurips-un-estudio-que-explica-por-que-algunos-modelos-de-inteligencia-artificial-resuelven-mejor-las-tareas-con-textos-largos/",
+    "fecha": "Thu, 22 Oct 2026 21:09:44 +0000",
+    "extracto": "Un equipo del Centro Nacional de Inteligencia Artificial (CENIA) presentará entre el 6 y el 12 de diciembre, en la sede de Sídney, Australia, de la conferencia NeurIPS, un estudio que explica por qué "
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "ILIA 2026: 4ta edición revela que América Latina y el Caribe se juegan su futuro en IA en la colaboración regional para datos, talento y cómputo",
+    "enlace": "https://cenia.cl/2026/10/20/ilia-2026-4ta-edicion-revela-que-america-latina-y-el-caribe-se-juegan-su-futuro-en-ia-en-la-colaboracion-regional-para-datos-talento-y-computo/",
+    "fecha": "Tue, 20 Oct 2026 19:35:47 +0000",
+    "extracto": "El Centro Nacional de Inteligencia Artificial de Chile (CENIA) y la Comisión Económica para América Latina y el Caribe (CEPAL) presentaron este martes la cuarta edición del Índice Latinoamericano de I"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "Universitarios que conversan con ChatGPT creen entender más de lo que logran explicar, según estudio de investigador CENIA",
+    "enlace": "https://cenia.cl/2026/10/16/universitarios-que-conversan-con-chatgpt-creen-entender-mas-de-lo-que-logran-explicar-segun-estudio-de-investigador-cenia/",
+    "fecha": "Fri, 16 Oct 2026 17:28:01 +0000",
+    "extracto": "Investigadores del Centro Nacional de Inteligencia Artificial (CENIA) y de la Universidad de Chile compararon a 102 estudiantes: quienes consultaron al chatbot escribieron explicaciones más cortas y d"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "¡Trabaja en CENIA!",
+    "enlace": "https://cenia.cl/2026/10/15/trabaja-en-cenia-4/",
+    "fecha": "Thu, 15 Oct 2026 17:53:26 +0000",
+    "extracto": "Encargado/a de Operaciones y Proyectos fAIrefighter El&#160;Centro Nacional de Inteligencia Artificial (CENIA) es un centro dedicado a la investigación, desarrollo y transferencia tecnológica en intel"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "CENIA se adjudica proyecto FONDEF para apoyar con Inteligencia Artificial la evaluación de licitaciones públicas junto al SERVIU Metropolitano",
+    "enlace": "https://cenia.cl/2026/10/09/cenia-se-adjudica-proyecto-fondef-para-apoyar-con-inteligencia-artificial-la-evaluacion-de-licitaciones-publicas-junto-al-serviu-metropolitano/",
+    "fecha": "Fri, 09 Oct 2026 13:22:41 +0000",
+    "extracto": "El Centro Nacional de Inteligencia Artificial (CENIA) se adjudicó el proyecto &#8220;Puelche: Agent-Based AI for Public Procurement Evaluation&#8221; (IT26I0132), uno de los tres que obtuvo en el conc"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "Investigadores de CENIA y la Universidad de Sussex plantean en una revista de Nature Portfolio usar la IA Generativa como oportunidad para repensar el diseño de la escuela",
+    "enlace": "https://cenia.cl/2026/09/23/investigadores-de-cenia-y-la-universidad-de-sussex-plantean-en-una-revista-de-nature-portfolio-usar-la-ia-generativa-como-oportunidad-para-repensar-el-diseno-de-la-escuela/",
+    "fecha": "Wed, 23 Sep 2026 15:44:01 +0000",
+    "extracto": "En el artículo Educating minds with generative AI, publicado en Communications Psychology, del grupo Nature Portfolio, Thomas Wachter, investigador de la línea de Inteligencia Artificial centrada en l"
+  },
+  {
+    "fuente": "rss",
+    "medio": "CENIA — Centro Nacional de IA (CL)",
+    "nivel": "institucional",
+    "titulo": "CENIA se adjudica proyecto FONDEF IDeA I+D 2026 para robustecer con IA la lectura de patentes en la fiscalización vial",
+    "enlace": "https://cenia.cl/2026/09/23/cenia-se-adjudica-proyecto-fondef-idea-id-2026-para-robustecer-con-ia-la-lectura-de-patentes-en-la-fiscalizacion-vial/",
+    "fecha": "Wed, 23 Sep 2026 09:07:00 +0000",
+    "extracto": "El Centro Nacional de Inteligencia Artificial (CENIA) se adjudicó un proyecto en el concurso FONDEF IDeA I+D 2026 de ANID, convocatoria que este año recibió 871 postulaciones y seleccionó 102 iniciati"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Las empresas deberán crear un ciclo de aprendizaje continuo junto a la IA",
+    "enlace": "https://www.iprofesional.com/tecnologia/468082-el-aprendizaje-organizacional-es-la-verdadera-ventaja-competitiva-en-ia",
+    "fecha": "Mon, 02 Nov 2026 11:39:00 -0300",
+    "extracto": "Muchas organizaciones siguen abordando la IA como una herramienta de automatización, buscando reducir costos, eliminar tareas redundantes, (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i["
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "La IA ayuda a verificar descuentos antes del CyberMonday 2026",
+    "enlace": "https://www.iprofesional.com/tecnologia/467813-la-ia-influira-en-las-compras-del-cybermonday-2026-en-la-argentina",
+    "fecha": "Mon, 02 Nov 2026 07:21:00 -0300",
+    "extracto": "Ocho de cada diez consumidores argentinos afirman que las sugerencias de la inteligencia artificial influirán en sus decisiones de compra (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "IAdicción legal: cuando ChatGPT reemplaza al abogado y se pierden derechos sin saberlo",
+    "enlace": "https://www.iprofesional.com/tecnologia/467833-iadiccion-legal-cuando-chatgpt-reemplaza-al-abogado-y-se-pierden-derechos-sin-saberlo",
+    "fecha": "Sun, 01 Nov 2026 08:28:00 -0300",
+    "extracto": "Cada vez más personas usan IA para resolver problemas legales sin consultar un profesional. Qué riesgos implica y cuándo puede costar un juicio (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i["
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "TikTok seleccionó a los 10 emprendedores que van por u$s30.000",
+    "enlace": "https://www.iprofesional.com/tecnologia/467925-tiktok-eligio-a-los-10-finalistas-de-emprendeentiktok-en-argentina",
+    "fecha": "Fri, 30 Oct 2026 12:03:00 -0300",
+    "extracto": "La iniciativa de la red social apunta al segmento de MiPymes y microemprendimientos, un sector que representa el 98% de las empresas argentinas (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i["
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "La IA llega a los tribunales argentinos sin reglas claras de auditoría",
+    "enlace": "https://www.iprofesional.com/tecnologia/467912-inteligencia-artificial-en-tribunales-argentinos-entre-brechas-y-descontrol",
+    "fecha": "Fri, 30 Oct 2026 10:40:00 -0300",
+    "extracto": "Expertas advierten acerca de obstáculos que se encuentran en los juzgados para pasar del marco regulatorio a la implementación efectiva de IA (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Tras inédito caso de Lula en Brasil, ¿cuál es la estrategia de Milei y Kicillof en redes?",
+    "enlace": "https://www.iprofesional.com/tecnologia/467588-tras-inedito-caso-de-lula-en-brasil-cual-es-la-estrategia-de-milei-y-kicillof-en-redes",
+    "fecha": "Thu, 29 Oct 2026 13:42:00 -0300",
+    "extracto": "En Argentina, Brasil y España, partidos y dirigentes apelan a la inteligencia artificial y al ataque digital para conquistar el voto popular. (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Después de su triunfo, Lula acelerará la regulación de las redes sociales y la IA",
+    "enlace": "https://www.iprofesional.com/tecnologia/467572-lula-regulara-a-las-big-techs-tras-ganar-el-balotaje",
+    "fecha": "Thu, 29 Oct 2026 13:39:00 -0300",
+    "extracto": "El mandatario brasileño enfrenta un Congreso dividido, presiones de la Casa Blanca y la necesidad de acelerar normas sobre inteligencia artificial (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r"
+  },
+  {
+    "fuente": "rss",
+    "medio": "iProfesional · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Cuál es el nuevo emprendimiento de la esposa del arquero Dibu Martínez",
+    "enlace": "https://www.iprofesional.com/negocios/467860-cual-es-nuevo-emprendimiento-de-mandinha-esposa-del-arquero-dibu-martinez",
+    "fecha": "Mon, 02 Nov 2026 15:10:00 -0300",
+    "extracto": "Un lugar único que invita a familias a disfrutar de actividades sensoriales y espacios lúdicos que nutren el vínculo y la imaginación infantil (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "La IA puede sumar u$s17.700 millones a la Argentina hasta 2030, pero necesita acelerar la adopción en empresas",
+    "enlace": "https://www.ambito.com/negocios/la-ia-puede-sumar-us17700-millones-la-argentina-2030-pero-necesita-acelerar-la-adopcion-empresas-n6339356",
+    "fecha": "Thu, 29 Oct 2026 18:06:00 -0300",
+    "extracto": "Un estudio de la Universidad de San Andrés estima que el país puede mejorar su productividad si coordina esfuerzos públicos y privados en forma urgente. Argentina corre riesgo de perder terreno ante l"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "La salida de Anthropic a la Bolsa será la prueba de fuego para poner valor al negocio de la IA en Wall Street",
+    "enlace": "https://www.ambito.com/negocios/la-salida-anthropic-la-bolsa-sera-la-prueba-fuego-poner-valor-al-negocio-la-ia-wall-street-n6338470",
+    "fecha": "Tue, 27 Oct 2026 17:27:00 -0300",
+    "extracto": "Los inversores quieren determinar qué expectativas de crecimiento justifican una valuación de hasta u$s1,5 billones. Y cómo se relaciona esa cifra con los ingresos, la rentabilidad operativa y los com"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Cyber Monday 2026: la IA cambia la forma de comprar y pone a prueba a las empresas",
+    "enlace": "https://www.ambito.com/negocios/cyber-monday-2026-la-ia-cambia-la-forma-comprar-y-pone-prueba-las-empresas-n6338418",
+    "fecha": "Tue, 27 Oct 2026 13:39:00 -0300",
+    "extracto": "Uno de cada cuatro argentinos usa inteligencia artificial para sondear ofertas. El 85% de esos usuarios acepta sus sugerencias para cerrar una operación. Las promociones empiezan antes del evento y ge"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Endeavor Argentina seleccionó a 11 startups tecnológicas de cinco rubros para acelerar su expansión",
+    "enlace": "https://www.ambito.com/negocios/endeavor-argentina-selecciono-11-startups-tecnologicas-cinco-rubros-acelerar-su-expansion-n6340543",
+    "fecha": "Mon, 02 Nov 2026 14:37:00 -0300",
+    "extracto": "Los perfiles elegidos fueron fintech, IA aplicada, química verde, construcción y beneficios corporativos. Recibirán acompañamiento intensivo con mentorías, networking y acceso a inversores potenciales"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Ambito · Negocios (AR)",
+    "nivel": "prensa",
+    "titulo": "Del petróleo a la inteligencia artificial: Aramco compra el 49% de la empresa tecnológica Humain por u$s2.600 millones",
+    "enlace": "https://www.ambito.com/negocios/del-petroleo-la-inteligencia-artificial-aramco-compra-el-49-la-empresa-tecnologica-humain-n6340201",
+    "fecha": "Sun, 01 Nov 2026 10:17:04 -0300",
+    "extracto": "La mayor compañía energética saudí amplía su apuesta de negocios con una participación millonaria en el sector tecnológico. El acuerdo combina inversiones, infraestructura informática y desarrollo de "
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Nacion · portada (AR)",
+    "nivel": "prensa",
+    "titulo": "El poderío chino que abre oportunidades para la Argentina en un sector estratégico",
+    "enlace": "https://www.lanacion.com.ar/economia/campo/el-poderio-chino-que-abre-oportunidades-para-la-argentina-en-un-sector-estrategico-nid02112026/",
+    "fecha": "Mon, 02 Nov 2026 20:45:54 +0000",
+    "extracto": "Inteligencia artificial, robótica, maquinaria autónoma y conectividad marcaron la exposición CIAME 2026 en Tianjin; el desafío argentino es transformar estos avances en inversiones, productividad y al"
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Nacion · portada (AR)",
+    "nivel": "prensa",
+    "titulo": "Fiesta del Cordero Costero 2026 en Mar de Cobo: cuándo es, qué comer y qué artistas se presentan gratis",
+    "enlace": "https://www.lanacion.com.ar/que-sale/fiesta-del-cordero-costero-2026-en-mar-de-cobo-cuando-es-que-comer-y-que-artistas-se-presentan-nid02112026/",
+    "fecha": "Mon, 02 Nov 2026 20:26:03 +0000",
+    "extracto": "La 19.ª edición reunirá puestos de comida, una feria de emprendedores y espectáculos de Los del Fuego, Rocío Quiroz y Los Musiqueros Entrerrianos; se realizará del 13 al 15 de noviembre"
+  },
+  {
+    "fuente": "rss",
+    "medio": "El Tiempo · Tecnosfera (CO)",
+    "nivel": "prensa",
+    "titulo": "No, la IA no es su amiga | Análisis del Editor Multimedia",
+    "enlace": "https://www.eltiempo.com/tecnosfera/inteligencia-artificial/no-la-ia-no-es-su-amiga-analisis-del-editor-multimedia-3597730",
+    "fecha": "2026-10-31T22:40:00-05:00",
+    "extracto": "La inteligencia artificial debe ser una herramienta potente de productividad y creatividad, nunca un sustituto afectivo."
+  },
+  {
+    "fuente": "rss",
+    "medio": "El Tiempo · Tecnosfera (CO)",
+    "nivel": "prensa",
+    "titulo": "Crean a Capibot, el tierno robot de peluche con forma de capibara que busca ayudar a niños con autismo: así funciona",
+    "enlace": "https://www.eltiempo.com/tecnosfera/inteligencia-artificial/crean-a-capibot-el-tierno-robot-de-peluche-con-forma-de-capibara-que-busca-ayudar-a-ninos-con-autismo-asi-funciona-3596986",
+    "fecha": "2026-10-28T13:11:08-05:00",
+    "extracto": "El dispositivo permite la interacción entre niños y terapeutas mediante estímulos visuales. El proyecto fue presentado en Italia."
+  },
+  {
+    "fuente": "rss",
+    "medio": "El Tiempo · Tecnosfera (CO)",
+    "nivel": "prensa",
+    "titulo": "LG lanza en Colombia nuevos parlantes xboom con IA: así son los modelos con karaoke y resistencia al agua que llegan para cerrar el año",
+    "enlace": "https://www.eltiempo.com/tecnosfera/novedades-tecnologia/lg-lanza-en-colombia-nuevos-parlantes-xboom-con-ia-asi-son-los-modelos-con-karaoke-y-resistencia-al-agua-que-llegan-para-cerrar-el-ano-3596424",
+    "fecha": "2026-10-26T13:09:55-05:00",
+    "extracto": "Los equipos incorporan funciones para eliminar voces de canciones, ajustar el sonido y resistir el agua y el polvo en modelos seleccionados."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Portafolio · Economia (CO)",
+    "nivel": "prensa",
+    "titulo": "'Walter' el robot que coloca ladrillos con precisión y rinde por varios albañiles: llegaría a obras en 2027",
+    "enlace": "https://www.portafolio.co/economia/infraestructura/walter-el-robot-que-coloca-ladrillos-con-precision-y-rinde-por-varios-albaniles-llegaria-a-obras-en-505591",
+    "fecha": "2026-11-02T15:05:00-05:00",
+    "extracto": "Muros de diecinueve a treinta centímetros de espesor se levantan con ladrillos Robot Ready, hechos en siete países."
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Republica (CO)",
+    "nivel": "prensa",
+    "titulo": "Anthropic registra ingresos de casi US$17.000 millones antes de histórica de la OPI",
+    "enlace": "https://www.larepublica.co/globoeconomia/anthropic-registra-ingresos-de-casi-us-17-000-millones-antes-de-historica-de-la-opi-4516240",
+    "fecha": "Mon, 02 Nov 2026 17:31:08 +0000",
+    "extracto": "La empresa detrás de la plataforma Claude registró una pérdida neta de US$23.300 millones en los tres meses hasta fines de septiembre"
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Republica (CO)",
+    "nivel": "prensa",
+    "titulo": "Oracle inicia campaña de captación de capital de US$20.000 millones para su plan de inversión en IA",
+    "enlace": "https://www.larepublica.co/globoeconomia/oracle-inicia-campana-de-captacion-de-capital-de-us-20-000-millones-para-su-plan-de-inversion-en-ia-4516203",
+    "fecha": "Mon, 02 Nov 2026 15:49:32 +0000",
+    "extracto": "Según los documentos presentados, Bank of America Corp. está liderando tanto las transacciones de bonos como las de acciones"
+  },
+  {
+    "fuente": "rss",
+    "medio": "La Republica (CO)",
+    "nivel": "prensa",
+    "titulo": "¿Quién es el espectador imparcial del algoritmo?",
+    "enlace": "https://www.larepublica.co/analisis/santiago-jimenez-londono-4353436/quien-es-el-espectador-imparcial-del-algoritmo-4516148",
+    "fecha": "Mon, 02 Nov 2026 05:01:56 +0000",
+    "extracto": "La razón ya no nos limita con prohibiciones, sino con sugerencias, ¿y quién se avergüenza de una sugerencia? Nada de esto implica que la tecnología sea mala"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Valora Analitik (CO)",
+    "nivel": "prensa",
+    "titulo": "Errores que afectan hasta en un 40 % la productividad de un proyecto de infraestructura",
+    "enlace": "https://www.valoraanalitik.com/errores-que-afectan-hasta-en-un-40-la-productividad-de-un-proyecto-de-infraestructura/",
+    "fecha": "2026-11-01 19:00:00",
+    "extracto": "Según expertos, las mejores decisiones se toman antes de que empiece la obra."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Impacto TIC (CO)",
+    "nivel": "prensa",
+    "titulo": "“El lobo está acá entre nosotros”: la alerta de Alberto Arébalos sobre la reputación en tiempos de IA",
+    "enlace": "https://impactotic.co/tecnologia/reputacion-realidad-sintetica-alberto-arebalos/",
+    "fecha": "Fri, 30 Oct 2026 21:57:53 +0000",
+    "extracto": "Alberto Arébalos, autor, experto en reputación corporativa y CEO de MileniumGroup, advierte que la IA permite fabricar realidades capaces de provocar decisiones reales. En su nuevo libro analiza qué s"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Impacto TIC (CO)",
+    "nivel": "prensa",
+    "titulo": "Red Hat Summit: Connect Bogotá 2026: IA, soberanía digital y el poder de elegir",
+    "enlace": "https://impactotic.co/eventos-tic/red-hat-summit-connect-bogota-2026/",
+    "fecha": "Thu, 29 Oct 2026 17:45:00 +0000",
+    "extracto": "Robert Calva, líder de Soluciones de Ecosistema de Red Hat, explica por qué soberanía, nube híbrida, Open Source e Inteligencia Artifciial marcarán el Red Hat Summit: Connect Bogotá 2026, y comparte s"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Impacto TIC (CO)",
+    "nivel": "prensa",
+    "titulo": "Mentoría en el SOC: el plan de 90 días para formar analistas",
+    "enlace": "https://impactotic.co/ciber-seguridad/mentoria-en-el-soc-formacion-analistas-ciberseguridad/",
+    "fecha": "Thu, 29 Oct 2026 11:11:00 +0000",
+    "extracto": "La mentoría en el SOC permite a los nuevos analistas de ciberseguridad asumir casos con autonomía en un periodo de 90 días. Ante el alto estrés y la rotación que golpea a los equipos técnicos, este mo"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Impacto TIC (CO)",
+    "nivel": "prensa",
+    "titulo": "Zoho lanza Analytics 7.0 con nuevos agentes de IA para potenciar la inteligencia de negocios",
+    "enlace": "https://impactotic.co/micrositios-tic/zoho/zoho-analytics-7-0-agentes-de-ia/",
+    "fecha": "Wed, 28 Oct 2026 15:49:18 +0000",
+    "extracto": "Zoho Analytics 7.0 llega con capas semánticas y arquitectura multiagente para resolver la falta de contexto en los modelos de lenguaje corporativos."
+  },
+  {
+    "fuente": "rss",
+    "medio": "Impacto TIC (CO)",
+    "nivel": "prensa",
+    "titulo": "Innovación e IA: 97,6 % espera cambios, solo 24 % logra ingresos",
+    "enlace": "https://impactotic.co/innovacion/ia-en-empresas-observatorio-de-innovacion/",
+    "fecha": "Wed, 28 Oct 2026 11:04:00 +0000",
+    "extracto": "Aunque la implementación de IA en empresas de Colombia e Iberoamérica promete una transformación profunda, el 75,2 % de las organizaciones solo la aprovecha para reducir costos y ganar eficiencia oper"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Impacto TIC (CO)",
+    "nivel": "prensa",
+    "titulo": "Samsung abre 180 becas en Inteligencia Artificial para jóvenes",
+    "enlace": "https://impactotic.co/innovacion/samsung-innovation-campus-becas-colombia/",
+    "fecha": "Tue, 27 Oct 2026 18:22:32 +0000",
+    "extracto": "La nueva edición de Samsung Innovation Campus ofrece 180 becas del 100 % en Inteligencia Artificial, con 250 horas de formación a cargo del Politécnico Grancolombiano. Las inscripciones están abiertas"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Impacto TIC (CO)",
+    "nivel": "prensa",
+    "titulo": "El 80 % de las empresas de América Latina usa Inteligencia Artificial, pero pocas obtienen beneficios económicos",
+    "enlace": "https://impactotic.co/formatos/noticias-tic/inteligencia-artificial-en-empresas-beneficios/",
+    "fecha": "Tue, 27 Oct 2026 17:56:44 +0000",
+    "extracto": "Un análisis del BID señala que solo el 23 % de empresas de la región obtiene réditos por IA y el 6 % un impacto significativo. Según el Dane, 2,6 millones de micronegocios colombianos no usaban Intern"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Impacto TIC (CO)",
+    "nivel": "prensa",
+    "titulo": "OpenAI integra publicidad en ChatGPT para Colombia y América Latina",
+    "enlace": "https://impactotic.co/tecnologia/chatgpt-ads-en-colombia-openai-publicidad/",
+    "fecha": "Sat, 24 Oct 2026 16:01:28 +0000",
+    "extracto": "OpenAI habilitó el despliegue de ChatGPT Ads en Colombia y otros 13 mercados de la región, sumando 16 países en América Latina. El nuevo modelo comercial permite anuncios en Inteligencia Artificial pa"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Valor Economico (BR)",
+    "nivel": "prensa",
+    "titulo": "Prejuízo trimestral da Anthropic diminui e receita dispara antes de IPO",
+    "enlace": "https://valor.globo.com/financas/noticia/2026/11/02/prejuzo-trimestral-da-anthropic-diminui-e-receita-dispara-antes-de-ipo.ghtml",
+    "fecha": "Mon, 02 Nov 2026 15:37:04 -0000",
+    "extracto": "O prejuízo líquido da Anthropic diminuiu acentuadamente no terceiro trimestre, enquanto a receita subiu, conforme revelou, nesta segunda-feira (2), um documento revisado de oferta pública inicial de a"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "Receita da Anthropic salta 12 vezes, para US$ 17 bilhões, às vésperas do IPO",
+    "enlace": "https://exame.com/invest/mercados/receita-da-anthropic-salta-12-vezes-para-us-17-bilhoes-as-vesperas-do-ipo/",
+    "fecha": "2026-11-02T14:09:30",
+    "extracto": "Dona do Claude registra prejuízo líquido de US$ 23,3 bilhões no terceiro trimestre e prepara estreia na Nasdaq antes do feriado de Ação de Graças"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "Petroleira do Golfo se une à dona do ChatGPT para prever oferta e demanda do barril",
+    "enlace": "https://exame.com/invest/mercados/petroleira-do-golfo-se-une-a-dona-do-chatgpt-para-prever-oferta-e-demanda-do-barril/",
+    "fecha": "2026-11-02T12:42:42",
+    "extracto": "A estatal ADNOC quer que a IA preveja oferta, demanda e preços do petróleo bruto; acordo foi anunciado com Sam Altman na plateia de evento em Abu Dhabi"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Exame (BR)",
+    "nivel": "prensa",
+    "titulo": "Como a Hellmann’s transformou o Brasil no laboratório de inovação da América Latina",
+    "enlace": "https://exame.com/marketing/como-a-hellmanns-transformou-o-brasil-no-laboratorio-de-inovacao-da-america-latina/",
+    "fecha": "2026-11-02T11:00:02",
+    "extracto": "Segundo maior mercado da marca no mundo, o país testa, calibra e exporta campanhas e produtos para os vizinhos"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Agencia Brasil (BR)",
+    "nivel": "institucional",
+    "titulo": "Impa Tech abre inscrições para graduação em matemática nesta terça",
+    "enlace": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-10/impa-tech-abre-inscricoes-para-graduacao-em-matematica-nesta-terca",
+    "fecha": "Mon, 02 Nov 2026 15:38:00 -0300",
+    "extracto": "O período de inscrição para o curso de graduação em matemática da tecnologia e inovação do Impa Tech começa nesta terça-feira (3). Para esta edição serão ofertadas, pela primeira vez, vagas na unidade"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Clarin · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Binance, PHP y más heladeras hackeadas: por qué hay tantos ciberataques y cuánto influye la IA",
+    "enlace": "https://www.clarin.com/tecnologia/binance-php-heladeras-hackeadas-ciberataques-influye-ia_0_wGmmuVJ9s9.html",
+    "fecha": "Mon, 02 Nov 2026 17:44:48 +0000",
+    "extracto": "El robo de US$ 6.300 millones en Binance fue el más grande en el mundo cripto, pero se suman otros ataques. El impacto alcanza a tecnologías del día a día, como el sabotaje a heladeras de supermercado"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Clarin · Tecnologia (AR)",
+    "nivel": "prensa",
+    "titulo": "Intel se desploma hasta 30%: qué le pasa al gigante de los chips que marcó la era de las PC en los 90",
+    "enlace": "https://www.clarin.com/tecnologia/intel-desploma-30-pasa-gigante-chips-marco-pc-90_0_YqMzPWY4ER.html",
+    "fecha": "Fri, 30 Oct 2026 17:14:17 +0000",
+    "extracto": "La caída de las PC y los problemas de abastecimiento golpean a la compañía. El auge de la IA impulsa los servidores y encarece componentes de las notebooks. El costo de fabricar chips y la Ley de Moor"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Ataques hackers impulsionam mercado de segurança cibernética para gigantes da IA",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/ataques-hackers-impulsionam-mercado-de-seguranca-cibernetica-para-gigantes-da-ia.shtml",
+    "fecha": "02 Nov 2026 17:39:00 -0300",
+    "extracto": "Nunca houve momento melhor para ser um hacker norte-coreano. No ano passado, os ladrões cibernéticos do país roubaram US$ 2 bilhões em criptomoedas, o triplo do montante registrado dois anos antes, se"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Prejuízo trimestral da Anthropic diminui e receita dispara antes de IPO",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/prejuizo-trimestral-da-anthropic-diminui-e-receita-dispara-antes-de-ipo.shtml",
+    "fecha": "02 Nov 2026 16:10:00 -0300",
+    "extracto": "O prejuízo líquido da Anthropic diminuiu acentuadamente no terceiro trimestre, enquanto a receita subiu, conforme revelou, nesta segunda-feira (2), um documento revisado de IPO (oferta pública inicial"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "O mês em que a inocência em cibersegurança acabou",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://www1.folha.uol.com.br/colunas/ronaldolemos/2026/11/o-mes-em-que-a-inocencia-em-ciberseguranca-acabou.shtml",
+    "fecha": "01 Nov 2026 14:00:00 -0300",
+    "extracto": "O mês de outubro foi aterrorizador no mundo real. Vivemos a primeira onda de pesadelos em cibersegurança , boa parte concretizada pela inteligência artificial . Leia mais (11/01/2026 - 14h00)"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "OpenAI reduz US$ 10 bi da meta de financiamento em meio a preocupações com setor de IA",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/ia/2026/10/openai-reduz-us-10-bi-da-meta-de-financiamento-em-meio-a-preocupacoes-com-setor-de-ia.shtml",
+    "fecha": "31 Oct 2026 11:22:00 -0300",
+    "extracto": "A OpenAI reduziu em US$ 10 bilhões a meta de sua mais recente rodada de captação enquanto corre para fechar um acordo ofuscado por uma onda de vendas de ações de empresas de inteligência artificial no"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Wikipédia defende meio-termo em disputa judicial entre New York Times e OpenAI",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/ia/2026/10/wikipedia-defende-meio-termo-em-disputa-judicial-entre-new-york-times-e-openai.shtml",
+    "fecha": "30 Oct 2026 22:00:00 -0300",
+    "extracto": "A Fundação Wikimedia, organização sem fins lucrativos que mantém a Wikipédia, defendeu uma posição intermediária na disputa judicial entre o jornal New York Times e a OpenAI sobre direitos autorais no"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "OpenAI anuncia mais restrições no acesso de adolescentes a informações sobre armas no ChatGPT",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/ia/2026/10/openai-anuncia-mais-restricoes-no-acesso-de-adolescentes-a-informacoes-sobre-armas-no-chatgpt.shtml",
+    "fecha": "30 Oct 2026 20:30:00 -0300",
+    "extracto": "A OpenAI anunciou nesta sexta-feira (30) que está tornando mais restritivos os limites às informações relacionadas a armas que o ChatGPT fornece a adolescentes, mesmo quando uma pergunta parece inofen"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Blackstone vê risco de Anthropic ficar sem grau de investimento após IPO",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/ia/2026/10/blackstone-ve-risco-de-anthropic-ficar-sem-grau-de-investimento-apos-ipo.shtml",
+    "fecha": "30 Oct 2026 18:24:00 -0300",
+    "extracto": "A Blackstone informou a investidores que a Anthropic pode não receber uma classificação de grau de investimento logo após o seu IPO (Oferta Pública Inicial) . A mudança em relação à orientação anterio"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Empresa chinesa cria aparelho com IA e laser para caçar mosquitos",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/ia/2026/10/empresa-chinesa-cria-aparelho-com-ia-e-laser-para-cacar-mosquitos.shtml",
+    "fecha": "30 Oct 2026 13:50:00 -0300",
+    "extracto": "Para quem já perdeu o sono com o zumbido infernal dos mosquitos, a IA ( inteligência artificial ) pode estar prestes a oferecer uma solução -equipada com um laser. Leia mais (10/30/2026 - 13h50)"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Governo Lula e relator querem aprovar regulação concorrencial das big techs até o fim do ano",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/negocios/2026/10/governo-lula-e-relator-querem-aprovar-regulacao-concorrencial-das-big-techs-ate-o-fim-do-ano.shtml",
+    "fecha": "30 Oct 2026 12:00:00 -0300",
+    "extracto": "Integrantes do governo Lula ( PT ) e parlamentares pretendem correr para votar até dezembro o projeto de lei da regulamentação concorrencial das big techs. A percepção é a de que há uma janela favoráv"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Big techs perdem quase US$ 900 bilhões após manterem investimentos bilionários em IA",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/negocios/2026/10/big-techs-perdem-quase-us-900-bilhoes-apos-manterem-investimentos-bilionarios-em-ia.shtml",
+    "fecha": "30 Oct 2026 11:21:00 -0300",
+    "extracto": "As empresas de big tech perderam quase US$ 900 bilhões (R$ 4,88 trilhões) em valor de mercado após mais uma forte alta em seus gastos no terceiro trimestre, o que transformou alguns dos negócios mais "
+  },
+  {
+    "fuente": "rss",
+    "medio": "Folha de S.Paulo · Tec (BR)",
+    "nivel": "prensa",
+    "titulo": "Dois temores podem definir o sucesso do IPO bilionário da Anthropic",
+    "enlace": "https://redir.folha.com.br/redir/online/tec/rss091/*https://c-level.folha.uol.com.br/ia/2026/10/dois-temores-podem-definir-o-sucesso-do-ipo-bilionario-da-anthropic.shtml",
+    "fecha": "30 Oct 2026 04:00:00 -0300",
+    "extracto": "O sucesso -ou não- do futuro IPO (Oferta Pública Inicial de Ações) da Anthropic será determinado por qual de dois temores prevalecer: o medo de ficar de fora ou o medo de cometer um erro. Leia mais (1"
+  },
+  {
+    "fuente": "rss",
+    "medio": "Estadao · Economia (BR)",
+    "nivel": "prensa",
+    "titulo": "Quando a IA Funciona e Ainda Destrói Valor",
+    "enlace": "https://www.estadao.com.br/economia/gestao-e-negocios/quando-a-ia-funciona-e-ainda-destroi-valor/",
+    "fecha": "Mon, 02 Nov 2026 16:31:02 +0000",
+    "extracto": ""
+  }
+]
