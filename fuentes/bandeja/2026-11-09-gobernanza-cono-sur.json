@@ -1,0 +1,188 @@
+[
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "De la exclusión a la cobertura afirmativa: Taxonomía del riesgo de la IA agentica y el seguro como regulador privado",
+    "anio": 2026,
+    "doi": "https://doi.org/10.11144/javeriana.ris65.ecat",
+    "revista": "Revista Ibero-Latinoamericana de seguro",
+    "editorial": "Pontifical Xavierian University",
+    "autores": [
+      "María Celeste Colombo"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "IMAX-AI: AN EXPLAINABLE ARTIFICIAL INTELLIGENCE DECISION SUPPORT SYSTEM FOR INNOVATION MATURITY ANALYTICS IN HIGHER EDUCATION",
+    "anio": 2026,
+    "doi": "https://doi.org/10.51722/ingi.v10.i4.6",
+    "revista": "Revista Indicação Geográfica e Inovação",
+    "editorial": "",
+    "autores": [
+      "Luis Felipe Dias Lopes",
+      "Clarissa Stefani Teixeira"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Entre o Soft Law e a Responsabilidade Internacional: Due Diligence Algorítmica na Governança Transnacional da IA",
+    "anio": 2026,
+    "doi": "https://doi.org/10.66221/rxdhjv30",
+    "revista": "Anais do Encontro Nacional de Pós Graduação",
+    "editorial": "Universidade Santa Cecília",
+    "autores": [
+      "Daniel Freire e Almeida",
+      "Matheus Rodrigues"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Empirical insights on the use of large language models in software verification and validation: evidence from the Brazilian IT industry",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1007/s10664-026-10971-8",
+    "revista": "Empirical Software Engineering",
+    "editorial": "Springer Science+Business Media",
+    "autores": [
+      "Guilherme Bolfe",
+      "Filipe Garcia Silva",
+      "Elder Rodrigues",
+      "Maicon Bernardino",
+      "Fábio Paulo Basso"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Data Protection in AI-Driven Environments: The Model for Mapping Institutional Consciousness",
+    "anio": 2026,
+    "doi": "https://doi.org/10.29379/jedem.v18i2.1173",
+    "revista": "JeDEM - eJournal of eDemocracy and Open Government",
+    "editorial": "University for Continuing Education Krems",
+    "autores": [
+      "André Afonso Silva"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Redes digitais, interações e colaboração: entre a técnica e o laço social",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7225353793",
+    "revista": "TECCOGS Revista Digital de Tecnologias Cognitivas",
+    "editorial": "Pontifícia Universidade Católica de São Paulo",
+    "autores": [
+      "Caren Sapienza"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "A inteligência artificial na era da governança: ética, integridade e responsabilidade",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7225368101",
+    "revista": "TECCOGS Revista Digital de Tecnologias Cognitivas",
+    "editorial": "Pontifícia Universidade Católica de São Paulo",
+    "autores": [
+      "Lucia Santaella",
+      "Alípio Casali"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Exploring Spatial Inequities and Livability: A Mixed-Methods Study Using Artificial Intelligence and Community Insights",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1007/s11524-026-01170-3",
+    "revista": "Journal of Urban Health",
+    "editorial": "Springer Science+Business Media",
+    "autores": [
+      "Ana Luiza Favarão Leão",
+      "Yi Wang",
+      "Bernard F. Banda",
+      "Mariam Balogun",
+      "Eric P. Xing",
+      "S. P Kumar Gudapati"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Finance, data, and structural precarity: Pathways to labor regulation in platform capitalism",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1177/29768624261499892",
+    "revista": "Platforms & Society",
+    "editorial": "",
+    "autores": [
+      "Felipe Gomes Mano"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "So close, yet so far: can AI succeed where health systems are failing?",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1093/oodh/oqag040",
+    "revista": "Oxford Open Digital Health",
+    "editorial": "Oxford University Press",
+    "autores": [
+      "Cintia Cejas",
+      "Martín Sabán",
+      "Nour E Arnaout",
+      "Rosalind M. Parkes-Ratanshi",
+      "Chaitali Sinha"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Towards Amodei and Big Tech’s recent call for AI controls: a systems theory analysis of regulatory capture and geopolitical dynamics",
+    "anio": 2026,
+    "doi": "https://openalex.org/W7225071619",
+    "revista": "Revista Processus de Estudos de Gestão, Jurídicos e Financeiros",
+    "editorial": "",
+    "autores": [
+      "Alessandro Aveni"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "DESAFIOS NA PROTEÇÃO DOS DIREITOS AUTORAIS NO CONTEXTO DA INTELIGÊNCIA ARTIFICIAL NO BRASIL: ENTRE A INOVAÇÃO E A INSEGURANÇA JURÍDICA",
+    "anio": 2026,
+    "doi": "https://doi.org/10.24980/ucm.v15i18.6707",
+    "revista": "Unifunec Científica Multidisciplinar",
+    "editorial": "Unifunec - Centro Universitário de Santa Fé do Sul",
+    "autores": [
+      "Kayan Silva FREDERICO",
+      "Nicole Almeida de SOUZA",
+      "Janaína Guimarães MANSILIA"
+    ],
+    "citas": 0
+  }
+]
