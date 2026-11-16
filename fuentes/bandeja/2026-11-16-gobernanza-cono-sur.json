@@ -1,0 +1,187 @@
+[
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Governança Universitária da Inteligência Artificial Generativa: uma análise comparativa de Políticas Institucionais",
+    "anio": 2026,
+    "doi": "https://doi.org/10.18256/2238-0604.2026.v22i1.5415",
+    "revista": "Revista Brasileira de Direito",
+    "editorial": "Faculdade Meridional (IMED)",
+    "autores": [
+      "Caio Augusto Souza LARA",
+      "Tais Ramos",
+      "Valter Moura do Carmo"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Artificial intelligence-assisted analysis of reactive tetra-hybrid Jeffrey nanofluid flow with thermal radiation and Joule heating",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1186/s11671-026-04986-9",
+    "revista": "Discover Nano",
+    "editorial": "",
+    "autores": [
+      "Jyoti Jyoti",
+      "Suresh Gupta",
+      "Bhupendra Kumar Sharma",
+      "Farhan A. Salem",
+      "David Laroze"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Algorithmic Opacity, Proxy Discrimination and Financial Citizenship in AI-Driven Credit Markets",
+    "anio": 2026,
+    "doi": "https://doi.org/10.58766/rpgbcb.v20i1.1277",
+    "revista": "Revista da Procuradoria-Geral do Banco Central",
+    "editorial": "",
+    "autores": [
+      "Pedro Lima Marcheri"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Juventudes y tecnologías digitales en Latinoamérica: tres generaciones de investigación (1995-2025)",
+    "anio": 2026,
+    "doi": "https://doi.org/10.24201/es.2026v44.e3032",
+    "revista": "Estudios Sociológicos de El Colegio de México",
+    "editorial": "El Colegio de México",
+    "autores": [
+      "Joaquín Linne"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Inteligência artificial na pesquisa científica brasileira: uma análise comparativa de documentos oficiais",
+    "anio": 2026,
+    "doi": "https://doi.org/10.47236/2594-7036.2026.v10.2326",
+    "revista": "Revista Sítio Novo",
+    "editorial": "Instituto Federal do Tocantins",
+    "autores": [
+      "Renata Ribeiro Guimarães-Cruz",
+      "Márcio Luiz Corrêa Vilaça"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Artificial intelligence and online participation: feasibility analysis in Sao Paulo's participatory budgeting",
+    "anio": 2026,
+    "doi": "https://doi.org/10.1080/13511610.2026.2750568",
+    "revista": "Innovation The European Journal of Social Science Research",
+    "editorial": "Taylor & Francis",
+    "autores": [
+      "Norbert Kersting",
+      "José Carlos Vaz",
+      "Ítalo Alberto do Nascimento Sousa",
+      "Mariana Carvalho da Silva",
+      "Jorge Alberto Silva Machado"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Developing an Artificial Intelligence policy for a higher education institution in the health sciences",
+    "anio": 2026,
+    "doi": "https://doi.org/10.22421/1517-7130/es.2026v27.e1209en",
+    "revista": "Espaço para a Saúde - Revista de Saúde Pública do Paraná",
+    "editorial": "",
+    "autores": [
+      "Adriane da Rocha Santos Pontarola",
+      "Eduardo Rafael Ferreira Lima",
+      "Diancarlos Pereira de Andrade",
+      "Maria Cecília Da Lozzo Garbelini",
+      "Patrícia Maria Forte Rauli"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Accesibilidad algorítmica e inclusión de estudiantes con discapacidad en la educación superior iberoamericana",
+    "anio": 2026,
+    "doi": "https://doi.org/10.15517/z6tdct87",
+    "revista": "Actualidades Investigativas en Educación",
+    "editorial": "University of Costa Rica",
+    "autores": [
+      "Bruno Galasso"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Intersectionality and algorithmic discrimination",
+    "anio": 2026,
+    "doi": "https://doi.org/10.5007/2177-7055.2026.e115125",
+    "revista": "Seqüência estudos jurídicos e políticos",
+    "editorial": "Universidade Federal de Santa Catarina",
+    "autores": [
+      "Mateus de Oliveira Fornasier"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "De la exclusión a la cobertura afirmativa: Taxonomía del riesgo de la IA agentica y el seguro como regulador privado",
+    "anio": 2026,
+    "doi": "https://doi.org/10.11144/javeriana.ris65.ecat",
+    "revista": "Revista Ibero-Latinoamericana de seguro",
+    "editorial": "Pontifical Xavierian University",
+    "autores": [
+      "María Celeste Colombo"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "IMAX-AI: AN EXPLAINABLE ARTIFICIAL INTELLIGENCE DECISION SUPPORT SYSTEM FOR INNOVATION MATURITY ANALYTICS IN HIGHER EDUCATION",
+    "anio": 2026,
+    "doi": "https://doi.org/10.51722/ingi.v10.i4.6",
+    "revista": "Revista Indicação Geográfica e Inovação",
+    "editorial": "",
+    "autores": [
+      "Luis Felipe Dias Lopes",
+      "Clarissa Stefani Teixeira"
+    ],
+    "citas": 0
+  },
+  {
+    "fuente": "openalex",
+    "tipo": "article",
+    "revisado_por_pares": true,
+    "titulo": "Entre o Soft Law e a Responsabilidade Internacional: Due Diligence Algorítmica na Governança Transnacional da IA",
+    "anio": 2026,
+    "doi": "https://doi.org/10.66221/rxdhjv30",
+    "revista": "Anais do Encontro Nacional de Pós Graduação",
+    "editorial": "Universidade Santa Cecília",
+    "autores": [
+      "Daniel Freire e Almeida",
+      "Matheus Rodrigues"
+    ],
+    "citas": 0
+  }
+]
